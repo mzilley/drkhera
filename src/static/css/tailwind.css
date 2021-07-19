@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&family=Nunito+Sans:wght@400;700&display=swap');
 
 /*Styles from basic template*/
 /*! TACHYONS v4.5.5 | http://tachyons.io */a,
@@ -84,9 +85,8 @@ video {
  margin:0;
  padding:0;
  border:0;
- font-size:100%;
  font:inherit;
- vertical-align:baseline
+ vertical-align:baseline;
 }
 article,
 aside,
@@ -171,6 +171,31 @@ img {
 img:not(.w-100) {
  border-radius:.25rem;
  border-radius:var(--border-radius)
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input[type="submit"] {
+    font-family: Abhaya Libre, serif;
+    font-weight: 700!important;
+}
+h2 {
+    font-size: 42px;
+}
+h3 {
+    font-size: 36px;
+}
+h4 {
+    font-size: 30px;
+}
+h5, h6 {
+    font-size: 22px;
+}
+p, strong, a, small {
+    font-family: Nunito Sans, sans-serif;
 }
 .cover {
  background-size:cover!important
@@ -2052,7 +2077,6 @@ fieldset {
 input,
 textarea {
  background-color: transparent;
- border: 1px solid #333;
  border-radius:.25rem;
  border-radius:var(--border-radius);
  padding:12px 16px 10px;
@@ -2076,7 +2100,7 @@ textarea:focus+label {
  transform:translateY(-120%)
 }
 ::-webkit-input-placeholder {
- color:#2b2523;
+ color:var(--grey-3);
  color:var(--black);
  font-size:1rem;
  font-size:var(--spacing-medium);
@@ -2084,7 +2108,7 @@ textarea:focus+label {
 }
 :-moz-placeholder,
 ::-moz-placeholder {
- color:#2b2523;
+ color:var(--grey-3);
  color:var(--black);
  font-size:1rem;
  font-size:var(--spacing-medium);
@@ -2096,6 +2120,11 @@ textarea:focus+label {
  font-size:1rem;
  font-size:var(--spacing-medium);
  line-height:normal
+}
+::placeholder {
+    color: var(--grey-3)!important;
+    font-size: 18px;
+    font-family: var(--font-family);
 }
 label {
  font-size:.875rem;
@@ -5411,7 +5440,7 @@ html {
  }
 }
 body {
- font-family:Nunito Sans,-apple-system,BlinkMacSystemFont,avenir next,avenir,helvetica,helvetica neue,ubuntu,roboto,noto,segoe ui,arial,sans-serif;
+ font-family:Nunito Sans,arial,sans-serif;
  font-family:var(--font-family);
  font-size:1rem;
  font-size:var(--spacing-medium);
@@ -5422,7 +5451,8 @@ body {
  -webkit-font-smoothing:antialiased;
  -moz-osx-font-smoothing:grayscale;
  background-color:#fffdfc;
- background-color:var(--off-white)
+ background-color:var(--off-white);
+ color: var(--primary);
 }
 p {
  margin-bottom:1rem;
@@ -6025,11 +6055,16 @@ svg {
 }
 .bg-fix-primary :first-child {
  box-shadow:.5rem 0 0 #f40,0 0 -var(--spacing-small) #f40;
- box-shadow:var(--spacing-small) 0 0 var(--primary),-var(--spacing-small) 0 0 var(--primary)
+ box-shadow:var(--spacing-small) 0 0 var(--primary),-var(--spacing-small) 0 0 var(--primary);
+ color: var(--primary);
 }
+input[type="submit"] {
+    font-size: 18px;
+}
+/* Set Variables here */
 :root {
- --primary:#f40;
- --highlight:#fed5c6;
+ --primary:#273258;
+ --highlight:#97D5BF;
  --white:#fff;
  --off-white:#fffdfc;
  --grey-1:#f5f3f2;
@@ -6037,9 +6072,10 @@ svg {
  --grey-3:#595756;
  --grey-4:#424040;
  --black:#2b2523;
- --font-family:Nunito Sans,-apple-system,BlinkMacSystemFont,"avenir next",avenir,helvetica,"helvetica neue",ubuntu,roboto,noto,"segoe ui",arial,sans-serif;
+ --serif:Abhaya Libre,serif;
+ --font-family:Nunito Sans,arial,sans-serif;
  --line-height:1.5;
- --font-size:18px;
+ --font-size:16px;
  --font-size-m:20px;
  --font-size-l:22px;
  --body-font-weight:400;
@@ -6052,17 +6088,9 @@ svg {
  --spacing-extra-large:4rem;
  --spacing-extra-extra-large:8rem;
  --spacing-extra-extra-extra-large:16rem;
- --border-radius:.25rem;
+ --border-radius: 35px;
+ /* --box-shadow: 35px; */
  --hover-transition:all 150ms ease
-}
-.debug * {
- outline:1px solid gold
-}
-.debug-white * {
- outline:1px solid #fff
-}
-.debug-black * {
- outline:1px solid #000
 }
 .debug-grid {
  background:transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTRDOTY4N0U2N0VFMTFFNjg2MzZDQjkwNkQ4MjgwMEIiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MTRDOTY4N0Q2N0VFMTFFNjg2MzZDQjkwNkQ4MjgwMEIiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3NjcyQkQ3NjY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3NjcyQkQ3NzY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsBS+GMAAAAjSURBVHjaYvz//z8DLsD4gcGXiYEAGBIKGBne//fFpwAgwAB98AaF2pjlUQAAAABJRU5ErkJggg==) repeat 0 0
@@ -6077,10 +6105,29 @@ svg {
  background:#fff url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyhpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMTExIDc5LjE1ODMyNSwgMjAxNS8wOS8xMC0wMToxMDoyMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6NzY3MkJEN0U2N0M1MTFFNkIyQkNFMjQwODEwMDIxNzEiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6NzY3MkJEN0Y2N0M1MTFFNkIyQkNFMjQwODEwMDIxNzEiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo3NjcyQkQ3QzY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo3NjcyQkQ3RDY3QzUxMUU2QjJCQ0UyNDA4MTAwMjE3MSIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pve6J3kAAAAzSURBVHjaYvz//z8D0UDsMwMjSRoYP5Gq4SPNbRjVMEQ1fCRDg+in/6+J1AJUxsgAEGAA31BAJMS0GYEAAAAASUVORK5CYII=) repeat 0 0
 }
 
+.nav__item {
+    color: var(--primary);
+    font-family: Abhaya Libre, serif;
+    font-size: 18px;
+    font-weight: 700;
+    transition: 0.3s all;
+}
+
+.nav__item a {
+    font-family: Abhaya Libre, serif;
+}
+
+.nav__item:last-child {
+    background-color: var(--highlight);
+    border-radius: 35px;
+    margin-left: 18px;
+}
+.nav__item:hover {
+    transform: scale(1.05);
+}
+
 .nav__item--has-childs {
   display: block;
-  //white-space: nowrap;
-  //float: left;
   position: relative;
 }
 
@@ -6092,25 +6139,24 @@ svg {
   content: "";
   width: 0;
   height: 0;
-  border-width: 6px 5px;
+  border-width: 5px 4px;
   border-style: solid;
-  border-color: #000 transparent transparent transparent;
+  border-color: var(--primary) transparent transparent transparent;
   position: absolute;
-  top: 25px;
+  top: 21px;
   right: 9px;
 }
 
 .nav__sub-list{
   display: none;
   position: absolute;
-  left: -25px;
-  width: 170px;
+  width: 100%;
+  left: 5px;
 }
 
 .nav__sub-item{
   position: relative;
   padding: 5px 15px;
-  background: #f1f1f1;
   color: rgba(107, 114, 128, var(--tw-text-opacity));
 }
 
@@ -6124,7 +6170,7 @@ svg {
   display: block
 }
 
-@media screen and (max-width: 1110px){
+@media screen and (max-width: 1024px){
   .nav__item--has-childs > a::after {
     display: none;
   }
@@ -6144,24 +6190,53 @@ svg {
 @tailwind utilities;
 
 /*Your Custom CSS Goes here*/
-
-h1 {
-  @apply text-4xl tracking-tighter mb-3 text-center lg:text-7xl;
-}
-
-h3 {
-  @apply text-2xl font-bold mb-3;
-}
-
 p {
-  margin-bottom: 1rem;
-  margin-bottom: var(--spacing-medium);
-  max-width: 32rem;
+  margin-bottom: .35rem;
 }
 
-/* Syntax Highlighting*/
+p, li, a {
+    font-size: 16px;
+}
 
-body :not(pre) > code[class*="language-"],
-body pre[class*="language-"] {
-  @apply bg-gray-800;
+li {
+    margin: 10px 0;
+}
+@media (max-width: 768px) {
+    .hero-content {
+        bottom: 0;
+    }
+    .hero-image img {
+        height: 84.5vh;
+    }
+}
+
+.hero-image img {
+    border-radius: 0;
+}
+
+.services li:before {
+    content: url('../img/list-item.svg');
+    margin-right: 20px;
+    position: relative;
+    top: 2px;
+}
+
+.shadow {
+    box-shadow: 0px 0px 35px 10px rgb(118 118 118 / 10%)
+}
+
+.b-rad {
+    border-radius: 35px;
+}
+
+.b-rad-left {
+    border-radius: 35px 0 0 35px;
+}
+
+.b-rad-right {
+    border-radius: 0 35px 35px 0;
+}
+
+.insta svg {
+    fill: var(--highlight);
 }

@@ -3,10 +3,13 @@ layout: _default
 ---
 
 {% if topsection %}
-<div class="mx-auto justify-center items-center">
-    <div class="pv5 pv6-l ph3 bg-center cover" style="background-image: url('{{ topsection.image }}')" alt="{{ topsection.alt }}">
+<div class="hero-container md:flex mx-auto justify-center items-center">
+    <div class="hero-image md:w-5/12">
+        <img src="{{ topsection.image }}" alt="{{ topsection.alt }}" class="h-screen object-cover w-full">
+    </div>
+    <div class="hero-content md:w-7/12 absolute md:static bottom-1/2 z-10 w-full bg-white py-5">
         <div class="mw7 center ph3">
-        <div class="db mb3">
+        <div class="db">
             <div class="mw7 relative bg-fix-primary mb3">
             <h1 class="f2 f1-l b di lh-title mb3 mw6">
                 {{ topsection.heading }}
@@ -14,7 +17,7 @@ layout: _default
             </div>
             <div class="mw7 relative bg-fix-primary">
             {{ if .subtitle }}
-            <p class="b f4 di lh-title mb3 mw6">
+            <p class="b di lh-title mb3 mw6">
                 {{ topsection.subtitle }}
             </p>
             {{ end }}
@@ -25,16 +28,184 @@ layout: _default
 </div>
 {% endif %}
 
-{% if content %}
-<div class="container mx-auto flex flex-col items-center">
-    <div class="w-full max-w-2xl grid grid-cols-1 lg:grid-cols-2 gap-4 my-8 px-4 lg:mx-0">
-        {{ content | safe }}
+<div class="schedule-appt-container font-serif bg-highlight w-10/12 mx-auto shadow b-rad relative p-4 -top-10">
+    <form action="" id="schedule-appointment">
+        <div class="flex justify-evenly">
+            <input type="text" class="bg-grey-2 b-rad p-2 mr-4 flex-grow" name="name" id="name" placeholder="Name">
+            <input type="email" class="bg-grey-2 b-rad p-2 mr-4 flex-grow" name="email" id="email" placeholder="Email">
+            <input type="submit" class="bg-primary font-serif text-white p-2 px-4" value="Schedule an Appointment">
+        </div>
+    </form>
+</div>
+
+<!-- Services -->
+<!-- <div class="flex flex-col w-full md:grid grid-cols-1 lg:grid-cols-2 gap-4 my-8 px-4 md:px-8 lg:mx-0 items-center services">
+    <div class="flex-1 p-2">
+        {% if services.service1Description %}
+            <h2 class="f3">{{ services.service1Heading }}</h2>
+        {% endif %}
+        {% if services.service1Para %}
+            <p>{{ services.service1Para }}</p>
+        {% endif %}
+        <ul>
+            {% if services.service1Feature1 %}
+            <li>{{ services.service1Feature1 }}</li>
+            {% endif %}
+            {% if services.service1Feature2 %}
+            <li>{{ services.service1Feature2 }}</li>
+            {% endif %}
+            {% if services.service1Feature3 %}
+            <li>{{ services.service1Feature3 }}</li>
+            {% endif %}
+        </ul>
+    </div>
+    <div class="flex-1 p-2">
+        {% if services.service1Image %}
+            <img src="{{ services.service1Image }}" alt="">
+        {% endif %}
     </div>
 </div>
-{% endif %}
 
-{% if extra.quicklinks %}
+<div class="flex flex-col-reverse w-full md:grid grid-cols-1 lg:grid-cols-2 gap-4 my-8 px-4 md:px-8 lg:mx-0 items-center services">
+    <div class="flex-1 p-2">
+        {% if services.service2Image %}
+            <img src="{{ services.service2Image }}" alt="">
+        {% endif %}
+    </div>
+    <div class="flex-1 p-2">
+        {% if services.service2Description %}
+            <h2 class="f3">{{ services.service2Heading }}</h2>
+        {% endif %}
+        {% if services.service2Para %}
+            <p>{{ services.service2Para }}</p>
+        {% endif %}
+    </div>
+</div> -->
+<div class="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-14">
+    <div class="grid gap-5 row-gap-8 lg:grid-cols-2">
+      <div class="flex flex-col justify-center">
+        <div class="max-w-xl mb-6">
+          <h2 class="max-w-lg my-5 text-2xl font-bold text-gray-900 sm:text-2xl sm:leading-none">
+            The quick, brown fox<br class="hidden md:block" />
+            jumps over
+            <span class="relative px-1">
+              <div class="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-teal-accent-400"></div>
+              <span class="relative inline-block text-deep-purple-accent-400">a lazy dog</span>
+            </span>
+          </h2>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
+          </p>
+        </div>
+        <div class="grid gap-5 row-gap-8 sm:grid-cols-2">
+          <div class="border-l-4 shadow border-deep-purple-accent-400 b-rad-left">
+            <div class="h-full p-5">
+              <h6 class="mb-2 font-semibold leading-5">
+                I'll be sure to note that in my log
+              </h6>
+              <p>
+                Lookout flogging bilge rat main sheet bilge water nipper fluke to go on account heave down.
+              </p>
+            </div>
+          </div>
+          <div class="border-l-4 shadow border-deep-highlight-400 b-rad-right">
+            <div class="h-full p-5">
+              <h6 class="mb-2 font-semibold leading-5">
+                A business big enough that it could be listed
+              </h6>
+              <p>
+                Those options are already baked in with this model shoot me an email clear.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div>
+        <img class="shadow object-cover w-full h-56 rounded sm:h-96" src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260" alt="" />
+      </div>
+    </div>
+  </div>
+  <div class="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-14">
+      
+    <div class="flex flex-col-reverse md:grid gap-5 row-gap-8 lg:grid-cols-2 order-last">
+        <div>
+            <img class="shadow object-cover w-full h-56 rounded sm:h-96" src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260" alt="" />
+          </div>
+      <div class="flex flex-col justify-center">
+        <div class="max-w-xl mb-6">
+          <h2 class="max-w-lg my-5 text-2xl font-bold text-gray-900 sm:text-2xl sm:leading-none">
+            The quick, brown fox<br class="hidden md:block" />
+            jumps over
+            <span class="relative px-1">
+              <div class="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-teal-accent-400"></div>
+              <span class="relative inline-block text-deep-purple-accent-400">a lazy dog</span>
+            </span>
+          </h2>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
+          </p>
+        </div>
+        <div class="grid gap-5 row-gap-8 sm:grid-cols-2">
+          <div class="border-l-4 shadow border-deep-purple-accent-400 b-rad-left">
+            <div class="h-full p-5">
+              <h6 class="mb-2 font-semibold leading-5">
+                I'll be sure to note that in my log
+              </h6>
+              <p>
+                Lookout flogging bilge rat main sheet bilge water nipper fluke to go on account heave down.
+              </p>
+            </div>
+          </div>
+          <div class="border-l-4 shadow border-deep-highlight-400 b-rad-right">
+            <div class="h-full p-5">
+              <h6 class="mb-2 font-semibold leading-5">
+                A business big enough that it could be listed
+              </h6>
+              <p>
+                Those options are already baked in with this model shoot me an email clear.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!--  -->
+
+<!-- Patient Resources -->
+<!-- <div class="flex">
+
+</div> -->
+
+<!-- Social Media Embed -->
+<!-- <div class="flex">
+    <div class="social-embed">
+        <div class="facebook-embed">
+            <iframe src="{{ facebook-embed }}" title="Dr. Khera's Facebook Page" frameborder="0"></iframe>
+        </div>
+    </div>
+    <div class="social-embed">
+        <div class="instagram-embed">
+            <iframe src="{{ instagram-embed }}" title="Dr. Khera's Instagram Page" frameborder="0"></iframe>
+        </div>
+    </div>
+</div> -->
+
+<!-- About -->
+<div class="flex">
+    <h3>{{ about.heading }}</h3>
+    <p>{{ about.para }}</p>
+</div>
+
+<!-- Testimonials -->
+
+<!-- Publications -->
+
+<!-- Schedule an Appointment Form (partial) -->
+{% include "./partials/schedule-an-appointment.html" %}
+
+<!-- {% if extra.quicklinks %}
 <div class="container mx-auto flex flex-col justify-center items-center">
   {% include "./partials/quicklinks.html" %}
 </div>
-{% endif %}
+{% endif %} -->
