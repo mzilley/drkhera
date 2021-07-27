@@ -6117,11 +6117,6 @@ input[type="submit"] {
     font-family: Abhaya Libre, serif;
 }
 
-.nav__item:last-child {
-    background-color: var(--highlight);
-    border-radius: 35px;
-    margin-left: 18px;
-}
 .nav__item:hover {
     transform: scale(1.05);
 }
@@ -6201,6 +6196,22 @@ p, li, a {
 li {
     margin: 10px 0;
 }
+
+.btn {
+    border-radius: 35px;
+    padding: 10px 25px;
+    font-family: 'Abhaya Libre', serif;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.btn-primary {
+    background: var(--highlight);
+    color: var(--primary);
+    border: 2px solid var(--highlight);
+}
 @media (max-width: 768px) {
     .hero-content {
         bottom: 0;
@@ -6212,13 +6223,6 @@ li {
 
 .hero-image img {
     border-radius: 0;
-}
-
-.services li:before {
-    content: url('../img/list-item.svg');
-    margin-right: 20px;
-    position: relative;
-    top: 2px;
 }
 
 .shadow {
@@ -6239,4 +6243,13 @@ li {
 
 .insta svg {
     fill: var(--highlight);
+}
+
+.fixed {
+    bottom: 30px;
+    right: 30px;
+    left: calc(100% - 300px);
+    position: fixed;
+    z-index: 10;
+    font-size: 18px;
 }

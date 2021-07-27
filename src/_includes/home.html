@@ -21,6 +21,9 @@ layout: _default
                 {{ topsection.subtitle }}
             </p>
             {{ end }}
+            <p>
+                <a href="https://www.bcm.edu/people-search/mohit-khera-24469" id="schedule" target="_blank" class="btn btn-primary shadow mt-1" :class="{fixed : !scrollAtTop}" @scroll.window = "scrollAtTop = (window.pageYOffset > 50) ? false : true">Schedule an Appointment</a>
+            </p>
             </div>
         </div>
         </div>
@@ -28,18 +31,8 @@ layout: _default
 </div>
 {% endif %}
 
-<div class="schedule-appt-container font-serif bg-highlight w-10/12 mx-auto shadow b-rad relative p-4 -top-10">
-    <form action="" id="schedule-appointment">
-        <div class="flex justify-evenly">
-            <input type="text" class="bg-grey-2 b-rad p-2 mr-4 flex-grow" name="name" id="name" placeholder="Name">
-            <input type="email" class="bg-grey-2 b-rad p-2 mr-4 flex-grow" name="email" id="email" placeholder="Email">
-            <input type="submit" class="bg-primary font-serif text-white p-2 px-4" value="Schedule an Appointment">
-        </div>
-    </form>
-</div>
-
 <!-- Services -->
-<!-- <div class="flex flex-col w-full md:grid grid-cols-1 lg:grid-cols-2 gap-4 my-8 px-4 md:px-8 lg:mx-0 items-center services">
+<!-- <div class="flex flex-col w-full lg:grid grid-cols-1 lg:grid-cols-2 gap-4 my-8 px-4 md:px-8 lg:mx-0 items-center services">
     <div class="flex-1 p-2">
         {% if services.service1Description %}
             <h2 class="f3">{{ services.service1Heading }}</h2>
@@ -66,7 +59,7 @@ layout: _default
     </div>
 </div>
 
-<div class="flex flex-col-reverse w-full md:grid grid-cols-1 lg:grid-cols-2 gap-4 my-8 px-4 md:px-8 lg:mx-0 items-center services">
+<div class="flex flex-col-reverse w-full lg:grid grid-cols-1 lg:grid-cols-2 gap-4 my-8 px-4 md:px-8 lg:mx-0 items-center services">
     <div class="flex-1 p-2">
         {% if services.service2Image %}
             <img src="{{ services.service2Image }}" alt="">
@@ -81,96 +74,234 @@ layout: _default
         {% endif %}
     </div>
 </div> -->
-<div class="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-14">
+<div class="px-4 py-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-14">
     <div class="grid gap-5 row-gap-8 lg:grid-cols-2">
       <div class="flex flex-col justify-center">
         <div class="max-w-xl mb-6">
           <h2 class="max-w-lg my-5 text-2xl font-bold text-gray-900 sm:text-2xl sm:leading-none">
-            The quick, brown fox<br class="hidden md:block" />
-            jumps over
-            <span class="relative px-1">
-              <div class="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-teal-accent-400"></div>
-              <span class="relative inline-block text-deep-purple-accent-400">a lazy dog</span>
-            </span>
+            Low Testosterone
           </h2>
           <p>
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
           </p>
         </div>
-        <div class="grid gap-5 row-gap-8 sm:grid-cols-2">
-          <div class="border-l-4 shadow border-deep-purple-accent-400 b-rad-left">
-            <div class="h-full p-5">
-              <h6 class="mb-2 font-semibold leading-5">
-                I'll be sure to note that in my log
-              </h6>
-              <p>
-                Lookout flogging bilge rat main sheet bilge water nipper fluke to go on account heave down.
-              </p>
-            </div>
-          </div>
-          <div class="border-l-4 shadow border-deep-highlight-400 b-rad-right">
-            <div class="h-full p-5">
-              <h6 class="mb-2 font-semibold leading-5">
-                A business big enough that it could be listed
-              </h6>
-              <p>
-                Those options are already baked in with this model shoot me an email clear.
-              </p>
-            </div>
-          </div>
-        </div>
       </div>
       <div>
-        <img class="shadow object-cover w-full h-56 rounded sm:h-96" src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260" alt="" />
+        <img class="shadow object-cover w-full h-56 rounded sm:h-72" src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260" alt="" />
       </div>
     </div>
-  </div>
-  <div class="px-4 py-8 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-14">
-      
-    <div class="flex flex-col-reverse md:grid gap-5 row-gap-8 lg:grid-cols-2 order-last">
+</div>
+
+<div class="px-4 py-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-14">
+    <div class="flex flex-col-reverse lg:grid gap-5 row-gap-8 lg:grid-cols-2 order-last">
         <div>
-            <img class="shadow object-cover w-full h-56 rounded sm:h-96" src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260" alt="" />
+            <img class="shadow object-cover w-full h-56 rounded sm:h-72" src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260" alt="" />
           </div>
       <div class="flex flex-col justify-center">
         <div class="max-w-xl mb-6">
           <h2 class="max-w-lg my-5 text-2xl font-bold text-gray-900 sm:text-2xl sm:leading-none">
-            The quick, brown fox<br class="hidden md:block" />
-            jumps over
-            <span class="relative px-1">
-              <div class="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-teal-accent-400"></div>
-              <span class="relative inline-block text-deep-purple-accent-400">a lazy dog</span>
-            </span>
+            Erectile Dysfunction
           </h2>
           <p>
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
           </p>
         </div>
-        <div class="grid gap-5 row-gap-8 sm:grid-cols-2">
-          <div class="border-l-4 shadow border-deep-purple-accent-400 b-rad-left">
-            <div class="h-full p-5">
-              <h6 class="mb-2 font-semibold leading-5">
-                I'll be sure to note that in my log
-              </h6>
-              <p>
-                Lookout flogging bilge rat main sheet bilge water nipper fluke to go on account heave down.
-              </p>
-            </div>
+      </div>
+    </div>
+</div>
+
+  <div class="px-4 py-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-14">
+    <div class="grid gap-5 row-gap-8 lg:grid-cols-2">
+      <div class="flex flex-col justify-center">
+        <div class="max-w-xl mb-6">
+          <h2 class="max-w-lg my-5 text-2xl font-bold text-gray-900 sm:text-2xl sm:leading-none">
+            Testis Pain
+          </h2>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
+          </p>
+        </div>
+      </div>
+      <div>
+        <img class="shadow object-cover w-full h-56 rounded sm:h-72" src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260" alt="" />
+      </div>
+    </div>
+</div>
+
+<div class="px-4 py-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-14">
+    <div class="flex flex-col-reverse lg:grid gap-5 row-gap-8 lg:grid-cols-2 order-last">
+        <div>
+            <img class="shadow object-cover w-full h-56 rounded sm:h-72" src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260" alt="" />
           </div>
-          <div class="border-l-4 shadow border-deep-highlight-400 b-rad-right">
-            <div class="h-full p-5">
-              <h6 class="mb-2 font-semibold leading-5">
-                A business big enough that it could be listed
-              </h6>
-              <p>
-                Those options are already baked in with this model shoot me an email clear.
-              </p>
-            </div>
-          </div>
+      <div class="flex flex-col justify-center">
+        <div class="max-w-xl mb-6">
+          <h2 class="max-w-lg my-5 text-2xl font-bold text-gray-900 sm:text-2xl sm:leading-none">
+            Peyronie's Disease
+          </h2>
+          <p>
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
+          </p>
         </div>
       </div>
     </div>
-  </div>
+</div>
+
+<div class="load-more">
+    <div class="px-4 py-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-14">
+        <div class="grid gap-5 row-gap-8 lg:grid-cols-2">
+          <div class="flex flex-col justify-center">
+            <div class="max-w-xl mb-6">
+              <h2 class="max-w-lg my-5 text-2xl font-bold text-gray-900 sm:text-2xl sm:leading-none">
+                Premature Ejaculation
+              </h2>
+              <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
+              </p>
+            </div>
+          </div>
+          <div>
+            <img class="shadow object-cover w-full h-56 rounded sm:h-72" src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260" alt="" />
+          </div>
+        </div>
+    </div>
+    
+
+
+    
+    
+    <div class="load-more-container" x-data="{show:false}">
+        <div class="flex justify-center">
+            <button class="btn btn-primary text-center" @click="show=!show" x-text="show ? 'Less': 'More'"></button>
+        </div>
+
+        <div x-show.transition="show">
+
+            <div class="px-4 py-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-14">
+                <div class="flex flex-col-reverse lg:grid gap-5 row-gap-8 lg:grid-cols-2 order-last">
+                    <div>
+                        <img class="shadow object-cover w-full h-56 rounded sm:h-72" src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260" alt="" />
+                      </div>
+                  <div class="flex flex-col justify-center">
+                    <div class="max-w-xl mb-6">
+                      <h2 class="max-w-lg my-5 text-2xl font-bold text-gray-900 sm:text-2xl sm:leading-none">
+                        Vasectomy
+                      </h2>
+                      <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="px-4 py-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-14">
+                <div class="grid gap-5 row-gap-8 lg:grid-cols-2">
+                  <div class="flex flex-col justify-center">
+                    <div class="max-w-xl mb-6">
+                      <h2 class="max-w-lg my-5 text-2xl font-bold text-gray-900 sm:text-2xl sm:leading-none">
+                        Male Infertility
+                      </h2>
+                      <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
+                      </p>
+                    </div>
+                  </div>
+                  <div>
+                    <img class="shadow object-cover w-full h-56 rounded sm:h-72" src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260" alt="" />
+                  </div>
+                </div>
+            </div>
+  
+            <div class="px-4 py-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-14">
+                <div class="flex flex-col-reverse lg:grid gap-5 row-gap-8 lg:grid-cols-2 order-last">
+                    <div>
+                        <img class="shadow object-cover w-full h-56 rounded sm:h-72" src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260" alt="" />
+                      </div>
+                  <div class="flex flex-col justify-center">
+                    <div class="max-w-xl mb-6">
+                      <h2 class="max-w-lg my-5 text-2xl font-bold text-gray-900 sm:text-2xl sm:leading-none">
+                        Female Sexual Dysfunction
+                      </h2>
+                      <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="px-4 py-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-14">
+                <div class="grid gap-5 row-gap-8 lg:grid-cols-2">
+                  <div class="flex flex-col justify-center">
+                    <div class="max-w-xl mb-6">
+                      <h2 class="max-w-lg my-5 text-2xl font-bold text-gray-900 sm:text-2xl sm:leading-none">
+                        Delayed Ejaculation
+                      </h2>
+                      <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
+                      </p>
+                    </div>
+                  </div>
+                  <div>
+                    <img class="shadow object-cover w-full h-56 rounded sm:h-72" src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260" alt="" />
+                  </div>
+                </div>
+            </div>
+            
+            <div class="px-4 py-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-14">
+                <div class="flex flex-col-reverse lg:grid gap-5 row-gap-8 lg:grid-cols-2 order-last">
+                    <div>
+                        <img class="shadow object-cover w-full h-56 rounded sm:h-72" src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260" alt="" />
+                      </div>
+                  <div class="flex flex-col justify-center">
+                    <div class="max-w-xl mb-6">
+                      <h2 class="max-w-lg my-5 text-2xl font-bold text-gray-900 sm:text-2xl sm:leading-none">
+                        BPH
+                      </h2>
+                      <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="px-4 py-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-14">
+                <div class="grid gap-5 row-gap-8 lg:grid-cols-2">
+                  <div class="flex flex-col justify-center">
+                    <div class="max-w-xl mb-6">
+                      <h2 class="max-w-lg my-5 text-2xl font-bold text-gray-900 sm:text-2xl sm:leading-none">
+                        Male Stress Incontinence
+                      </h2>
+                      <p>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae. explicabo.
+                      </p>
+                    </div>
+                  </div>
+                  <div>
+                    <img class="shadow object-cover w-full h-56 rounded sm:h-72" src="https://images.pexels.com/photos/927022/pexels-photo-927022.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260" alt="" />
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="about" class="bg-primary my-24 lg:my-12">
+        <div class="container mx-auto flex px-5 py-12 lg:py-0 lg:flex-row flex-col items-center">
+            <div class="mb-10 md:mb-0">
+                <img class="object-cover object-center rounded relative bottom-24 lg:bottom-12" alt="hero" src="https://dummyimage.com/375x550">
+            </div>
+            <div class="lg:flex-grow lg:pl-24 lg:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                <h1 class="title-font sm:text-4xl text-3xl mb-2 font-medium text-white">Knausgaard typewriter readymade marfa</h1>
+                <p class="mb-4leading-relaxed text-white">Chillwave portland ugh, knausgaard fam polaroid iPhone. Man braid swag typewriter affogato, hella selvage wolf narwhal dreamcatcher.</p>
+            </div>
+        </div>
+    </section>
+    
+</div>
+
+
 <!--  -->
+
+
 
 <!-- Patient Resources -->
 <!-- <div class="flex">
