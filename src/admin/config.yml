@@ -110,7 +110,7 @@ collections:
               { label: Quick Links, name: quicklinks, widget: "boolean", default: true }]}
       # Patient Conditions/Male Stress Incontinence
       - label: "Male Stress Incontinence"
-        name: "patient-conditions/male-stress-incontinence"
+        name: "male-stress-incontinence"
         file: "src/patient-conditions/male-stress-incontinence.md"
         fields:
               - { label: Title, name: text, widget: string }
