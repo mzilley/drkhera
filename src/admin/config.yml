@@ -113,7 +113,7 @@ collections:
         name: "male-stress-incontinence"
         file: "src/patient-conditions/male-stress-incontinence.md"
         fields:
-              - { label: Title, name: text, widget: string }
+              - { label: Title, name: title, widget: string }
       - label: "Contact"
         name: "contact"
         file: "src/contact.md"
