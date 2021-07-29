@@ -6261,6 +6261,14 @@ li {
     font-size: 18px;
 }
 
+@media (max-width: 592px) {
+    .fixed {
+        width: 90%;
+        left: 5%;
+        right: 50%;
+    }
+}
+
 #about, #patient-resources {
     border-top-left-radius: 35px;
     border-top-right-radius: 35px;
