@@ -6274,6 +6274,11 @@ li {
     border-top-right-radius: 35px;
 }
 
+#patient-resources a { 
+    cursor: pointer;
+    text-align: left;
+}
+
 #publications {
     border-top-left-radius: 35px; 
     border-top-right-radius: 35px;

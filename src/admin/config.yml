@@ -80,6 +80,7 @@ collections:
     editor:
       preview: false
     files:
+      # Home
       - label: "Home"
         name: "home"
         file: "src/index.md"
@@ -107,6 +108,10 @@ collections:
           ]}
           - {label: "Quick Links", name: extra, widget: object, summary: "Extra options", fields: [
               { label: Quick Links, name: quicklinks, widget: "boolean", default: true }]}
+      # Patient Conditions/Male Stress Incontinence
+      - label: "Male Stress Incontinence"
+        name: "patient-conditions/male-stress-incontinence"
+        file: "src/patient-conditions/male-stress-incontinence.md"
       - label: "Contact"
         name: "contact"
         file: "src/contact.md"
