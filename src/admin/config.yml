@@ -3,7 +3,7 @@ backend:
   name: git-gateway
   repo: mzilley/drkhera
   branch: main
-  site_url: drkhera.netlify.app
+  site_url: https://drkhera.netlify.app
   
   ### enable below lines for github integration ###
 media_folder: "src/static/img"
