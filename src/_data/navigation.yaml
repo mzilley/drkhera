@@ -1,13 +1,13 @@
 items:
-  - text: Contact
-    url: /contact
-    childs:
-      - text: One more
-        url: "#"
-  - text: Values
-    url: /values
-  - text: Blog
-    url: /blog
+  - text: Dr. Khera
+    url: /
+    childs: []
+  - text: Patient Conditions
+    url: /
+  - text: Patient Resources
+    url: /
+  - text: More
+    url: /
     childs:
       - text: This is my first post
         url: /posts/my-first-post/
