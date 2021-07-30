@@ -6131,7 +6131,7 @@ input[type="submit"] {
 }
 
 .nav__item--has-childs > a:after{
-  content: "";
+  /* content: "";
   width: 0;
   height: 0;
   border-width: 5px 4px;
@@ -6139,7 +6139,7 @@ input[type="submit"] {
   border-color: var(--primary) transparent transparent transparent;
   position: absolute;
   top: 21px;
-  right: 9px;
+  right: 9px; */
 }
 
 .nav__sub-list{
