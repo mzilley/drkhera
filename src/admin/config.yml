@@ -114,6 +114,12 @@ collections:
         file: "src/patient-conditions/male-stress-incontinence.md"
         fields:
               - { label: Title, name: title, widget: string }
+      # Patient Conditions/Low Testosterone
+      - label: "Low Testosterone"
+        name: "low-testosterone"
+        file: "src/patient-conditions/low-testosterone.md"
+        fields:
+              - { label: Title, name: title, widget: string }
       - label: "Contact"
         name: "contact"
         file: "src/contact.md"

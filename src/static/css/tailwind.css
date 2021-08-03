@@ -168,10 +168,6 @@ ul {
 img {
  max-width:100%
 }
-img:not(.w-100) {
- border-radius:.25rem;
- border-radius:var(--border-radius)
-}
 h1,
 h2,
 h3,
@@ -6151,14 +6147,13 @@ input[type="submit"] {
 
 .nav__sub-item{
   position: relative;
-  padding: 5px 15px;
+  padding: 5px;
   color: rgba(107, 114, 128, var(--tw-text-opacity));
 }
 
 .nav__sub-item:hover {
   --tw-text-opacity: 1;
   color: rgba(99, 102, 241, var(--tw-text-opacity));
-  background: #f6f6f6;
 }
 
 .nav__item--has-childs:hover .nav__sub-list{
@@ -6295,4 +6290,28 @@ li {
     align-items: center;
     width: 100%;
     height: 100%;
+}
+
+.subContent p {
+    @apply pb-3;
+}
+
+.line-item {
+    min-height: 100px;
+}
+
+.anchors a {
+    margin: 0 7.5px;
+    padding: 5px 15px;
+    background-color: var(--highlight);
+    border-radius: 35px;
+    transition: 0.3s ease-in-out all;
+}
+
+.anchors a:hover {
+    transform: scale(1.1);
+}
+
+.anchors {
+    @apply my-5;
 }
