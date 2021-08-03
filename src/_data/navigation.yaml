@@ -4,6 +4,9 @@ items:
     childs: []
   - text: Patient Conditions
     url: /
+    childs:
+      - text: Male Stress Incontinence
+        url: patient-conditions/male-stress-incontinence
   - text: Patient Resources
     url: /
   - text: More
