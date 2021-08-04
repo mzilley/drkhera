@@ -29,8 +29,4 @@ items:
     url: /
   - text: More
     url: /
-    childs:
-      - text: This is my first post
-        url: /posts/my-first-post/
-      - text: This is my second post
-        url: /posts/second-post/
+    childs: []
