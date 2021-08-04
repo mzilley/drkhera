@@ -24,10 +24,10 @@
                         <li class="nav__item z-10 mr-3 {% if item.childs %}nav__item--has-childs{% endif %}">
                             <a @click="isOpen = false" class="text-ml inline-block no-underline hover:text-500 py-2 px-4" href="{{ item.url }}">{{ item.text }}</a>
                             {% if item.childs %}
-                                <ul class="nav__sub-list">
+                                <ul class="nav__sub-list z-10">
                                     {% for child in item.childs %}
                                         <li class="nav__sub-item">
-                                            <a class="nav__sub-item-anchor text-gray-500 hover:text-500" href="{{ child.url }}">
+                                            <a class="nav__sub-item-anchor hover:text-500" href="{{ child.url }}">
                                                 {{ child.text }}
                                             </a>
                                         </li>
