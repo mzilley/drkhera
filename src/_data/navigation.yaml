@@ -5,8 +5,26 @@ items:
   - text: Patient Conditions
     url: /
     childs:
+      - text: BPH
+        url: patient-conditions/bph
+      - text: Delayed Ejaculation
+        url: patient-conditions/delayed-ejaculation
+      - text: Erectile Dysfunction
+        url: patient-conditions/erectile-dysfunction
+      - text: Female Sexual Dysfunction
+        url: patient-conditions/female-sexual-dysfunction
+      - text: Low Testosterone
+        url: patient-conditions/low-testosterone
+      - text: Male Infertility
+        url: patient-conditions/male-infertility
       - text: Male Stress Incontinence
         url: patient-conditions/male-stress-incontinence
+      - text: Peyronie's Disease
+        url: patient-conditions/peyronies-disease
+      - text: Testis Pain
+        url: patient-conditions/testis-pain
+      - text: Vasectomy
+        url: patient-conditions/vasectomy
   - text: Patient Resources
     url: /
   - text: More
