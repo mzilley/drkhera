@@ -6150,6 +6150,7 @@ input[type="submit"] {
   position: relative;
   padding: 5px 3px;
   color: white;
+}
 
 .nav__sub-item:hover {
   --tw-text-opacity: 1;
