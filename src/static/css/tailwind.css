@@ -6292,10 +6292,6 @@ li {
     height: 100%;
 }
 
-nav {
-    min-width: 100%;
-}
-
 .subContent p {
     @apply pb-3;
     min-width: 100%;
@@ -6313,6 +6309,9 @@ nav {
     .subContent {
         margin-top: 60px;
         flex-direction: column;
+    }
+    nav {
+        min-width: 100%;
     }
 }
 
@@ -6335,3 +6334,8 @@ nav {
 .anchors {
     @apply my-5;
 }
+
+#about .about-img-container, #about .about-img-container img  {
+    width: 350px;
+    height: 600px;
+} 
