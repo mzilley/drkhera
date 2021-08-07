@@ -129,32 +129,32 @@ collections:
               { label: Featured 1, name: featured1, widget: "object", fields: [
                 { label: Image, name: image1, widget: "image"},
                 { label: Title, name: title1, widget: "string"},
-                { label: Link, name: link1, widget: "string"}
+                { label: Link, name: link1, widget: "string", required: false}
               ]},
               { label: Featured 2, name: featured2, widget: "object", collapsed: true, fields: [
                 { label: Image, name: image2, widget: "image"},
                 { label: Title, name: title2, widget: "string"},
-                { label: Link, name: link2, widget: "string"}
+                { label: Link, name: link2, widget: "string", required: false}
               ]},
               { label: Featured 3, name: featured3, widget: "object", collapsed: true, fields: [
                 { label: Image, name: image3, widget: "image"},
                 { label: Title, name: title3, widget: "string"},
-                { label: Link, name: link3, widget: "string"}
+                { label: Link, name: link3, widget: "string", required: false}
               ]},
               { label: Featured 4, name: featured4, widget: "object", collapsed: true, fields: [
                 { label: Image, name: image4, widget: "image"},
                 { label: Title, name: title4, widget: "string"},
-                { label: Link, name: link4, widget: "string"}
+                { label: Link, name: link4, widget: "string", required: false}
               ]},
               { label: Featured 5, name: featured5, widget: "object", collapsed: true, fields: [
                 { label: Image, name: image5, widget: "image"},
                 { label: Title, name: title5, widget: "string"},
-                { label: Link, name: link5, widget: "string"}
+                { label: Link, name: link5, widget: "string", required: false}
               ]},
               { label: Featured 6, name: featured6, widget: "object", collapsed: true, fields: [
                 { label: Image, name: image6, widget: "image"},
                 { label: Title, name: title6, widget: "string"},
-                { label: Link, name: link6, widget: "string"}
+                { label: Link, name: link6, widget: "string", required: false}
               ]},
               ]}
           - {label: "Partners and Affiliations", name: partners, widget: object, collapsed: true, fields: [
