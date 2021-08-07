@@ -143,7 +143,7 @@ collections:
               { name: image1, widget: "image" },
               { name: image2, widget: "image" },
               { name: image3, widget: "image" },
-              { name: image4, widget: "image" },
+              { name: image4, widget: "image" }]}
       # Patient Conditions/Male Stress Incontinence
       - label: "Male Stress Incontinence"
         name: "male-stress-incontinence"
