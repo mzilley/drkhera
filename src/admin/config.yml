@@ -94,7 +94,7 @@ collections:
               { label: Subtitle, name: subtitle, widget: "string"},
               { label: Image, name: image, widget: "image"},
               { label: Image ALT, name: alt, widget: "string"}]}
-          - { label: Services, name: services, widget: object, fields: [
+          - { label: Services, name: services, widget: object, collapsed: true, fields: [
               { label: Service 1 Heading, name: service1Heading, widget: "string" },
               { label: Service 1 Description, name: service1Para, widget: "string" },
               { label: Service 1 List Item, name: service1Feature1, widget: "string" },
@@ -106,21 +106,21 @@ collections:
               { label: Service 2 Description, name: service2Para, widget: "string" },
               { label: Service 2 Image, name: service2Image, widget: "image" },
           ]}
-          - {label: "About", name: about, widget: object, fields: [
+          - {label: "About", name: about, widget: object, collapsed: true, fields: [
               { label: Image, name: image, widget: "image" },
               { label: Heading, name: heading, widget: "string"},
               { label: Subtitle, name: subheading, widget: "string", required: false},
               { label: About, name: about, widget: "markdown"}]}
-          - {label: "Featured Testimonials", name: testimonials, widget: object, fields: [
+          - {label: "Featured Testimonials", name: testimonials, widget: object, collapsed: true, fields: [
               { label: Testimonial, name: testimonial1, widget: "object", fields: [
                 { label: Testimonial, name: testimonialContent1, widget: "markdown"},
                 { label: Name, name: name1, widget: "string"}
               ]},
-              { label: Testimonial, name: testimonial2, widget: "object", fields: [
+              { label: Testimonial 2, name: testimonial2, widget: "object", collapsed: true, fields: [
                 { label: Testimonial, name: testimonialContent2, widget: "markdown"},
                 { label: Name, name: name2, widget: "string"}
               ]},
-              { label: Testimonial, name: testimonial3, widget: "object", fields: [
+              { label: Testimonial 3, name: testimonial3, widget: "object", collapsed: true, fields: [
                 { label: Testimonial, name: testimonialContent3, widget: "markdown"},
                 { label: Name, name: name3, widget: "string"}
               ]},
