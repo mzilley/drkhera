@@ -85,7 +85,7 @@ collections:
         name: "home"
         file: "src/index.md"
         fields:
-          - {label: "Page Metadata", name: metadata, widget: object, fields: [
+          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
               { label: Title, name: title, widget: string },
               { label: Description, name: description, widget: string },
               { label: Keywords - comma separated, summary: "Comma separated", name: keywords, widget: string, required: false}]}
@@ -125,6 +125,25 @@ collections:
                 { label: Name, name: name3, widget: "string"}
               ]},
               ]}
+          - {label: "Featured Publications, Media, Interviews, and More", name: work, widget: object, collapsed: true, fields: [
+              { label: Featured 1, name: featured1, widget: "object", fields: [
+                { label: Image, name: image1, widget: "image"},
+                { label: Title, name: title1, widget: "string"}
+              ]},
+              { label: Featured 2, name: featured2, widget: "object", collapsed: true, fields: [
+                { label: Image, name: image2, widget: "image"},
+                { label: Title, name: title2, widget: "string"}
+              ]},
+              { label: Featured 3, name: featured3, widget: "object", collapsed: true, fields: [
+                { label: Image, name: image3, widget: "image"},
+                { label: Title, name: title3, widget: "string"}
+              ]},
+              ]}
+          - {label: "Partners and Affiliations", name: partners, widget: object, collapsed: true, fields: [
+              { name: image1, widget: "image" },
+              { name: image2, widget: "image" },
+              { name: image3, widget: "image" },
+              { name: image4, widget: "image" },
       # Patient Conditions/Male Stress Incontinence
       - label: "Male Stress Incontinence"
         name: "male-stress-incontinence"
