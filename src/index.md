@@ -93,10 +93,7 @@ work:
     title2: Testosterone's Role in COVID-19
   featured3:
     image3: http://via.placeholder.com/300
-    title3: "actions Cite Favorites share    page navigation Title & authors
-      Abstract Similar articles Cited by Publication types MeSH terms Substances
-      Related information LinkOut - more resources Review J Sex Med . 2021
-      Jan;18(1):83-98. doi: 10.1016/j.jsxm.2020.10.019. Epub 2020 Dec 11."
+    title3: ""
 partners:
   image1: https://via.placeholder.com/150
   image2: https://via.placeholder.com/150
