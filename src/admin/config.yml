@@ -106,8 +106,11 @@ collections:
               { label: Service 2 Description, name: service2Para, widget: "string" },
               { label: Service 2 Image, name: service2Image, widget: "image" },
           ]}
-          - {label: "Quick Links", name: extra, widget: object, summary: "Extra options", fields: [
-              { label: Quick Links, name: quicklinks, widget: "boolean", default: true }]}
+          - {label: "About", name: about, widget: object, fields: [
+              { label: Image, name: image, widget: "image" },
+              { label: Heading, name: heading, widget: "string"},
+              { label: Subtitle, name: subheading, widget: "image"},
+              { label: About, name: about, widget: "markdown"}]}
       # Patient Conditions/Male Stress Incontinence
       - label: "Male Stress Incontinence"
         name: "male-stress-incontinence"
