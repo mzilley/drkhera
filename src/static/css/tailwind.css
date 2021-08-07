@@ -6279,12 +6279,6 @@ li {
     border-top-right-radius: 35px;
 }
 
-#publications img, #patient-resources img {
-    max-height: 250px;
-    object-fit: cover;
-    border-radius: 30px;
-}
-
 .fb-post, .facebook {   
     display: flex!important;
     align-items: center;
