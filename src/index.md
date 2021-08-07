@@ -5,6 +5,22 @@ keywords: test, keyword, yay
 metadata:
   title: Home
   description: This is a page
+topsection:
+  title: Netlify CMS Starter
+  subtitle: Baylor College of Medicine
+  image: /static/img/egg.jpg
+  alt: Egg!
+  heading: Dr. Mohit Khera
+services:
+  service2Heading: Test
+  service1Heading: Test
+  service1Feature1: Test
+  service1Feature2: Test
+  service1Feature3: Test
+  service1Para: Test
+  service2Para: Test
+  service2Image: /static/img/egg.jpg
+  service1Image: /static/img/egg.jpg
 about:
   image: /static/img/khera-pic-2021.jpg
   heading: Dr. Mohit Khera
@@ -51,14 +67,6 @@ about:
 
 
     the Sexual Medicine Society of North America.
-extra:
-  quicklinks: true
-topsection:
-  title: Netlify CMS Starter
-  subtitle: Baylor College of Medicine
-  image: /static/img/egg.jpg
-  alt: Egg!
-  heading: Dr. Mohit Khera
 testimonials:
   testimonial1:
     testimonialContent1: Sed ut perspiciatis unde omnis iste natus error sit
@@ -75,17 +83,27 @@ testimonials:
       voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
       ipsa quae. explicabo.
     name3: First Last
+work:
+  featured1:
+    image1: /static/img/newapproachtotestosteronetreatment.png
+    title1: Baylor College of Medicine takes new approach to testosterone treatment
+  featured2:
+    image2: http://via.placeholder.com/300
+    title2: Testosterone's Role in COVID-19
+  featured3:
+    image3: http://via.placeholder.com/300
+    title3: "actions Cite Favorites share    page navigation Title & authors
+      Abstract Similar articles Cited by Publication types MeSH terms Substances
+      Related information LinkOut - more resources Review J Sex Med . 2021
+      Jan;18(1):83-98. doi: 10.1016/j.jsxm.2020.10.019. Epub 2020 Dec 11."
+partners:
+  image1: https://via.placeholder.com/150
+  image2: https://via.placeholder.com/150
+  image3: https://via.placeholder.com/150
+  image4: https://via.placeholder.com/150
+extra:
+  quicklinks: true
 title: Home
 description: Meta description of home page
-services:
-  service2Heading: Test
-  service1Heading: Test
-  service1Feature1: Test
-  service1Feature2: Test
-  service1Feature3: Test
-  service1Para: Test
-  service2Para: Test
-  service2Image: /static/img/egg.jpg
-  service1Image: /static/img/egg.jpg
 ---
 My starter template - many thanks to [@surjithctly](https://surjithctly.in/)
