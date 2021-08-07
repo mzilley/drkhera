@@ -381,6 +381,9 @@ layout: _default
                     <img alt="{{ work.featured1.title1 }}" class="w-100 mb-4 object-cover object-center inline-block bg-gray-100" src="{{ work.featured1.image1 }}">
                     {% if work.featured1.link1 %}
                     <a class="title-font text-left text-xl font-bold" href="{{ work.featured1.link1 }}" target="_blank">{{ work.featured1.title1 }}</p>
+                    {% endif %}  
+                    {% !if work.featured1.link1 %}
+                    <p class="title-font text-left text-xl font-bold">{{ work.featured1.title1 }}</p>
                     {% endif %}             
                    </div>
                 </div>
