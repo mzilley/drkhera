@@ -5,20 +5,10 @@ keywords: test, keyword, yay
 metadata:
   title: Home
   description: This is a page
-services:
-  service2Heading: Test
-  service1Heading: Test
-  service1Feature1: Test
-  service1Feature2: Test
-  service1Feature3: Test
-  service1Para: Test
-  service2Para: Test
-  service2Image: /static/img/egg.jpg
-  service1Image: /static/img/egg.jpg
 about:
   image: /static/img/khera-pic-2021.jpg
   heading: Dr. Mohit Khera
-  subheading: /static/img/favicon.jpg
+  subheading: Baylor College of Medicine
   about: >-
     Dr. Khera earned his undergraduate degree at Vanderbilt University. He
     subsequently earned
@@ -69,7 +59,33 @@ topsection:
   image: /static/img/egg.jpg
   alt: Egg!
   heading: Dr. Mohit Khera
+testimonials:
+  testimonial1:
+    testimonialContent1: Sed ut perspiciatis unde omnis iste natus error sit
+      voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
+      ipsa quae. explicabo.
+    name1: First Last
+  testimonial2:
+    testimonialContent2: Sed ut perspiciatis unde omnis iste natus error sit
+      voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
+      ipsa quae. explicabo.
+    name2: Name
+  testimonial3:
+    testimonialContent3: Sed ut perspiciatis unde omnis iste natus error sit
+      voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque
+      ipsa quae. explicabo.
+    name3: First Last
 title: Home
 description: Meta description of home page
+services:
+  service2Heading: Test
+  service1Heading: Test
+  service1Feature1: Test
+  service1Feature2: Test
+  service1Feature3: Test
+  service1Para: Test
+  service2Para: Test
+  service2Image: /static/img/egg.jpg
+  service1Image: /static/img/egg.jpg
 ---
 My starter template - many thanks to [@surjithctly](https://surjithctly.in/)
