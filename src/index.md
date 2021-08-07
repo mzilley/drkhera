@@ -87,6 +87,7 @@ work:
   featured1:
     image1: /static/img/newapproachtotestosteronetreatment.png
     title1: Baylor College of Medicine takes new approach to testosterone treatment
+    link1: https://www.click2houston.com/news/2016/05/28/baylor-college-of-medicine-takes-new-approach-to-testosterone-treatment/
   featured2:
     image2: http://via.placeholder.com/300
     title2: Testosterone's Role in COVID-19
