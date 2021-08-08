@@ -338,6 +338,7 @@ layout: _default
         </div>
     </section>
 
+    {% if testimonials %}
     <section id="testimonials">
         <h4 class="text-center text-2xl">Testimonials</h4>
         <div class="container px-5 py-16 mx-auto">
@@ -369,76 +370,115 @@ layout: _default
           </div>
         </div>
         <div class="text-center pb-16"><a href="#" class="btn btn-primary shadow text-center">See More</a></div>
-      </section>
+    </section>
+    {% endif %}
 
-      <section id="publications" class="bg-primary white">
+    <section id="publications" class="bg-primary white">
         <div class="py-16">
             <h4 class="text-center text-2xl">Publications, Interviews, & Media</h4>
             <div class="container px-5 py-16 mx-auto">
               <div class="flex flex-col lg:flex-row mb-8">
                 {% if work.featured1 %}
                 <div class="lg:w-1/3 lg:mb-0 mb-6 m-3 p-4 shadow b-rad bg-white primary">
-                  <div class="text-center">
+                  <div class="text-left">
                     <img alt="{{ work.featured1.title1 }}" class="w-100 mb-4 object-cover b-rad object-center inline-block bg-gray-100" src="{{ work.featured1.image1 }}">
                     {% if work.featured1.link1 %}
-                    <a class="title-font text-left text-xl font-bold underline" href="{{ work.featured1.link1 }}" target="_blank">{{ work.featured1.title1 }}</p>
+                    <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured1.link1 }}" target="_blank">{{ work.featured1.title1 }}</p>
                     {% else %}  
                     <p class="title-font text-left text-xl font-bold">{{ work.featured1.title1 }}</p>
                     {% endif %}             
                    </div>
                 </div>
                 {% endif %}
+                {% if work.featured2 %}
                 <div class="lg:w-1/3 lg:mb-0 mb-6 m-3 p-4 shadow b-rad bg-white primary">
-                  <div class="text-center">
+                  <div class="text-left">
                     <img alt="{{ work.featured2.title2 }}" class="w-100 mb-4 object-cover b-rad object-center inline-block bg-gray-100" src="{{ work.featured2.image2 }}">
+                    {% if work.featured2.link2 %}
+                    <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured2.link2 }}" target="_blank">{{ work.featured2.title2 }}</p>
+                    {% else %}  
                     <p class="title-font text-left text-xl font-bold">{{ work.featured2.title2 }}</p>
+                    {% endif %}    
                   </div>
                 </div>
+                {% endif %}
+                {% if work.featured3 %}
                 <div class="lg:w-1/3 lg:mb-0 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-center">
                     <img alt="{{ work.featured3.title3 }}" class="w-100 mb-4 object-cover b-rad object-center inline-block bg-gray-100" src="{{ work.featured3.image3 }}">
-                    <a class="title-font text-left text-xl font-bold" href="#">{{ work.featured3.title3 }}</a>
+                    {% if work.featured3.link3 %}
+                    <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured3.link3 }}" target="_blank">{{ work.featured3.title3 }}</p>
+                    {% else %}  
+                    <p class="title-font text-left text-xl font-bold">{{ work.featured3.title3 }}</p>
+                    {% endif %}   
                   </div>
                 </div>
+                {% endif %}
               </div>
               <div class="flex flex-col lg:flex-row mb-8">
+                {% if work.featured4 %}
                 <div class="lg:w-1/3 lg:mb-0 mb-6 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-center">
                     <img alt="{{ work.featured4.title4 }}" class="w-100 mb-4 object-cover b-rad object-center inline-block bg-gray-100" src="{{ work.featured4.image4 }}">
+                    {% if work.featured4.link4 %}
+                    <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured4.link4 }}" target="_blank">{{ work.featured4.title4 }}</p>
+                    {% else %}  
                     <p class="title-font text-left text-xl font-bold">{{ work.featured4.title4 }}</p>
+                    {% endif %}   
                   </div>
                 </div>
+                {% endif %}
+                {% if work.featured5 %}
                 <div class="lg:w-1/3 lg:mb-0 mb-6 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-center">
                     <img alt="{{ work.featured5.title5 }}" class="w-100 mb-4 object-cover b-rad object-center inline-block bg-gray-100" src="{{ work.featured5.image5 }}">
+                    {% if work.featured5.link5 %}
+                    <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured5.link5 }}" target="_blank">{{ work.featured5.title5 }}</p>
+                    {% else %}  
                     <p class="title-font text-left text-xl font-bold">{{ work.featured5.title5 }}</p>
+                    {% endif %}   
                   </div>
                 </div>
+                {% endif %}
+                {% if work.featured6 %}
                 <div class="lg:w-1/3 lg:mb-0 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-center">
                     <img alt="{{ work.featured6.title6 }}" class="w-100 mb-4 object-cover b-rad object-center inline-block bg-gray-100" src="{{ work.featured6.image6 }}">
-                    <p class="title-font text-left text-xl font-bold">{{ work.feature6.title6 }}</p>
+                    {% if work.featured6.link6 %}
+                    <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured6.link6 }}" target="_blank">{{ work.featured6.title6 }}</p>
+                    {% else %}  
+                    <p class="title-font text-left text-xl font-bold">{{ work.featured6.title6 }}</p>
+                    {% endif %}   
                   </div>
                 </div>
+                {% endif %}  
               </div>
               <div>
                   <div class="flex flex-col lg:flex-row shadow b-rad bg-white primary mb-4 m-3">
-                    <div class="lg:w-1/4 p-4">
-                        <img alt="testimonial" class="w-100 object-center inline-block bg-gray-100" src="{{ partners.image1 }}">
-                    </div>
-                    <div class="lg:w-1/4 p-4">
-                        <img alt="testimonial" class="w-100 object-center inline-block bg-gray-100" src="{{ partners.image2 }}">
-                    </div>
-                    <div class="lg:w-1/4 p-4">
-                        <img alt="testimonial" class="w-100 object-center inline-block bg-gray-100" src="{{ partners.image3 }}">
-                    </div>
-                    <div class="lg:w-1/4 p-4">
-                        <img alt="testimonial" class="w-100 object-center inline-block bg-gray-100" src="{{ partners.image4 }}">
-                    </div>
+                    {% if partners.image1 %}
+                        <div class="lg:w-1/4 p-4">
+                            <img alt="testimonial" class="w-100 object-center inline-block bg-gray-100" src="{{ partners.image1 }}">
+                        </div>
+                    {% endif %}
+                    {% if partners.image2 %}                   
+                        <div class="lg:w-1/4 p-4">
+                            <img alt="testimonial" class="w-100 object-center inline-block bg-gray-100" src="{{ partners.image2 }}">
+                        </div>
+                    {% endif %}
+                    {% if partners.image3 %}      
+                        <div class="lg:w-1/4 p-4">
+                            <img alt="testimonial" class="w-100 object-center inline-block bg-gray-100" src="{{ partners.image3 }}">
+                        </div>
+                    {% endif %}
+                    {% if partners.image4 %}      
+                        <div class="lg:w-1/4 p-4">
+                            <img alt="testimonial" class="w-100 object-center inline-block bg-gray-100" src="{{ partners.image4 }}">
+                        </div>
+                    {% endif %}
                   </div>
               </div>
               <div class="text-center"><a href="#" class="btn btn-primary shadow text-center">See More</a></div>
             </div>
         </div>
-      </section>
+    </section>
 </div>

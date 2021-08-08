@@ -11,14 +11,20 @@ layout: _default
             <div class="db">
                 <div class="mw7 relative bg-fix-primary mb3">
                 <h1 class="f3 f2-l b di lh-title mb2 mw6">
-                    Male Stress Incontinence
+                    {{ title }}
                 </h1>
                 </div>
-                <div class="mw7 relative bg-fix-primary">
-                <p>
-                    <a href="https://www.bcm.edu/people-search/mohit-khera-24469" id="schedule" target="_blank" class="btn btn-primary shadow mt-1">Schedule an Appointment</a>
-                </p>
-                </div>
+                {% if ctaText %}
+                    <div class="mw7 relative bg-fix-primary">
+                    <p>
+                        <a href="{{ctaLink}}" target="_blank" class="btn btn-primary shadow mt-1">{{ctaText}}</a>
+                    </p>
+                    </div>
+                {% else %}
+                    <p>
+                        <a href="https://www.bcm.edu/people-search/mohit-khera-24469" id="schedule" target="_blank" class="btn btn-primary shadow mt-1">Schedule an Appointment</a>
+                    </p>
+                {% endif %}
             </div>
         </div>
     </div>
