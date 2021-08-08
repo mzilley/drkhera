@@ -163,19 +163,19 @@ collections:
               { name: image3, widget: "image" },
               { name: image4, widget: "image" }]}
       # Patient Conditions/Male Stress Incontinence
-      - label: "Male Stress Incontinence"
-        name: "male-stress-incontinence"
-        file: "src/patient-conditions/male-stress-incontinence.md"
-        fields:
-              - { label: Title, name: title, widget: string },
-              { label: Button Text, name: ctaText, widget: string },
-              { label: Button Link, name: ctaLink, widget: string }
+      # - label: "Male Stress Incontinence"
+      #   name: "male-stress-incontinence"
+      #   file: "src/patient-conditions/male-stress-incontinence.md"
+      #   fields:
+      #         - { label: Title, name: title, widget: string },
+      #         { label: Button Text, name: ctaText, widget: string },
+      #         { label: Button Link, name: ctaLink, widget: string }
       # Patient Conditions/Low Testosterone
-      - label: "Low Testosterone"
-        name: "low-testosterone"
-        file: "src/patient-conditions/low-testosterone.md"
-        fields:
-              - { label: Title, name: title, widget: string }
+      # - label: "Low Testosterone"
+      #   name: "low-testosterone"
+      #   file: "src/patient-conditions/low-testosterone.md"
+      #   fields:
+      #         - { label: Title, name: title, widget: string }
       - label: "Contact"
         name: "contact"
         file: "src/contact.md"
