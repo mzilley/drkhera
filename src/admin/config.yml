@@ -81,13 +81,13 @@ collections:
       preview: false
     files:
       # Male Stress Incontinence
-      - label: "Male Stress Incontinence"
-        name: "malestressincontinence"
-        file: "src/male-stress-incontinence.md"
-        fields:
-              - { label: Title, name: title, widget: string }
-              { label: Button Text, name: ctaText, widget: string }
-              { label: Button Link, name: ctaLink, widget: string }
+      # - label: "Male Stress Incontinence"
+      #   name: "malestressincontinence"
+      #   file: "src/male-stress-incontinence.md"
+      #   fields:
+      #         - { label: Title, name: title, widget: string }
+      #         { label: Button Text, name: ctaText, widget: string }
+      #         { label: Button Link, name: ctaLink, widget: string }
       # Home
       - label: "Home"
         name: "home"
