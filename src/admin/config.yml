@@ -162,7 +162,7 @@ collections:
               { name: image2, widget: "image" },
               { name: image3, widget: "image" },
               { name: image4, widget: "image" }]}
-      Male Stress Incontinence
+      # Male Stress Incontinence
       - label: "Male Stress Incontinence"
         name: "male-stress-incontinence"
         file: "src/male-stress-incontinence.md"
