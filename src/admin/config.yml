@@ -82,7 +82,7 @@ collections:
     files:
       # Male Stress Incontinence
       - label: "Male Stress Incontinence"
-        name: "male-stress-incontinence"
+        name: "malestressincontinence"
         file: "src/male-stress-incontinence.md"
         fields:
               - { label: Title, name: title, widget: string }
