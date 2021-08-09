@@ -1,7 +1,9 @@
 items:
   - text: Dr. Khera
-    url: /
-    childs: []
+    url: /about
+    childs:
+      - text: About Dr. Khera
+        url: /about
   - text: Patient Conditions
     url: /
     childs:
