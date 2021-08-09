@@ -102,18 +102,38 @@ collections:
               { label: Subtitle, name: subtitle, widget: "string"},
               { label: Image, name: image, widget: "image"},
               { label: Image ALT, name: alt, widget: "string"}]}
-          - { label: Services, name: services, widget: object, collapsed: true, fields: [
-              { label: Service 1 Heading, name: service1Heading, widget: "string" },
-              { label: Service 1 Description, name: service1Para, widget: "string" },
-              { label: Service 1 List Item, name: service1Feature1, widget: "string" },
-              { label: Service 1 List Item, name: service1Feature2, widget: "string" },
-              { label: Service 1 List Item, name: service1Feature3, widget: "string" },
-              { label: Service 1 List, name: service1List, widget: "list" },
-              { label: Service 1 Image, name: service1Image, widget: "image" },
-              { label: Service 2 Heading, name: service2Heading, widget: "string" },
-              { label: Service 2 Description, name: service2Para, widget: "string" },
-              { label: Service 2 Image, name: service2Image, widget: "image" },
-          ]}
+          - {label: "Patient Resources", name: resources, widget: object, collapsed: true, fields: [
+              { label: Patient Resource 1, name: resource1, widget: "object", fields: [
+                { label: Title, name: title1, widget: "string"},
+                { label: Link, name: link1, widget: "string"},
+                { label: Description, name: desc1, widget: "markdown"}
+              ]},
+              { label: Patient Resource 2, name: resource2, widget: "object", collapsed: true, fields: [
+                { label: Title, name: title2, widget: "string"},
+                { label: Link, name: link2, widget: "string"},
+                { label: Description, name: desc2, widget: "markdown"}
+              ]},
+              { label: Patient Resource 3, name: resource3, widget: "object", collapsed: true, fields: [
+                { label: Title, name: title3, widget: "string"},
+                { label: Link, name: link3, widget: "string"},
+                { label: Description, name: desc3, widget: "markdown"}
+              ]},
+              { label: Patient Resource 4, name: resource4, widget: "object", fields: [
+                { label: Title, name: title4, widget: "string"},
+                { label: Link, name: link4, widget: "string"},
+                { label: Description, name: desc4, widget: "markdown"}
+              ]},
+              { label: Patient Resource 5, name: resource5, widget: "object", collapsed: true, fields: [
+                { label: Title, name: title5, widget: "string"},
+                { label: Link, name: link5, widget: "string"},
+                { label: Description, name: desc5, widget: "markdown"}
+              ]},
+              { label: Patient Resource 6, name: resource6, widget: "object", collapsed: true, fields: [
+                { label: Title, name: title6, widget: "string"},
+                { label: Link, name: link6, widget: "string"},
+                { label: Description, name: desc6, widget: "markdown"}
+              ]},
+              ]}
           - {label: "About", name: about, widget: object, collapsed: true, fields: [
               { label: Image, name: image, widget: "image" },
               { label: Heading, name: heading, widget: "string"},

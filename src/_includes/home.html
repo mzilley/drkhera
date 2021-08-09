@@ -121,10 +121,6 @@ layout: _default
         </div>
     </div>
     
-
-
-    
-    
     <div class="load-more-container" x-data="{show:false}">
         <div class="text-center">
             <a class="btn btn-primary shadow" @click="show=!show" x-text="show ? 'Less': 'More'"></a>
@@ -240,54 +236,86 @@ layout: _default
         </div>
     </div>
 
+    {% if resources %}
     <section id="patient-resources" class="bg-highlight primary">
         <div class="py-16 mt-24">
             <h4 class="text-center text-2xl">Patient Resources</h4>
             <div class="container px-5 py-16 mx-auto">
               <div class="flex flex-col lg:flex-row -m-4 mb-8">
+                {% if resources.resource1 %}
                 <div class="lg:w-1/3 lg:mb-0 mb-6 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-center">
-                    <img alt="testimonial" class="w-100 mb-4 object-cover object-center inline-block bg-gray-100" src="https://dummyimage.com/302x302">
-                    <a class="title-font text-left text-xl font-bold">Patient Resource Title</a>
+                    <!-- <img alt="testimonial" class="w-100 mb-4 object-cover object-center inline-block bg-gray-100" src="https://dummyimage.com/302x302"> -->
+                    <a class="title-font text-left text-xl font-bold">{{resources.resource1.title1}}</a>
                   </div>
+                  {% if resources.resource1.desc1 %}
+                  <p>{{resources.resource1.desc1}}</p>
+                  {% endif %}
                 </div>
+                {% endif %}
+                {% if resources.resource2 %}
                 <div class="lg:w-1/3 lg:mb-0 mb-6 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-center">
-                    <img alt="testimonial" class="w-100 mb-4 object-cover object-center inline-block bg-gray-100" src="https://dummyimage.com/300x300">
-                    <a class="title-font text-left text-xl font-bold">Patient Resource Looooooong Title</a>
+                    <!-- <img alt="testimonial" class="w-100 mb-4 object-cover object-center inline-block bg-gray-100" src="https://dummyimage.com/302x302"> -->
+                    <a class="title-font text-left text-xl font-bold">{{resources.resource2.title2}}</a>
                   </div>
+                  {% if resources.resource2.desc2 %}
+                  <p>{{resources.resource2.desc2}}</p>
+                  {% endif %}
                 </div>
-                <div class="lg:w-1/3 lg:mb-0 m-3 p-4 shadow b-rad bg-white primary">
+                {% endif %}
+                {% if resources.resource3 %}
+                <div class="lg:w-1/3 lg:mb-0 mb-6 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-center">
-                    <img alt="testimonial" class="w-100 mb-4 object-cover object-center inline-block bg-gray-100" src="https://dummyimage.com/305x305">
-                    <a class="title-font text-left text-xl font-bold">Patient Resource Title</a>
+                    <!-- <img alt="testimonial" class="w-100 mb-4 object-cover object-center inline-block bg-gray-100" src="https://dummyimage.com/302x302"> -->
+                    <a class="title-font text-left text-xl font-bold">{{resources.resource3.title3}}</a>
                   </div>
+                  {% if resources.resource3.desc3 %}
+                  <p>{{resources.resource3.desc3}}</p>
+                  {% endif %}
                 </div>
+                {% endif %}
               </div>
               <div class="flex flex-col lg:flex-row -m-4">
+                {% if resources.resource4 %}
                 <div class="lg:w-1/3 lg:mb-0 mb-6 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-center">
-                    <img alt="testimonial" class="w-100 mb-4 object-cover object-center inline-block bg-gray-100" src="https://dummyimage.com/302x302">
-                    <a class="title-font text-left text-xl font-bold">Patient Resource Title</a>
+                    <!-- <img alt="testimonial" class="w-100 mb-4 object-cover object-center inline-block bg-gray-100" src="https://dummyimage.com/302x302"> -->
+                    <a class="title-font text-left text-xl font-bold">{{resources.resource4.title4}}</a>
                   </div>
+                  {% if resources.resource4.desc4 %}
+                  <p>{{resources.resource4.desc4}}</p>
+                  {% endif %}
                 </div>
+                {% endif %}
+                {% if resources.resource5 %}
                 <div class="lg:w-1/3 lg:mb-0 mb-6 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-center">
-                    <img alt="testimonial" class="w-100 mb-4 object-cover object-center inline-block bg-gray-100" src="https://dummyimage.com/300x300">
-                    <a class="title-font text-left text-xl font-bold">Patient Resource Looooooong Title</a>
+                    <!-- <img alt="testimonial" class="w-100 mb-4 object-cover object-center inline-block bg-gray-100" src="https://dummyimage.com/302x302"> -->
+                    <a class="title-font text-left text-xl font-bold">{{resources.resource5.title5}}</a>
                   </div>
+                  {% if resources.resource5.desc5 %}
+                  <p>{{resources.resource5.desc5}}</p>
+                  {% endif %}
                 </div>
-                <div class="lg:w-1/3 lg:mb-0 m-3 p-4 shadow b-rad bg-white primary">
+                {% endif %}
+                {% if resources.resource6 %}
+                <div class="lg:w-1/3 lg:mb-0 mb-6 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-center">
-                    <img alt="testimonial" class="w-100 mb-4 object-cover object-center inline-block bg-gray-100" src="https://dummyimage.com/305x305">
-                    <a class="title-font text-left text-xl font-bold">Patient Resource Title</a>
+                    <!-- <img alt="testimonial" class="w-100 mb-4 object-cover object-center inline-block bg-gray-100" src="https://dummyimage.com/302x302"> -->
+                    <a class="title-font text-left text-xl font-bold">{{resources.resource6.title6}}</a>
                   </div>
+                  {% if resources.resource6.desc6 %}
+                  <p>{{resources.resource6.desc6}}</p>
+                  {% endif %}
                 </div>
+                {% endif %}
               </div>
             </div>
             <div class="text-center"><a href="#" class="btn shadow text-center">See More</a></div>
             </div>
     </section>
+    {% endif %}
 
     <section id="more-info" class="primary">
         <div class="py-16">
@@ -381,7 +409,7 @@ layout: _default
                 {% if work.featured1 %}
                 <div class="lg:w-1/3 lg:mb-0 mb-6 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-left">
-                    <img alt="{{ work.featured1.title1 }}" class="w-100 mb-4 object-cover b-rad object-center inline-block bg-gray-100" src="{{ work.featured1.image1 }}">
+                    <img alt="{{ work.featured1.title1 }}" class="w-100 mb-4 object-cover shadow b-rad object-center inline-block bg-gray-100" src="{{ work.featured1.image1 }}">
                     {% if work.featured1.link1 %}
                     <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured1.link1 }}" target="_blank">{{ work.featured1.title1 }}</p>
                     {% else %}  
@@ -393,7 +421,7 @@ layout: _default
                 {% if work.featured2 %}
                 <div class="lg:w-1/3 lg:mb-0 mb-6 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-left">
-                    <img alt="{{ work.featured2.title2 }}" class="w-100 mb-4 object-cover b-rad object-center inline-block bg-gray-100" src="{{ work.featured2.image2 }}">
+                    <img alt="{{ work.featured2.title2 }}" class="w-100 mb-4 object-cover shadow b-rad object-center inline-block bg-gray-100" src="{{ work.featured2.image2 }}">
                     {% if work.featured2.link2 %}
                     <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured2.link2 }}" target="_blank">{{ work.featured2.title2 }}</p>
                     {% else %}  
@@ -405,7 +433,7 @@ layout: _default
                 {% if work.featured3 %}
                 <div class="lg:w-1/3 lg:mb-0 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-center">
-                    <img alt="{{ work.featured3.title3 }}" class="w-100 mb-4 object-cover b-rad object-center inline-block bg-gray-100" src="{{ work.featured3.image3 }}">
+                    <img alt="{{ work.featured3.title3 }}" class="w-100 mb-4 object-cover shadow b-rad object-center inline-block bg-gray-100" src="{{ work.featured3.image3 }}">
                     {% if work.featured3.link3 %}
                     <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured3.link3 }}" target="_blank">{{ work.featured3.title3 }}</p>
                     {% else %}  
@@ -419,7 +447,7 @@ layout: _default
                 {% if work.featured4 %}
                 <div class="lg:w-1/3 lg:mb-0 mb-6 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-center">
-                    <img alt="{{ work.featured4.title4 }}" class="w-100 mb-4 object-cover b-rad object-center inline-block bg-gray-100" src="{{ work.featured4.image4 }}">
+                    <img alt="{{ work.featured4.title4 }}" class="w-100 mb-4 object-cover shadow b-rad object-center inline-block bg-gray-100" src="{{ work.featured4.image4 }}">
                     {% if work.featured4.link4 %}
                     <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured4.link4 }}" target="_blank">{{ work.featured4.title4 }}</p>
                     {% else %}  
@@ -431,7 +459,7 @@ layout: _default
                 {% if work.featured5 %}
                 <div class="lg:w-1/3 lg:mb-0 mb-6 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-center">
-                    <img alt="{{ work.featured5.title5 }}" class="w-100 mb-4 object-cover b-rad object-center inline-block bg-gray-100" src="{{ work.featured5.image5 }}">
+                    <img alt="{{ work.featured5.title5 }}" class="w-100 mb-4 object-cover shadow b-rad object-center inline-block bg-gray-100" src="{{ work.featured5.image5 }}">
                     {% if work.featured5.link5 %}
                     <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured5.link5 }}" target="_blank">{{ work.featured5.title5 }}</p>
                     {% else %}  
@@ -443,7 +471,7 @@ layout: _default
                 {% if work.featured6 %}
                 <div class="lg:w-1/3 lg:mb-0 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-center">
-                    <img alt="{{ work.featured6.title6 }}" class="w-100 mb-4 object-cover b-rad object-center inline-block bg-gray-100" src="{{ work.featured6.image6 }}">
+                    <img alt="{{ work.featured6.title6 }}" class="w-100 mb-4 object-cover shadow b-rad object-center inline-block bg-gray-100" src="{{ work.featured6.image6 }}">
                     {% if work.featured6.link6 %}
                     <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured6.link6 }}" target="_blank">{{ work.featured6.title6 }}</p>
                     {% else %}  
@@ -457,22 +485,22 @@ layout: _default
                   <div class="flex flex-col lg:flex-row shadow b-rad bg-white primary mb-4 m-3">
                     {% if partners.image1 %}
                         <div class="lg:w-1/4 p-4">
-                            <img alt="testimonial" class="w-100 object-center inline-block bg-gray-100" src="{{ partners.image1 }}">
+                            <img alt="testimonial" class="w-100 object-center shadow b-rad inline-block bg-gray-100" src="{{ partners.image1 }}">
                         </div>
                     {% endif %}
                     {% if partners.image2 %}                   
                         <div class="lg:w-1/4 p-4">
-                            <img alt="testimonial" class="w-100 object-center inline-block bg-gray-100" src="{{ partners.image2 }}">
+                            <img alt="testimonial" class="w-100 object-center shadow b-rad inline-block bg-gray-100" src="{{ partners.image2 }}">
                         </div>
                     {% endif %}
                     {% if partners.image3 %}      
                         <div class="lg:w-1/4 p-4">
-                            <img alt="testimonial" class="w-100 object-center inline-block bg-gray-100" src="{{ partners.image3 }}">
+                            <img alt="testimonial" class="w-100 object-center shadow b-rad inline-block bg-gray-100" src="{{ partners.image3 }}">
                         </div>
                     {% endif %}
                     {% if partners.image4 %}      
                         <div class="lg:w-1/4 p-4">
-                            <img alt="testimonial" class="w-100 object-center inline-block bg-gray-100" src="{{ partners.image4 }}">
+                            <img alt="testimonial" class="w-100 object-center shadow b-rad inline-block bg-gray-100" src="{{ partners.image4 }}">
                         </div>
                     {% endif %}
                   </div>
