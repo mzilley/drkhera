@@ -1,6 +1,6 @@
 ---
-layout: values
-title: Values
+layout: about
+title: About
 subtitle: ""
 description: values meta desc
 cover: https://tender-poitras-0df16e.netlify.app/img/about-jumbotron.jpg

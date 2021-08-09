@@ -210,25 +210,12 @@ collections:
               - label: Text
                 name: text
                 widget: text
-      - label: "Values"
-        name: "values"
-        file: "src/values.md"
+      - label: "About"
+        name: "about"
+        file: "src/about.md"
         fields:
           - {label: "Page Metadata", name: metadata, widget: object, fields: [
               { label: Title, name: title, widget: string },
               { label: Description, name: description, widget: string },
               { label: Keywords - comma separated, summary: "Comma separated", name: keywords, widget: string, required: false}]}
           - { image: Cover, name: cover, widget: "image"}
-          - label: "Values"
-            name: values
-            widget: list 
-            fields:
-              - label: Heading
-                name: heading
-                widget: string
-              - label: Text
-                name: text
-                widget: text
-              - label: Image
-                name: imageUrl
-                widget: image
