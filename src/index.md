@@ -1,5 +1,30 @@
 ---
 path: home
+resources:
+  resource1:
+    title1: Treatment Options for Low Testosterone in Men
+    link1: https://www.youtube.com/watch?v=zJUk1zJW0sg
+    desc1: Some text to give the user more information about the resource
+  resource2:
+    desc2: Some text to give the user more information about the resource
+    title2: "What you need to know about Penile Prosthesis: The Penile Implant"
+    link2: https://www.youtube.com/watch?v=uJOzPNCsp0M
+  resource4:
+    desc4: Some text to give the user more information about the resource
+    link4: https://www.youtube.com/watch?v=5u3x_rQ1ZNc
+    title4: Live a Normal Life with Peyronie's Disease
+  resource3:
+    desc3: Some text to give the user more information about the resource
+    link3: https://www.youtube.com/watch?v=Lo58su42EZ8
+    title3: With Erectile Dysfunction, There are Many Options for Treatment
+  resource5:
+    desc5: Some text to give the user more information about the resource
+    link5: https://www.youtube.com/watch?v=RegSMM4PG30
+    title5: Living with an Enlarged Prostate, or Benign Prostatic Hyperplasia (BPH)
+  resource6:
+    desc6: Some text to give the user more information about the resource
+    link6: https://www.youtube.com/watch?v=uyDaW5tGVMg
+    title6: Dr. Mohit Khera - Premature Ejaculation Causes and Treatments 2015
 layout: home
 keywords: test, keyword, yay
 metadata:
@@ -11,16 +36,6 @@ topsection:
   image: /static/img/egg.jpg
   alt: Egg!
   heading: Dr. Mohit Khera
-services:
-  service2Heading: Test
-  service1Heading: Test
-  service1Feature1: Test
-  service1Feature2: Test
-  service1Feature3: Test
-  service1Para: Test
-  service2Para: Test
-  service2Image: /static/img/egg.jpg
-  service1Image: /static/img/egg.jpg
 about:
   image: /static/img/khera-pic-2021.jpg
   heading: Dr. Mohit Khera
@@ -103,5 +118,15 @@ extra:
   quicklinks: true
 title: Home
 description: Meta description of home page
+services:
+  service2Heading: Test
+  service1Heading: Test
+  service1Feature1: Test
+  service1Feature2: Test
+  service1Feature3: Test
+  service1Para: Test
+  service2Para: Test
+  service2Image: /static/img/egg.jpg
+  service1Image: /static/img/egg.jpg
 ---
 My starter template - many thanks to [@surjithctly](https://surjithctly.in/)
