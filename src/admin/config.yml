@@ -80,14 +80,11 @@ collections:
     editor:
       preview: false
     files:
-      # Male Stress Incontinence
-      # - label: "Male Stress Incontinence"
-      #   name: "malestressincontinence"
-      #   file: "src/male-stress-incontinence.md"
-      #   fields:
-      #         - { label: Title, name: title, widget: string }
-      #         { label: Button Text, name: ctaText, widget: string }
-      #         { label: Button Link, name: ctaLink, widget: string }
+      - label: "New Page"
+        name: "newPage"
+        file: "src/newPage.md"
+        fields:
+          - {label: "Title", name: title, widget: string}
       # Home
       - label: "Home"
         name: "home"
