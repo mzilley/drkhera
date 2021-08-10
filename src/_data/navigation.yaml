@@ -8,7 +8,7 @@ items:
     url: /
     childs:
       - text: BPH
-        url: ""
+        url: /patient-conditions/bph
       - text: Delayed Ejaculation
         url: ""
       - text: Erectile Dysfunction
