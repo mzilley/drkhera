@@ -10,23 +10,23 @@ items:
       - text: BPH
         url: /patient-conditions/bph
       - text: Delayed Ejaculation
-        url: ""
+        url: /patient-conditions/delayed-ejaculation
       - text: Erectile Dysfunction
-        url: ""
+        url: /patient-conditions/erectile-dysfunction
       - text: Female Sexual Dysfunction
-        url: ""
+        url: /patient-conditions/female-sexual-dysfunction
       - text: Low Testosterone
-        url: ""
+        url: /patient-conditions/low-testosterone
       - text: Male Infertility
-        url: ""
+        url: /patient-conditions/male-infertility
       - text: Male Stress Incontinence
-        url: ""
+        url: /patient-conditions/male-stress-incontinence
       - text: Peyronie's Disease
-        url: ""
+        url: /patient-conditions/peyronies-disease
       - text: Testis Pain
-        url: ""
+        url: /patient-conditions/testis-pain
       - text: Vasectomy
-        url: ""
+        url: /patient-conditions/vasectomy
   - text: Patient Resources
     url: /
   - text: More
