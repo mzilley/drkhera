@@ -82,7 +82,7 @@ collections:
     files:
       - label: "Test Page"
         name: "test-page"
-        file: "src/test-path/test-page.md"
+        file: "src/test-page.md"
         fields:
           - {label: "Title", name: title, widget: string, required: false}
       # Home
