@@ -84,7 +84,22 @@ collections:
         name: "low-testosterone"
         file: "src/patient-conditions2/low-testosterone2.md"
         fields:
-          - {label: "Page Metadata", name: metadata, widget: object, fields: [
+          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
+              { label: Title, name: title, widget: string },
+              { label: Description, name: description, widget: string }]}
+          - {label: "Image", name: image, widget: image}
+          - {label: "Title", name: title, widget: string}
+          - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
+              { label: Heading, name: heading, widget: string },
+              { label: Subtitle, name: subtitle, widget: string, required: false },
+              { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
+          - {label: "Condition Information", name: conditionInformation, widget: text}
+          - {label: "Patient Resource", name: conditionResources, widget: markdown, required: false}
+      - label: "Male Stress Incontinence"
+        name: "male-stress-incontinence"
+        file: "src/patient-conditions2/male-stress-incontinence2.md"
+        fields:
+          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
               { label: Title, name: title, widget: string },
               { label: Description, name: description, widget: string }]}
           - {label: "Image", name: image, widget: image}
