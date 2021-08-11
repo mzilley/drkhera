@@ -6,17 +6,15 @@ const markdownIt = require("markdown-it");
 var markdownItp = require("markdown-it")();
 
 module.exports = function (eleventyConfig) {
-  let markdownLibrary = markdownIt({
-    html: true, // html tag inside source
-    breaks: true, // use '\n' as <br>
-    linkify: true, // Autoconvert URL-like text to links
-  })
+    let markdownLibrary = markdownIt({
+        html: true, // html tag inside source
+        breaks: true, // use '\n' as <br>
+        linkify: true, // Autoconvert URL-like text to links
+    })
     .use(require("markdown-it-emoji")) // emoji
     .use(require("markdown-it-table-of-contents")); // [[toc]] (no spaces)
-  eleventyConfig.setLibrary("md", markdownLibrary);
-};
-
-module.exports = function (eleventyConfig) {
+    eleventyConfig.setLibrary("md", markdownLibrary);
+  
   // Disable automatic use of your .gitignore
   eleventyConfig.setUseGitIgnore(false);
 
