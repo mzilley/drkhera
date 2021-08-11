@@ -1,6 +1,7 @@
 ---
 title: Low Testosterone
 layout: patient-conditions2/low-testosterone2
+image: http://via.placeholder.com/1440x620
 sidebar:
   heading: Sidebar heading
   subtitle: more information will go here
