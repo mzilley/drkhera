@@ -88,8 +88,8 @@ collections:
           - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
               { label: Heading, name: heading, widget: string },
               { label: Subtitle, name: subtitle, widget: string, required: false },
-              { label: Sidebar Content, summary: "sidebarContent", name: keywords, widget: markdown, required: false}]}
-          - {label: "Condition Information", name: conditionInformation, widget: markdown}
+              { label: Sidebar Content, summary: "sidebarContent", name: keywords, widget: text, required: false}]}
+          - {label: "Condition Information", name: conditionInformation, widget: text}
           - {label: "Patient Resource", name: conditionResources, widget: markdown, required: false}
       # Home
       - label: "Home"
