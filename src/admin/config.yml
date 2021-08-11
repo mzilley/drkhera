@@ -84,6 +84,7 @@ collections:
         name: "low-testosterone"
         file: "src/patient-conditions2/low-testosterone2.md"
         fields:
+          - {label: "Image", name: image, widget: string}
           - {label: "Title", name: title, widget: string}
           - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
               { label: Heading, name: heading, widget: string },
