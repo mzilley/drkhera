@@ -80,6 +80,11 @@ collections:
     editor:
       preview: false
     files:
+      - label: "Test Page"
+        name: "test-page"
+        file: "src/test-path/test-page.md"
+        fields:
+          - {label: "Title", name: title, widget: string, required: false}
       # Home
       - label: "Home"
         name: "home"
