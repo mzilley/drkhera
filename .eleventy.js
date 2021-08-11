@@ -2,17 +2,8 @@ const yaml = require("js-yaml");
 const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlmin = require("html-minifier");
-const markdownIt = require("markdown-it");
 
 module.exports = function (eleventyConfig) {
-    let markdownLibrary = markdownIt({
-        html: true, // html tag inside source
-        breaks: true, // use '\n' as <br>
-        linkify: true, // Autoconvert URL-like text to links
-    })
-    .use(require("markdown-it-emoji")) // emoji
-    .use(require("markdown-it-table-of-contents")); // [[toc]] (no spaces)
-    eleventyConfig.setLibrary("md", markdownLibrary);
   
   // Disable automatic use of your .gitignore
   eleventyConfig.setUseGitIgnore(false);
