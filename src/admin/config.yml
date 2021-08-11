@@ -80,6 +80,7 @@ collections:
     editor:
       preview: false
     files:
+      # Low Tesosterone
       - label: "Low Tesosterone"
         name: "low-testosterone"
         file: "src/patient-conditions2/low-testosterone2.md"
@@ -95,6 +96,7 @@ collections:
               { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
           - {label: "Condition Information", name: conditionInformation, widget: text}
           - {label: "Patient Resource", name: conditionResources, widget: markdown, required: false}
+      # Male Stress Incontinence
       - label: "Male Stress Incontinence"
         name: "male-stress-incontinence"
         file: "src/patient-conditions2/male-stress-incontinence2.md"

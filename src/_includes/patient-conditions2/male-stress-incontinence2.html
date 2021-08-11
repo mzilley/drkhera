@@ -1,0 +1,61 @@
+---
+layout: _default
+---
+
+<div class="subHero-container md:flex flex-col mx-auto justify-center items-center">
+    <div class="subHero-image w-full">
+        <!-- <img src="http://via.placeholder.com/1440x620" class="h-64 object-cover w-full"> -->
+        <img src="{{image}}" class="h-64 object-cover w-full">
+
+    </div>
+    <div class="subHero-content relative shadow b-rad z-1 py-5 bottom-20 bg-white text-center">
+        <div class="mw7 center ph3">
+            <div class="db">
+                <div class="mw7 relative bg-fix-primary mb3">
+                <h1 class="f3 f2-l b di lh-title mb2 mw6">
+                    {{title}}
+                </h1>
+                </div>
+                <div class="mw7 relative bg-fix-primary">
+                <p>
+                    <a href="https://www.bcm.edu/people-search/mohit-khera-24469" id="schedule" target="_blank" class="btn btn-primary shadow mt-1">Schedule an Appointment</a>
+                </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="subContent flex pb-16 container">
+        <div class="md:w-3/12">
+            <aside>
+                <h2>{{sidebar.heading}}</h2>
+                <p>{{sidebar.subtitle}}</p>
+                <div>
+                    {{sidebar.sidebarContent}}
+                </div>
+                <!-- <p><a href="/" class="underline hover:no-underline">About Me</a></p>
+                <p><a href="/" class="underline hover:no-underline">Patient Resources</a></p>
+                <p><a href="/" class="underline hover:no-underline">Publications & More</a></p>
+                <p><a href="/" class="btn btn-primary shadow b-rad">Schedule Appointment</a></p> -->
+            </aside>
+        </div>
+        <div class="md:w-9/12">
+            <p>
+                {{conditionInformation}}
+            </p>
+            
+            {{conditionResources}}
+            <div class="md:w-9/12">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=rNwI2V4POa0" class="underline hover:no-underline">The Balancing Act - Low Testosterone</a></li>
+                    <li><a href="https://www.excelmale.com/forum/threads/great-lectures-on-testosterone-at-the-american-urology-association-conference-may-18-2015.3853/" class="underline hover:no-underline">Great Lectures on Testosterone at the American Urology Association Conference May 18, 2015</a></li>
+                    <li><a href="https://www.click2houston.com/news/2016/05/28/baylor-college-of-medicine-takes-new-approach-to-testosterone-treatment/" class="underline hover:no-underline">Baylor College of Medicine takes new approach to testosterone treatment</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=zJUk1zJW0sg" class="underline hover:no-underline">Treatment Options for Low Testosterone in Men</a></li>
+                </ul>
+                <a href="/patient-resources" class="btn btn-primary shadow b-rad mt-3">All Patient Resources</a>
+            </div>
+        </div>
+        
+    </div>
+</div>
