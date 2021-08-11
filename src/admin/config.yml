@@ -80,182 +80,6 @@ collections:
     editor:
       preview: false
     files:
-      # Low Tesosterone
-      - label: "Low Tesosterone"
-        name: "low-testosterone"
-        file: "src/patient-conditions2/low-testosterone2.md"
-        fields:
-          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
-              { label: Title, name: title, widget: string },
-              { label: Description, name: description, widget: string }]}
-          - {label: "Image", name: image, widget: image}
-          - {label: "Title", name: title, widget: string}
-          - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
-              { label: Heading, name: heading, widget: string },
-              { label: Subtitle, name: subtitle, widget: string, required: false },
-              { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
-          - {label: "Condition Information", name: conditionInformation, widget: text}
-          - {label: "Patient Resource", name: conditionResources, widget: markdown, required: false}
-      # Male Stress Incontinence
-      - label: "Male Stress Incontinence"
-        name: "male-stress-incontinence"
-        file: "src/patient-conditions2/male-stress-incontinence2.md"
-        fields:
-          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
-              { label: Title, name: title, widget: string },
-              { label: Description, name: description, widget: string }]}
-          - {label: "Image", name: image, widget: image}
-          - {label: "Title", name: title, widget: string}
-          - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
-              { label: Heading, name: heading, widget: string },
-              { label: Subtitle, name: subtitle, widget: string, required: false },
-              { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
-          - {label: "Condition Information", name: conditionInformation, widget: text}
-          - {label: "Patient Resource", name: conditionResources, widget: markdown, required: false}
-      # Delayed Ejaculation
-      - label: "Delayed Ejaculation"
-        name: "delayed-ejaculation"
-        file: "src/patient-conditions2/delayed-ejaculation2.md"
-        fields:
-          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
-              { label: Title, name: title, widget: string },
-              { label: Description, name: description, widget: string }]}
-          - {label: "Image", name: image, widget: image}
-          - {label: "Title", name: title, widget: string}
-          - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
-              { label: Heading, name: heading, widget: string },
-              { label: Subtitle, name: subtitle, widget: string, required: false },
-              { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
-          - {label: "Condition Information", name: conditionInformation, widget: text}
-          - {label: "Patient Resource", name: conditionResources, widget: markdown, required: false}
-      # Erectile Dysfunction
-      - label: "Erectile Dysfunction"
-        name: "erectile-dysfunction"
-        file: "src/patient-conditions2/erectile-dysfunction2.md"
-        fields:
-          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
-              { label: Title, name: title, widget: string },
-              { label: Description, name: description, widget: string }]}
-          - {label: "Image", name: image, widget: image}
-          - {label: "Title", name: title, widget: string}
-          - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
-              { label: Heading, name: heading, widget: string },
-              { label: Subtitle, name: subtitle, widget: string, required: false },
-              { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
-          - {label: "Condition Information", name: conditionInformation, widget: text}
-          - {label: "Patient Resource", name: conditionResources, widget: markdown, required: false}
-      # BPH
-      - label: "BPH"
-        name: "bph"
-        file: "src/patient-conditions2/bph2.md"
-        fields:
-          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
-              { label: Title, name: title, widget: string },
-              { label: Description, name: description, widget: string }]}
-          - {label: "Image", name: image, widget: image}
-          - {label: "Title", name: title, widget: string}
-          - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
-              { label: Heading, name: heading, widget: string },
-              { label: Subtitle, name: subtitle, widget: string, required: false },
-              { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
-          - {label: "Condition Information", name: conditionInformation, widget: text}
-          - {label: "Patient Resource", name: conditionResources, widget: markdown, required: false}
-      # Testis Pain
-      - label: "Testis Pain"
-        name: "testis-pain"
-        file: "src/patient-conditions2/testis-pain2.md"
-        fields:
-          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
-              { label: Title, name: title, widget: string },
-              { label: Description, name: description, widget: string }]}
-          - {label: "Image", name: image, widget: image}
-          - {label: "Title", name: title, widget: string}
-          - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
-              { label: Heading, name: heading, widget: string },
-              { label: Subtitle, name: subtitle, widget: string, required: false },
-              { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
-          - {label: "Condition Information", name: conditionInformation, widget: text}
-          - {label: "Patient Resource", name: conditionResources, widget: markdown, required: false}
-      # Peyronie's Disease
-      - label: "Peyronie's Disease"
-        name: "peyronies-disease"
-        file: "src/patient-conditions2/peyronies-disease2.md"
-        fields:
-          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
-              { label: Title, name: title, widget: string },
-              { label: Description, name: description, widget: string }]}
-          - {label: "Image", name: image, widget: image}
-          - {label: "Title", name: title, widget: string}
-          - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
-              { label: Heading, name: heading, widget: string },
-              { label: Subtitle, name: subtitle, widget: string, required: false },
-              { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
-          - {label: "Condition Information", name: conditionInformation, widget: text}
-          - {label: "Patient Resource", name: conditionResources, widget: markdown, required: false}
-      # Premature Ejaculation
-      - label: "Premature Ejaculation"
-        name: "premature-ejaculation"
-        file: "src/patient-conditions2/premature-ejaculation2.md"
-        fields:
-          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
-              { label: Title, name: title, widget: string },
-              { label: Description, name: description, widget: string }]}
-          - {label: "Image", name: image, widget: image}
-          - {label: "Title", name: title, widget: string}
-          - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
-              { label: Heading, name: heading, widget: string },
-              { label: Subtitle, name: subtitle, widget: string, required: false },
-              { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
-          - {label: "Condition Information", name: conditionInformation, widget: text}
-          - {label: "Patient Resource", name: conditionResources, widget: markdown, required: false}
-      # Vasectomy
-      - label: "Vasectomy"
-        name: "vasectomy"
-        file: "src/patient-conditions2/vasectomy2.md"
-        fields:
-          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
-              { label: Title, name: title, widget: string },
-              { label: Description, name: description, widget: string }]}
-          - {label: "Image", name: image, widget: image}
-          - {label: "Title", name: title, widget: string}
-          - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
-              { label: Heading, name: heading, widget: string },
-              { label: Subtitle, name: subtitle, widget: string, required: false },
-              { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
-          - {label: "Condition Information", name: conditionInformation, widget: text}
-          - {label: "Patient Resource", name: conditionResources, widget: markdown, required: false}
-      # Male Infertility
-      - label: "Male Infertility"
-        name: "male-infertility"
-        file: "src/patient-conditions2/male-infertility2.md"
-        fields:
-          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
-              { label: Title, name: title, widget: string },
-              { label: Description, name: description, widget: string }]}
-          - {label: "Image", name: image, widget: image}
-          - {label: "Title", name: title, widget: string}
-          - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
-              { label: Heading, name: heading, widget: string },
-              { label: Subtitle, name: subtitle, widget: string, required: false },
-              { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
-          - {label: "Condition Information", name: conditionInformation, widget: text}
-          - {label: "Patient Resource", name: conditionResources, widget: markdown, required: false}
-      # Female Sexual Dysfunction
-      - label: "Female Sexual Dysfunction"
-        name: "female-sexual-dysfunction"
-        file: "src/patient-conditions2/female-sexual-dysfunction2.md"
-        fields:
-          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
-              { label: Title, name: title, widget: string },
-              { label: Description, name: description, widget: string }]}
-          - {label: "Image", name: image, widget: image}
-          - {label: "Title", name: title, widget: string}
-          - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
-              { label: Heading, name: heading, widget: string },
-              { label: Subtitle, name: subtitle, widget: string, required: false },
-              { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
-          - {label: "Condition Information", name: conditionInformation, widget: text}
-          - {label: "Patient Resource", name: conditionResources, widget: markdown, required: false}
       # Home
       - label: "Home"
         name: "home"
@@ -270,33 +94,33 @@ collections:
               { label: Subtitle, name: subtitle, widget: "string"},
               { label: Image, name: image, widget: "image"},
               { label: Image ALT, name: alt, widget: "string"}]}
-          - {label: "Patient Resources", name: resources, widget: object, collapsed: true, fields: [
-              { label: Patient Resource 1, name: resource1, widget: "object", fields: [
+          - {label: "Patient Resourcess", name: resources, widget: object, collapsed: true, fields: [
+              { label: Patient Resources 1, name: resource1, widget: "object", fields: [
                 { label: Title, name: title1, widget: "string"},
                 { label: Link, name: link1, widget: "string"},
                 { label: Description, name: desc1, widget: "markdown"}
               ]},
-              { label: Patient Resource 2, name: resource2, widget: "object", collapsed: true, fields: [
+              { label: Patient Resources 2, name: resource2, widget: "object", collapsed: true, fields: [
                 { label: Title, name: title2, widget: "string"},
                 { label: Link, name: link2, widget: "string"},
                 { label: Description, name: desc2, widget: "markdown"}
               ]},
-              { label: Patient Resource 3, name: resource3, widget: "object", collapsed: true, fields: [
+              { label: Patient Resources 3, name: resource3, widget: "object", collapsed: true, fields: [
                 { label: Title, name: title3, widget: "string"},
                 { label: Link, name: link3, widget: "string"},
                 { label: Description, name: desc3, widget: "markdown"}
               ]},
-              { label: Patient Resource 4, name: resource4, widget: "object", fields: [
+              { label: Patient Resources 4, name: resource4, widget: "object", fields: [
                 { label: Title, name: title4, widget: "string"},
                 { label: Link, name: link4, widget: "string"},
                 { label: Description, name: desc4, widget: "markdown"}
               ]},
-              { label: Patient Resource 5, name: resource5, widget: "object", collapsed: true, fields: [
+              { label: Patient Resources 5, name: resource5, widget: "object", collapsed: true, fields: [
                 { label: Title, name: title5, widget: "string"},
                 { label: Link, name: link5, widget: "string"},
                 { label: Description, name: desc5, widget: "markdown"}
               ]},
-              { label: Patient Resource 6, name: resource6, widget: "object", collapsed: true, fields: [
+              { label: Patient Resources 6, name: resource6, widget: "object", collapsed: true, fields: [
                 { label: Title, name: title6, widget: "string"},
                 { label: Link, name: link6, widget: "string"},
                 { label: Description, name: desc6, widget: "markdown"}
@@ -358,6 +182,182 @@ collections:
               { name: image2, widget: "image" },
               { name: image3, widget: "image" },
               { name: image4, widget: "image" }]}
+      # Low Tesosterone
+      - label: "Low Tesosterone"
+        name: "low-testosterone"
+        file: "src/patient-conditions2/low-testosterone2.md"
+        fields:
+          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
+              { label: Title, name: title, widget: string },
+              { label: Description, name: description, widget: string }]}
+          - {label: "Image", name: image, widget: image}
+          - {label: "Title", name: title, widget: string}
+          - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
+              { label: Heading, name: heading, widget: string },
+              { label: Subtitle, name: subtitle, widget: string, required: false },
+              { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
+          - {label: "Condition Information", name: conditionInformation, widget: text}
+          - {label: "Patient Resources", name: conditionResources, widget: markdown, required: false}
+      # Male Stress Incontinence
+      - label: "Male Stress Incontinence"
+        name: "male-stress-incontinence"
+        file: "src/patient-conditions2/male-stress-incontinence2.md"
+        fields:
+          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
+              { label: Title, name: title, widget: string },
+              { label: Description, name: description, widget: string }]}
+          - {label: "Image", name: image, widget: image}
+          - {label: "Title", name: title, widget: string}
+          - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
+              { label: Heading, name: heading, widget: string },
+              { label: Subtitle, name: subtitle, widget: string, required: false },
+              { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
+          - {label: "Condition Information", name: conditionInformation, widget: text}
+          - {label: "Patient Resources", name: conditionResources, widget: markdown, required: false}
+      # Delayed Ejaculation
+      - label: "Delayed Ejaculation"
+        name: "delayed-ejaculation"
+        file: "src/patient-conditions2/delayed-ejaculation2.md"
+        fields:
+          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
+              { label: Title, name: title, widget: string },
+              { label: Description, name: description, widget: string }]}
+          - {label: "Image", name: image, widget: image}
+          - {label: "Title", name: title, widget: string}
+          - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
+              { label: Heading, name: heading, widget: string },
+              { label: Subtitle, name: subtitle, widget: string, required: false },
+              { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
+          - {label: "Condition Information", name: conditionInformation, widget: text}
+          - {label: "Patient Resources", name: conditionResources, widget: markdown, required: false}
+      # Erectile Dysfunction
+      - label: "Erectile Dysfunction"
+        name: "erectile-dysfunction"
+        file: "src/patient-conditions2/erectile-dysfunction2.md"
+        fields:
+          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
+              { label: Title, name: title, widget: string },
+              { label: Description, name: description, widget: string }]}
+          - {label: "Image", name: image, widget: image}
+          - {label: "Title", name: title, widget: string}
+          - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
+              { label: Heading, name: heading, widget: string },
+              { label: Subtitle, name: subtitle, widget: string, required: false },
+              { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
+          - {label: "Condition Information", name: conditionInformation, widget: text}
+          - {label: "Patient Resources", name: conditionResources, widget: markdown, required: false}
+      # BPH
+      - label: "BPH"
+        name: "bph"
+        file: "src/patient-conditions2/bph2.md"
+        fields:
+          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
+              { label: Title, name: title, widget: string },
+              { label: Description, name: description, widget: string }]}
+          - {label: "Image", name: image, widget: image}
+          - {label: "Title", name: title, widget: string}
+          - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
+              { label: Heading, name: heading, widget: string },
+              { label: Subtitle, name: subtitle, widget: string, required: false },
+              { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
+          - {label: "Condition Information", name: conditionInformation, widget: text}
+          - {label: "Patient Resources", name: conditionResources, widget: markdown, required: false}
+      # Testis Pain
+      - label: "Testis Pain"
+        name: "testis-pain"
+        file: "src/patient-conditions2/testis-pain2.md"
+        fields:
+          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
+              { label: Title, name: title, widget: string },
+              { label: Description, name: description, widget: string }]}
+          - {label: "Image", name: image, widget: image}
+          - {label: "Title", name: title, widget: string}
+          - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
+              { label: Heading, name: heading, widget: string },
+              { label: Subtitle, name: subtitle, widget: string, required: false },
+              { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
+          - {label: "Condition Information", name: conditionInformation, widget: text}
+          - {label: "Patient Resources", name: conditionResources, widget: markdown, required: false}
+      # Peyronie's Disease
+      - label: "Peyronie's Disease"
+        name: "peyronies-disease"
+        file: "src/patient-conditions2/peyronies-disease2.md"
+        fields:
+          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
+              { label: Title, name: title, widget: string },
+              { label: Description, name: description, widget: string }]}
+          - {label: "Image", name: image, widget: image}
+          - {label: "Title", name: title, widget: string}
+          - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
+              { label: Heading, name: heading, widget: string },
+              { label: Subtitle, name: subtitle, widget: string, required: false },
+              { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
+          - {label: "Condition Information", name: conditionInformation, widget: text}
+          - {label: "Patient Resources", name: conditionResources, widget: markdown, required: false}
+      # Premature Ejaculation
+      - label: "Premature Ejaculation"
+        name: "premature-ejaculation"
+        file: "src/patient-conditions2/premature-ejaculation2.md"
+        fields:
+          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
+              { label: Title, name: title, widget: string },
+              { label: Description, name: description, widget: string }]}
+          - {label: "Image", name: image, widget: image}
+          - {label: "Title", name: title, widget: string}
+          - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
+              { label: Heading, name: heading, widget: string },
+              { label: Subtitle, name: subtitle, widget: string, required: false },
+              { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
+          - {label: "Condition Information", name: conditionInformation, widget: text}
+          - {label: "Patient Resources", name: conditionResources, widget: markdown, required: false}
+      # Vasectomy
+      - label: "Vasectomy"
+        name: "vasectomy"
+        file: "src/patient-conditions2/vasectomy2.md"
+        fields:
+          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
+              { label: Title, name: title, widget: string },
+              { label: Description, name: description, widget: string }]}
+          - {label: "Image", name: image, widget: image}
+          - {label: "Title", name: title, widget: string}
+          - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
+              { label: Heading, name: heading, widget: string },
+              { label: Subtitle, name: subtitle, widget: string, required: false },
+              { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
+          - {label: "Condition Information", name: conditionInformation, widget: text}
+          - {label: "Patient Resources", name: conditionResources, widget: markdown, required: false}
+      # Male Infertility
+      - label: "Male Infertility"
+        name: "male-infertility"
+        file: "src/patient-conditions2/male-infertility2.md"
+        fields:
+          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
+              { label: Title, name: title, widget: string },
+              { label: Description, name: description, widget: string }]}
+          - {label: "Image", name: image, widget: image}
+          - {label: "Title", name: title, widget: string}
+          - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
+              { label: Heading, name: heading, widget: string },
+              { label: Subtitle, name: subtitle, widget: string, required: false },
+              { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
+          - {label: "Condition Information", name: conditionInformation, widget: text}
+          - {label: "Patient Resources", name: conditionResources, widget: markdown, required: false}
+      # Female Sexual Dysfunction
+      - label: "Female Sexual Dysfunction"
+        name: "female-sexual-dysfunction"
+        file: "src/patient-conditions2/female-sexual-dysfunction2.md"
+        fields:
+          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
+              { label: Title, name: title, widget: string },
+              { label: Description, name: description, widget: string }]}
+          - {label: "Image", name: image, widget: image}
+          - {label: "Title", name: title, widget: string}
+          - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
+              { label: Heading, name: heading, widget: string },
+              { label: Subtitle, name: subtitle, widget: string, required: false },
+              { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
+          - {label: "Condition Information", name: conditionInformation, widget: text}
+          - {label: "Patient Resources", name: conditionResources, widget: markdown, required: false}
       - label: "Contact"
         name: "contact"
         file: "src/contact.md"
