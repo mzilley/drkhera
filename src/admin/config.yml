@@ -82,7 +82,7 @@ collections:
     files:
       - label: "Low Tesosterone"
         name: "low-testosterone"
-        file: "src/low-testosterone2.md"
+        file: "src/patient-conditions2/low-testosterone2.md"
         fields:
           - {label: "Title", name: title, widget: string, required: false}
           - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
