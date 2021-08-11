@@ -84,11 +84,13 @@ collections:
         name: "low-testosterone"
         file: "src/patient-conditions2/low-testosterone2.md"
         fields:
-          - {label: "Title", name: title, widget: string, required: false}
+          - {label: "Title", name: title, widget: string}
           - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
               { label: Heading, name: heading, widget: string },
-              { label: Subtitle, name: subtitle, widget: string },
-              { label: Sidebar Content, summary: "sidebarContent", name: keywords, widget: string, required: false}]}
+              { label: Subtitle, name: subtitle, widget: string, required: false },
+              { label: Sidebar Content, summary: "sidebarContent", name: keywords, widget: markdown, required: false}]}
+          - {label: "Condition Information", name: conditionInformation, widget: markdown}
+          - {label: "Patient Resource", name: conditionResources, widget: markdown, required: false}
       # Home
       - label: "Home"
         name: "home"
