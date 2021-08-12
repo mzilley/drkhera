@@ -6324,3 +6324,7 @@ li {
     @apply my-5;
 }
 
+.google-maps-container iframe {
+    max-width: 100%;
+}
+
