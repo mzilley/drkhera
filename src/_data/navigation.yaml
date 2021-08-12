@@ -29,6 +29,3 @@ items:
         url: /patient-conditions/vasectomy
   - text: Patient Resources
     url: /
-  - text: More
-    url: /
-    childs: []
