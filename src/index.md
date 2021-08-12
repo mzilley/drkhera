@@ -33,7 +33,7 @@ metadata:
 topsection:
   title: Netlify CMS Starter
   subtitle: Baylor College of Medicine
-  image: /static/img/egg.jpg
+  image: /static/img/hero.jpg
   alt: Egg!
   heading: Dr. Mohit Khera
 about:
