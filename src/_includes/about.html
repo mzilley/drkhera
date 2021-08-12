@@ -2,21 +2,45 @@
 layout: _default
 ---
 <div class="pv5 pv6-l ph3 bg-center cover" style="background-image: url('{{ cover }}')">
-    <div class="mw7 center ph3">
-      <div class="db mb3">
-        <div class="mw7 relative bg-fix-primary mb3">
-          <h1 class="f2 f1-l b di lh-title mb3 white mw6 bg-primary">
-            {{ title }}
-          </h1>
+    <section id="about" class="bg-primary my-12">
+        <div class="container mx-auto flex px-5 lg:py-0 lg:flex-row flex-col items-center">
+            <div class="lg:w-5/12 mb-10 md:mb-0 about-img-container">
+                <img class="object-cover object-center rounded relative sm:bottom-16 lg:bottom-0 xl:bottom-20 b-rad" alt="Dr. Mohit Khera" src="{{ about.image }}">
+            </div>
+            <div class="lg:w-7/12 lg:pl-16 pt-0 pb-16 lg:py-16 flex flex-col md:items-start md:text-left text-white items-center text-center">
+                <h4 class="title-font sm:text-4xl text-3xl font-medium">{{ about.heading }}</h4>
+                <p class="title-font text-2xl font-bold">{{ about.subtitle }}</p>
+                <p>{{ about.about }}</p>
+                <p>Dr. Khera earned his undergraduate degree at Vanderbilt University. He subsequently earned
+                    his Masters Degree in Business Administration and his Masters Degree in Public Health from
+                    Boston University. He received his Medical Degree from The University of Texas Medical
+                    School at San Antonio and completed his Urology residency training in the Scott Department
+                    of Urology at Baylor College of Medicine. At Baylor, he completed a one-year general
+                    surgery internship and then went on to complete a five-year residency program in Urology.
+                    After completing his Urology residency, he went on to complete a one-year fellowship in
+                    Male Reproductive Medicine and Surgery at Baylor. Currently he is a Professor in the Scott
+                    Department of Urology at Baylor College of Medicine and he holds the F. Brantley Scott
+                    Chair in Urology. Dr. Khera specializes in male and female sexual dysfunction, Men’s Health
+                    
+                    and hormone replacement therapy. Dr. Khera also serves as the Director of the Laboratory for
+                    Andrology Research, the Medical Director of the Baylor Executive Health Program and the
+                    Medical Director of the Scott Department of Urology. He also serves as President-Elect of
+                    the Sexual Medicine Society of North America.
+                </p>
+            </div>
         </div>
-        <div class="mw7 relative bg-fix-primary">
-
-          <p class="b f4 di lh-title mb3 white mw6 bg-primary">
-            {{ subtitle }}
-          </p>
-
+    </section>
+    <div class="flex">
+        <div class="w-1/2">
+            <div class="contact-container">
+                <!-- Netlify Form Goes Here -->
+            </div>
         </div>
-      </div>
+        <div class="w-1/2">
+            <div class="google-maps-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3465.319534182203!2d-95.39839338489912!3d29.71050208200511!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c0710bca20cf%3A0xe83b87617dc44d1c!2sBaylor%20College%20Of%20Medicine!5e0!3m2!1sen!2sus!4v1628735883883!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
     </div>
 </div>
   

@@ -386,4 +386,8 @@ collections:
               { label: Title, name: title, widget: string },
               { label: Description, name: description, widget: string },
               { label: Keywords - comma separated, summary: "Comma separated", name: keywords, widget: string, required: false}]}
-          - { image: Cover, name: cover, widget: "image"}
+          - {label: "About", name: about, widget: object, collapsed: true, fields: [
+              { label: Image, name: image, widget: "image" },
+              { label: Heading, name: heading, widget: "string"},
+              { label: Subtitle, name: subheading, widget: "string", required: false},
+              { label: About, name: about, widget: "markdown"}]}
