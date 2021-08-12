@@ -3,7 +3,7 @@ layout: about
 title: About
 subtitle: ""
 description: values meta desc
-cover: https://tender-poitras-0df16e.netlify.app/img/about-jumbotron.jpg
+cover: /static/img/khera-pic-2021.jpg
 values:
   - heading: Shade-grown coffee
     text: >
@@ -40,4 +40,9 @@ values:
       schools everywhere our coffee is grown. You can see the communities grow
       and learn more about coffee farming on our blog.
     imageUrl: /img/about-reinvest-profits.jpg
+metadata:
+  title: "Dr. Mohit Khera "
+  description: Dr. Khera earned his undergraduate degree at Vanderbilt University.
+    He subsequently earned his Masters Degree in Business Administration and his
+    Masters Degree in Public Health from Boston University.
 ---
