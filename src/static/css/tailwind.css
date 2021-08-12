@@ -6299,7 +6299,7 @@ li {
 
 @media (min-width: 768px) {
     #about .about-img-container, #about .about-img-container img  {
-        width: 350px;
+        max-width: 450px;
         height: 600px;
     }
 }
