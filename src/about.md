@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: Dr. Mohit Khera, M.D., M.B.A., M.P.H.
 subtitle: ""
 description: values meta desc
 cover: /static/img/khera-pic-2021.jpg
