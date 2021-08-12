@@ -6297,6 +6297,13 @@ li {
     }
 }
 
+@media (min-width: 768px) {
+    #about .about-img-container, #about .about-img-container img  {
+        width: 350px;
+        height: 600px;
+    }
+}
+
 .line-item {
     min-height: 100px;
 }
@@ -6317,7 +6324,3 @@ li {
     @apply my-5;
 }
 
-#about .about-img-container, #about .about-img-container img  {
-    width: 350px;
-    height: 600px;
-} 
