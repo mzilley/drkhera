@@ -249,7 +249,7 @@ collections:
       # BPH
       - label: "BPH"
         name: "bph"
-        file: "src/patient-conditions2/bph2.md"
+        file: "src/patient-conditions/bph.md"
         fields:
           - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
               { label: Title, name: title, widget: string },

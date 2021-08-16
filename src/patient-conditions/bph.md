@@ -1,5 +1,5 @@
 ---
 title: BPH
-layout: patient-conditions2/bph2
+layout: patient-conditions/bph
 image: http://via.placeholder.com/1440x620
 ---
