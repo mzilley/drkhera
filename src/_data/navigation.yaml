@@ -27,5 +27,7 @@ items:
         url: /patient-conditions/testis-pain
       - text: Vasectomy
         url: /patient-conditions/vasectomy
+  - text: Patient Information
+    url: /
   - text: Patient Resources
     url: /
