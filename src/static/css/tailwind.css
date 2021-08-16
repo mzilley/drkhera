@@ -6202,6 +6202,10 @@ li {
     font-family: 'Abhaya Libre', serif;
 }
 
+.text-xs {
+    font-size: 14px;
+}
+
 @media (max-width: 768px) {
     .hero-content {
         bottom: 0;
