@@ -1,5 +1,5 @@
 ---
 title: Male Stress Incontinence
-layout: patient-conditions2/male-stress-incontinence2
+layout: patient-conditions/male-stress-incontinence
 image: http://via.placeholder.com/1440x620
 ---

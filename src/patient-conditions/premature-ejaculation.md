@@ -1,6 +1,6 @@
 ---
 title: Premature Ejaculation
-layout: patient-conditions2/premature-ejaculation2
+layout: patient-conditions/premature-ejaculation
 metadata:
   title: Premature Ejaculation
   description: Roughly 30% of men suffer from premature ejaculation yet very few

@@ -1,6 +1,6 @@
 ---
 title: Delayed Ejaculation
-layout: patient-conditions2/delayed-ejaculation2
+layout: patient-conditions/delayed-ejaculation
 metadata:
   title: Delayed Ejaculation
   description: This is a page

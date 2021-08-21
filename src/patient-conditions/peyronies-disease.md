@@ -1,6 +1,6 @@
 ---
 title: Peyronie's Disease
-layout: patient-conditions2/peyronies-disease2
+layout: patient-conditions/peyronies-disease
 metadata:
   title: Peyronie's Disease
   description: It is estimated that up to 5-9% of men suffer from Peyronie’s

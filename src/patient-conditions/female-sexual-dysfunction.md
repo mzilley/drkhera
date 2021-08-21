@@ -1,5 +1,5 @@
 ---
 title: Female Sexual Dysfunction
-layout: patient-conditions2/female-sexual-dysfunction2
+layout: patient-conditions/female-sexual-dysfunction
 image: http://via.placeholder.com/1440x620
 ---

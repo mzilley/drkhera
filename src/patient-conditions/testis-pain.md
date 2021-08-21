@@ -1,5 +1,5 @@
 ---
 title: Testis Pain
-layout: patient-conditions2/testis-pain2
+layout: patient-conditions/testis-pain
 image: http://via.placeholder.com/1440x620
 ---

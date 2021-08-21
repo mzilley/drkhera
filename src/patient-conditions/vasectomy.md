@@ -1,5 +1,5 @@
 ---
 title: Vasectomy
-layout: patient-conditions2/vasectomy2
+layout: patient-conditions/vasectomy
 image: http://via.placeholder.com/1440x620
 ---

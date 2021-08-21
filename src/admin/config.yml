@@ -179,7 +179,7 @@ collections:
       # Low Tesosterone
       - label: "Low Tesosterone"
         name: "low-testosterone"
-        file: "src/patient-conditions2/low-testosterone2.md"
+        file: "src/patient-conditions/low-testosterone.md"
         fields:
           - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
               { label: Title, name: title, widget: string },
@@ -195,7 +195,7 @@ collections:
       # Male Stress Incontinence
       - label: "Male Stress Incontinence"
         name: "male-stress-incontinence"
-        file: "src/patient-conditions2/male-stress-incontinence2.md"
+        file: "src/patient-conditions/male-stress-incontinence.md"
         fields:
           - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
               { label: Title, name: title, widget: string },
@@ -211,7 +211,7 @@ collections:
       # Delayed Ejaculation
       - label: "Delayed Ejaculation"
         name: "delayed-ejaculation"
-        file: "src/patient-conditions2/delayed-ejaculation2.md"
+        file: "src/patient-conditions/delayed-ejaculation.md"
         fields:
           - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
               { label: Title, name: title, widget: string },
@@ -227,7 +227,7 @@ collections:
       # Erectile Dysfunction
       - label: "Erectile Dysfunction"
         name: "erectile-dysfunction"
-        file: "src/patient-conditions2/erectile-dysfunction2.md"
+        file: "src/patient-conditions/erectile-dysfunction.md"
         fields:
           - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
               { label: Title, name: title, widget: string },
@@ -259,7 +259,7 @@ collections:
       # Testis Pain
       - label: "Testis Pain"
         name: "testis-pain"
-        file: "src/patient-conditions2/testis-pain2.md"
+        file: "src/patient-conditions/testis-pain.md"
         fields:
           - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
               { label: Title, name: title, widget: string },
@@ -275,7 +275,7 @@ collections:
       # Peyronie's Disease
       - label: "Peyronie's Disease"
         name: "peyronies-disease"
-        file: "src/patient-conditions2/peyronies-disease2.md"
+        file: "src/patient-conditions/peyronies-disease.md"
         fields:
           - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
               { label: Title, name: title, widget: string },
@@ -291,7 +291,7 @@ collections:
       # Premature Ejaculation
       - label: "Premature Ejaculation"
         name: "premature-ejaculation"
-        file: "src/patient-conditions2/premature-ejaculation2.md"
+        file: "src/patient-conditions/premature-ejaculation.md"
         fields:
           - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
               { label: Title, name: title, widget: string },
@@ -307,7 +307,7 @@ collections:
       # Vasectomy
       - label: "Vasectomy"
         name: "vasectomy"
-        file: "src/patient-conditions2/vasectomy2.md"
+        file: "src/patient-conditions/vasectomy.md"
         fields:
           - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
               { label: Title, name: title, widget: string },
@@ -323,7 +323,7 @@ collections:
       # Male Infertility
       - label: "Male Infertility"
         name: "male-infertility"
-        file: "src/patient-conditions2/male-infertility2.md"
+        file: "src/patient-conditions/male-infertility.md"
         fields:
           - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
               { label: Title, name: title, widget: string },
@@ -339,7 +339,7 @@ collections:
       # Female Sexual Dysfunction
       - label: "Female Sexual Dysfunction"
         name: "female-sexual-dysfunction"
-        file: "src/patient-conditions2/female-sexual-dysfunction2.md"
+        file: "src/patient-conditions/female-sexual-dysfunction.md"
         fields:
           - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
               { label: Title, name: title, widget: string },
