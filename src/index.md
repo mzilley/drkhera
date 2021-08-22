@@ -5,6 +5,7 @@ resources:
     title1: Treatment Options for Low Testosterone in Men
     link1: https://www.youtube.com/watch?v=zJUk1zJW0sg
     desc1: Some text to give the user more information about the resource
+    category1: Low Testosterone
   resource2:
     desc2: Some text to give the user more information about the resource
     title2: "What you need to know about Penile Prosthesis: The Penile Implant"
@@ -13,18 +14,22 @@ resources:
     desc4: Some text to give the user more information about the resource
     link4: https://www.youtube.com/watch?v=5u3x_rQ1ZNc
     title4: Live a Normal Life with Peyronie's Disease
+    category4: Peyronie's Disease
   resource3:
     desc3: Some text to give the user more information about the resource
     link3: https://www.youtube.com/watch?v=Lo58su42EZ8
     title3: With Erectile Dysfunction, There are Many Options for Treatment
+    category3: Erectile Dysfunction
   resource5:
     desc5: Some text to give the user more information about the resource
     link5: https://www.youtube.com/watch?v=RegSMM4PG30
     title5: Living with an Enlarged Prostate, or Benign Prostatic Hyperplasia (BPH)
+    category5: BPH
   resource6:
     desc6: Some text to give the user more information about the resource
     link6: https://www.youtube.com/watch?v=uyDaW5tGVMg
     title6: Dr. Mohit Khera - Premature Ejaculation Causes and Treatments 2015
+    category6: Premature Ejaculation
 layout: home
 keywords: test, keyword, yay
 metadata:
