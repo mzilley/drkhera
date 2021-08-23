@@ -6203,7 +6203,7 @@ li {
 }
 
 .text-xs {
-    font-size: 14px;
+    font-size: 14px ;
 }
 
 @media (max-width: 768px) {
@@ -6264,6 +6264,7 @@ li {
 #patient-resources a { 
     cursor: pointer;
     text-align: left;
+    display: block;
 }
 
 #publications {
