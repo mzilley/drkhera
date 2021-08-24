@@ -190,9 +190,9 @@ collections:
             collapsed: true
             add_to_top: true
             fields:
-              - { label: Title, name: bph-title, widget: "text" }
-              - { label: Link, name: bph-link, widget: "text" }
-              - { label: Description, name: bph-desc, widget: "markdown", required: false }
+              - { label: Title, name: bphTitle, widget: "string" }
+              - { label: Link, name: bphLink, widget: "string" }
+              - { label: Description, name: bphDesc, widget: "markdown", required: false }
       # Low Tesosterone
       - label: "Low Tesosterone"
         name: "low-testosterone"
