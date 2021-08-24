@@ -182,10 +182,12 @@ collections:
         file: "src/patient-resources.md"
         fields: 
           - label: BPH Patient Resources
-            name: bph-patient-resources
+            name: bph
+            summary: BPH Patient Resource
             widget: list
             allow_add: true
             collapsed: true
+            add_to_top: true
             fields:
               - { label: Category, name: bph-category, widget: "string", required: false }
               - { label: Title, name: bph-title, widget: "string" }
