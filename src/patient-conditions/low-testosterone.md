@@ -1,6 +1,10 @@
 ---
 title: Low Testosterone
 layout: patient-conditions/low-testosterone
+metadata:
+  title: Low Testosterone
+  description: Low testosterone, also known as hypogonadism, affects approximately
+    40% of men between the ages of 40 and 70 years of age.
 image: http://via.placeholder.com/1440x620
 sidebar:
   heading: Sidebar heading
@@ -19,5 +23,7 @@ conditionInformation: >-
 
 
   If a man has symptoms of low testosterone and has a testosterone value less than 300ng/dl, he should consider starting testosterone replacement therapy. The most common way to replace testosterone is with the daily application of testosterone gel, which is applied to the shoulders, upper arms, and abdomen. Other types of testosterone replacement include testosterone injections, oral pills, patches or testosterone pellets placed under the skin. It is important that a man on testosterone replacement therapy has his blood levels monitored regularly and undergoes some annual evaluation by his primary care physician or urologist.
-conditionResources: ""
+conditionResources: |-
+  * Patient Resource
+  * Patient Resource
 ---
