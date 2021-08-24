@@ -181,9 +181,9 @@ collections:
         name: "patient-resources"
         file: "src/patient-resources.md"
         fields: 
-          - label: BPH Patient Resources
+          - label: "BPH Patient Resources"
             name: bph
-            summary: 'BPH Patient Resource'
+            summary: "BPH Patient Resource"
             widget: list
             allow_add: true
             collapsed: true
