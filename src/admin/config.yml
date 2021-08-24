@@ -183,7 +183,7 @@ collections:
         fields: 
           - label: BPH Patient Resources
             name: bph
-            summary: BPH Patient Resource
+            summary: 'BPH Patient Resource'
             widget: list
             allow_add: true
             collapsed: true
