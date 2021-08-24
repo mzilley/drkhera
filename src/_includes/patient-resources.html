@@ -1,0 +1,39 @@
+---
+layout: _default
+---
+<div class="mt-32 md:mt-0 px-4 pb-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:p-8">
+    <div class="h-100">
+        <div>
+            <h1>What are you looking for?</h1>
+        </div>
+        <div class="selector flex flex-wrap">
+            <a href="">BPH</a>
+            <a href="">Erectile Dysfunction</a>
+            <a href="">Delayed Ejaculation</a>
+            <a href="">Female Sexual Dysfunction</a>
+            <a href="">Low Testosterone</a>
+            <a href="">Male Infertility</a>
+            <a href="">Male Stress Incontinence</a>
+            <a href="">Peyronie's Disease</a>
+            <a href="">Premature Ejaculation</a>
+            <a href="">Testis Pain</a>
+            <a href="">Vasectomy</a>
+        </div>
+    </div>
+    <section id="bph" class="patient-resources pt-10" class="bg-highlight primary">
+        <div class="container mx-auto">
+            {% if patient-resources.items %}
+                 <p class="h2">BPH</p>
+
+                <ul class="pt-6 lg:pt-0 list-reset lg:flex justify-end flex-1 z-10 items-center">
+                    {% for item in patient-resources.bph-patient-resources.items %}
+                        <!-- Category, Title, Link, and Desc -->
+                        <h2><a href="#">Article Title</a></h2>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    {% endfor %}
+                </ul>
+
+            {% endif %}
+        </div>
+    </section>
+</div>

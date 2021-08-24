@@ -176,6 +176,21 @@ collections:
               { name: image2, widget: "image" },
               { name: image3, widget: "image" },
               { name: image4, widget: "image" }]}
+      #Patient Resources
+      - label: "Patient Resources",
+        name: "patient-resources",
+        file: "src/patient-resources.md",
+        fields: 
+          - label: BPH Patient Resources
+            name: bph-patient-resources
+            widget: list
+            allow_add: true
+            collapsed: true
+            fields:
+              - { label: Category, name: bph-category, widget: "string", required: false},
+              - { label: Title, name: bph-title, widget: "string"},
+              - { label: Link, name: bph-link, widget: "string"},
+              - { label: Description, name: bph-desc, widget: "markdown", required: false}
       # Low Tesosterone
       - label: "Low Tesosterone"
         name: "low-testosterone"
