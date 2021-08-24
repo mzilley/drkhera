@@ -184,7 +184,7 @@ collections:
           - label: "BPH Patient Resources"
             label_singular: "resource"
             name: bph
-            summary: "BPH Patient Resource"
+            summary: "{{bph-title}}"
             widget: list
             allow_add: true
             collapsed: true
