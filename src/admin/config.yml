@@ -177,9 +177,9 @@ collections:
               { name: image3, widget: "image" },
               { name: image4, widget: "image" }]}
       #Patient Resources
-      - label: "Patient Resources",
-        name: "patient-resources",
-        file: "src/patient-resources.md",
+      - label: "Patient Resources"
+        name: "patient-resources"
+        file: "src/patient-resources.md"
         fields: 
           - label: BPH Patient Resources
             name: bph-patient-resources
