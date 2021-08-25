@@ -2,11 +2,12 @@ const yaml = require("js-yaml");
 const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlmin = require("html-minifier");
-var md = require('markdown-it')({
+
+require('markdown-it')({
     html: true,
     linkify: true,
     typographer: true
-  });
+});
 
 module.exports = function (eleventyConfig) {
   
