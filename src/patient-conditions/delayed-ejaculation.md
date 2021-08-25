@@ -20,3 +20,4 @@ conditionInformation: >-
 
   If a man has symptoms of low testosterone and has a testosterone value less than 300ng/dl, he should consider starting testosterone replacement therapy. The most common way to replace testosterone is with the daily application of testosterone gel, which is applied to the shoulders, upper arms, and abdomen. Other types of testosterone replacement include testosterone injections, oral pills, patches or testosterone pellets placed under the skin. It is important that a man on testosterone replacement therapy has his blood levels monitored regularly and undergoes some annual evaluation by his primary care physician or urologist.
 ---
+# This is a Heading h1
