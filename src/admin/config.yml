@@ -208,7 +208,7 @@ collections:
               { label: Subtitle, name: subtitle, widget: string, required: false },
               { label: Sidebar Content, name: "sidebarContent", widget: markdown, required: false}]}
           - {label: "Condition Information", name: conditionInformation, widget: text}
-          - {label: "Patient Resources", name: conditionResources, widget: markdown, required: false}
+          - {label: "Patient Resources", name: conditionResources, widget: "markdown", required: false}
       # Male Stress Incontinence
       - label: "Male Stress Incontinence"
         name: "male-stress-incontinence"
