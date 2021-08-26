@@ -224,7 +224,7 @@ collections:
               { label: Subtitle, name: subtitle, widget: string, required: false },
               { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
           - {label: "Condition Information", name: conditionInformation, widget: text}
-          - {label: "Patient Resources", name: conditionResources, widget: markdown, required: false}
+          - {label: "Patient Resources", name: conditionResources, widget: "markdown", required: false}
       # Delayed Ejaculation
       - label: "Delayed Ejaculation"
         name: "delayed-ejaculation"
