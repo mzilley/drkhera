@@ -6227,7 +6227,7 @@ li {
 }
 
 .insta svg {
-    fill: var(--highlight);
+    fill: transparent;
 }
 
 .fixed {
@@ -6295,6 +6295,10 @@ li {
     }
     nav {
         min-width: 100%;
+    }
+    .about-img-container {
+        position: relative;
+        bottom: 50px;
     }
     footer {
         margin-bottom: 75px;
