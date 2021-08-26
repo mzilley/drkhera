@@ -13,10 +13,5 @@ about:
   image: /static/img/khera-pic-2021.jpg
   heading: Dr. Mohit Khera, M.D., M.B.A., M.P.H.
   subheading: Baylor College of Medicine
-  about: |-
-    **Testing**
-
-    * List Item 1
-    * List Item 2
 ---
 **Testing**
