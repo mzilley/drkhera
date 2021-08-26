@@ -402,3 +402,4 @@ collections:
               { label: Heading, name: heading, widget: "string"},
               { label: Subtitle, name: subheading, widget: "string", required: false}]}
           - {label: About, name: body, widget: markdown, required: false}
+          - {label: About More, name: body2, widget: markdown, required: false}
