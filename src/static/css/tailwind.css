@@ -6206,15 +6206,6 @@ li {
     font-size: 14px ;
 }
 
-@media (max-width: 768px) {
-    .hero-content {
-        bottom: 0;
-    }
-    .hero-image img {
-        height: 84.5vh;
-    }
-}
-
 .hero-image img {
     border-radius: 0;
 }
@@ -6267,6 +6258,11 @@ li {
     display: block;
 }
 
+#patient-resources .more-resources a {
+    text-align: center;
+    display: inline;
+}
+
 #publications {
     border-top-left-radius: 35px; 
     border-top-right-radius: 35px;
@@ -6299,6 +6295,16 @@ li {
     }
     nav {
         min-width: 100%;
+    }
+    footer {
+        margin-bottom: 75px;
+    }
+    .hero-content {
+        bottom: 0;
+        background-color: white;
+    }
+    .hero-image img {
+        height: 84.5vh;
     }
 }
 
