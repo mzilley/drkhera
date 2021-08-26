@@ -6194,13 +6194,13 @@ li {
 
 .btn-primary {
     background: var(--highlight);
-    color: var(--primary)!important;
+    color: var(--primary);
     border: 2px solid var(--highlight);
 }
 
 .btn-secondary {
     background: var(--primary);
-    color: var(--white);
+    color: var(--white)!important;
     border: 2px solid var(--primary);
 }
 
