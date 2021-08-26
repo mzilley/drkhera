@@ -6198,6 +6198,12 @@ li {
     border: 2px solid var(--highlight);
 }
 
+.btn-secondary {
+    background: var(--primary);
+    color: var(--white);
+    border: 2px solid var(--primary);
+}
+
 .title-font {
     font-family: 'Abhaya Libre', serif;
 }
