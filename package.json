@@ -26,6 +26,7 @@
   "dependencies": {
     "autoprefixer": "^10.1.0",
     "markdown-it": "^12.2.0",
+    "netlify-cms-widget-markdown": "^2.14.2",
     "postcss": "^8.2.1"
   }
 }
