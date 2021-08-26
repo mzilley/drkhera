@@ -6194,7 +6194,7 @@ li {
 
 .btn-primary {
     background: var(--highlight);
-    color: var(--primary);
+    color: var(--primary)!important;
     border: 2px solid var(--highlight);
 }
 
