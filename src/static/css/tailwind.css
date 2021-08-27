@@ -6212,8 +6212,23 @@ li {
     font-size: 14px ;
 }
 
+.hero-container, .hero-image img {
+    height: calc(100vh - 145px);
+}
+
 .hero-image img {
+    border-top-left-radius: 45px;
+    border-top-right-radius: 45px;
+}
+
+.hero-image .creds img {
+    height: 100%;
     border-radius: 0;
+    transition: 0.3s ease-in-out all;
+}
+
+.creds img:hover {
+    transform: scale(1.1);
 }
 
 .shadow {
