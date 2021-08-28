@@ -1,5 +1,7 @@
 ---
 layout: patient-resources
 title: Patient Resources
-bph: []
+bph:
+  - bphTitle: Second
+  - bphTitle: First
 ---
