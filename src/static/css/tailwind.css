@@ -6243,6 +6243,10 @@ header {
     border-radius: 35px;
 }
 
+.b-rad-20 {
+    border-radius: 20px;
+}
+
 .b-rad-left {
     border-radius: 35px 0 0 35px;
 }

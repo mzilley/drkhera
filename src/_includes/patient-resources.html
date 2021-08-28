@@ -50,9 +50,9 @@ layout: _default
 
                 <div class="flex flex-wrap">
                     {% for item in ed %}
-                        <div class="py-3 px-6 mr-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
+                        <div class="p-5 mr-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.edImage %}
-                                <img src="{{ item.edImage }}" alt="{{ item.edTitle }}" class="b-rad">
+                                <img src="{{ item.edImage }}" alt="{{ item.edTitle }}" class="b-rad-20">
                             {% endif %}
                             <h3><a class="title-font text-lg pt-3 underline hover:no-underline" href="{{ item.edLink }}">{{ item.edTitle }}</a></h3>
                             <p>{{ item.edDesc }}</p>
