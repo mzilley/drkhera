@@ -9,8 +9,6 @@ layout: _default
         <div class="lg:w-7/12 lg:pl-16 pt-0 pb-16 lg:py-16 flex flex-col md:items-start md:text-left text-white items-center text-center">
             <h1 class="title-font sm:text-4xl text-3xl font-medium">{{ about.heading }}</h1>
             <h2 class="title-font text-2xl font-bold">{{ about.subheading }}</h2>
-            {{ content | safe }}
-            {{ body | markdown | safe }}
 
         </div>
     </div>
@@ -35,7 +33,7 @@ layout: _default
                         <textarea name="message" rows="6" required></textarea>
                     </div>
                     <div class="form-group">
-                        <button type="submit" class="btn btn-primary b-rad shadow mt-5">Send</button>
+                    <button type="submit" class="btn btn-primary b-rad shadow mt-5">Send</button>
                     </div>
                 </form>
             </div>

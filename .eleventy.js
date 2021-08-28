@@ -2,15 +2,15 @@ const yaml = require("js-yaml");
 const { DateTime } = require("luxon");
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const htmlmin = require("html-minifier");
-const markdownIt = require("markdown-it");
-const md = new markdownIt({
-  html: true,
-});
+// const markdownIt = require("markdown-it");
+// const md = new markdownIt({
+//   html: true,
+// });
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addFilter("markdown", (content) => {
-    return md.render(content);
-  });
+//   eleventyConfig.addFilter("markdown", (content) => {
+//     return md.render(content);
+//   });
 
   // Disable automatic use of your .gitignoree
   eleventyConfig.setUseGitIgnore(false);
