@@ -196,6 +196,7 @@ collections:
               - label: Link
                 name: bphLink
                 widget: "string"
+                required: false
               - label: Description
                 name: bphDesc
                 widget: "text"
@@ -219,6 +220,7 @@ collections:
               - label: Link
                 name: edLink
                 widget: "string"
+                required: false
               - label: Description
                 name: edDesc
                 widget: "text"
@@ -242,6 +244,7 @@ collections:
               - label: Link
                 name: deLink
                 widget: "string"
+                required: false
               - label: Description
                 name: deDesc
                 widget: "text"

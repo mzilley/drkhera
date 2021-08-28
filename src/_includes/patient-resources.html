@@ -28,7 +28,7 @@ layout: _default
 
                 <div class="flex flex-wrap">
                     {% for item in bph %}
-                        <div class="py-3 px-6 mr-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
+                        <div class="p-5 mr-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.bphImage %}
                                 <img src="{{ item.bphImage }}" alt="{{ item.bphTitle }}" class="b-rad">
                             {% endif %}
@@ -79,7 +79,7 @@ layout: _default
                 <p class="h2 font-bold text-xl mb-3">Delayed Ejaculation</p>
 
                 <div class="flex flex-wrap">
-                    {% for item in delayed-ejaculation %}
+                    {% for item in delayedEjaculation %}
                         <div class="p-5 mr-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.deImage %}
                                 <img src="{{ item.deImage }}" alt="{{ item.deTitle }}" class="b-rad-20">
