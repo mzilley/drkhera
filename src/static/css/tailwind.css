@@ -6407,6 +6407,6 @@ header {
 }
 
 .resource-container >div:hover {
-    transform: scale(1.025);
+    transform: scale(1.0175);
     box-shadow: 0 0 35px 10px rgb(118 118 118 / 20%);
 }
