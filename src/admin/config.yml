@@ -253,7 +253,7 @@ collections:
                 name: deImage
                 widget: "image"
                 required: false
-          - label: "Female Sexual Dysfunction Patient Resources"
+            - label: "Female Sexual Dysfunction Patient Resources"
             label_singular: "resource"
             name: femaleSexualDysfunction
             summary: "{{fsdTitle}}"
