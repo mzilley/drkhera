@@ -193,7 +193,17 @@ collections:
               - label: Title
                 name: bphTitle
                 widget: "string"
-              # - { label: Link, name: bphLink, widget: "string" }
+              - label: Link
+                name: bphLink
+                widget: "string"
+              - label: Link
+                name: bphDesc
+                widget: "text"
+                required: false
+              - label: Link
+                name: bphImage
+                widget: "image"
+                required: false
               # - { label: Description, name: bphDesc, widget: "markdown", required: false }
 
       # Low Tesosterone

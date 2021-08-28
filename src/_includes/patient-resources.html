@@ -7,31 +7,38 @@ layout: _default
             <h1>What are you looking for?</h1>
         </div>
         <div class="selector flex flex-wrap">
-            <a href="">BPH</a>
-            <a href="">Erectile Dysfunction</a>
-            <a href="">Delayed Ejaculation</a>
-            <a href="">Female Sexual Dysfunction</a>
-            <a href="">Low Testosterone</a>
-            <a href="">Male Infertility</a>
-            <a href="">Male Stress Incontinence</a>
-            <a href="">Peyronie's Disease</a>
-            <a href="">Premature Ejaculation</a>
-            <a href="">Testis Pain</a>
-            <a href="">Vasectomy</a>
+            <a href="#bph">BPH</a>
+            <a href="#">Erectile Dysfunction</a>
+            <a href="#">Delayed Ejaculation</a>
+            <a href="#">Female Sexual Dysfunction</a>
+            <a href="#">Low Testosterone</a>
+            <a href="#">Male Infertility</a>
+            <a href="#">Male Stress Incontinence</a>
+            <a href="#">Peyronie's Disease</a>
+            <a href="#">Premature Ejaculation</a>
+            <a href="#">Testis Pain</a>
+            <a href="#">Vasectomy</a>
         </div>
     </div>
     <section id="bph" class="patient-resources pt-10" class="bg-highlight primary">
         <div class="container mx-auto">
             {% if bph %}
 
-                 <p class="h2">BPH</p>
+                <p class="h2 font-bold text-xl mb-3">BPH</p>
 
-                <ul class="pt-6 lg:pt-0 list-reset lg:flex justify-end flex-1 z-10 items-center">
+                <div class="flex flex-wrap">
                     {% for item in bph %}
-                        <h2><a href="/">{{ item.bphTitle }}</a></h2>
-                    {% endfor %}
-                </ul>
-
+                        <div class="py-3 px-6 mr-5 lg:flex justify-start flex-1 z-10 items-center b-rad shadow underline hover:no-underline">
+                            {% if bph %}
+                                <img src="{{ {{ item.bphImage }} }}" alt="{{ item.bphTitle }}">
+                            {% endif %}
+                            <h3><a class="title-font text-lg" href="{{ item.bphLink }}">{{ item.bphTitle }}</a></h3>
+                            <p>{{ item.bphDesc }}</p>
+                        </div>
+                {% endfor %}
+                </div>
+                
+                
             {% endif %}
         </div>
     </section>
