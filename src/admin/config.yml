@@ -205,7 +205,7 @@ collections:
                 name: bphImage
                 widget: "image"
                 required: false
-          - label: "Erectile Dysfunction Patient Resources"
+            - label: "Erectile Dysfunction Patient Resources"
             label_singular: "resource"
             name: ed
             summary: "{{edTitle}}"
@@ -229,7 +229,7 @@ collections:
                 name: edImage
                 widget: "image"
                 required: false
-          - label: "Delayed Ejaculation Patient Resources"
+            - label: "Delayed Ejaculation Patient Resources"
             label_singular: "resource"
             name: delayedEjaculation
             summary: "{{deTitle}}"
