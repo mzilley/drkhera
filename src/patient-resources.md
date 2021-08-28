@@ -16,6 +16,9 @@ ed:
     edDesc: Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum
       dolor sit amet.
 delayedEjaculation:
+  - deTitle: How 'Bout Another?
+    deLink: /
+    deDesc: Desc
   - deTitle: Test Resource
     deLink: https://www.google.com
     deDesc: Lorem ipsum dolor sit amet non consecutur.
