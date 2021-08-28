@@ -277,7 +277,7 @@ collections:
                 name: fsdImage
                 widget: "image"
                 required: false
-          - label: "Low Testosterone Patient Resources"
+            - label: "Low Testosterone Patient Resources"
             label_singular: "resource"
             name: lowTestosterone
             summary: "{{ltTitle}}"
