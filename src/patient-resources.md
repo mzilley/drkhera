@@ -1,6 +1,10 @@
 ---
+maleStressIncontinence:
+  - msiTitle: Test
+    msiLink: /
+    msiDesc: Lorem ipsum dolor sit amet
+    msiImage: /static/img/hero.jpg
 layout: patient-resources
-title: Patient Resources
 bph:
   - bphTitle: Second
     bphLink: https://www.google.com
@@ -28,4 +32,30 @@ delayedEjaculation:
   - deTitle: What is Delayed Ejaculation?
     deDesc: Delayed Ejaculation, or DE, is lorem ipsum dolor sit amet.
     deLink: /
+maleInfertility:
+  - miTitle: Test
+    miLink: /
+    miDesc: Lorem ipsum dolor sit amet
+    miImage: /static/img/hero.jpg
+peyroniesDisease:
+  - pdTitle: Test
+    pdLink: /
+    pdDesc: Lorem ipsum dolor sit amet
+    pdImage: /static/img/hero.jpg
+prematureEjaculation:
+  - peTitle: Test
+    peLink: /
+    peDesc: Lorem ipsum dolor sit amet
+    peImage: /static/img/hero.jpg
+testisPain:
+  - tpTitle: Test
+    tpLink: /
+    tpDesc: Lorem ipsum dolor sit amet
+    tpImage: /static/img/hero.jpg
+vasectomy:
+  - vasectomyTitle: Test
+    vasectomyLink: /
+    vasectomyDesc: Lorem ipsum dolor sit amet
+    vasectomyImage: /static/img/hero.jpg
+title: Patient Resources
 ---
