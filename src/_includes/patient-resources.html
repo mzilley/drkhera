@@ -28,15 +28,16 @@ layout: _default
 
                 <div class="flex flex-wrap">
                     {% for item in bph %}
-                        <div class="py-3 px-6 mr-5 lg:flex justify-start flex-1 z-10 items-center b-rad shadow underline hover:no-underline">
-                            {% if bph %}
-                                <img src="{{ item.bphImage }}" alt="{{ item.bphTitle }}">
+                        <div class="py-3 px-6 mr-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow underline hover:no-underline">
+                            {% if bph.bphImage %}
+                                <img src="{{ item.bphImage }}" alt="{{ item.bphTitle }}" class="b-rad">
                             {% endif %}
-                            <h3><a class="title-font text-lg" href="{{ item.bphLink }}">{{ item.bphTitle }}</a></h3>
+                            <h3><a class="title-font text-lg pt-3" href="{{ item.bphLink }}">{{ item.bphTitle }}</a></h3>
                             <p>{{ item.bphDesc }}</p>
                         </div>
                 {% endfor %}
                 </div>
+
                 
                 
             {% endif %}
