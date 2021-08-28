@@ -6402,11 +6402,11 @@ header {
     @apply px-5;
 }
 
-.resource-container {
+.resource-container > div {
     transition: 0.3s ease-in-out all;
 }
 
-.resource-container:hover {
+.resource-container >div:hover {
     transform: scale(1.025);
     box-shadow: 0 0 35px 10px rgb(118 118 118 / 20%);
 }
