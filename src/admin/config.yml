@@ -253,6 +253,198 @@ collections:
                 name: deImage
                 widget: "image"
                 required: false
+          - label: "Female Sexual Dysfunction Patient Resources"
+            label_singular: "resource"
+            name: femaleSexualDysfunction
+            summary: "{{fsdTitle}}"
+            widget: list
+            allow_add: true
+            collapsed: true
+            add_to_top: true
+            fields:
+              - label: Title
+                name: fsdTitle
+                widget: "string"
+              - label: Link
+                name: fsdLink
+                widget: "string"
+                required: false
+              - label: Description
+                name: fsdDesc
+                widget: "text"
+                required: false
+              - label: Image
+                name: fsdImage
+                widget: "image"
+                required: false
+          - label: "Low Testosterone Patient Resources"
+            label_singular: "resource"
+            name: lowTestosterone
+            summary: "{{ltTitle}}"
+            widget: list
+            allow_add: true
+            collapsed: true
+            add_to_top: true
+            fields:
+              - label: Title
+                name: ltTitle
+                widget: "string"
+              - label: Link
+                name: ltLink
+                widget: "string"
+                required: false
+              - label: Description
+                name: ltDesc
+                widget: "text"
+                required: false
+              - label: Image
+                name: ltImage
+                widget: "image"
+                required: false
+            - label: "Male Infertility Patient Resources"
+            label_singular: "resource"
+            name: maleInfertility
+            summary: "{{miTitle}}"
+            widget: list
+            allow_add: true
+            collapsed: true
+            add_to_top: true
+            fields:
+              - label: Title
+                name: miTitle
+                widget: "string"
+              - label: Link
+                name: miLink
+                widget: "string"
+                required: false
+              - label: Description
+                name: miDesc
+                widget: "text"
+                required: false
+              - label: Image
+                name: miImage
+                widget: "image"
+                required: false
+            - label: "Male Stress Incontinence Patient Resources"
+            label_singular: "resource"
+            name: maleStressIncontinence
+            summary: "{{msiTitle}}"
+            widget: list
+            allow_add: true
+            collapsed: true
+            add_to_top: true
+            fields:
+              - label: Title
+                name: msiTitle
+                widget: "string"
+              - label: Link
+                name: msiLink
+                widget: "string"
+                required: false
+              - label: Description
+                name: msiDesc
+                widget: "text"
+                required: false
+              - label: Image
+                name: msiImage
+                widget: "image"
+                required: false
+            - label: "Peyronie's Disease Patient Resources"
+            label_singular: "resource"
+            name: peyroniesDisease
+            summary: "{{pdTitle}}"
+            widget: list
+            allow_add: true
+            collapsed: true
+            add_to_top: true
+            fields:
+              - label: Title
+                name: pdTitle
+                widget: "string"
+              - label: Link
+                name: pdLink
+                widget: "string"
+                required: false
+              - label: Description
+                name: pdDesc
+                widget: "text"
+                required: false
+              - label: Image
+                name: pdImage
+                widget: "image"
+                required: false
+            - label: "Premature Ejaculation Patient Resources"
+            label_singular: "resource"
+            name: prematureEjaculation
+            summary: "{{peTitle}}"
+            widget: list
+            allow_add: true
+            collapsed: true
+            add_to_top: true
+            fields:
+              - label: Title
+                name: peTitle
+                widget: "string"
+              - label: Link
+                name: peLink
+                widget: "string"
+                required: false
+              - label: Description
+                name: peDesc
+                widget: "text"
+                required: false
+              - label: Image
+                name: peImage
+                widget: "image"
+                required: false
+            - label: "Testis Pain Patient Resources"
+            label_singular: "resource"
+            name: testisPain
+            summary: "{{tpTitle}}"
+            widget: list
+            allow_add: true
+            collapsed: true
+            add_to_top: true
+            fields:
+              - label: Title
+                name: tpTitle
+                widget: "string"
+              - label: Link
+                name: tpLink
+                widget: "string"
+                required: false
+              - label: Description
+                name: tpDesc
+                widget: "text"
+                required: false
+              - label: Image
+                name: tpImage
+                widget: "image"
+                required: false
+            - label: "Vasectomy Patient Resources"
+            label_singular: "resource"
+            name: vasectomy
+            summary: "{{vasectomyTitle}}"
+            widget: list
+            allow_add: true
+            collapsed: true
+            add_to_top: true
+            fields:
+              - label: Title
+                name: vasectomyTitle
+                widget: "string"
+              - label: Link
+                name: vasectomyLink
+                widget: "string"
+                required: false
+              - label: Description
+                name: vasectomyDesc
+                widget: "text"
+                required: false
+              - label: Image
+                name: vasectomyImage
+                widget: "image"
+                required: false
 
       # Low Tesosterone
       - label: "Low Tesosterone"
