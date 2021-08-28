@@ -196,11 +196,11 @@ collections:
               - label: Link
                 name: bphLink
                 widget: "string"
-              - label: Link
+              - label: Description
                 name: bphDesc
                 widget: "text"
                 required: false
-              - label: Link
+              - label: Image
                 name: bphImage
                 widget: "image"
                 required: false
@@ -219,12 +219,35 @@ collections:
               - label: Link
                 name: edLink
                 widget: "string"
-              - label: Link
+              - label: Description
                 name: edDesc
                 widget: "text"
                 required: false
-              - label: Link
+              - label: Image
                 name: edImage
+                widget: "image"
+                required: false
+          - label: "Delayed Ejaculation Patient Resources"
+            label_singular: "resource"
+            name: delayedEjaculation
+            summary: "{{deTitle}}"
+            widget: list
+            allow_add: true
+            collapsed: true
+            add_to_top: true
+            fields:
+              - label: Title
+                name: deTitle
+                widget: "string"
+              - label: Link
+                name: deLink
+                widget: "string"
+              - label: Description
+                name: deDesc
+                widget: "text"
+                required: false
+              - label: Image
+                name: deImage
                 widget: "image"
                 required: false
 
