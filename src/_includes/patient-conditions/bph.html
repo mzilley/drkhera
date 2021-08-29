@@ -36,18 +36,7 @@ layout: _default
             </aside>
         </div>
         <div class="md:w-9/12">
-            <p>
-                {{conditionInformation}}
-            </p>
-            
-            {{conditionResources}}
-            <div class="md:w-9/12">
-                <h3>Resources</h3>
-                <ul>
-                    <li><a href="https://www.youtube.com/watch?v=RegSMM4PG30" class="underline hover:no-underline">Living with an Enlarged Prostate, or Benign Prostatic Hyperplasia (BPH)</a></li>
-                </ul>
-                <a href="/patient-resources" class="btn btn-primary shadow b-rad mt-3">All Patient Resources</a>
-            </div>
+            {{ content | safe}}
         </div>
         
     </div>

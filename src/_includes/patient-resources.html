@@ -6,24 +6,9 @@ layout: _default
 <div class="h-screen bg-primary white p-10 find-a-resource flex flex-col justify-center">
     <div>
         <h1 class="f1 text-center leading-10">Patient Resources</h1>
-        <h2 class="text-center leading-10 mb-7">What are you looking for?</h1>
+        <h2 class="text-center leading-10 mb-7">{{heading}}</h1>
+        <h2 class="text-center leading-10 mb-7">{{subtitle}}</h1>
     </div>
-
-    <!-- <div id="select-condition-container relative">
-        <select name="condition-select" id="condition-select" class="title-font b-rad shadow p-3 text-center primary block mx-auto my-0 w-50">
-            <option value="bph">BPH</option>
-            <option value="delayed-ejaculation">Delayed Ejaculation</option>
-            <option value="erectile-dysfunction">Erectile Dysfunction</option>
-            <option value="female-sexual-dysfunction">Female Sexual Dysfunction</option>
-            <option value="low-testosterone">Low Testosterone</option>
-            <option value="male-infertility">Male Infertility</option>
-            <option value="male-stress-incontinence">Male Stress Incontinence</option>
-            <option value="peyronies-disease">Peyronie's Disease</option>
-            <option value="premature-ejaculation">Premature Ejaculation</option>
-            <option value="testis-pain">Testis Pain</option>
-            <option value="vasectomy">Vasectomy</option>
-        </select>
-    </div> -->
 
     <div id="condition">
         <ul id="menu" class="b-rad primary bg-white">
@@ -54,7 +39,7 @@ layout: _default
     
 </div>
 
-<div class="mt-48 md:mt-56 md:mt-0 px-4 pb-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:p-8">
+<div class="mt-48 md:mt-80 lg:mt-64 px-4 pb-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:p-8">
     <section id="bph" class="patient-resources pt-10" class="bg-highlight primary">
         <div class="container mx-auto">
             {% if bph %}
