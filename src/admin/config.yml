@@ -42,7 +42,7 @@ collections:
           - { label: "SEO", name: SEO, widget: object, fields: [
               { label: Site Name, name: site_name, summary: "It is displayed in Meta Page Title", widget: "string" },
               { label: Separator, name: separator, summary: "Separator between Page name and Site Name in Meta Page Title", widget: "string"}]}
-  Blog
+  #Blog
   - label: "Blog"
     name: "blog"
     folder: "src/posts"
