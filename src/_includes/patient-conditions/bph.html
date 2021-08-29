@@ -26,15 +26,38 @@ layout: _default
     </div>
 
     <div class="subContent flex pb-16 container">
+        {% if sidebar %}
         <div class="md:w-3/12">
             <aside>
-                <h2>{{sidebar.heading}}</h2>
-                <p>{{sidebar.subtitle}}</p>
-                <div>
-                    {{sidebar.sidebarContent}}
-                </div>
+                {% if sidebar.heading %}
+                    <h2>{{sidebar.heading}}</h2>
+                {% endif %}
+                {% if sidebar.subtitle %}
+                    <p>{{sidebar.subtitle}}</p>
+                {% endif %}
+                {% if sidebar.sidebarContent %}
+                    <div>
+                        {{sidebar.sidebarContent}}
+                    </div>
+                {% endif %}
+                {% if sidebar.sidebarLink1 %}
+                    <a href="{{sidebar.sidebarLink1}}" class="underline hover:no-underline">{{sidebar.sidebarLinkText1}}</a>
+                {% endif %}
+                {% if sidebar.sidebarLink2 %}
+                    <a href="{{sidebar.sidebarLink2}}" class="underline hover:no-underline">{{sidebar.sidebarLinkText2}}</a>
+                {% endif %}
+                {% if sidebar.sidebarLink3 %}
+                    <a href="{{sidebar.sidebarLink3}}" class="underline hover:no-underline">{{sidebar.sidebarLinkText3}}</a>
+                {% endif %}
+                {% if sidebar.sidebarLink4 %}
+                    <a href="{{sidebar.sidebarLink4}}" class="underline hover:no-underline">{{sidebar.sidebarLinkText4}}</a>
+                {% endif %}
+                {% if sidebar.sidebarLink5 %}
+                    <a href="{{sidebar.sidebarLink5}}" class="underline hover:no-underline">{{sidebar.sidebarLinkText5}}</a>
+                {% endif %}
             </aside>
         </div>
+        {% endif %}
         <div class="md:w-9/12">
             {{ content | safe}}
         </div>
