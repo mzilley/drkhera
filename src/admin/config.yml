@@ -420,30 +420,30 @@ collections:
                 name: tpImage
                 widget: "image"
                 required: false  
-          # - label: "Vasectomy Patient Resources"
-          #   label_singular: "resource"
-          #   name: vasectomy
-          #   summary: "{{vasectomyTitle}}"
-          #   widget: list
-          #   allow_add: true
-          #   collapsed: true
-          #   add_to_top: true
-          #   fields:
-          #     - label: Title
-          #       name: vasectomyTitle
-          #       widget: "string"
-          #     - label: Link
-          #       name: vasectomyLink
-          #       widget: "string"
-          #       required: false
-          #     - label: Description
-          #       name: vasectomyDesc
-          #       widget: "text"
-          #       required: false
-          #     - label: Image
-          #       name: vasectomyImage
-          #       widget: "image"
-          #       required: false  
+          - label: "Vasectomy Patient Resources"
+            label_singular: "resource"
+            name: vasectomy
+            summary: "{{vasectomyTitle}}"
+            widget: list
+            allow_add: true
+            collapsed: true
+            add_to_top: true
+            fields:
+              - label: Title
+                name: vasectomyTitle
+                widget: "string"
+              - label: Link
+                name: vasectomyLink
+                widget: "string"
+                required: false
+              - label: Description
+                name: vasectomyDesc
+                widget: "text"
+                required: false
+              - label: Image
+                name: vasectomyImage
+                widget: "image"
+                required: false  
 
       # Low Tesosterone
       - label: "Low Tesosterone"
