@@ -277,30 +277,30 @@ collections:
                 name: fsdImage
                 widget: "image"
                 required: false
-          - label: "Low Testosterone Patient Resources"
-            label_singular: "resource"
-            name: lowTestosterone
-            summary: "{{ltTitle}}"
-            widget: list
-            allow_add: true
-            collapsed: true
-            add_to_top: true
-            fields:
-              - label: Title
-                name: ltTitle
-                widget: "string"
-              - label: Link
-                name: ltLink
-                widget: "string"
-                required: false
-              - label: Description
-                name: ltDesc
-                widget: "text"
-                required: false
-              - label: Image
-                name: ltImage
-                widget: "image"
-                required: false
+          # - label: "Low Testosterone Patient Resources"
+          #   label_singular: "resource"
+          #   name: lowTestosterone
+          #   summary: "{{ltTitle}}"
+          #   widget: list
+          #   allow_add: true
+          #   collapsed: true
+          #   add_to_top: true
+          #   fields:
+          #     - label: Title
+          #       name: ltTitle
+          #       widget: "string"
+          #     - label: Link
+          #       name: ltLink
+          #       widget: "string"
+          #       required: false
+          #     - label: Description
+          #       name: ltDesc
+          #       widget: "text"
+          #       required: false
+          #     - label: Image
+          #       name: ltImage
+          #       widget: "image"
+          #       required: false
             - label: "Male Infertility Patient Resources"
             label_singular: "resource"
             name: maleInfertility
