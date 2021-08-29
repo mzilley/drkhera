@@ -444,7 +444,6 @@ collections:
                 name: vasectomyImage
                 widget: "image"
                 required: false  
-
       # Low Tesosterone
       - label: "Low Tesosterone"
         name: "low-testosterone"
