@@ -42,7 +42,7 @@ collections:
           - { label: "SEO", name: SEO, widget: object, fields: [
               { label: Site Name, name: site_name, summary: "It is displayed in Meta Page Title", widget: "string" },
               { label: Separator, name: separator, summary: "Separator between Page name and Site Name in Meta Page Title", widget: "string"}]}
-  #Blog
+  # Blog
   - label: "Blog"
     name: "blog"
     folder: "src/posts"
@@ -64,7 +64,7 @@ collections:
         options: ["Tags", "created", "from", "config.yml"]
   # Pages
   - label: "Pages"
-    name: pages
+    name: "pages"
     editor:
       preview: false
     files:
@@ -176,7 +176,7 @@ collections:
               { name: image2, widget: "image" },
               { name: image3, widget: "image" },
               { name: image4, widget: "image" }]}
-      Patient Resources
+      #Patient Resources
       - label: "Patient Resources"
         name: "resources"
         file: "src/patient-resources.md"
@@ -276,7 +276,7 @@ collections:
               - label: Image
                 name: fsdImage
                 widget: "image"
-                required: false  
+                required: false
           - label: "Low Testosterone Patient Resources"
             label_singular: "resource"
             name: lowTestosterone
@@ -300,8 +300,8 @@ collections:
               - label: Image
                 name: ltImage
                 widget: "image"
-                required: false  
-          - label: "Male Infertility Patient Resources"
+                required: false
+            - label: "Male Infertility Patient Resources"
             label_singular: "resource"
             name: maleInfertility
             summary: "{{miTitle}}"
@@ -324,8 +324,8 @@ collections:
               - label: Image
                 name: miImage
                 widget: "image"
-                required: false  
-          - label: "Male Stress Incontinence Patient Resources"
+                required: false
+            - label: "Male Stress Incontinence Patient Resources"
             label_singular: "resource"
             name: maleStressIncontinence
             summary: "{{msiTitle}}"
@@ -348,8 +348,8 @@ collections:
               - label: Image
                 name: msiImage
                 widget: "image"
-                required: false  
-          - label: "Peyronie's Disease Patient Resources"
+                required: false
+            - label: "Peyronie's Disease Patient Resources"
             label_singular: "resource"
             name: peyroniesDisease
             summary: "{{pdTitle}}"
@@ -372,8 +372,8 @@ collections:
               - label: Image
                 name: pdImage
                 widget: "image"
-                required: false  
-          - label: "Premature Ejaculation Patient Resources"
+                required: false
+            - label: "Premature Ejaculation Patient Resources"
             label_singular: "resource"
             name: prematureEjaculation
             summary: "{{peTitle}}"
@@ -390,13 +390,14 @@ collections:
                 widget: "string"
                 required: false
               - label: Description
+                name: peDesc
                 widget: "text"
                 required: false
               - label: Image
                 name: peImage
                 widget: "image"
-                required: false 
-          - label: "Testis Pain Patient Resources"
+                required: false
+            - label: "Testis Pain Patient Resources"
             label_singular: "resource"
             name: testisPain
             summary: "{{tpTitle}}"
@@ -419,8 +420,8 @@ collections:
               - label: Image
                 name: tpImage
                 widget: "image"
-                required: false  
-          - label: "Vasectomy Patient Resources"
+                required: false
+            - label: "Vasectomy Patient Resources"
             label_singular: "resource"
             name: vasectomy
             summary: "{{vasectomyTitle}}"
@@ -443,7 +444,8 @@ collections:
               - label: Image
                 name: vasectomyImage
                 widget: "image"
-                required: false  
+                required: false
+
       # Low Tesosterone
       - label: "Low Tesosterone"
         name: "low-testosterone"
@@ -522,7 +524,8 @@ collections:
               { label: Heading, name: heading, widget: string, required: false },
               { label: Subtitle, name: subtitle, widget: string, required: false },
               { label: Sidebar Content, name: "sidebarContent", widget: text, required: false}]}
-          - {label: "Content", name: bphContent, widget: markdown, required: false}
+          - {label: "Condition Information", name: conditionInformation, widget: text}
+          - {label: "Patient Resources", name: conditionResources, widget: markdown, required: false}
       # Testis Pain
       - label: "Testis Pain"
         name: "testis-pain"
