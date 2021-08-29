@@ -6355,6 +6355,20 @@ header {
         border-radius: 0;
         transition: all .3s ease-in-out;
     }
+    #condition ul.submenu li {
+        width: 100%!important;
+    }
+
+    #condition ul.submenu li a {
+        padding: 0 15px!important;
+    }
+    #condition ul.submenu li:first-child  {
+        margin-top: 15px;
+    }
+    
+    #condition ul.submenu li:last-child {
+    margin-bottom: 15px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -6365,7 +6379,17 @@ header {
         max-width: 450px;
         height: 600px;
     }
+    #condition ul.submenu li:first-child, #condition ul.submenu li:nth-child(2)  {
+        margin-top: 20px;
+    }
+    
+    #condition ul.submenu li:last-child {
+    margin-bottom: 20px;
+    }
 
+    #condition ul.submenu li a:hover{
+        background:#ebebeb;
+    }
 }
 
 .line-item {
@@ -6475,12 +6499,6 @@ header {
       transform: scale(1.0175);
   }
   
-  /* #condition input:checked ~ label:after{
-    border-top:0 solid #ebebeb;
-    border-bottom:4px solid #ebebeb;
-    transition:border-top .1s, border-bottom .1s .1s;
-  } */
-  
   /*hide the inputs*/
   #condition input{display:none}
   
@@ -6520,14 +6538,6 @@ header {
     color: var(--primary);
     word-break: break-word;
   }
-
-  #condition ul.submenu li:first-child, #condition ul.submenu li:nth-child(2)  {
-    margin-top: 20px;
-  }
-
-  #condition ul.submenu li:last-child {
-    margin-bottom: 20px;
-  }
   
   #condition ul.submenu li a{
     display:block;
@@ -6535,8 +6545,4 @@ header {
     text-decoration:none;
     transition:background .3s;
     border-radius: 15px;
-  }
-  
-  #condition ul.submenu li a:hover{
-    background:#ebebeb;
   }
