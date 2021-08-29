@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&family=Nunito+Sans:wght@400;700&display=swap');
 
+html {
+    scroll-behavior: smooth;
+  }
+
 /*Styles from basic template*/
 /*! TACHYONS v4.5.5 | http://tachyons.io */a,
 abbr,
@@ -6204,6 +6208,12 @@ li {
     border: 2px solid var(--primary);
 }
 
+.btn-white {
+    background: #fff;
+    color: var(--priamry)!important;
+    border: 2px solid #fff!important;
+}
+
 .title-font {
     font-family: 'Abhaya Libre', serif;
 }
@@ -6402,11 +6412,131 @@ header {
     @apply px-5;
 }
 
+.find-a-resource {
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+}
+
 .resource-container > div {
     transition: 0.3s ease-in-out all;
+    position: relative;
 }
 
 .resource-container >div:hover {
     transform: scale(1.0175);
     box-shadow: 0 0 35px 10px rgb(118 118 118 / 20%);
+    bottom: 7px;
 }
+
+#condition-select {
+    cursor: pointer;
+}
+
+  
+  /*Style for the first level menu bar*/
+  #menu {
+      margin: 0 auto;
+  }
+  #condition ul#menu > li{
+    list-style-type:none;
+    position:relative;
+    text-align: left;
+    margin: 0 auto;
+    display: block;
+    font-family: 'Abhaya Libre', serif;
+  }
+  
+  #condition label{
+    position:relative;
+    display:block;
+    cursor:pointer;
+    pointer-events: all;
+    background-color: var(--white)
+    ;
+  }
+  
+  #condition label:after{
+    content:"";
+    position:absolute;
+    display:block;
+    top:50%;
+    right:5px;
+    width:0;
+    height:0;
+    border-top:4px solid var(--priamry);
+    border-bottom:0 solid var(--priamry);
+    border-left:4px solid transparent;
+    border-right:4px solid transparent;
+    transition:border-bottom .1s, border-top .1s .1s;
+    }
+  
+  #condition label:hover,
+  #condition input:checked ~ label{
+      transform: scale(1.0175);
+  }
+  
+  /* #condition input:checked ~ label:after{
+    border-top:0 solid #ebebeb;
+    border-bottom:4px solid #ebebeb;
+    transition:border-top .1s, border-bottom .1s .1s;
+  } */
+  
+  /*hide the inputs*/
+  #condition input{display:none}
+  
+  /*show the second levele menu of the selected voice*/
+  #condition input:checked ~ ul.submenu{
+    max-height: fit-content;
+  }
+  
+  /*style for the second level menu*/
+  #condition ul.submenu{
+    max-height: 0;
+    overflow: hidden;
+    list-style-type: none;
+    background: #fff;
+    justify-content: space-between;
+    box-shadow: 0 0 1px rgb(0 0 0 / 30%);
+    transition: max-height 0.5s ease-out;
+    position: absolute;
+    min-width: 100%;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    margin-top: 35px;
+    border-radius: 35px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 50%;
+  }
+
+  #menu {
+      background-color: var(--white)!important;
+  }
+
+  #condition ul.submenu li {
+    margin: 10px 20px 0 20px;
+    width: 46%;
+    color: var(--primary);
+    word-break: break-word;
+  }
+
+  #condition ul.submenu li:first-child, #condition ul.submenu li:nth-child(2)  {
+    margin-top: 20px;
+  }
+
+  #condition ul.submenu li:last-child {
+    margin-bottom: 20px;
+  }
+  
+  #condition ul.submenu li a{
+    display:block;
+    padding: 15px;
+    text-decoration:none;
+    transition:background .3s;
+    border-radius: 15px;
+  }
+  
+  #condition ul.submenu li a:hover{
+    background:#ebebeb;
+  }

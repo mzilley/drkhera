@@ -1,32 +1,66 @@
 ---
 layout: _default
 ---
-<div class="mt-32 md:mt-0 px-4 pb-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:p-8">
-    <div class="h-100">
-        <div>
-            <h1>What are you looking for?</h1>
-        </div>
-        <div class="selector flex flex-wrap">
-            <a href="#bph">BPH</a>
-            <a href="#">Erectile Dysfunction</a>
-            <a href="#">Delayed Ejaculation</a>
-            <a href="#">Female Sexual Dysfunction</a>
-            <a href="#">Low Testosterone</a>
-            <a href="#">Male Infertility</a>
-            <a href="#">Male Stress Incontinence</a>
-            <a href="#">Peyronie's Disease</a>
-            <a href="#">Premature Ejaculation</a>
-            <a href="#">Testis Pain</a>
-            <a href="#">Vasectomy</a>
-        </div>
+
+
+<div class="h-screen bg-primary white p-10 find-a-resource">
+    <div>
+        <h1 class="f1 text-center">What are you looking for?</h1>
     </div>
+
+    <!-- <div id="select-condition-container relative">
+        <select name="condition-select" id="condition-select" class="title-font b-rad shadow p-3 text-center primary block mx-auto my-0 w-50">
+            <option value="bph">BPH</option>
+            <option value="delayed-ejaculation">Delayed Ejaculation</option>
+            <option value="erectile-dysfunction">Erectile Dysfunction</option>
+            <option value="female-sexual-dysfunction">Female Sexual Dysfunction</option>
+            <option value="low-testosterone">Low Testosterone</option>
+            <option value="male-infertility">Male Infertility</option>
+            <option value="male-stress-incontinence">Male Stress Incontinence</option>
+            <option value="peyronies-disease">Peyronie's Disease</option>
+            <option value="premature-ejaculation">Premature Ejaculation</option>
+            <option value="testis-pain">Testis Pain</option>
+            <option value="vasectomy">Vasectomy</option>
+        </select>
+    </div> -->
+
+    <div id="condition">
+        <ul id="menu" class="b-rad primary bg-white">
+            <li>
+              <input id="check01" type="checkbox" name="menu"/>
+              <label for="check01" class="p-5" id="condition-select">Select</label>
+              <ul class="submenu">
+                <li><a href="#bph">BPH</a></li>
+                <li><a href="#delayed-ejaculation">Delayed Ejaculation</a></li>
+                <li><a href="#erectile-dysfunction">Erectile Dysfunction</a></li>
+                <li><a href="#female-sexual-dysfunction">Female Sexual Dysfunction</a></li>
+                <li><a href="#low-testosterone">Low Testosterone</a></li>
+                <li><a href="#male-infertility">Male Infertility</a></li>
+                <li><a href="#male-stress-incontinence">Male Stress Incontinence</a></li>
+                <li><a href="#peyronies-disease">Peyronie's Disease</a></li>
+                <li><a href="#premature-ejaculation">Premature Ejaculation</a></li>
+                <li><a href="#testis-pain">Testis Pain</a></li>
+                <li><a href="#vasectomy">Vasectomy</a></li>
+              </ul>
+            </li>
+          </ul>
+    </div>
+    
+
+    
+
+
+    
+</div>
+
+<div class="mt-32 md:mt-0 px-4 pb-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:p-8">
     <section id="bph" class="patient-resources pt-10" class="bg-highlight primary">
         <div class="container mx-auto">
             {% if bph %}
 
                 <p class="h2 font-bold text-xl mb-3">BPH</p>
 
-                <div class="resource-container flex md:flex-wrap">
+                <div class="resource-container flex flex-wrap">
                     {% for item in bph %}
                         <div class="p-5 mr-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.bphImage %}
@@ -52,7 +86,7 @@ layout: _default
 
                 <p class="h2 font-bold text-xl mb-3">Erectile Dysfunction</p>
 
-                <div class="resource-container flex md:flex-wrap">
+                <div class="resource-container flex flex-wrap">
                     {% for item in ed %}
                         <div class="p-5 mr-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.edImage %}
@@ -78,7 +112,7 @@ layout: _default
 
                 <p class="h2 font-bold text-xl mb-3">Delayed Ejaculation</p>
 
-                <div class="resource-container flex md:flex-wrap">
+                <div class="resource-container flex flex-wrap">
                     {% for item in delayedEjaculation %}
                         <div class="p-5 mr-5 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.deImage %}
@@ -104,7 +138,7 @@ layout: _default
 
                 <p class="h2 font-bold text-xl mb-3">Female Sexual Dysfunction</p>
 
-                <div class="resource-container flex md:flex-wrap">
+                <div class="resource-container flex flex-wrap">
                     {% for item in femaleSexualDysfunction %}
                         <div class="p-5 mr-5 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.fsdImage %}
@@ -130,7 +164,7 @@ layout: _default
 
                 <p class="h2 font-bold text-xl mb-3">Low Testosterone</p>
 
-                <div class="resource-container flex md:flex-wrap">
+                <div class="resource-container flex flex-wrap">
                     {% for item in lowTestosterone %}
                         <div class="p-5 mr-5 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.ltImage %}
@@ -156,7 +190,7 @@ layout: _default
 
                 <p class="h2 font-bold text-xl mb-3">Male Infertility</p>
 
-                <div class="resource-container flex md:flex-wrap">
+                <div class="resource-container flex flex-wrap">
                     {% for item in maleInfertility %}
                         <div class="p-5 mr-5 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.miImage %}
@@ -182,7 +216,7 @@ layout: _default
 
                 <p class="h2 font-bold text-xl mb-3">Male Stress Incontinence</p>
 
-                <div class="resource-container flex md:flex-wrap">
+                <div class="resource-container flex flex-wrap">
                     {% for item in maleStressIncontinence %}
                         <div class="p-5 mr-5 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.msiImage %}
@@ -208,7 +242,7 @@ layout: _default
 
                 <p class="h2 font-bold text-xl mb-3">Payronie's Disease</p>
 
-                <div class="resource-container flex md:flex-wrap">
+                <div class="resource-container flex flex-wrap">
                     {% for item in peyroniesDisease %}
                         <div class="p-5 mr-5 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.pdImage %}
@@ -234,7 +268,7 @@ layout: _default
 
                 <p class="h2 font-bold text-xl mb-3">Premature Ejaculation</p>
 
-                <div class="resource-container flex md:flex-wrap">
+                <div class="resource-container flex flex-wrap">
                     {% for item in prematureEjaculation %}
                         <div class="p-5 mr-5 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.peImage %}
@@ -260,7 +294,7 @@ layout: _default
 
                 <p class="h2 font-bold text-xl mb-3">Testis Pain</p>
 
-                <div class="resource-container flex md:flex-wrap">
+                <div class="resource-container flex flex-wrap">
                     {% for item in testisPain %}
                         <div class="p-5 mr-5 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.tpImage %}
@@ -286,7 +320,7 @@ layout: _default
 
                 <p class="h2 font-bold text-xl mb-3">Vasectomy</p>
 
-                <div class="resource-container flex md:flex-wrap">
+                <div class="resource-container flex flex-wrap">
                     {% for item in vasectomy %}
                         <div class="p-5 mr-5 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.vasectomyImage %}
@@ -305,5 +339,13 @@ layout: _default
             {% endif %}
         </div>
     </section>
+
+    <script type="text/javascript">
+        // var selector = document.getElementById('condition-select');
+        // selector.addEventListener('change', function() {
+        //     const value = document.getElementById('condition-select').value;
+        //     location.hash = "#" + value;
+        // });
+    </script>
 
 </div>
