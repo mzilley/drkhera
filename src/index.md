@@ -37,7 +37,7 @@ metadata:
   description: This is a page
 topsection:
   title: Netlify CMS Starter
-  subtitle: Baylor College of Medicine
+  subtitle: Men's Health Urology
   image: /static/img/hero.jpg
   alt: Egg!
   heading: Dr. Mohit Khera
