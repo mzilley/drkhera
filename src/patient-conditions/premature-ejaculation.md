@@ -7,7 +7,7 @@ metadata:
     men seek treatment. While several treatment options exist for men with PE,
     the use of local anesthetics to diminish the sensitivity of the penis is one
     of the oldest and well proven treatments for PE.
-image: http://via.placeholder.com/1440x620
+image: /static/img/premature-ejaculation.jpg
 conditionInformation: >-
   Roughly 30% of men suffer from premature ejaculation yet very few men seek
   treatment. The prevalence of premature ejaculation varies among countries and
@@ -25,3 +25,4 @@ conditionInformation: >-
 
   While several treatment options exist for men with PE, the use of local anesthetics to diminish the sensitivity of the penis is one of the oldest and well proven treatments for PE. Another commonly used therapy is anti-depressants. These are used off-label as they are not FDA approved to treat PE. While antidepressants are effective in treating PE, they need to be taken every day or at least 4-6 hours prior to intercourse. Antidepressants are also associated with systemic side effects such as reduced sexual desire, nausea, headache, dry mouth and weight gain. For these reasons, and to avoid the stigma of taking an antidepressant, many men chose not to take antidepressants to treat PE. Finally there is psychological counseling, or sex therapy, which is very effective in treating PE. This therapy focuses on teaching the man techniques, such as the squeeze technique or the start-stop technique, so that he can prolong his ejaculation. The goal of psychological counseling is to increase the man’s confidence, lower his performance anxiety, increase communication with his partner, and to help resolve any interpersonal problems that may have caused the PE. While sex therapy is effective, it requires a time commitment and dedication which many men find difficult to do.
 ---
+Need content
