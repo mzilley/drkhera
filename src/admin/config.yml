@@ -82,22 +82,9 @@ collections:
               { label: Subtitle, name: subtitle, widget: "string"},
               { label: Image, name: image, widget: "image"},
               { label: Image ALT, name: alt, widget: "string"}]}
-          - label: "Patient Resource 1 Category"
-              name: "category1"
-              widget: "select",
-              required: false,
-              options:
-                - { label: "BPH", value: "bph" }
-                - { label: "Delayed Ejaculation", value: "delayed-ejaculation" }
-                - { label: "Erectile Dysfunction", value: "erectile-dysfunction" }
-          - { label: Patient Resources 1, name: resource1, widget: "object", fields: [
-                { label: Title, name: title1, widget: "string"},
-                { label: Link, name: link1, widget: "string"},
-                { label: Description, name: desc1, widget: "text"},
-          ]},
           - {label: "Patient Resources", name: resources, widget: object, collapsed: true, fields: [
               { label: Patient Resources 1, name: resource1, widget: "object", fields: [
-                { label: Category, name: category1, widget: "string", required: false},
+                { label: Category, name: category1, widget: "object", required: false},
                 { label: Title, name: title1, widget: "string"},
                 { label: Link, name: link1, widget: "string"},
                 { label: Description, name: desc1, widget: "text"},
