@@ -6321,7 +6321,7 @@ header {
     margin-bottom: 15px;
 }
 
-.subContent h2 ~ a {
+.subContent h2 a {
     font-size: 22px;
 }
 
