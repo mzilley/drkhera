@@ -6317,9 +6317,17 @@ header {
     height: 100%;
 }
 
+.subContent h2 {
+    margin-bottom: 15px;
+}
+
+.subContent h2 ~ a {
+    font-size: 22px;
+}
+
 .subContent p {
-    @apply pb-3;
     min-width: 100%;
+    margin-bottom: 0;
 }
 
 .subContent li {
