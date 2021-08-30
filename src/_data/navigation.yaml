@@ -23,6 +23,8 @@ items:
         url: /patient-conditions/male-stress-incontinence
       - text: Peyronie's Disease
         url: /patient-conditions/peyronies-disease
+      - text: Premature Ejaculation
+        url: /patient-conditions/premature-ejaculation
       - text: Testis Pain
         url: /patient-conditions/testis-pain
       - text: Vasectomy
