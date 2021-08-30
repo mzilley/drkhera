@@ -524,16 +524,16 @@ collections:
               { label: Heading, name: heading, widget: string, required: false },
               { label: Subtitle, name: subtitle, widget: string, required: false },
               { label: Sidebar Content, name: "sidebarContent", widget: text, required: false},
-              { label: Sidebar Link 1, name: "sidebarLink1", widget: text, required: false},
-              { label: Sidebar Link 2, name: "sidebarLink2", widget: text, required: false},
-              { label: Sidebar Link 3, name: "sidebarLink3", widget: text, required: false},
-              { label: Sidebar Link 4, name: "sidebarLink4", widget: text, required: false},
-              { label: Sidebar Link 5, name: "sidebarLink5", widget: text, required: false},
-              { label: Sidebar Link 1, name: "sidebarLinkText1", widget: text, required: false},
-              { label: Sidebar Link 2, name: "sidebarLinkText2", widget: text, required: false},
-              { label: Sidebar Link 3, name: "sidebarLinkText3", widget: text, required: false},
-              { label: Sidebar Link 4, name: "sidebarLinkText4", widget: text, required: false},
-              { label: Sidebar Link 5, name: "sidebarLinkText5", widget: text, required: false}]}
+              { label: Sidebar Link 1, name: "sidebarLink1", widget: string, required: false},
+              { label: Sidebar Link 2, name: "sidebarLink2", widget: string, required: false},
+              { label: Sidebar Link 3, name: "sidebarLink3", widget: string, required: false},
+              { label: Sidebar Link 4, name: "sidebarLink4", widget: string, required: false},
+              { label: Sidebar Link 5, name: "sidebarLink5", widget: string, required: false},
+              { label: Sidebar Link 1, name: "sidebarLinkText1", widget: string, required: false},
+              { label: Sidebar Link 2, name: "sidebarLinkText2", widget: string, required: false},
+              { label: Sidebar Link 3, name: "sidebarLinkText3", widget: string, required: false},
+              { label: Sidebar Link 4, name: "sidebarLinkText4", widget: string, required: false},
+              { label: Sidebar Link 5, name: "sidebarLinkText5", widget: string, required: false}]}
           - {label: "Body", name: body, widget: markdown}
           
       # Testis Pain
