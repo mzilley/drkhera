@@ -7,15 +7,13 @@ metadata:
     couples have a male factor fertility problem
 image: /static/img/male-infertility.jpg
 ---
-## Male Inertility: What You Need to Know
+## Male Infertility: What You Need to Know
 
 Male infertility is a fairly common problem.  While approximately 15% of all U.S. couples are infertile, up to 50% of infertile couples have a male factor fertility problem and of these, 20% will not be able to conceive solely because of an impaired male factor. 
 
 Risk factors for male infertility can be divided into four categories: testicular factors, environmental factors containing agents harmful to the testicles, iatrogenic (medical treatment related) factors and sex related factors.  Testicular factors include undescended testes, testicular torsion (twisting), varicoceles (dilated veins around the testicle) and testicular infections.  Environmental toxins to the testicle are chemicals, drugs or other substances that poison sperm-producing organs.  Iatrogenic factors are caused by various medical treatments or diagnostic procedures, and include a history of prostate, scrotal or groin-area surgeries, such as a vasectomy or hernia repair, as well as the use of certain medications.  Sex related factors include erectile dysfunction, premature ejaculation, retrograde ejaculation, failure to achieve vaginal penetration and poorly timed or infrequent intercourse.  
 
 Many of the above-mentioned risk factors produce harmful or negative effects on semen quality.  A complete semen analysis will include information about ejaculate volume, sperm count, motility (movement), whether the sperm are moving in a normal direction, and the morphology (shape) of the sperm.   There is a statistical decrease in fertility rates as sperm counts fall below 20 million per milliliter, and where abnormal motility or sperm morphology is present.
-
-
 
 ### Testicular factors
 
@@ -27,8 +25,6 @@ Varicoceles (dilated veins around the testicle) result from enlargement of the t
 
 Infections of the genital tract, such as those of the prostate, epididymis or testicle can lead to male infertility. Up to 15% of male infertility can be linked to sexual transmitted diseases. A history of mumps after puberty is also important, because up to 30% of these males also develop diminished function of the testicle and sperm production.  Vaccination against the mumps virus has helped eliminate this cause of male infertility.  
 
-
-
 ### Toxins to the testicle
 
 Recreational drugs such as alcohol, cocaine, cigarette smoking and marijuana are all risk factors for male infertility.  Studies have shown that smoking more than 20 cigarettes per day has a negative effect on sperm count and motility.  Marijuana has also been shown to decrease sperm quality.  While mild to moderate alcohol consumption has not been shown to affect semen quality, high alcohol use has been associated with low testosterone levels and a decrease in semen volume.  
@@ -37,8 +33,6 @@ There are numerous medications that contribute to male infertility.  Examples i
 
 The harmful effect is usually reversible if the toxic substance is identified and the exposure is discontinued.  
 
-
-
 ### Iatrogenic factors
 
 Up to 7% of men have injury to, or obstruction of, their vas deferens after inguinal hernia repairs (in the groin area). Recent evidence suggests that mesh used during the surgical repair of an inguinal hernia can result in scar tissue around the vas deferens and cause obstruction.  Therefore, the use of prosthetic mesh during an inguinal hernia repair should be avoided in men who wish to preserve fertility.  
@@ -46,8 +40,6 @@ Up to 7% of men have injury to, or obstruction of, their vas deferens after ingu
 Retrograde ejaculation refers to the entry of semen into the male’s bladder instead of going out forward through the urethra during ejaculation.   Medications that cause retrograde ejaculation include alpha blockers used to treat prostate enlargement and anti-hypertensive medications, such as prazosin (Minipress) and terazosin (Hytrin).  Surgical procedures to treat an enlarged prostate gland can also lead to retrograde ejaculation.  However, the sperm can be collected from the urine and used for successful insemination. 
 
 Operations that remove the prostate gland are associated with possible nerve injury, which can lead to erectile dysfunction. 
-
-
 
 ### Sex related factors
 
