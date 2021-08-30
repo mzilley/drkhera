@@ -5,7 +5,7 @@ metadata:
   title: Female Sexual Dysfunction
   description: Female Sexual Dysfunction, or FSD, affects 43% (approximately 40
     million) of American women.  FSD can be subdivided into four categories
-image: http://via.placeholder.com/1440x620
+image: /static/img/female-sexual-dysfunction.jpg
 ---
 Female Sexual Dysfunction, or FSD, affects 43% (approximately 40 million) of American women.  FSD can be subdivided into four categories:
 
