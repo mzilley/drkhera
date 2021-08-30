@@ -6319,6 +6319,11 @@ header {
     min-width: 100%;
 }
 
+.subContent li {
+    list-style: disc;
+    margin-left: 15px;
+}
+
 .subContent > div {
     @apply px-5;
 }
