@@ -57,10 +57,14 @@ layout: _default
                 {% endif %}
             </aside>
         </div>
-        {% endif %}
+        
         <div class="md:w-9/12">
             {{ content | safe}}
         </div>
-        
+        {% else %}
+        <div class="md:w-100">
+            {{ content | safe}}
+        </div>
+        {% endif %}
     </div>
 </div>
