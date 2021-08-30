@@ -7,11 +7,11 @@ metadata:
     40% of men between the ages of 40 and 70 years of age.
 image: http://via.placeholder.com/1440x620
 sidebar:
-  heading: Sidebar heading
-  subtitle: more information will go here
+  heading: ""
+  subtitle: ""
   keywords: and even more information will go here such as links, information,
     images, and more
-  sidebarContent: "> ***Test***"
+  sidebarContent: ""
 conditionInformation: >-
   Low testosterone, also known as hypogonadism, affects approximately 40% of men
   between the ages of 40 and 70 years of age. In fact, close to 500,000 new
