@@ -30,6 +30,6 @@ items:
       - text: Vasectomy
         url: /patient-conditions/vasectomy
   - text: Patient Resources
-    url: /
+    url: /patient-resources
   - text: Get in Touch
     url: /contact
