@@ -194,6 +194,9 @@ h4 {
 h5, h6 {
     font-size: 22px;
 }
+li {
+    list-style: none;
+}
 p, strong, a, small, li {
     font-family: Nunito Sans, sans-serif;
 }
