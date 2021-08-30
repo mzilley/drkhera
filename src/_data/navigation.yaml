@@ -29,7 +29,7 @@ items:
         url: /patient-conditions/testis-pain
       - text: Vasectomy
         url: /patient-conditions/vasectomy
-  - text: Get in Touch
-    url: /contact
   - text: Patient Resources
     url: /
+  - text: Get in Touch
+    url: /contact
