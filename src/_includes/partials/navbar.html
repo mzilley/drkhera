@@ -22,7 +22,7 @@
                 <ul class="pt-6 lg:pt-0 list-reset lg:flex justify-end flex-1 z-10 items-center">
                     {% for item in navigation.items %}
                         <li class="nav__item z-10 mr-3 {% if item.childs %}nav__item--has-childs{% endif %}">
-                            <a @click="isOpen = false" class="inline-block no-underline hover:text-500 py-2 px-4 lg:text-lg" href="{{ item.url }}">{{ item.text }}</a>
+                            <a @click="isOpen = false" class="inline-block no-underline hover:text-500 py-2 px-4 text-base lg:text-lg" href="{{ item.url }}">{{ item.text }}</a>
                             {% if item.childs %}
                                 <ul class="nav__sub-list z-10">
                                     {% for child in item.childs %}
