@@ -185,15 +185,15 @@ collections:
                 { label: Title, name: title9, widget: "string", required: false},
                 { label: Link, name: link9, widget: "string", required: false}
               ]},
-              { label: Featured 7, name: featured7, widget: "object", collapsed: true, fields: [
-                { label: Image, name: image7, widget: "image", required: false},
-                { label: Title, name: title7, widget: "string", required: false},
-                { label: Link, name: link7, widget: "string", required: false}
+              { label: Featured 10, name: featured10, widget: "object", collapsed: true, fields: [
+                { label: Image, name: image10, widget: "image", required: false},
+                { label: Title, name: title10, widget: "string", required: false},
+                { label: Link, name: link10, widget: "string", required: false}
               ]},
-              { label: Featured 9, name: featured9, widget: "object", collapsed: true, fields: [
-                { label: Image, name: image9, widget: "image", required: false},
-                { label: Title, name: title9, widget: "string", required: false},
-                { label: Link, name: link9, widget: "string", required: false}
+              { label: Featured 11, name: featured11, widget: "object", collapsed: true, fields: [
+                { label: Image, name: image11, widget: "image", required: false},
+                { label: Title, name: title11, widget: "string", required: false},
+                { label: Link, name: link11, widget: "string", required: false}
               ]},
               { label: Featured 12, name: featured12, widget: "object", collapsed: true, fields: [
                 { label: Image, name: image12, widget: "image", required: false},
