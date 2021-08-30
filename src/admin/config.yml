@@ -94,11 +94,11 @@ collections:
                   - { label: Title, name: title1, widget: "string"},
                   - { label: Link, name: link1, widget: "string"},
                   - { label: Description, name: desc1, widget: "text"}
-                  - label: "Category"
-                  name: "category1"
-                  widget: "select"
-                  fields:
-                  - { options: ["bph", "delayed-ejaculation", "erectile-dysfunction", "female-sexual-dysfunction", "low-testosterone", "male-infertility", "male-stress-incontinence", "peyronies-disease", "premature-ejaculation", "testis-pain", "vasectomy", required: false}
+                  # - label: "Category"
+                  # name: "category1"
+                  # widget: "select"
+                  # fields:
+                  # - { options: ["bph", "delayed-ejaculation", "erectile-dysfunction", "female-sexual-dysfunction", "low-testosterone", "male-infertility", "male-stress-incontinence", "peyronies-disease", "premature-ejaculation", "testis-pain", "vasectomy", required: false}
               { label: Patient Resources 2, name: resource2, widget: "object", collapsed: true, fields: [
                 { label: Category, name: category2, widget: "string", required: false},
                 { label: Title, name: title2, widget: "string"},
