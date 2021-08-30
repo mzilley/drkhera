@@ -531,9 +531,9 @@ collections:
               { label: Sidebar Link 4, name: "sidebarLink4", widget: text, required: false},
               { label: Sidebar Link 5, name: "sidebarLink5", widget: text, required: false},
               { label: Sidebar Link 1, name: "sidebarLinkText1", widget: text, required: false},
-              { label: Sidebar Link 2, name: "sidebarLinkText2", widget: text, required: false},,
-              { label: Sidebar Link 3, name: "sidebarLinkText3", widget: text, required: false}
-              { label: Sidebar Link 4, name: "sidebarLinkText4", widget: text, required: false}
+              { label: Sidebar Link 2, name: "sidebarLinkText2", widget: text, required: false},
+              { label: Sidebar Link 3, name: "sidebarLinkText3", widget: text, required: false},
+              { label: Sidebar Link 4, name: "sidebarLinkText4", widget: text, required: false},
               { label: Sidebar Link 5, name: "sidebarLinkText5", widget: text, required: false}]}
           - {label: "Body", name: body, widget: markdown}
           
