@@ -6268,6 +6268,14 @@ header {
     border-radius: 0 35px 35px 0;
 }
 
+.b-rad-top-left {
+    border-top-left-radius: 35px;
+}
+
+.b-rad-top-right {
+    border-top-right-radius: 35px;
+}
+
 .insta svg {
     fill: transparent;
 }
