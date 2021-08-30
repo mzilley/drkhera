@@ -6,7 +6,7 @@ metadata:
   description: While over 52% of American men suffer from some degree of erectile
     dysfunction, it is surprising to me how very little patients know about the
     causes and treatments for this disease
-image: http://via.placeholder.com/1440x620
+image: /static/img/erectile-dysfunction.jpg
 ---
 While over 52% of American men suffer from some degree of erectile dysfunction, it is surprising to me how very little patients know about the causes and treatments for this disease. Erectile dysfunction can have a significant psychological impact on a man and can significantly impair his relationship with his partner. There are also cultural differences that dictate which men are more likely to seek treatment.    
 
