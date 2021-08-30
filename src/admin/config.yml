@@ -754,16 +754,6 @@ collections:
               { label: Keywords - comma separated, summary: "Comma separated", name: keywords, widget: string, required: false}]}
           - { image: Image, name: image, widget: "image"}
           - { label: Body, name: 'body', widget: "markdown", required: false }
-          - label: "Supporting Content"
-            name: entries
-            widget: list 
-            fields:
-              - label: Heading
-                name: heading
-                widget: string
-              - label: Text
-                name: text
-                widget: "markdown"
       - label: "About"
         name: "about"
         file: "src/about.md"
