@@ -84,37 +84,37 @@ collections:
               { label: Image ALT, name: alt, widget: "string"}]}
           - {label: "Patient Resources", name: resources, widget: object, collapsed: true, fields: [
               { label: Patient Resources 1, name: resource1, widget: "object", fields: [
-                { label: Category, name: category1, widget: "select", options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Testis Pain", "Vasectomy"], required: false},
+                { label: Category, name: category1, widget: "select", options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"], required: false},
                 { label: Title, name: title1, widget: "string"},
                 { label: Link, name: link1, widget: "string"},
                 { label: Description, name: desc1, widget: "text"},
               ]},
               { label: Patient Resources 2, name: resource2, widget: "object", collapsed: true, fields: [
-                { label: Category, name: category2, widget: "select", options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Testis Pain", "Vasectomy"], required: false},
+                { label: Category, name: category2, widget: "select", options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"], required: false},
                 { label: Title, name: title2, widget: "string"},
                 { label: Link, name: link2, widget: "string"},
                 { label: Description, name: desc2, widget: "text"}
               ]},
               { label: Patient Resources 3, name: resource3, widget: "object", collapsed: true, fields: [
-                { label: Category, name: category3, widget: "select", options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Testis Pain", "Vasectomy"], required: false},
+                { label: Category, name: category3, widget: "select", options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"], required: false},
                 { label: Title, name: title3, widget: "string"},
                 { label: Link, name: link3, widget: "string"},
                 { label: Description, name: desc3, widget: "text"}
               ]},
               { label: Patient Resources 4, name: resource4, widget: "object", fields: [
-                { label: Category, name: category4, widget: "select", options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Testis Pain", "Vasectomy"], required: false},
+                { label: Category, name: category4, widget: "select", options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"], required: false},
                 { label: Title, name: title4, widget: "string"},
                 { label: Link, name: link4, widget: "string"},
                 { label: Description, name: desc4, widget: "text"}
               ]},
               { label: Patient Resources 5, name: resource5, widget: "object", collapsed: true, fields: [
-                { label: Category, name: category5, widget: "select", options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Testis Pain", "Vasectomy"], required: false},
+                { label: Category, name: category5, widget: "select", options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"], required: false},
                 { label: Title, name: title5, widget: "string"},
                 { label: Link, name: link5, widget: "string"},
                 { label: Description, name: desc5, widget: "text"}
               ]},
               { label: Patient Resources 6, name: resource6, widget: "object", collapsed: true, fields: [
-                { label: Category, name: category6, widget: "select", options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Testis Pain", "Vasectomy"], required: false},
+                { label: Category, name: category6, widget: "select", options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"], required: false},
                 { label: Title, name: title6, widget: "string"},
                 { label: Link, name: link6, widget: "string"},
                 { label: Description, name: desc6, widget: "text"}
