@@ -170,6 +170,36 @@ collections:
                 { label: Title, name: title6, widget: "string", required: false},
                 { label: Link, name: link6, widget: "string", required: false}
               ]},
+              { label: Featured 7, name: featured7, widget: "object", collapsed: true, fields: [
+                { label: Image, name: image7, widget: "image", required: false},
+                { label: Title, name: title7, widget: "string", required: false},
+                { label: Link, name: link7, widget: "string", required: false}
+              ]},
+              { label: Featured 8, name: featured8, widget: "object", collapsed: true, fields: [
+                { label: Image, name: image8, widget: "image", required: false},
+                { label: Title, name: title8, widget: "string", required: false},
+                { label: Link, name: link8, widget: "string", required: false}
+              ]},
+              { label: Featured 9, name: featured9, widget: "object", collapsed: true, fields: [
+                { label: Image, name: image9, widget: "image", required: false},
+                { label: Title, name: title9, widget: "string", required: false},
+                { label: Link, name: link9, widget: "string", required: false}
+              ]},
+              { label: Featured 7, name: featured7, widget: "object", collapsed: true, fields: [
+                { label: Image, name: image7, widget: "image", required: false},
+                { label: Title, name: title7, widget: "string", required: false},
+                { label: Link, name: link7, widget: "string", required: false}
+              ]},
+              { label: Featured 9, name: featured9, widget: "object", collapsed: true, fields: [
+                { label: Image, name: image9, widget: "image", required: false},
+                { label: Title, name: title9, widget: "string", required: false},
+                { label: Link, name: link9, widget: "string", required: false}
+              ]},
+              { label: Featured 12, name: featured12, widget: "object", collapsed: true, fields: [
+                { label: Image, name: image12, widget: "image", required: false},
+                { label: Title, name: title12, widget: "string", required: false},
+                { label: Link, name: link12, widget: "string", required: false}
+              ]}
               ]}
           - {label: "Partners and Affiliations", name: partners, widget: object, collapsed: true, fields: [
               { name: image1, widget: "image" },
