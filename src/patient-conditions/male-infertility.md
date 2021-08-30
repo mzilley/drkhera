@@ -7,7 +7,7 @@ metadata:
     couples have a male factor fertility problem
 image: /static/img/male-infertility.jpg
 sidebar:
-  heading: Test
+  heading: ""
 ---
 ## Male Infertility: What You Need to Know
 
