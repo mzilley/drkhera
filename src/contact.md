@@ -2,13 +2,13 @@
 layout: contact
 title: Contact Us
 description: Contact us to talk to an egg
-image: /static/img/egg.jpg
+metadata:
+  title: Contact Dr. Khera
+  description: Contact me today to ask questions about a certain condition and to
+    see if treatment is right for you
+image: /static/img/khera-pic-2021.jpg
 entries:
-  - heading: Location
-    text: 3153 Lynn Avenue, South San Francisco, California 94080
-  - heading: Working hours
-    text: "Monday – Saturday: 9AM – 7PM We’re closed on Sundays"
+  - heading: Call between 8 and 5 to schedule an appointment Monday through Friday
+    text: "[713-798-4001](tel:7137984001)"
 ---
-Contact us to talk to an egg
-
-We’d love to get in touch with you and hear your ideas and questions. We strive to grow and improve constantly and your feedback is valuable for us.
+.
