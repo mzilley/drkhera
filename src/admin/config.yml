@@ -456,6 +456,8 @@ collections:
               { label: Description, name: description, widget: string }]}
           - {label: "Image", name: image, widget: image }
           - {label: "Title", name: title, widget: string }
+          - {label: "Button Text", name: buttonText, widget: string, required: false }
+          - {label: "Button Link", name: buttonLink, widget: string, required: false }
           - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
               { label: Heading, name: heading, widget: string, required: false },
               { label: Subtitle, name: subtitle, widget: string, required: false },
@@ -481,6 +483,8 @@ collections:
               { label: Description, name: description, widget: string }]}
           - {label: "Image", name: image, widget: image}
           - {label: "Title", name: title, widget: string}
+          - {label: "Button Text", name: buttonText, widget: string, required: false }
+          - {label: "Button Link", name: buttonLink, widget: string, required: false }
           - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
               { label: Heading, name: heading, widget: string, required: false },
               { label: Subtitle, name: subtitle, widget: string, required: false },
@@ -506,6 +510,8 @@ collections:
               { label: Description, name: description, widget: string }]}
           - {label: "Image", name: image, widget: image}
           - {label: "Title", name: title, widget: string}
+          - {label: "Button Text", name: buttonText, widget: string, required: false }
+          - {label: "Button Link", name: buttonLink, widget: string, required: false }
           - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
               { label: Heading, name: heading, widget: string, required: false },
               { label: Subtitle, name: subtitle, widget: string, required: false },
@@ -531,6 +537,8 @@ collections:
               { label: Description, name: description, widget: string }]}
           - {label: "Image", name: image, widget: image}
           - {label: "Title", name: title, widget: string}
+          - {label: "Button Text", name: buttonText, widget: string, required: false }
+          - {label: "Button Link", name: buttonLink, widget: string, required: false }
           - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
               { label: Heading, name: heading, widget: string, required: false },
               { label: Subtitle, name: subtitle, widget: string, required: false },
@@ -556,6 +564,8 @@ collections:
               { label: Description, name: description, widget: string }]}
           - {label: "Image", name: image, widget: image}
           - {label: "Title", name: title, widget: string}
+          - {label: "Button Text", name: buttonText, widget: string, required: false }
+          - {label: "Button Link", name: buttonLink, widget: string, required: false }
           - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
               { label: Heading, name: heading, widget: string, required: false },
               { label: Subtitle, name: subtitle, widget: string, required: false },
@@ -582,6 +592,8 @@ collections:
               { label: Description, name: description, widget: string }]}
           - {label: "Image", name: image, widget: image}
           - {label: "Title", name: title, widget: string}
+          - {label: "Button Text", name: buttonText, widget: string, required: false }
+          - {label: "Button Link", name: buttonLink, widget: string, required: false }
           - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
               { label: Heading, name: heading, widget: string, required: false },
               { label: Subtitle, name: subtitle, widget: string, required: false },
@@ -607,6 +619,8 @@ collections:
               { label: Description, name: description, widget: string }]}
           - {label: "Image", name: image, widget: image}
           - {label: "Title", name: title, widget: string}
+          - {label: "Button Text", name: buttonText, widget: string, required: false }
+          - {label: "Button Link", name: buttonLink, widget: string, required: false }
           - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
               { label: Heading, name: heading, widget: string, required: false },
               { label: Subtitle, name: subtitle, widget: string, required: false },
@@ -632,6 +646,8 @@ collections:
               { label: Description, name: description, widget: string }]}
           - {label: "Image", name: image, widget: image}
           - {label: "Title", name: title, widget: string}
+          - {label: "Button Text", name: buttonText, widget: string, required: false }
+          - {label: "Button Link", name: buttonLink, widget: string, required: false }
           - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
               { label: Heading, name: heading, widget: string, required: false },
               { label: Subtitle, name: subtitle, widget: string, required: false },
@@ -657,6 +673,8 @@ collections:
               { label: Description, name: description, widget: string }]}
           - {label: "Image", name: image, widget: image}
           - {label: "Title", name: title, widget: string}
+          - {label: "Button Text", name: buttonText, widget: string, required: false }
+          - {label: "Button Link", name: buttonLink, widget: string, required: false }
           - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
               { label: Heading, name: heading, widget: string, required: false },
               { label: Subtitle, name: subtitle, widget: string, required: false },
@@ -682,6 +700,8 @@ collections:
               { label: Description, name: description, widget: string }]}
           - {label: "Image", name: image, widget: image}
           - {label: "Title", name: title, widget: string}
+          - {label: "Button Text", name: buttonText, widget: string, required: false }
+          - {label: "Button Link", name: buttonLink, widget: string, required: false }
           - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
               { label: Heading, name: heading, widget: string, required: false },
               { label: Subtitle, name: subtitle, widget: string, required: false },
@@ -707,6 +727,8 @@ collections:
               { label: Description, name: description, widget: string }]}
           - {label: "Image", name: image, widget: image}
           - {label: "Title", name: title, widget: string}
+          - {label: "Button Text", name: buttonText, widget: string, required: false }
+          - {label: "Button Link", name: buttonLink, widget: string, required: false }
           - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
               { label: Heading, name: heading, widget: string, required: false },
               { label: Subtitle, name: subtitle, widget: string, required: false },
