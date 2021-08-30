@@ -5,7 +5,7 @@ metadata:
   title: Male Stress Incontinence
   description: Determine if treatment is right for you. Patients will be counseled
     on the three most common treatment options for male stress incontinence.
-image: http://via.placeholder.com/1440x620
+image: /static/img/stress-incontinence.jpg
 ---
 Following radical prostatectomy, many men can experience urinary leakage.  Urinary control continues to improve mostly in the first 12 months.  During the second year following prostate cancer surgery there is generally only mild improvement in urinary control.  Thus I tend to like to wait until at least 12 months following surgery before considering any type of surgical intervention.
 
