@@ -6,6 +6,8 @@ metadata:
   description: Male infertility is a fairly common problem. Up to 50% of infertile
     couples have a male factor fertility problem
 image: /static/img/male-infertility.jpg
+sidebar:
+  heading: Test
 ---
 ## Male Infertility: What You Need to Know
 
