@@ -4,7 +4,6 @@ layout: _default
 
 <div class="subHero-container md:flex flex-col mx-auto justify-center items-center">
     <div class="subHero-image w-full">
-        <!-- <img src="http://via.placeholder.com/1440x620" class="h-64 object-cover w-full"> -->
         <img src="{{image}}" class="h-64 object-cover w-full">
 
     </div>
@@ -26,36 +25,45 @@ layout: _default
     </div>
 
     <div class="subContent flex pb-16 container">
+        {% if sidebar %}
         <div class="md:w-3/12">
             <aside>
-                <h2>{{sidebar.heading}}</h2>
-                <p>{{sidebar.subtitle}}</p>
-                {{sidebar.sidebarContent}}
-                <!-- <p><a href="/" class="underline hover:no-underline">About Me</a></p>
-                <p><a href="/" class="underline hover:no-underline">Patient Resources</a></p>
-                <p><a href="/" class="underline hover:no-underline">Publications & More</a></p>
-                <p><a href="/" class="btn btn-primary shadow b-rad">Schedule Appointment</a></p> -->
+                {% if sidebar.heading %}
+                    <h2>{{sidebar.heading}}</h2>
+                {% endif %}
+                {% if sidebar.subtitle %}
+                    <p>{{sidebar.subtitle}}</p>
+                {% endif %}
+                {% if sidebar.sidebarContent %}
+                    <div>
+                        {{sidebar.sidebarContent}}
+                    </div>
+                {% endif %}
+                {% if sidebar.sidebarLink1 %}
+                    <a href="{{sidebar.sidebarLink1}}" class="underline hover:no-underline">{{sidebar.sidebarLinkText1}}</a>
+                {% endif %}
+                {% if sidebar.sidebarLink2 %}
+                    <a href="{{sidebar.sidebarLink2}}" class="underline hover:no-underline">{{sidebar.sidebarLinkText2}}</a>
+                {% endif %}
+                {% if sidebar.sidebarLink3 %}
+                    <a href="{{sidebar.sidebarLink3}}" class="underline hover:no-underline">{{sidebar.sidebarLinkText3}}</a>
+                {% endif %}
+                {% if sidebar.sidebarLink4 %}
+                    <a href="{{sidebar.sidebarLink4}}" class="underline hover:no-underline">{{sidebar.sidebarLinkText4}}</a>
+                {% endif %}
+                {% if sidebar.sidebarLink5 %}
+                    <a href="{{sidebar.sidebarLink5}}" class="underline hover:no-underline">{{sidebar.sidebarLinkText5}}</a>
+                {% endif %}
             </aside>
         </div>
-        <div class="md:w-9/12">
-            <p>
-                {{conditionInformation}}
-            </p>
-            
-            {{conditionResources}}
-            <div class="md:w-9/12">
-                <h3>Resources</h3>
-                <ul>
-                    <li><a href="src/static/img/adam.pdf" class="underline hover:no-underline">Do you have low testosterone? - approx. 3 minutes to complete</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=rNwI2V4POa0" class="underline hover:no-underline">The Balancing Act - Low Testosterone</a></li>
-                    <li><a href="https://www.excelmale.com/forum/threads/great-lectures-on-testosterone-at-the-american-urology-association-conference-may-18-2015.3853/" class="underline hover:no-underline">Great Lectures on Testosterone at the American Urology Association Conference May 18, 2015</a></li>
-                    <li><a href="https://www.click2houston.com/news/2016/05/28/baylor-college-of-medicine-takes-new-approach-to-testosterone-treatment/" class="underline hover:no-underline">Baylor College of Medicine takes new approach to testosterone treatment</a></li>
-                    <li><a href="https://www.youtube.com/watch?v=zJUk1zJW0sg" class="underline hover:no-underline">Treatment Options for Low Testosterone in Men</a></li>
-                    <li><a href="https://www.google.com/url?q=https://pubmed.ncbi.nlm.nih.gov/33661092/&sa=D&source=editors&ust=1628731555330495&usg=AOvVaw3CRmIRZcyW7tEycaINYFeV" class="underline hover:no-underline">Canadian Urological Association guideline on testosterone deficiency in men: Evidence-based Q&A.</a></li>
-                </ul>
-                <a href="/patient-resources" class="btn btn-primary shadow b-rad mt-3">All Patient Resources</a>
-            </div>
-        </div>
         
+        <div class="md:w-9/12">
+            {{ content | safe}}
+        </div>
+        {% else %}
+        <div class="md:w-10/12 mx-auto my-0">
+            {{ content | safe}}
+        </div>
+        {% endif %}
     </div>
 </div>
