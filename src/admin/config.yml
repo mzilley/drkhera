@@ -753,8 +753,8 @@ collections:
               { label: Description, name: description, widget: string },
               { label: Keywords - comma separated, summary: "Comma separated", name: keywords, widget: string, required: false}]}
           - { image: Image, name: image, widget: "image"}
-          - { label: Body, name: 'body', widget: "markdown" }
-          - label: "Entries"
+          - { label: Body, name: 'body', widget: "markdown", required: false }
+          - label: "Supporting Content"
             name: entries
             widget: list 
             fields:
