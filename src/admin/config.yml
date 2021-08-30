@@ -24,7 +24,6 @@ collections:
         fields:
           - label: Nav Items
             name: items
-            summary: {{text}}
             widget: list
             allow_add: true
             collapsed: true
