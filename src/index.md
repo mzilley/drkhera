@@ -5,7 +5,7 @@ resources:
     title1: Treatment Options for Low Testosterone in Men
     link1: https://www.youtube.com/watch?v=zJUk1zJW0sg
     desc1: Some text to give the user more information about the resource
-    category1: Low Testosterone
+    category1: bph
   resource2:
     desc2: Some text to give the user more information about the resource
     title2: "What you need to know about Penile Prosthesis: The Penile Implant"
