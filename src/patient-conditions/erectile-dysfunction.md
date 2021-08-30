@@ -24,7 +24,7 @@ Erectile dysfunction is important because it is a window to a man’s cardiac an
 
 
 
-## **The Problem with Viagra**
+## The Problem with Viagra
 
 Many people believe that Viagra is a good treatment for erectile dysfunction. However you have to ask yourself if Viagra, or Viagra-like drugs, are really curing the problem of erectile dysfunction. I believe that these medications are not curing ED but only allowing the disease to become worse over time. Many patients do not realize that ED is a disease process that is progressive and it is actually reversible.  Studies have shown that diet and exercise alone can reverse erectile dysfunction.  Other studies have shown that the use of statins alone not only improve erectile dysfunction but also make Viagra-like drugs much more effective.  Improving diabetic control and stopping smoking are also ways to reverse erectile dysfunction.  Finally, daily dosing of Viagra-like drugs, such as Cialis, and the use of testosterone have been shown to improve erectile function.     Over the past 5 years there has been significant utilization of regenerative therapies to treat ED. These therapies include shockwave therapy, stem cell therapy and the use of platelet rich plasma to treat ED. These therapies are still investigational and current clinical trials are underway at Baylor College of Medicine.
 
