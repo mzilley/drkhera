@@ -148,7 +148,7 @@ collections:
                 { label: Description, name: conditionDesc11, widget: "text"},
                 { label: Button Text, name: buttonText11, widget: "string"},
                 { label: Image, name: image, widget: "string"},
-              ]},
+              ]}
           - {label: "Patient Resources", name: resources, widget: object, collapsed: true, fields: [
               { label: Patient Resources 1, name: resource1, widget: "object", fields: [
                 { label: Category, name: category1, widget: "select", options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"], required: false},
