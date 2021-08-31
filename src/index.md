@@ -194,14 +194,14 @@ testimonials:
       good count and can conceive naturally.Dr. Khera has a wonderful bedside
       manner, he is attentive and addresses all possibilities. I was sure that
       there was no hope until I came to him.
-    name1: First Last
+    name1: ""
   testimonial2:
     testimonialContent2: Dr. Khera is one of the top Urologists in the US. He does
       extensive research and has developed the different medicines I have used
       over the years. I have been seeing him for almost 10 years and highly
       recommend him. Dr. Khera has the best "bed side manners" of any doctor I
       have ever gone to. He genuinely cares about each of his patients.
-    name2: Name
+    name2: ""
   testimonial3:
     testimonialContent3: My urologist for 5 years. I have a huge level of trust
       Excellent doctor. Heavily involved in research so he is current on
@@ -214,7 +214,7 @@ testimonials:
       has been great as I have dealt ED since a less successful microwave
       prostate treatment years ago. So glad I was referred to Dr. Khera and I
       refer friends, coworkers and their spouses.
-    name3: First Last
+    name3: ""
 work:
   featured1:
     image1: /static/img/newapproachtotestosteronetreatment.png
