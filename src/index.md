@@ -41,6 +41,101 @@ topsection:
   image: /static/img/hero.jpg
   alt: Egg!
   heading: Dr. Mohit Khera
+conditions:
+  maleStressIncontinence:
+    heading11: Male Stress Incontinence
+    conditionDesc11: Prior to considering what type of procedure is best for the
+      patient, many patient will undergo cystoscopy and assessment of their
+      degree of leakage in the office. Some patients will undergo specialized
+      testing such as videourodynamics. Once these tests are complete, patients
+      will be counseled on the three most common treatment options for male
+      stress incontinence.
+    buttonText11: Procedure Options
+    image: /static/img/stress-incontinence.jpg
+  prematureEjaculation:
+    heading5: Premature Ejaculation
+    conditionDesc5: Premature ejaculation (PE) is a male sexual dysfunction
+      characterized by ejaculation which almost always occurs within
+      approximately one minute of vaginal penetration and this results in
+      distress for the male.
+    buttonText5: Treating Premature Ejaculation
+    image: /static/img/premature-ejaculation.jpg
+  vasectomy:
+    heading6: Vasectomy
+    conditionDesc6: Every year over 500,000 men choose to have a vasectomy. A
+      vasectomy is minor office procedure that blocks the sperm from entering
+      the ejaculate. A vasectomy can be reversed but the sooner you reverse the
+      vasectomy, the better the outcomes.
+    buttonText6: Procedure Options
+    image: /static/img/vasectomy.jpg
+  lowTestosterone:
+    heading1: Low Testosterone
+    conditionDesc1: >
+      Low testosterone, also known as hypogonadism, affects approximately 40% of
+      men between the ages of 40 and 70 years of age.
+    buttonText1: Treatment Options
+    image: /static/img/testosterone.jpg
+  femaleSexualDysfunction:
+    heading8: Female Sexual Dysfunction
+    conditionDesc8: Female Sexual Dysfunction, or FSD, affects 43% (approximately 40
+      million) of American women.
+    buttonText8: Learn More
+    image: /static/img/female-sexual-dysfunction.jpg
+  peyroniesDisease:
+    heading4: Peyronie's Disease
+    conditionDesc4: >
+      Peyronie’s disease is an abnormal curvature of the penis when it is erect.
+      It is estimated that up to 5-9% of men suffer from Peyronie’s disease. The
+      average age of onset of this disease is 57 years old and the disease
+      becomes more common as men become older. The cause of Peyronie’s disease
+      remains unknown. However, many believe that it is due to blunt penile
+      injury or repeated trauma associated with sexual activity. Men will
+      present with a plaque or a “knot” in their penis and/or a curvature of
+      their penis. Significant penile curvatures can result in pain, poor
+      erections, and an inability to engage in sexual intercourse.
+    buttonText4: Living with peyronie's disease
+    image: /static/img/peyronies-disease.jpg
+  testisPain:
+    heading3: Testis Pain
+    conditionDesc3: There are numerous causes of testis pain including infection,
+      inflammation, and varicoceles. Most of the time testis pain can be treated
+      non-surgically. However, in rare cases a varicocele repair or denervation
+      of the spermatic cord procedure can be helpful.
+    buttonText3: Learn more about treatment
+    image: /static/img/testis-pain.jpg
+  delayedEjaculation:
+    heading9: Delayed Ejaculation
+    conditionDesc9: |
+      Need Content
+    buttonText9: Learn More
+    image: /static/img/delayed-ejaculation.jpg
+  maleInfertility:
+    heading7: Male Infertility
+    conditionDesc7: Male infertility is a fairly common problem. While approximately
+      15% of all U.S. couples are infertile, up to 50% of infertile couples have
+      a male factor fertility problem and of these, 20% will not be able to
+      conceive solely because of an impaired male factor.
+    buttonText7: Learn More
+    image: /static/img/male-infertility.jpg
+  bph:
+    heading10: BPH (Enlarged Prostate}
+    conditionDesc10: Benign prostatic hyperplasia (BPH) is also known as enlargement
+      of the prostate. BPH affects almost 40% of men by 50 years of age and
+      almost 80% of men by 80 years of age. Symptoms of BPH include straining
+      when urinating, getting up at night to urinate, urinating frequently
+      and/or urgently, pain on urination or having the sensation not being able
+      to empty the bladder.
+    buttonText10: Learn more about BPH
+    image: /static/img/bph-2.jpg
+  erectileDysfunction:
+    heading2: Erectile Dysfunction
+    conditionDesc2: The concept of erectile preservation is to increase blood flow
+      and oxygen to the penile tissue and thus prevent scarring and permanent
+      damage to the penis. It is important to take this proactive approach
+      because many times the scarring that occurs in the penis after a radical
+      prostatectomy is irreversible.
+    buttonText2: Learn more about treatment
+    image: /static/img/erectile-dysfunction.jpg
 about:
   image: /static/img/khera-pic-2021.jpg
   heading: Dr. Mohit Khera
