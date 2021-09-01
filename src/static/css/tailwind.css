@@ -6224,11 +6224,6 @@ li {
     font-size: 14px ;
 }
 
-header {
-    height: 115px;
-
-}
-
 .hero-container, .hero-image img {
     height: 100%;
 }
@@ -6398,10 +6393,14 @@ header {
 }
 
 @media (min-width: 1025px) {
+    header {
+        height: 115px;
+    }
     #about .about-img-container, #about .about-img-container img  {
         max-width: 450px;
         height: 600px;
     }
+    
 }
 
 @media (max-width: 1024px) {
