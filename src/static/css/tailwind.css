@@ -6065,7 +6065,7 @@ input[type="submit"] {
 /* Set Variables here */
 :root {
  --primary:#273258;
- --highlight:#3E999F;
+ --highlight:#97D5BF;
  --white:#fff;
  --off-white:#fffdfc;
  --grey-1:#f5f3f2;
@@ -6226,6 +6226,7 @@ li {
 
 header {
     height: 115px;
+
 }
 
 .hero-container, .hero-image img {
@@ -6347,6 +6348,9 @@ header {
 }
 
 @media (max-width: 768px) {
+    #logo {
+        max-width: 215px;;
+    }
     .subHero-content {
         border-radius: 0;
         bottom: 0;;
@@ -6367,7 +6371,6 @@ header {
     }
     .hero-content {
         bottom: 0;
-        background-color: white;
     }
     .creds img {
         margin: 0 auto;
@@ -6394,9 +6397,16 @@ header {
     }
 }
 
+@media (min-width: 1025px) {
+    #about .about-img-container, #about .about-img-container img  {
+        max-width: 450px;
+        height: 600px;
+    }
+}
+
 @media (max-width: 1024px) {
     .menu {
-        z-index: 1;
+        z-index: 999;
         background-color: var(--white);
     }
 }
@@ -6404,10 +6414,6 @@ header {
 @media (min-width: 768px) {
     .hero-container, .hero-image img {
         height: calc(100vh - 115px);
-    }
-    #about .about-img-container, #about .about-img-container img  {
-        max-width: 450px;
-        height: 600px;
     }
     #condition ul.submenu li:first-child, #condition ul.submenu li:nth-child(2)  {
         margin-top: 20px;
