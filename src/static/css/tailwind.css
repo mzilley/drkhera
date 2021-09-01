@@ -5453,8 +5453,7 @@ body {
  font-weight:var(--body-font-weight);
  -webkit-font-smoothing:antialiased;
  -moz-osx-font-smoothing:grayscale;
- background-color:#fffdfc;
- background-color:var(--off-white);
+ background-color:#f0f4f4;
  color: var(--primary);
 }
 p {
@@ -6066,7 +6065,7 @@ input[type="submit"] {
 /* Set Variables here */
 :root {
  --primary:#273258;
- --highlight:#97D5BF;
+ --highlight:#3E999F;
  --white:#fff;
  --off-white:#fffdfc;
  --grey-1:#f5f3f2;
