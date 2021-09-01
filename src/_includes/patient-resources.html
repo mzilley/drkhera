@@ -16,17 +16,39 @@ layout: _default
               <input id="check01" type="checkbox" name="menu"/>
               <label for="check01" class="p-5" id="condition-select">Select</label>
               <ul class="submenu">
-                <li><a href="#bph">BPH</a></li>
-                <li><a href="#delayed-ejaculation">Delayed Ejaculation</a></li>
-                <li><a href="#erectile-dysfunction">Erectile Dysfunction</a></li>
-                <li><a href="#female-sexual-dysfunction">Female Sexual Dysfunction</a></li>
-                <li><a href="#low-testosterone">Low Testosterone</a></li>
-                <li><a href="#male-infertility">Male Infertility</a></li>
-                <li><a href="#male-stress-incontinence">Male Stress Incontinence</a></li>
-                <li><a href="#peyronies-disease">Peyronie's Disease</a></li>
-                <li><a href="#premature-ejaculation">Premature Ejaculation</a></li>
-                <li><a href="#testis-pain">Testis Pain</a></li>
-                <li><a href="#vasectomy">Vasectomy</a></li>
+                {% if bph %}
+                    <li><a href="#bph">BPH</a></li>
+                {% endif %}
+                {% if delayedEjaculation %}
+                    <li><a href="#delayed-ejaculation">Delayed Ejaculation</a></li>
+                {% endif %}
+                {% if erectileDysfunction %}
+                    <li><a href="#erectile-dysfunction">Erectile Dysfunction</a></li>
+                {% endif %}
+                {% if femaleSexualDysfunction %}
+                    <li><a href="#female-sexual-dysfunction">Female Sexual Dysfunction</a></li>
+                {% endif %}
+                {% if lowTestosterone %}
+                    <li><a href="#low-testosterone">Low Testosterone</a></li>
+                {% endif %}
+                {% if maleInfertility %}
+                    <li><a href="#male-infertility">Male Infertility</a></li>
+                {% endif %}
+                {% if maleStressIncontinence %}
+                    <li><a href="#male-stress-incontinence">Male Stress Incontinence</a></li>
+                {% endif %}
+                {% if peyroniesDisease %}
+                    <li><a href="#peyronies-disease">Peyronie's Disease</a></li>
+                {% endif %}
+                {% if prematureEjaculation %}
+                    <li><a href="#premature-ejaculation">Premature Ejaculation</a></li>
+                {% endif %}
+                {% if testisPain %}
+                    <li><a href="#testis-pain">Testis Pain</a></li>
+                {% endif %}
+                {% if vasectomy %}
+                    <li><a href="#vasectomy">Vasectomy</a></li>
+                {% endif %}
               </ul>
             </li>
           </ul>
@@ -66,6 +88,32 @@ layout: _default
         </div>
     </section>
 
+    <section id="delayed-ejaculation" class="patient-resources pt-10" class="bg-highlight primary">
+        <div class="container mx-auto">
+            {% if delayedEjaculation %}
+
+                <p class="h2 font-bold text-xl mb-3">Delayed Ejaculation</p>
+
+                <div class="resource-container flex flex-wrap">
+                    {% for item in delayedEjaculation %}
+                        <div class="p-5 mr-5 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
+                            {% if item.deImage %}
+                                <img src="{{ item.deImage }}" alt="{{ item.deTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
+                            {% endif %}
+                            {% if item.deLink %}
+                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.deLink }}">{{ item.deTitle }}</a></h3>
+                            {% else %} 
+                                <h3 class="title-font text-lg pt-3">{{ item.deTitle }}</h3>
+                            {% endif %}
+                            <p>{{ item.deDesc }}</p>
+                        </div>
+                {% endfor %}
+                </div>
+
+            {% endif %}
+        </div>
+    </section>
+
     <section id="erectile-dysfunction" class="patient-resources pt-10" class="bg-highlight primary">
         <div class="container mx-auto">
             {% if ed %}
@@ -92,31 +140,6 @@ layout: _default
         </div>
     </section>
 
-    <section id="delayed-ejaculation" class="patient-resources pt-10" class="bg-highlight primary">
-        <div class="container mx-auto">
-            {% if delayedEjaculation %}
-
-                <p class="h2 font-bold text-xl mb-3">Delayed Ejaculation</p>
-
-                <div class="resource-container flex flex-wrap">
-                    {% for item in delayedEjaculation %}
-                        <div class="p-5 mr-5 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
-                            {% if item.deImage %}
-                                <img src="{{ item.deImage }}" alt="{{ item.deTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
-                            {% endif %}
-                            {% if item.deLink %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.deLink }}">{{ item.deTitle }}</a></h3>
-                            {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.deTitle }}</h3>
-                            {% endif %}
-                            <p>{{ item.deDesc }}</p>
-                        </div>
-                {% endfor %}
-                </div>
-
-            {% endif %}
-        </div>
-    </section>
 
     <section id="female-sexual-dysfunction" class="patient-resources pt-10" class="bg-highlight primary">
         <div class="container mx-auto">
