@@ -16,16 +16,16 @@
         </button>
 
         <!--Menu-->
-        <div class="menu w-full flex-grow lg:flex lg:items-center lg:w-auto text-center " :class="{ 'block shadow-3xl': isOpen, 'hidden': !isOpen }" @click.away="isOpen = false" x-show.transition="true">
+        <div class="menu w-full flex-grow lg:flex lg:items-center lg:w-auto text-center " :class="{ 'block shadow b-rad': isOpen, 'hidden': !isOpen }" @click.away="isOpen = false" x-show.transition="true">
 
             {% if navigation.items %}
 
                 <ul class="pt-6 lg:pt-0 list-reset lg:flex justify-end flex-1 z-10 items-center">
                     {% for item in navigation.items %}
                         <li class="nav__item z-10 mr-3 {% if item.childs %}nav__item--has-childs{% endif %}">
-                            <a @click="isOpen = false" class="inline-block no-underline hover:text-500 py-2 px-4 text-xl md:text-md xl:text-lg" href="{{ item.url }}">{{ item.text }}</a>
+                            <a @click="isOpen = false" class="inline-block no-underline hover:text-500 py-2 px-4 text-xl md:text-sm xl:text-lg" href="{{ item.url }}">{{ item.text }}</a>
                             {% if item.childs %}
-                                <ul class="nav__sub-list z-10">
+                                <ul class="nav__sub-list z-10 b-rad">
                                     {% for child in item.childs %}
                                         <li class="nav__sub-item">
                                             <a class="nav__sub-item-anchor primary" href="{{ child.url }}">

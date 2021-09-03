@@ -17,7 +17,7 @@ layout: _default
                     {% if buttonText %}
                         <a href="{buttonLink}}" class="btn btn-primary shadow mt-1" title="{{buttonText}}">{{buttonText}}</a>
                     {% else %}
-                        <a href="https://www.bcm.edu/people-search/mohit-khera-24469" id="schedule" target="_blank" class="btn btn-primary shadow mt-1">Schedule an Appointment</a>
+                        <a href="https://www.bcm.edu/people-search/mohit-khera-24469" id="schedule" target="_blank" class="btn btn-primary shadow mt-1">Schedule Appointment</a>
                     {% endif %}
                 </p>
                 </div>
@@ -28,9 +28,10 @@ layout: _default
     <div class="subContent flex pb-16 container">
         <div class="md:w-3/12">
             <aside>
-                <h2 class="title-font">Call <a href="tel:7137984001" class="title-font underline hover:no-underline">713-798-4001</a> to schedule appointments during the following hours:</h2>
-                <p class="mb-0">Monday – Friday</p>
-                <p>8:00am – 5:00pm</p>
+                <h2 class="title-font">Schedule an Appointment</h2>
+                <a href="tel:7137984001" class="btn btn-primary shadow my-2 text-sm w-100">(713) 798 4001</a>
+                <p class="text-center py-1">- or -</p>
+                <a href="https://www.bcm.edu/people-search/mohit-khera-24469" id="schedule" target="_blank" class="btn btn-secondary shadow text-sm my-2 w-100">Schedule Online</a>
                 {% if sidebar %}
                     {% if sidebar.heading %}
                         <h3 class="title-font">{{sidebar.heading}}</h3>

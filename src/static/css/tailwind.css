@@ -6322,10 +6322,7 @@ li {
 
 .subContent h2 {
     margin-bottom: 15px;
-}
-
-.subContent h2 a {
-    font-size: 22px;
+    line-height: 1;
 }
 
 .subContent p {
