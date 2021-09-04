@@ -224,8 +224,8 @@ work:
     image2: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7972673/pdf/main.pdf
     title2: Testosterone's Role in COVID-19
   featured3:
-    image3: http://via.placeholder.com/300
-    title3: ""
+    image3: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7354335/pdf/tau-09-03-1201.pdf
+    title3: Post Finasteride Syndrome
 partners:
   image1: https://via.placeholder.com/150
   image2: https://via.placeholder.com/150
