@@ -6,7 +6,7 @@ metadata:
   description: It is estimated that up to 5-9% of men suffer from Peyronie’s
     disease. The average age of onset of this disease is 57 years old and the
     disease becomes more common as men become older.
-image: /static/img/peyronies-disease.jpg
+image: /static/img/peyronies.jpg
 conditionInformation: >-
   Peyronie’s disease is an abnormal curvature of the penis when it is erect. It
   is estimated that up to 5-9% of men suffer from Peyronie’s disease. The
