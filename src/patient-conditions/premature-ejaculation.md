@@ -7,7 +7,7 @@ metadata:
     men seek treatment. While several treatment options exist for men with PE,
     the use of local anesthetics to diminish the sensitivity of the penis is one
     of the oldest and well proven treatments for PE.
-image: /static/img/premature-ejaculation.jpg
+image: /static/img/premature-ejac.jpg
 conditionInformation: >-
   Roughly 30% of men suffer from premature ejaculation yet very few men seek
   treatment. The prevalence of premature ejaculation varies among countries and
