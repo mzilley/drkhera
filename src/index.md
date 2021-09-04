@@ -139,7 +139,7 @@ conditions:
 about:
   image: /static/img/khera-pic-2021.jpg
   heading: Dr. Mohit Khera
-  subheading: Baylor College of Medicine
+  subheading: ""
   about: >-
     Dr. Khera earned his undergraduate degree at Vanderbilt University. He
     subsequently earned
