@@ -269,11 +269,11 @@ collections:
                 { label: Link, name: link12, widget: "string", required: false}
               ]}
               ]}
-          - {label: "Partners and Affiliations", name: partners, widget: object, collapsed: true, fields: [
-              { name: image1, widget: "image" },
-              { name: image2, widget: "image" },
-              { name: image3, widget: "image" },
-              { name: image4, widget: "image" }]}
+          - {label: "Partners, Affiliations, Awards, and Credentials", name: partners, widget: object, collapsed: true, fields: [
+              { name: image1, widget: "image", required: false },
+              { name: image2, widget: "image", required: false },
+              { name: image3, widget: "image", required: false },
+              { name: image4, widget: "image", required: false }]}
       #Patient Resources
       - label: "Patient Resources"
         name: "resources"
