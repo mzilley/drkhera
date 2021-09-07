@@ -278,7 +278,103 @@ collections:
       - label: "Patient Resources"
         name: "resources"
         file: "src/patient-resources.md"
-        fields: 
+        fields:
+          - label: "Videos"
+            label_singular: "video"
+            name: videos
+            summary: "{{videoTitle}}"
+            widget: list
+            allow_add: true
+            collapsed: true
+            add_to_top: true
+            fields:
+              - label: Title
+                name: videoTitle
+                widget: "string"
+              - label: Link
+                name: videoLink
+                widget: "string"
+                required: false
+              - label: Description
+                name: videoDesc
+                widget: "text"
+                required: false
+              - label: Thumbnail
+                name: videoImage
+                widget: "image"
+                required: false
+          - label: "Media"
+            label_singular: "media"
+            name: media
+            summary: "{{mediaTitle}}"
+            widget: list
+            allow_add: true
+            collapsed: true
+            add_to_top: true
+            fields:
+              - label: Title
+                name: mediaTitle
+                widget: "string"
+              - label: Link
+                name: mediaLink
+                widget: "string"
+                required: false
+              - label: Description
+                name: mediaDesc
+                widget: "text"
+                required: false
+              - label: Thumbnail
+                name: mediaImage
+                widget: "image"
+                required: false 
+          - label: "Articles"
+            label_singular: "article"
+            name: articles
+            summary: "{{articleTitle}}"
+            widget: list
+            allow_add: true
+            collapsed: true
+            add_to_top: true
+            fields:
+              - label: Title
+                name: articleTitle
+                widget: "string"
+              - label: Link
+                name: articleLink
+                widget: "string"
+                required: false
+              - label: Description
+                name: articleDesc
+                widget: "text"
+                required: false
+              - label: Thumbnail
+                name: articleImage
+                widget: "image"
+                required: false
+          - label: "Websites"
+            label_singular: "website"
+            name: websites
+            summary: "{{websiteTitle}}"
+            widget: list
+            allow_add: true
+            collapsed: true
+            add_to_top: true
+            fields:
+              - label: Title
+                name: websiteTitle
+                widget: "string"
+              - label: Link
+                name: websiteLink
+                widget: "string"
+                required: false
+              - label: Description
+                name: websiteDesc
+                widget: "text"
+                required: false
+              - label: Thumbnail
+                name: websiteImage
+                widget: "image"
+                required: false 
           - label: "BPH Patient Resources"
             label_singular: "resource"
             name: bph
