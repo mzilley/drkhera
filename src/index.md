@@ -217,16 +217,17 @@ testimonials:
     name3: ""
 work:
   featured1:
-    image1: /static/img/newapproachtotestosteronetreatment.png
-    title1: Baylor College of Medicine takes new approach to testosterone treatment
-    link1: https://www.click2houston.com/news/2016/05/28/baylor-college-of-medicine-takes-new-approach-to-testosterone-treatment/
+    image1: /static/img/male-infertility.jpg
+    title1: A.D.A.M.
+    link1: ""
+    file1: /static/img/adam.pdf
   featured2:
     image2: /static/img/erectile-dysfunction.jpg
     title2: Testosterone's Role in COVID-19
     link2: /static/img/iief.pdf
   featured3:
-    image3: /static/img/testosterone.jpg
-    title3: Post Finasteride Syndrome
+    image3: /static/img/newapproachtotestosteronetreatment.png
+    title3: https://www.click2houston.com/news/2016/05/28/baylor-college-of-medicine-takes-new-approach-to-testosterone-treatment/
 partners:
   image1: ""
   image2: ""
