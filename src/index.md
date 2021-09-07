@@ -227,7 +227,8 @@ work:
     link2: /static/img/iief.pdf
   featured3:
     image3: /static/img/newapproachtotestosteronetreatment.png
-    title3: https://www.click2houston.com/news/2016/05/28/baylor-college-of-medicine-takes-new-approach-to-testosterone-treatment/
+    title3: Baylor College of Medicine Takes New Approach to Testosterone Treatment
+    link3: https://www.click2houston.com/news/2016/05/28/baylor-college-of-medicine-takes-new-approach-to-testosterone-treatment/
 partners:
   image1: ""
   image2: ""
