@@ -227,10 +227,10 @@ work:
     image3: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7354335/pdf/tau-09-03-1201.pdf
     title3: Post Finasteride Syndrome
 partners:
-  image1: https://via.placeholder.com/150
-  image2: https://via.placeholder.com/150
-  image3: https://via.placeholder.com/150
-  image4: https://via.placeholder.com/150
+  image1: ""
+  image2: ""
+  image3: ""
+  image4: ""
 extra:
   quicklinks: true
 title: Home
