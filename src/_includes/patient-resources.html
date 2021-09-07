@@ -60,7 +60,7 @@ layout: _default
 </div>
 
 <div class="px-4 pb-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:p-8">
-    <section id="videos" class="patient-resources pt-10" class="bg-highlight primary">
+    <section id="videos" class="patient-resources" class="bg-highlight primary">
         <div class="container mx-auto">
             {% if videos %}
 
@@ -68,7 +68,7 @@ layout: _default
 
                 <div class="resource-container flex flex-wrap">
                     {% for item in videos %}
-                        <div class="p-5 mr-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
+                        <div class="p-5 mx-2 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.videoImage %}
                                 <img src="{{ item.videoImage }}" alt="{{ item.videoTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
                             {% endif %}
@@ -94,7 +94,7 @@ layout: _default
 
                 <div class="resource-container flex flex-wrap">
                     {% for item in media %}
-                        <div class="p-5 mr-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
+                        <div class="p-5 mx-2 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.mediaImage %}
                                 <img src="{{ item.mediaImage }}" alt="{{ item.mediaTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
                             {% endif %}
@@ -120,7 +120,7 @@ layout: _default
 
                 <div class="resource-container flex flex-wrap">
                     {% for item in articles %}
-                        <div class="p-5 mr-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
+                        <div class="p-5 mx-2 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.articleImage %}
                                 <img src="{{ item.articleImage }}" alt="{{ item.articleTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
                             {% endif %}
@@ -146,7 +146,7 @@ layout: _default
 
                 <div class="resource-container flex flex-wrap">
                     {% for item in websites %}
-                        <div class="p-5 mr-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
+                        <div class="p-5 mx-2 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.websiteImage %}
                                 <img src="{{ item.websiteImage }}" alt="{{ item.websiteTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
                             {% endif %}
@@ -172,7 +172,7 @@ layout: _default
 
                 <div class="resource-container flex flex-wrap">
                     {% for item in bph %}
-                        <div class="p-5 mr-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
+                        <div class="p-5 mx-2 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.bphImage %}
                                 <img src="{{ item.bphImage }}" alt="{{ item.bphTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
                             {% endif %}
@@ -198,7 +198,7 @@ layout: _default
 
                 <div class="resource-container flex flex-wrap">
                     {% for item in delayedEjaculation %}
-                        <div class="p-5 mr-5 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
+                        <div class="p-5 mx-2 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.deImage %}
                                 <img src="{{ item.deImage }}" alt="{{ item.deTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
                             {% endif %}
@@ -224,7 +224,7 @@ layout: _default
 
                 <div class="resource-container flex flex-wrap">
                     {% for item in ed %}
-                        <div class="p-5 mr-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
+                        <div class="p-5 mx-2 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.edImage %}
                                 <img src="{{ item.edImage }}" alt="{{ item.edTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
                             {% endif %}
@@ -250,7 +250,7 @@ layout: _default
 
                 <div class="resource-container flex flex-wrap">
                     {% for item in femaleSexualDysfunction %}
-                        <div class="p-5 mr-5 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
+                        <div class="p-5 mx-2 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.fsdImage %}
                                 <img src="{{ item.fsdImage }}" alt="{{ item.fsdTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
                             {% endif %}
@@ -276,7 +276,7 @@ layout: _default
 
                 <div class="resource-container flex flex-wrap">
                     {% for item in lowTestosterone %}
-                        <div class="p-5 mr-5 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
+                        <div class="p-5 mx-2 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.ltImage %}
                                 <img src="{{ item.ltImage }}" alt="{{ item.ltTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
                             {% endif %}
@@ -302,7 +302,7 @@ layout: _default
 
                 <div class="resource-container flex flex-wrap">
                     {% for item in maleInfertility %}
-                        <div class="p-5 mr-5 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
+                        <div class="p-5 mx-2 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.miImage %}
                                 <img src="{{ item.miImage }}" alt="{{ item.miTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
                             {% endif %}
@@ -328,7 +328,7 @@ layout: _default
 
                 <div class="resource-container flex flex-wrap">
                     {% for item in maleStressIncontinence %}
-                        <div class="p-5 mr-5 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
+                        <div class="p-5 mx-2 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.msiImage %}
                                 <img src="{{ item.msiImage }}" alt="{{ item.msiTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
                             {% endif %}
@@ -354,7 +354,7 @@ layout: _default
 
                 <div class="resource-container flex flex-wrap">
                     {% for item in peyroniesDisease %}
-                        <div class="p-5 mr-5 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
+                        <div class="p-5 mx-2 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.pdImage %}
                                 <img src="{{ item.pdImage }}" alt="{{ item.pdTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
                             {% endif %}
@@ -380,7 +380,7 @@ layout: _default
 
                 <div class="resource-container flex flex-wrap">
                     {% for item in prematureEjaculation %}
-                        <div class="p-5 mr-5 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
+                        <div class="p-5 mx-2 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.peImage %}
                                 <img src="{{ item.peImage }}" alt="{{ item.peTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
                             {% endif %}
@@ -406,7 +406,7 @@ layout: _default
 
                 <div class="resource-container flex flex-wrap">
                     {% for item in testisPain %}
-                        <div class="p-5 mr-5 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
+                        <div class="p-5 mx-2 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.tpImage %}
                                 <img src="{{ item.tpImage }}" alt="{{ item.tpTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
                             {% endif %}
@@ -432,7 +432,7 @@ layout: _default
 
                 <div class="resource-container flex flex-wrap">
                     {% for item in vasectomy %}
-                        <div class="p-5 mr-5 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
+                        <div class="p-5 mx-2 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.vasectomyImage %}
                                 <img src="{{ item.vasectomyImage }}" alt="{{ item.vasectomyTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
                             {% endif %}
