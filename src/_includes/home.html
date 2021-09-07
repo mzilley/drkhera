@@ -469,16 +469,11 @@ layout: _default
                 <div class="lg:w-1/3 lg:mb-0 mb-6 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-left">
                     <img alt="{{ work.featured2.title2 }}" class="w-100 mb-4 object-cover shadow b-rad object-center inline-block bg-gray-100" src="{{ work.featured2.image2 }}">
-                    {% if work.featured2.link2 %}
+                    {% if (work.featured2.link2) or (work.featured2.file2) %}
                         <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured2.link2 }}" target="_blank">{{ work.featured2.title2 }}</a>
                     {% else %}  
                         <p class="title-font text-left text-xl font-bold">{{ work.featured2.title2 }}</p>
-                    {% endif %}  
-                    {% if work.featured2.file2 %}  
-                        <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured2.file2 }}" target="_blank">{{ work.featured2.title2 }}</a>
-                    {% else %}  
-                        <p class="title-font text-left text-xl font-bold">{{ work.featured2.title2 }}</p>
-                    {% endif %}   
+                    {% endif %}    
                   </div>
                 </div>
                 {% endif %}
@@ -486,16 +481,11 @@ layout: _default
                 <div class="lg:w-1/3 lg:mb-0 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-center">
                     <img alt="{{ work.featured3.title3 }}" class="w-100 mb-4 object-cover shadow b-rad object-center inline-block bg-gray-100" src="{{ work.featured3.image3 }}">
-                    {% if work.featured3.link3 %}
+                    {% if (work.featured3.link3) or (work.featured3.file3) %}
                         <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured3.link3 }}" target="_blank">{{ work.featured3.title3 }}</a>
                     {% else %}  
                         <p class="title-font text-left text-xl font-bold">{{ work.featured3.title3 }}</p>
-                    {% endif %}   
-                    {% if work.featured3.file3 %}  
-                        <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured3.file3 }}" target="_blank">{{ work.featured3.title3 }}</a>
-                    {% else %}  
-                        <p class="title-font text-left text-xl font-bold">{{ work.featured3.title3 }}</p>
-                    {% endif %}   
+                    {% endif %}    
                   </div>
                 </div>
                 {% endif %}
@@ -505,13 +495,8 @@ layout: _default
                 <div class="lg:w-1/3 lg:mb-0 mb-6 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-center">
                     <img alt="{{ work.featured4.title4 }}" class="w-100 mb-4 object-cover shadow b-rad object-center inline-block bg-gray-100" src="{{ work.featured4.image4 }}">
-                    {% if work.featured4.link4 %}
+                    {% if (work.featured4.link4) or (work.featured4.file4) %}
                         <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured4.link4 }}" target="_blank">{{ work.featured4.title4 }}</a>
-                    {% else %}  
-                        <p class="title-font text-left text-xl font-bold">{{ work.featured4.title4 }}</p>
-                    {% endif %}  
-                    {% if work.featured4.file4 %}  
-                        <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured4.file4 }}" target="_blank">{{ work.featured4.title4 }}</a>
                     {% else %}  
                         <p class="title-font text-left text-xl font-bold">{{ work.featured4.title4 }}</p>
                     {% endif %}    
@@ -522,16 +507,11 @@ layout: _default
                 <div class="lg:w-1/3 lg:mb-0 mb-6 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-center">
                     <img alt="{{ work.featured5.title5 }}" class="w-100 mb-4 object-cover shadow b-rad object-center inline-block bg-gray-100" src="{{ work.featured5.image5 }}">
-                    {% if work.featured5.link5 %}
+                    {% if (work.featured5.link5) or (work.featured5.file5) %}
                         <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured5.link5 }}" target="_blank">{{ work.featured5.title5 }}</a>
                     {% else %}  
                         <p class="title-font text-left text-xl font-bold">{{ work.featured5.title5 }}</p>
-                    {% endif %}  
-                    {% if work.featured5.file5 %}  
-                        <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured5.file5 }}" target="_blank">{{ work.featured5.title5 }}</a>
-                    {% else %}  
-                        <p class="title-font text-left text-xl font-bold">{{ work.featured5.title5 }}</p>
-                    {% endif %}     
+                    {% endif %}      
                   </div>
                 </div>
                 {% endif %}
@@ -539,16 +519,11 @@ layout: _default
                 <div class="lg:w-1/3 lg:mb-0 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-center">
                     <img alt="{{ work.featured6.title6 }}" class="w-100 mb-4 object-cover shadow b-rad object-center inline-block bg-gray-100" src="{{ work.featured6.image6 }}">
-                    {% if work.featured6.link6 %}
+                    {% if (work.featured6.link6) or (work.featured6.file6) %}
                         <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured6.link6 }}" target="_blank">{{ work.featured6.title6 }}</a>
                     {% else %}  
                         <p class="title-font text-left text-xl font-bold">{{ work.featured6.title6 }}</p>
-                    {% endif %} 
-                    {% if work.featured6.file6 %}  
-                        <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured6.file6 }}" target="_blank">{{ work.featured6.title6 }}</a>
-                    {% else %}  
-                        <p class="title-font text-left text-xl font-bold">{{ work.featured6.title6 }}</p>
-                    {% endif %}     
+                    {% endif %}    
                   </div>
                 </div>
                 {% endif %}  
@@ -556,16 +531,11 @@ layout: _default
                 <div class="lg:w-1/3 lg:mb-0 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-center">
                     <img alt="{{ work.featured7.title7 }}" class="w-100 mb-4 object-cover shadow b-rad object-center inline-block bg-gray-100" src="{{ work.featured7.image7 }}">
-                    {% if work.featured7.link7 %}
+                    {% if (work.featured7.link7) or (work.featured7.file7) %}
                         <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured7.link7 }}" target="_blank">{{ work.featured7.title7 }}</a>
                     {% else %}  
                         <p class="title-font text-left text-xl font-bold">{{ work.featured7.title7 }}</p>
-                    {% endif %}
-                    {% if work.featured7.file7 %}  
-                        <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured7.file7 }}" target="_blank">{{ work.featured7.title7 }}</a>
-                    {% else %}  
-                        <p class="title-font text-left text-xl font-bold">{{ work.featured7.title7 }}</p>
-                    {% endif %}     
+                    {% endif %}    
                   </div>
                 </div>
                 {% endif %}  
@@ -573,16 +543,11 @@ layout: _default
                 <div class="lg:w-1/3 lg:mb-0 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-center">
                     <img alt="{{ work.featured8.title8 }}" class="w-100 mb-4 object-cover shadow b-rad object-center inline-block bg-gray-100" src="{{ work.featured8.image8 }}">
-                    {% if work.featured8.link8 %}
+                    {% if (work.featured8.link8) or (work.featured8.file8) %}
                         <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured8.link8 }}" target="_blank">{{ work.featured8.title8 }}</a>
                     {% else %}  
                         <p class="title-font text-left text-xl font-bold">{{ work.featured8.title8 }}</p>
-                    {% endif %} 
-                    {% if work.featured8.file8 %}  
-                        <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured8.file8 }}" target="_blank">{{ work.featured8.title8 }}</a>
-                    {% else %}  
-                        <p class="title-font text-left text-xl font-bold">{{ work.featured8.title8 }}</p>
-                    {% endif %}     
+                    {% endif %}    
                   </div>
                 </div>
                 {% endif %}  
@@ -590,13 +555,8 @@ layout: _default
                 <div class="lg:w-1/3 lg:mb-0 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-center">
                     <img alt="{{ work.featured9.title9 }}" class="w-100 mb-4 object-cover shadow b-rad object-center inline-block bg-gray-100" src="{{ work.featured9.image9 }}">
-                    {% if work.featured9.link9 %}
+                    {% if (work.featured9.link9) or (work.featured9.file9) %}
                         <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured9.link9 }}" target="_blank">{{ work.featured9.title9 }}</a>
-                    {% else %}  
-                        <p class="title-font text-left text-xl font-bold">{{ work.featured9.title9 }}</p>
-                    {% endif %} 
-                    {% if work.featured9.file9 %}  
-                        <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured9.file9 }}" target="_blank">{{ work.featured9.title9 }}</a>
                     {% else %}  
                         <p class="title-font text-left text-xl font-bold">{{ work.featured9.title9 }}</p>
                     {% endif %}     
@@ -607,13 +567,8 @@ layout: _default
                 <div class="lg:w-1/3 lg:mb-0 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-center">
                     <img alt="{{ work.featured10.title10 }}" class="w-100 mb-4 object-cover shadow b-rad object-center inline-block bg-gray-100" src="{{ work.featured10.image10 }}">
-                    {% if work.featured10.link10 %}
+                    {% if (work.featured10.link10) or (work.featured10.file10) %}
                         <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured10.link10 }}" target="_blank">{{ work.featured10.title10 }}</a>
-                    {% else %}  
-                        <p class="title-font text-left text-xl font-bold">{{ work.featured10.title10 }}</p>
-                    {% endif %}  
-                    {% if work.featured10.file10 %}  
-                        <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured10.file10 }}" target="_blank">{{ work.featured10.title10 }}</a>
                     {% else %}  
                         <p class="title-font text-left text-xl font-bold">{{ work.featured10.title10 }}</p>
                     {% endif %}       
@@ -624,13 +579,8 @@ layout: _default
                 <div class="lg:w-1/3 lg:mb-0 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-center">
                     <img alt="{{ work.featured11.title11 }}" class="w-100 mb-4 object-cover shadow b-rad object-center inline-block bg-gray-100" src="{{ work.featured11.image11 }}">
-                    {% if work.featured11.link11 %}
+                    {% if (work.featured11.link11) or (work.featured11.file11) %}
                         <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured11.link11 }}" target="_blank">{{ work.featured11.title11 }}</a>
-                    {% else %}  
-                        <p class="title-font text-left text-xl font-bold">{{ work.featured11.title11 }}</p>
-                    {% endif %} 
-                    {% if work.featured11.file11 %}  
-                        <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured11.file11 }}" target="_blank">{{ work.featured11.title11 }}</a>
                     {% else %}  
                         <p class="title-font text-left text-xl font-bold">{{ work.featured11.title11 }}</p>
                     {% endif %}    
@@ -641,16 +591,11 @@ layout: _default
                 <div class="lg:w-1/3 lg:mb-0 m-3 p-4 shadow b-rad bg-white primary">
                   <div class="text-center">
                     <img alt="{{ work.featured12.title12 }}" class="w-100 mb-4 object-cover shadow b-rad object-center inline-block bg-gray-100" src="{{ work.featured12.image12 }}">
-                    {% if work.featured12.link12 %}
+                    {% if (work.featured12.link12) or (work.featured12.file12) %}
                         <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured12.link12 }}" target="_blank">{{ work.featured12.title12 }}</a>
                     {% else %}  
                         <p class="title-font text-left text-xl font-bold">{{ work.featured12.title12 }}</p>
-                    {% endif %}  
-                    {% if work.featured12.file12 %}  
-                        <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured12.file12 }}" target="_blank">{{ work.featured12.title12 }}</a>
-                    {% else %}  
-                        <p class="title-font text-left text-xl font-bold">{{ work.featured12.title12 }}</p>
-                    {% endif %}    
+                    {% endif %}     
                   </div>
                 </div>
                 {% endif %}  
