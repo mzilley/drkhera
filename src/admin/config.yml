@@ -211,7 +211,8 @@ collections:
               { label: Featured 1, name: featured1, widget: "object", fields: [
                 { label: Image, name: image1, widget: "image"},
                 { label: Title, name: title1, widget: "string"},
-                { label: Link, name: link1, widget: "string", required: false}
+                { label: Link, name: link1, widget: "string", required: false},
+                { label: File, name: file1, widget: "file", required: false}
               ]},
               { label: Featured 2, name: featured2, widget: "object", collapsed: true, fields: [
                 { label: Image, name: image2, widget: "image", required: false},

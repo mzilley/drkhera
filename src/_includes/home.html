@@ -461,6 +461,11 @@ layout: _default
                     <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured1.link1 }}" target="_blank">{{ work.featured1.title1 }}</p>
                     {% else %}  
                     <p class="title-font text-left text-xl font-bold">{{ work.featured1.title1 }}</p>
+                    {% endif %}
+                    {% if work.featured1.file1 %}
+                    <a class="title-font text-left text-xl font-bold underline hover:no-underline" href="{{ work.featured1.file1 }}" target="_blank">{{ work.featured1.title1 }}</p>
+                    {% else %}  
+                    <p class="title-font text-left text-xl font-bold">{{ work.featured1.title1 }}</p>
                     {% endif %}             
                    </div>
                 </div>
