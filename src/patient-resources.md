@@ -1,24 +1,13 @@
 ---
-maleStressIncontinence:
-  - msiTitle: Test
-    msiLink: /
-    msiDesc: Lorem ipsum dolor sit amet
-    msiImage: /static/img/hero.jpg
-layout: patient-resources
-bph:
-  - bphTitle: Second
-    bphLink: https://www.google.com
-    bphDesc: Lorem ipsum dolor sit amet.
-    bphImage: /static/img/hero.jpg
-  - bphTitle: First
-    bphDesc: Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum
-      dolor sit amet.
-    bphLink: https://www.google.com
-ed:
-  - edTitle: Erectile Dysfunction Article
-    edLink: https://www.google.com
-    edDesc: Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum
-      dolor sit amet.
+media:
+  - mediaTitle: Media Title
+    mediaLink: google.com
+    mediaDesc: Media description
+    mediaImage: /static/img/delayed-ejaculation.jpg
+websites:
+  - websiteTitle: Helpful Website Title
+    websiteLink: google.com
+    websiteDesc: Helpful website description
 delayedEjaculation:
   - deTitle: How 'Bout Another?
     deLink: /
@@ -37,6 +26,35 @@ maleInfertility:
     miLink: /
     miDesc: Lorem ipsum dolor sit amet
     miImage: /static/img/hero.jpg
+maleStressIncontinence:
+  - msiTitle: Test
+    msiLink: /
+    msiDesc: Lorem ipsum dolor sit amet
+    msiImage: /static/img/hero.jpg
+layout: patient-resources
+videos:
+  - videoTitle: Video Title
+    videoLink: google.com
+    videoDesc: Video description
+    videoImage: /static/img/hero.jpg
+articles:
+  - articleTitle: Article Title
+    articleLink: google.com
+    articleDesc: Article description
+bph:
+  - bphTitle: Second
+    bphLink: https://www.google.com
+    bphDesc: Lorem ipsum dolor sit amet.
+    bphImage: /static/img/hero.jpg
+  - bphTitle: First
+    bphDesc: Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum
+      dolor sit amet.
+    bphLink: https://www.google.com
+ed:
+  - edTitle: Erectile Dysfunction Article
+    edLink: https://www.google.com
+    edDesc: Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum
+      dolor sit amet.
 peyroniesDisease:
   - pdTitle: Test
     pdLink: /
