@@ -221,10 +221,11 @@ work:
     title1: Baylor College of Medicine takes new approach to testosterone treatment
     link1: https://www.click2houston.com/news/2016/05/28/baylor-college-of-medicine-takes-new-approach-to-testosterone-treatment/
   featured2:
-    image2: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7972673/pdf/main.pdf
+    image2: /static/img/erectile-dysfunction.jpg
     title2: Testosterone's Role in COVID-19
+    link2: /static/img/iief.pdf
   featured3:
-    image3: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7354335/pdf/tau-09-03-1201.pdf
+    image3: /static/img/testosterone.jpg
     title3: Post Finasteride Syndrome
 partners:
   image1: ""
