@@ -72,6 +72,9 @@ layout: _default
                             {% if item.videoImage %}
                                 <img src="{{ item.videoImage }}" alt="{{ item.videoTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
                             {% endif %}
+                            {% if item.videoCategory %}
+                                <span class="inline-block shadow b-rad px-2 py-1 bg-primary white title-font font-bold text-xs mb1">{{item.videoCategory}}</span>
+                            {% else %} 
                             {% if item.videoLink %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.videoLink }}">{{ item.videoTitle }}</a></h3>
                             {% else %} 

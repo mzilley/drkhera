@@ -315,6 +315,9 @@ collections:
                 name: videoImage
                 widget: "image"
                 required: false
+              - label: Category
+                name: videoCategory
+                widget: "select", options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"], required: false
           - label: "Media"
             label_singular: "media"
             name: media
