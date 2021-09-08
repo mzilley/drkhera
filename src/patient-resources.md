@@ -4,6 +4,10 @@ media:
     mediaLink: google.com
     mediaDesc: Media description
     mediaImage: /static/img/delayed-ejaculation.jpg
+articles:
+  - articleTitle: Article Title
+    articleLink: google.com
+    articleDesc: Article description
 websites:
   - websiteTitle: Helpful Website Title
     websiteLink: google.com
@@ -37,10 +41,10 @@ videos:
     videoLink: google.com
     videoDesc: Video description
     videoImage: /static/img/hero.jpg
-articles:
-  - articleTitle: Article Title
-    articleLink: google.com
-    articleDesc: Article description
+    videoCategory: Delayed Ejaculation
+trials:
+  - trialTitle: Clinical Trial Title
+    trialDesc: Clinical trial description
 bph:
   - bphTitle: Second
     bphLink: https://www.google.com
