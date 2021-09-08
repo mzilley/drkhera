@@ -22,7 +22,3 @@ Dr. Khera has dedicated his clinical and research efforts to three main areas: 
 In 2007 he was awarded the American Urologic Association (AUA) Research Scholars Award to study the correlation between ED and BPH.    In 2013 he was elected to serve a 4 year term on the American Urologic Society Examination Committee.  Dr. Khera has also served on the AUA Peyronie’s Disease and Erectile Dysfunction Guidelines Panel.  For the past several years he has taught numerous course in testosterone therapy and sexual dysfunction nationally and throughout the world.  
 
 Dr. Khera freely shares his time and knowledge with the general public. He has been voted several times as one of Houston’s Best Doctors by Health and Sport Fitness Magazine and by Houstonia Magazine and is a frequent guest on such TV programs as Fox News’ “Ask the Doctor.” He also writes a blog on Men’s Health for the Houston Chronicle Newspaper.
-
-
-
-UPDATED
