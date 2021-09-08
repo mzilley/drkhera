@@ -101,6 +101,9 @@ layout: _default
                             {% if item.mediaImage %}
                                 <img src="{{ item.mediaImage }}" alt="{{ item.mediaTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
                             {% endif %}
+                            {% if item.mediaCategory %}
+                                <span class="inline-block shadow b-rad px-2 py-1 bg-primary white title-font font-bold text-xs mb1">{{item.mediaCategory}}</span>
+                            {% endif %}
                             {% if item.mediaLink %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.mediaLink }}">{{ item.mediaTitle }}</a></h3>
                             {% else %} 
@@ -127,7 +130,10 @@ layout: _default
                             {% if item.articleImage %}
                                 <img src="{{ item.articleImage }}" alt="{{ item.articleTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
                             {% endif %}
-                            {% if item.bphLink %}
+                            {% if item.articleCategory %}
+                                <span class="inline-block shadow b-rad px-2 py-1 bg-primary white title-font font-bold text-xs mb1">{{item.articleCategory}}</span>
+                            {% endif %}
+                            {% if item.articleLink %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.articleLink }}">{{ item.articleTitle }}</a></h3>
                             {% else %} 
                                 <h3 class="title-font text-lg pt-3">{{ item.articleTitle }}</h3>
@@ -152,6 +158,9 @@ layout: _default
                         <div class="p-5 mx-2 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.trialImage %}
                                 <img src="{{ item.trialImage }}" alt="{{ item.trialTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
+                            {% endif %}
+                            {% if item.trialCategory %}
+                                <span class="inline-block shadow b-rad px-2 py-1 bg-primary white title-font font-bold text-xs mb1">{{item.trialCategory}}</span>
                             {% endif %}
                             {% if item.websiteLink %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.trialLink }}">{{ item.trialTitle }}</a></h3>
@@ -178,6 +187,9 @@ layout: _default
                         <div class="p-5 mx-2 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
                             {% if item.websiteImage %}
                                 <img src="{{ item.websiteImage }}" alt="{{ item.websiteTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
+                            {% endif %}
+                            {% if item.websiteCategory %}
+                                <span class="inline-block shadow b-rad px-2 py-1 bg-primary white title-font font-bold text-xs mb1">{{item.websiteCategory}}</span>
                             {% endif %}
                             {% if item.websiteLink %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.websiteLink }}">{{ item.websiteTitle }}</a></h3>
