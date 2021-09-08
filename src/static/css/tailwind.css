@@ -6349,7 +6349,6 @@ li {
     }
     .subContent {
         margin-top: 60px;
-        flex-direction: column;
     }
     nav {
         min-width: 100%;
