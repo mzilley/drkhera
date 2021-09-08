@@ -6576,3 +6576,9 @@ li {
     transition:background .3s;
     border-radius: 15px;
   }
+
+  input {
+    -webkit-appearance: none;
+    -moz-appearance:    none;
+    appearance:         none;
+  }
