@@ -387,6 +387,30 @@ collections:
                 name: websiteImage
                 widget: "image"
                 required: false 
+          - label: "Clinical Trials"
+            label_singular: "clinical trial"
+            name: trials
+            summary: "{{trialTitle}}"
+            widget: list
+            allow_add: true
+            collapsed: true
+            add_to_top: true
+            fields:
+              - label: Title
+                name: trialTitle
+                widget: "string"
+              - label: Link
+                name: trialLink
+                widget: "string"
+                required: false
+              - label: Description
+                name: trialDesc
+                widget: "text"
+                required: false
+              - label: Thumbnail
+                name: trialImage
+                widget: "image"
+                required: false 
           - label: "BPH Patient Resources"
             label_singular: "resource"
             name: bph
