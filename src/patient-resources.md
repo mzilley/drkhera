@@ -1,5 +1,9 @@
 ---
 media:
+  - mediaTitle: "Baylor Blog: Let's Talk About Sex"
+    mediaLink: https://blogs.bcm.edu/2018/03/06/lets-talk-sex-sexual-dysfunction-doesnt-ruin-relationship/
+  - mediaTitle: "Endocrine Today: New Oral Testosterone "
+    mediaLink: https://www.healio.com/news/endocrinology/20190401/new-testosterone-therapies-offer-options-for-men-with-hypogonadism
   - mediaTitle: "Business Wire: 4 Step Guide to Greater Intimacy (New Book Release)"
     mediaLink: https://www.businesswire.com/news/home/20150622005054/en/Baylor-Urologist-Mohit-Khera-M.D.-and-Psychotherapist-Mary-Jo-Rapini-Unveil-a-Couple%E2%80%99s-4-Step-Guide-to-Greater-Intimacy-and-Better-Sex
   - mediaTitle: Prostate and Bladder Cancer and Sexual Side Effects
