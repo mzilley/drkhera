@@ -9,8 +9,8 @@ articles:
     articleLink: google.com
     articleDesc: Article description
 websites:
-  - websiteTitle: Helpful Website Title
-    websiteLink: google.com
+  - websiteTitle: Sexual Medicine Society of North America
+    websiteLink: smsna.org
     websiteDesc: Helpful website description
 delayedEjaculation:
   - deTitle: How 'Bout Another?
@@ -59,8 +59,19 @@ videos:
     videoImage: /static/img/hero.jpg
     videoCategory: Delayed Ejaculation
 trials:
-  - trialTitle: Clinical Trial Title
-    trialDesc: Clinical trial description
+  - trialTitle: Hypoactive Sexual Desire Disorder in Males (HSDD)
+    trialDesc: >-
+      The purpose of this study is to determine if the study drug will increase
+      sexual desire in men with HSDD. Half of the participants will take ADDYI
+      while the other half will receive a placebo (a look-alike pill with no
+      medicine).
+
+
+      This pilot randomized placebo controlled study will include 60 men (30 treatment and 30 placebo). ARM 1 will take flibanserin 100mg orally every night and ARM 2 will take a placebo orally every night.
+
+
+      There will be four study visits and the study duration is approximately 4 months. Participants will have physicals at each visit. Blood draws for tests will be done at 3 visits and up to 4 questionnaires will completed at each visit. Study drug will randomized.
+    trialLink: https://clinicaltrials.gov/ct2/show/NCT04002661?term=addyi+and+khera&draw=2&rank=1
 bph:
   - bphTitle: Second
     bphLink: https://www.google.com
