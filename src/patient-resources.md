@@ -1,5 +1,13 @@
 ---
 media:
+  - mediaTitle: "Men's Health Journal: 11 Health Benefits of Sex"
+    mediaLink: https://www.mensjournal.com/health-fitness/the-health-benefits-of-sex-20140220/relationships/
+  - mediaTitle: "Urology Times: Testosterone and COVID"
+    mediaLink: https://www.urologytimes.com/view/literature-review-summarizes-evidence-on-testosterone-and-covid-19
+    mediaDesc: Media description
+    mediaImage: /static/img/delayed-ejaculation.jpg
+  - mediaTitle: "US News Health: A Patient's Guide to Erectile Dysfunction"
+    mediaLink: https://health.usnews.com/conditions/sexual-disorder-dysfunction/erectile-dysfunction
   - mediaTitle: "Baylor Blog: Let's Talk About Sex"
     mediaLink: https://blogs.bcm.edu/2018/03/06/lets-talk-sex-sexual-dysfunction-doesnt-ruin-relationship/
   - mediaTitle: "Endocrine Today: New Oral Testosterone "
@@ -10,10 +18,8 @@ media:
     mediaLink: https://www.curetoday.com/view/there-is-help-for-patients-dealing-with-sexual-side-effects-after-prostate-bladder-cancer-treatment
   - mediaTitle: "NBC Boston: Erectile Dysfunction and COVID"
     mediaLink: https://www.nbcboston.com/lx/early-research-shows-a-possible-link-between-covid-19-and-erectile-dysfunction-got-your-attention/2251899/
-  - mediaTitle: "Urology Times: Testosterone and COVID"
-    mediaLink: https://www.urologytimes.com/view/literature-review-summarizes-evidence-on-testosterone-and-covid-19
-    mediaDesc: Media description
-    mediaImage: /static/img/delayed-ejaculation.jpg
+  - mediaTitle: "Health 24: Post Orgasmic Illness Syndrome"
+    mediaLink: https://www.news24.com/health24/sex/great-sex/orgasm-8-of-the-strangest-side-effects-that-can-happen-after-one-20180707-3
 articles:
   - articleTitle: Article Title
     articleLink: google.com
