@@ -37,7 +37,7 @@ articles:
     articleLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7354335/pdf/tau-09-03-1201.pdf
 websites:
   - websiteTitle: Sexual Medicine Society of North America
-    websiteLink: smsna.org
+    websiteLink: https://www.smsna.org/
     websiteDesc: ""
   - websiteTitle: International Society of Sexual Medicine
     websiteLink: https://www.issm.info/
