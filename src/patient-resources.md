@@ -1,5 +1,9 @@
 ---
 media:
+  - mediaTitle: "Business Wire: 4 Step Guide to Greater Intimacy (New Book Release)"
+    mediaLink: https://www.businesswire.com/news/home/20150622005054/en/Baylor-Urologist-Mohit-Khera-M.D.-and-Psychotherapist-Mary-Jo-Rapini-Unveil-a-Couple%E2%80%99s-4-Step-Guide-to-Greater-Intimacy-and-Better-Sex
+  - mediaTitle: Prostate and Bladder Cancer and Sexual Side Effects
+    mediaLink: https://www.curetoday.com/view/there-is-help-for-patients-dealing-with-sexual-side-effects-after-prostate-bladder-cancer-treatment
   - mediaTitle: "NBC Boston: Erectile Dysfunction and COVID"
     mediaLink: https://www.nbcboston.com/lx/early-research-shows-a-possible-link-between-covid-19-and-erectile-dysfunction-got-your-attention/2251899/
   - mediaTitle: "Urology Times: Testosterone and COVID"
