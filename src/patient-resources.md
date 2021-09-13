@@ -90,9 +90,9 @@ videos:
     videoLink: https://www.youtube.com/watch?v=zJUk1zJW0sg
   - videoTitle: Diagnosis and Management of Premature Ejaculation
     videoLink: "https://www.youtube.com/watch?v=uyDaW5tGVMg   "
-    videoDesc: Video description
-    videoImage: /static/img/hero.jpg
-    videoCategory: Delayed Ejaculation
+    videoDesc: ""
+    videoImage: ""
+    videoCategory: null
 trials:
   - trialTitle: Hypoactive Sexual Desire Disorder in Males (HSDD)
     trialDesc: >-
