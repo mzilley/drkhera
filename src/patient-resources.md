@@ -1,7 +1,9 @@
 ---
 media:
-  - mediaTitle: Media Title
-    mediaLink: google.com
+  - mediaTitle: "NBC Boston: Erectile Dysfunction and COVID"
+    mediaLink: https://www.nbcboston.com/lx/early-research-shows-a-possible-link-between-covid-19-and-erectile-dysfunction-got-your-attention/2251899/
+  - mediaTitle: "Urology Times: Testosterone and COVID"
+    mediaLink: https://www.urologytimes.com/view/literature-review-summarizes-evidence-on-testosterone-and-covid-19
     mediaDesc: Media description
     mediaImage: /static/img/delayed-ejaculation.jpg
 articles:
