@@ -21,9 +21,20 @@ media:
   - mediaTitle: "Health 24: Post Orgasmic Illness Syndrome"
     mediaLink: https://www.news24.com/health24/sex/great-sex/orgasm-8-of-the-strangest-side-effects-that-can-happen-after-one-20180707-3
 articles:
-  - articleTitle: Article Title
-    articleLink: google.com
-    articleDesc: Article description
+  - articleTitle: Testosterone therapy and prostate cancer
+    articleLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5182214/pdf/tau-05-06-909.pdf
+  - articleTitle: "Peyronie's Disease: AUA Guideline"
+    articleLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5027990/pdf/nihms815690.pdf
+  - articleTitle: Testosterone's Role in COVID
+    articleLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7972673/pdf/main.pdf
+    articleDesc: ""
+  - articleTitle: Testosterone therapy improves erectile function and libido in
+      hypogonadal men
+    articleLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5649360/pdf/nihms910261.pdf
+  - articleTitle: Effect of Body Weight on Sexual Function in Men and Women
+    articleLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6771291/pdf/nihms-1519179.pdf
+  - articleTitle: Post Finasteride Syndrome
+    articleLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7354335/pdf/tau-09-03-1201.pdf
 websites:
   - websiteTitle: Sexual Medicine Society of North America
     websiteLink: smsna.org
