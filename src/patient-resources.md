@@ -49,29 +49,9 @@ websites:
     websiteLink: https://ssmr.org/
   - websiteTitle: Cure PD  (Peyronie's Disease)
     websiteLink: https://peyronies.org/
-delayedEjaculation:
-  - deTitle: How 'Bout Another?
-    deLink: /
-    deDesc: Desc
-  - deTitle: Test Resource
-    deLink: https://www.google.com
-    deDesc: Lorem ipsum dolor sit amet non consecutur.
-  - deTitle: Another Test Resource
-    deLink: https://www.google.com
-    deDesc: "Lorem ipsum dolor sit amet non consecutur. "
-  - deTitle: What is Delayed Ejaculation?
-    deDesc: Delayed Ejaculation, or DE, is lorem ipsum dolor sit amet.
-    deLink: /
-maleInfertility:
-  - miTitle: Test
-    miLink: /
-    miDesc: Lorem ipsum dolor sit amet
-    miImage: /static/img/hero.jpg
-maleStressIncontinence:
-  - msiTitle: Test
-    msiLink: /
-    msiDesc: Lorem ipsum dolor sit amet
-    msiImage: /static/img/hero.jpg
+delayedEjaculation: []
+maleInfertility: []
+maleStressIncontinence: []
 layout: patient-resources
 videos:
   - videoLink: "https://www.youtube.com/watch?v=rNwI2V4POa0 "
@@ -107,39 +87,11 @@ trials:
 
       There will be four study visits and the study duration is approximately 4 months. Participants will have physicals at each visit. Blood draws for tests will be done at 3 visits and up to 4 questionnaires will completed at each visit. Study drug will randomized.
     trialLink: https://clinicaltrials.gov/ct2/show/NCT04002661?term=addyi+and+khera&draw=2&rank=1
-bph:
-  - bphTitle: Second
-    bphLink: https://www.google.com
-    bphDesc: Lorem ipsum dolor sit amet.
-    bphImage: /static/img/hero.jpg
-  - bphTitle: First
-    bphDesc: Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum
-      dolor sit amet.
-    bphLink: https://www.google.com
-ed:
-  - edTitle: Erectile Dysfunction Article
-    edLink: https://www.google.com
-    edDesc: Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Lorem ipsum
-      dolor sit amet.
-peyroniesDisease:
-  - pdTitle: Test
-    pdLink: /
-    pdDesc: Lorem ipsum dolor sit amet
-    pdImage: /static/img/hero.jpg
-prematureEjaculation:
-  - peTitle: Test
-    peLink: /
-    peDesc: Lorem ipsum dolor sit amet
-    peImage: /static/img/hero.jpg
-testisPain:
-  - tpTitle: Test
-    tpLink: /
-    tpDesc: Lorem ipsum dolor sit amet
-    tpImage: /static/img/hero.jpg
-vasectomy:
-  - vasectomyTitle: Test
-    vasectomyLink: /
-    vasectomyDesc: Lorem ipsum dolor sit amet
-    vasectomyImage: /static/img/hero.jpg
+bph: []
+ed: []
+peyroniesDisease: []
+prematureEjaculation: []
+testisPain: []
+vasectomy: []
 title: Patient Resources
 ---
