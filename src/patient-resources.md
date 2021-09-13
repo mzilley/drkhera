@@ -37,10 +37,22 @@ maleStressIncontinence:
     msiImage: /static/img/hero.jpg
 layout: patient-resources
 videos:
-  - videoTitle: New Approaches to Testosterone Therapies
-    videoLink: https://www.click2houston.com/news/2016/05/28/baylor-college-of-medicine-takes-new-approach-to-testosterone-treatment/
   - videoLink: "https://www.youtube.com/watch?v=rNwI2V4POa0 "
     videoTitle: Dr. Khera and Alan Thicke discussing low testosterone in men
+  - videoTitle: New Paradigm in Testosterone Therapy for Men and Women
+    videoLink: https://www.click2houston.com/news/2016/05/28/baylor-college-of-medicine-takes-new-approach-to-testosterone-treatment/
+  - videoTitle: BPH (Enlarged Prostate)
+    videoLink: https://www.youtube.com/watch?v=RegSMM4PG30
+  - videoTitle: Peyronie's Disease
+    videoLink: https://www.youtube.com/watch?v=5u3x_rQ1ZNc
+  - videoTitle: Diagnosis and Management of Erectile Dysfunction
+    videoLink: https://www.youtube.com/watch?v=Lo58su42EZ8
+  - videoTitle: Penile Prosthesis
+    videoLink: https://www.youtube.com/watch?v=uJOzPNCsp0M
+  - videoTitle: Testosterone Treatment Options
+    videoLink: https://www.youtube.com/watch?v=zJUk1zJW0sg
+  - videoTitle: New Approaches to Testosterone Therapies
+    videoLink: https://www.click2houston.com/news/2016/05/28/baylor-college-of-medicine-takes-new-approach-to-testosterone-treatment/
   - videoTitle: Diagnosis and Management of Premature Ejaculation
     videoLink: "https://www.youtube.com/watch?v=uyDaW5tGVMg   "
     videoDesc: Video description
