@@ -27,7 +27,17 @@ articles:
 websites:
   - websiteTitle: Sexual Medicine Society of North America
     websiteLink: smsna.org
-    websiteDesc: Helpful website description
+    websiteDesc: ""
+  - websiteTitle: International Society of Sexual Medicine
+    websiteLink: https://www.issm.info/
+  - websiteTitle: American Urologic Association
+    websiteLink: https://www.auanet.org/education/bladder-health-month/patient-education-materials
+  - websiteTitle: International Society for the Study of Women's Sexual Health
+    websiteLink: https://www.isswsh.org/
+  - websiteTitle: Society for the Study of Male Reproduction
+    websiteLink: https://ssmr.org/
+  - websiteTitle: Cure PD  (Peyronie's Disease)
+    websiteLink: https://peyronies.org/
 delayedEjaculation:
   - deTitle: How 'Bout Another?
     deLink: /
