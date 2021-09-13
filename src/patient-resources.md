@@ -88,8 +88,6 @@ videos:
     videoLink: https://www.youtube.com/watch?v=uJOzPNCsp0M
   - videoTitle: Testosterone Treatment Options
     videoLink: https://www.youtube.com/watch?v=zJUk1zJW0sg
-  - videoTitle: New Approaches to Testosterone Therapies
-    videoLink: https://www.click2houston.com/news/2016/05/28/baylor-college-of-medicine-takes-new-approach-to-testosterone-treatment/
   - videoTitle: Diagnosis and Management of Premature Ejaculation
     videoLink: "https://www.youtube.com/watch?v=uyDaW5tGVMg   "
     videoDesc: Video description
