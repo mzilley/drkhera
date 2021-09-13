@@ -37,8 +37,12 @@ maleStressIncontinence:
     msiImage: /static/img/hero.jpg
 layout: patient-resources
 videos:
-  - videoTitle: Video Title
-    videoLink: google.com
+  - videoTitle: New Approaches to Testosterone Therapies
+    videoLink: https://www.click2houston.com/news/2016/05/28/baylor-college-of-medicine-takes-new-approach-to-testosterone-treatment/
+  - videoLink: "https://www.youtube.com/watch?v=rNwI2V4POa0 "
+    videoTitle: Dr. Khera and Alan Thicke discussing low testosterone in men
+  - videoTitle: Diagnosis and Management of Premature Ejaculation
+    videoLink: "https://www.youtube.com/watch?v=uyDaW5tGVMg   "
     videoDesc: Video description
     videoImage: /static/img/hero.jpg
     videoCategory: Delayed Ejaculation
