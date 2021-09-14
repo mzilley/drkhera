@@ -64,7 +64,7 @@ layout: _default
         <div class="container mx-auto">
             {% if videos %}
 
-                <p class="h2 font-bold text-xl mb-3 pl-5">Videos</p>
+                <p class="h2 font-bold text-xl mb-3 pl-5">{videosHeading}</p>
 
                 <div class="resource-container flex flex-wrap">
                     {% for item in videos %}
@@ -93,7 +93,7 @@ layout: _default
         <div class="container mx-auto">
             {% if media %}
 
-                <p class="h2 font-bold text-xl mb-3 pl-5">Media</p>
+            <p class="h2 font-bold text-xl mb-3 pl-5">{mediaHeading}</p>
 
                 <div class="resource-container flex flex-wrap">
                     {% for item in media %}
@@ -122,7 +122,7 @@ layout: _default
         <div class="container mx-auto">
             {% if articles %}
 
-                <p class="h2 font-bold text-xl mb-3 pl-5">Articles</p>
+                <p class="h2 font-bold text-xl mb-3 pl-5">{{articlesHeading}}</p>
 
                 <div class="resource-container flex flex-wrap">
                     {% for item in articles %}
@@ -151,7 +151,7 @@ layout: _default
         <div class="container mx-auto">
             {% if trials %}
 
-                <p class="h2 font-bold text-xl mb-3 pl-5">Clinical Trials</p>
+                <p class="h2 font-bold text-xl mb-3 pl-5">{{trialsHeading}}</p>
 
                 <div class="resource-container flex flex-wrap">
                     {% for item in trials %}
@@ -162,7 +162,7 @@ layout: _default
                             {% if item.trialCategory %}
                                 <span class="inline-block shadow b-rad px-2 py-1 bg-primary white title-font font-bold text-xs mb1">{{item.trialCategory}}</span>
                             {% endif %}
-                            {% if item.websiteLink %}
+                            {% if item.trialLink %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.trialLink }}">{{ item.trialTitle }}</a></h3>
                             {% else %} 
                                 <h3 class="title-font text-lg pt-3">{{ item.trialTitle }}</h3>
@@ -180,7 +180,7 @@ layout: _default
         <div class="container mx-auto">
             {% if websites %}
 
-                <p class="h2 font-bold text-xl mb-3 pl-5">Helpful Websites</p>
+                <p class="h2 font-bold text-xl mb-3 pl-5">{{websitesHeading}}</p>
 
                 <div class="resource-container flex flex-wrap">
                     {% for item in websites %}
@@ -204,291 +204,4 @@ layout: _default
             {% endif %}
         </div>
     </section>
-
-    <!-- <section id="bph" class="patient-resources pt-10" class="bg-highlight primary">
-        <div class="container mx-auto">
-            {% if bph %}
-
-                <p class="h2 font-bold text-xl mb-3 pl-5">BPH</p>
-
-                <div class="resource-container flex flex-wrap">
-                    {% for item in bph %}
-                        <div class="p-5 mx-2 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
-                            {% if item.bphImage %}
-                                <img src="{{ item.bphImage }}" alt="{{ item.bphTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
-                            {% endif %}
-                            {% if item.bphLink %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.bphLink }}">{{ item.bphTitle }}</a></h3>
-                            {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.bphTitle }}</h3>
-                            {% endif %} 
-                            <p>{{ item.bphDesc }}</p>
-                        </div>
-                {% endfor %}
-                </div>
- 
-            {% endif %}
-        </div>
-    </section>
-
-    <section id="delayed-ejaculation" class="patient-resources pt-10" class="bg-highlight primary">
-        <div class="container mx-auto">
-            {% if delayedEjaculation %}
-
-                <p class="h2 font-bold text-xl mb-3 pl-5">Delayed Ejaculation</p>
-
-                <div class="resource-container flex flex-wrap">
-                    {% for item in delayedEjaculation %}
-                        <div class="p-5 mx-2 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
-                            {% if item.deImage %}
-                                <img src="{{ item.deImage }}" alt="{{ item.deTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
-                            {% endif %}
-                            {% if item.deLink %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.deLink }}">{{ item.deTitle }}</a></h3>
-                            {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.deTitle }}</h3>
-                            {% endif %}
-                            <p>{{ item.deDesc }}</p>
-                        </div>
-                {% endfor %}
-                </div>
-
-            {% endif %}
-        </div>
-    </section>
-
-    <section id="erectile-dysfunction" class="patient-resources pt-10" class="bg-highlight primary">
-        <div class="container mx-auto">
-            {% if ed %}
-
-                <p class="h2 font-bold text-xl mb-3 pl-5">Erectile Dysfunction</p>
-
-                <div class="resource-container flex flex-wrap">
-                    {% for item in ed %}
-                        <div class="p-5 mx-2 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
-                            {% if item.edImage %}
-                                <img src="{{ item.edImage }}" alt="{{ item.edTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
-                            {% endif %}
-                            {% if item.edLink %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.edLink }}">{{ item.edTitle }}</a></h3>
-                            {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.edTitle }}</h3>
-                            {% endif %}                            
-                        <p>{{ item.edDesc }}</p>
-                        </div>
-                {% endfor %}
-                </div>
-
-            {% endif %}
-        </div>
-    </section>
-
-    <section id="female-sexual-dysfunction" class="patient-resources pt-10" class="bg-highlight primary">
-        <div class="container mx-auto">
-            {% if femaleSexualDysfunction %}
-
-                <p class="h2 font-bold text-xl mb-3 pl-5">Female Sexual Dysfunction</p>
-
-                <div class="resource-container flex flex-wrap">
-                    {% for item in femaleSexualDysfunction %}
-                        <div class="p-5 mx-2 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
-                            {% if item.fsdImage %}
-                                <img src="{{ item.fsdImage }}" alt="{{ item.fsdTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
-                            {% endif %}
-                            {% if item.fsdLink %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.fsdLink }}">{{ item.fsdTitle }}</a></h3>
-                            {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.fsdTitle }}</h3>
-                            {% endif %}
-                            <p>{{ item.fsdDesc }}</p>
-                        </div>
-                {% endfor %}
-                </div>
-
-            {% endif %}
-        </div>
-    </section>
-
-    <section id="low-testosterone" class="patient-resources pt-10" class="bg-highlight primary">
-        <div class="container mx-auto">
-            {% if lowTestosterone %}
-
-                <p class="h2 font-bold text-xl mb-3 pl-5">Low Testosterone</p>
-
-                <div class="resource-container flex flex-wrap">
-                    {% for item in lowTestosterone %}
-                        <div class="p-5 mx-2 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
-                            {% if item.ltImage %}
-                                <img src="{{ item.ltImage }}" alt="{{ item.ltTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
-                            {% endif %}
-                            {% if item.ltLink %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.ltLink }}">{{ item.ltTitle }}</a></h3>
-                            {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.ltTitle }}</h3>
-                            {% endif %}
-                            <p>{{ item.ltDesc }}</p>
-                        </div>
-                {% endfor %}
-                </div>
-
-            {% endif %}
-        </div>
-    </section>
-
-    <section id="male-infertility" class="patient-resources pt-10" class="bg-highlight primary">
-        <div class="container mx-auto">
-            {% if maleInfertility %}
-
-                <p class="h2 font-bold text-xl mb-3 pl-5">Male Infertility</p>
-
-                <div class="resource-container flex flex-wrap">
-                    {% for item in maleInfertility %}
-                        <div class="p-5 mx-2 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
-                            {% if item.miImage %}
-                                <img src="{{ item.miImage }}" alt="{{ item.miTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
-                            {% endif %}
-                            {% if item.miLink %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.miLink }}">{{ item.miTitle }}</a></h3>
-                            {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.miTitle }}</h3>
-                            {% endif %}
-                            <p>{{ item.miDesc }}</p>
-                        </div>
-                {% endfor %}
-                </div>
-
-            {% endif %}
-        </div>
-    </section>
-
-    <section id="male-stress-incontinence" class="patient-resources pt-10" class="bg-highlight primary">
-        <div class="container mx-auto">
-            {% if maleStressIncontinence %}
-
-                <p class="h2 font-bold text-xl mb-3 pl-5">Male Stress Incontinence</p>
-
-                <div class="resource-container flex flex-wrap">
-                    {% for item in maleStressIncontinence %}
-                        <div class="p-5 mx-2 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
-                            {% if item.msiImage %}
-                                <img src="{{ item.msiImage }}" alt="{{ item.msiTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
-                            {% endif %}
-                            {% if item.msiLink %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.msiLink }}">{{ item.msiTitle }}</a></h3>
-                            {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.msiTitle }}</h3>
-                            {% endif %}
-                            <p>{{ item.msiDesc }}</p>
-                        </div>
-                {% endfor %}
-                </div>
-
-            {% endif %}
-        </div>
-    </section>
-
-    <section id="peyronies-disease" class="patient-resources pt-10" class="bg-highlight primary">
-        <div class="container mx-auto">
-            {% if peyroniesDisease %}
-
-                <p class="h2 font-bold text-xl mb-3 pl-5">Payronie's Disease</p>
-
-                <div class="resource-container flex flex-wrap">
-                    {% for item in peyroniesDisease %}
-                        <div class="p-5 mx-2 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
-                            {% if item.pdImage %}
-                                <img src="{{ item.pdImage }}" alt="{{ item.pdTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
-                            {% endif %}
-                            {% if item.pdLink %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.pdLink }}">{{ item.pdTitle }}</a></h3>
-                            {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.pdTitle }}</h3>
-                            {% endif %}
-                            <p>{{ item.pdDesc }}</p>
-                        </div>
-                {% endfor %}
-                </div>
-
-            {% endif %}
-        </div>
-    </section>
-
-    <section id="premature-ejaculation" class="patient-resources pt-10" class="bg-highlight primary">
-        <div class="container mx-auto">
-            {% if prematureEjaculation %}
-
-                <p class="h2 font-bold text-xl mb-3 pl-5">Premature Ejaculation</p>
-
-                <div class="resource-container flex flex-wrap">
-                    {% for item in prematureEjaculation %}
-                        <div class="p-5 mx-2 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
-                            {% if item.peImage %}
-                                <img src="{{ item.peImage }}" alt="{{ item.peTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
-                            {% endif %}
-                            {% if item.peLink %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.peLink }}">{{ item.peTitle }}</a></h3>
-                            {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.peTitle }}</h3>
-                            {% endif %}
-                            <p>{{ item.peDesc }}</p>
-                        </div>
-                {% endfor %}
-                </div>
-
-            {% endif %}
-        </div>
-    </section>
-
-    <section id="testis-pain" class="patient-resources pt-10" class="bg-highlight primary">
-        <div class="container mx-auto">
-            {% if testisPain %}
-
-                <p class="h2 font-bold text-xl mb-3 pl-5">Testis Pain</p>
-
-                <div class="resource-container flex flex-wrap">
-                    {% for item in testisPain %}
-                        <div class="p-5 mx-2 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
-                            {% if item.tpImage %}
-                                <img src="{{ item.tpImage }}" alt="{{ item.tpTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
-                            {% endif %}
-                            {% if item.tpLink %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.tpLink }}">{{ item.tpTitle }}</a></h3>
-                            {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.tpTitle }}</h3>
-                            {% endif %}
-                            <p>{{ item.tpDesc }}</p>
-                        </div>
-                {% endfor %}
-                </div>
-
-            {% endif %}
-        </div>
-    </section>
-
-    <section id="vasectomy" class="patient-resources pt-10" class="bg-highlight primary">
-        <div class="container mx-auto">
-            {% if vasectomy %}
-
-                <p class="h2 font-bold text-xl mb-3 pl-5">Vasectomy</p>
-
-                <div class="resource-container flex flex-wrap">
-                    {% for item in vasectomy %}
-                        <div class="p-5 mx-2 mb-5 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
-                            {% if item.vasectomyImage %}
-                                <img src="{{ item.vasectomyImage }}" alt="{{ item.vasectomyTitle }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
-                            {% endif %}
-                            {% if item.vasectomyLink %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.vasectomyLink }}">{{ item.vasectomyTitle }}</a></h3>
-                            {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.vasectomyTitle }}</h3>
-                            {% endif %}
-                            <p>{{ item.vasectomyDesc }}</p>
-                        </div>
-                {% endfor %}
-                </div>
-
-            {% endif %}
-        </div>
-    </section> -->
-
 </div>
