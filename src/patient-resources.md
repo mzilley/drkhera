@@ -25,8 +25,8 @@ media:
     mediaLink: https://www.mensjournal.com/health-fitness/the-health-benefits-of-sex-20140220/relationships/
   - mediaTitle: "Urology Times: Testosterone and COVID"
     mediaLink: https://www.urologytimes.com/view/literature-review-summarizes-evidence-on-testosterone-and-covid-19
-    mediaDesc: Media description
-    mediaImage: /static/img/delayed-ejaculation.jpg
+    mediaDesc: ""
+    mediaImage: ""
   - mediaTitle: "US News Health: A Patient's Guide to Erectile Dysfunction"
     mediaLink: https://health.usnews.com/conditions/sexual-disorder-dysfunction/erectile-dysfunction
   - mediaTitle: "Baylor Blog: Let's Talk About Sex"
