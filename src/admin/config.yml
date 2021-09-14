@@ -291,6 +291,9 @@ collections:
         name: "resources"
         file: "src/patient-resources.md"
         fields:
+          - label: "Videos Heading"
+            name: videosHeading
+            widget: string
           - label: "Videos"
             label_singular: "video"
             name: videos
@@ -320,6 +323,9 @@ collections:
                 widget: "select"
                 required: false
                 options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"]
+          - label: "Media Heading"
+            name: mediaHeading
+            widget: string
           - label: "Media"
             label_singular: "media"
             name: media
@@ -349,6 +355,9 @@ collections:
                 widget: "select"
                 required: false
                 options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"]
+          - label: "Articles Heading"
+            name: articlesHeading
+            widget: string
           - label: "Articles"
             label_singular: "article"
             name: articles
@@ -378,6 +387,9 @@ collections:
                 widget: "select"
                 required: false
                 options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"]
+          - label: "Websites Heading"
+            name: websitesHeading
+            widget: string
           - label: "Websites"
             label_singular: "website"
             name: websites
@@ -407,6 +419,9 @@ collections:
                 widget: "select"
                 required: false
                 options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"]
+          - label: "Trials Heading"
+            name: trialsHeading
+            widget: string
           - label: "Clinical Trials"
             label_singular: "clinical trial"
             name: trials
