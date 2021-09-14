@@ -1,4 +1,25 @@
 ---
+videos:
+  - videoLink: "https://www.youtube.com/watch?v=rNwI2V4POa0 "
+    videoTitle: Dr. Khera and Alan Thicke discussing low testosterone in men
+  - videoTitle: New Paradigm in Testosterone Therapy for Men and Women
+    videoLink: https://www.click2houston.com/news/2016/05/28/baylor-college-of-medicine-takes-new-approach-to-testosterone-treatment/
+  - videoTitle: BPH (Enlarged Prostate)
+    videoLink: https://www.youtube.com/watch?v=RegSMM4PG30
+  - videoTitle: Peyronie's Disease
+    videoLink: https://www.youtube.com/watch?v=5u3x_rQ1ZNc
+  - videoTitle: Diagnosis and Management of Erectile Dysfunction
+    videoLink: https://www.youtube.com/watch?v=Lo58su42EZ8
+  - videoTitle: Penile Prosthesis
+    videoLink: https://www.youtube.com/watch?v=uJOzPNCsp0M
+  - videoTitle: Testosterone Treatment Options
+    videoLink: https://www.youtube.com/watch?v=zJUk1zJW0sg
+  - videoTitle: Diagnosis and Management of Premature Ejaculation
+    videoLink: "https://www.youtube.com/watch?v=uyDaW5tGVMg   "
+    videoDesc: ""
+    videoImage: ""
+    videoCategory: null
+mediaHeading: Dr Khera in the Media
 media:
   - mediaTitle: "Men's Health Journal: 11 Health Benefits of Sex"
     mediaLink: https://www.mensjournal.com/health-fitness/the-health-benefits-of-sex-20140220/relationships/
@@ -20,6 +41,7 @@ media:
     mediaLink: https://www.nbcboston.com/lx/early-research-shows-a-possible-link-between-covid-19-and-erectile-dysfunction-got-your-attention/2251899/
   - mediaTitle: "Health 24: Post Orgasmic Illness Syndrome"
     mediaLink: https://www.news24.com/health24/sex/great-sex/orgasm-8-of-the-strangest-side-effects-that-can-happen-after-one-20180707-3
+articlesHeading: Dr. Khera Selected Research Articles
 articles:
   - articleTitle: Testosterone therapy and prostate cancer
     articleLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5182214/pdf/tau-05-06-909.pdf
@@ -49,30 +71,11 @@ websites:
     websiteLink: https://ssmr.org/
   - websiteTitle: Cure PD  (Peyronie's Disease)
     websiteLink: https://peyronies.org/
-delayedEjaculation: []
-maleInfertility: []
+trialsHeading: "Dr. Khera Current Clinical Trials "
 maleStressIncontinence: []
 layout: patient-resources
-videos:
-  - videoLink: "https://www.youtube.com/watch?v=rNwI2V4POa0 "
-    videoTitle: Dr. Khera and Alan Thicke discussing low testosterone in men
-  - videoTitle: New Paradigm in Testosterone Therapy for Men and Women
-    videoLink: https://www.click2houston.com/news/2016/05/28/baylor-college-of-medicine-takes-new-approach-to-testosterone-treatment/
-  - videoTitle: BPH (Enlarged Prostate)
-    videoLink: https://www.youtube.com/watch?v=RegSMM4PG30
-  - videoTitle: Peyronie's Disease
-    videoLink: https://www.youtube.com/watch?v=5u3x_rQ1ZNc
-  - videoTitle: Diagnosis and Management of Erectile Dysfunction
-    videoLink: https://www.youtube.com/watch?v=Lo58su42EZ8
-  - videoTitle: Penile Prosthesis
-    videoLink: https://www.youtube.com/watch?v=uJOzPNCsp0M
-  - videoTitle: Testosterone Treatment Options
-    videoLink: https://www.youtube.com/watch?v=zJUk1zJW0sg
-  - videoTitle: Diagnosis and Management of Premature Ejaculation
-    videoLink: "https://www.youtube.com/watch?v=uyDaW5tGVMg   "
-    videoDesc: ""
-    videoImage: ""
-    videoCategory: null
+videosHeading: Dr. Khera Videos
+websitesHeading: Websites
 trials:
   - trialTitle: Hypoactive Sexual Desire Disorder in Males (HSDD)
     trialDesc: >-
@@ -89,6 +92,8 @@ trials:
     trialLink: https://clinicaltrials.gov/ct2/show/NCT04002661?term=addyi+and+khera&draw=2&rank=1
 bph: []
 ed: []
+delayedEjaculation: []
+maleInfertility: []
 peyroniesDisease: []
 prematureEjaculation: []
 testisPain: []
