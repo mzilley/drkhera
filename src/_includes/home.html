@@ -4,15 +4,21 @@ layout: _default
 
 {% if topsection %}
 <div class="hero-container md:flex mx-auto justify-center items-center">
-    <div class="hero-image md:w-5/12">
-        <img src="{{ topsection.image }}" alt="{{ topsection.alt }}" class="object-cover w-full">
+    <div class="hero-image relative md:w-6/12">
+        <img src="{{ topsection.image }}" alt="{{ topsection.alt }}" class="object-cover w-full" id="bg-hero">
+        <div id="focal" class="absolute">
+            <img src="/static/img/khera-pic-2021.jpg" alt="{{ topsection.alt }}" class="object-cover w-full b-rad h-100">
+            <div class="relative bottom-6">
+                <a href="https://houstoniamag.com/doctors/type/urology" target="_blank"><img src="/static/img/Houstonia-Logo.jpg" alt="Houstonia's Top Doctors" class="center"></a>
+            </div>
+        </div>
         
     </div>
-    <div class="hero-content md:w-7/12 z-1 w-full pt-5">
+    <div class="hero-content md:w-6/12 z-1 w-full pt-5">
         <div class="mw7 center ph3 text-center md:text-left">
         <div class="db">
             <div class="mw7 relative bg-fix-primary">
-            <h1 class="f2 f1-l b di lh-title mw6">
+            <h1 class="f2 b di lh-title mw6">
                 {{ topsection.heading }}
             </h1>
             </div>
@@ -26,9 +32,9 @@ layout: _default
             </div>
         </div>
         </div>
-        <div class="md:absolute bg-white mt-10 mb-5 p-2 md:p-4 md:mt-0 md:mb-0 bottom-5 mx-5 left-0 b-rad creds">
+        <!-- <div class="md:absolute bg-white mt-10 mb-5 p-2 md:p-4 md:mt-0 md:mb-0 bottom-5 mx-5 left-0 b-rad creds">
             <a href="https://houstoniamag.com/doctors/type/urology" target="_blank"><img src="/static/img/Houstonia-Logo.jpg" alt="Houstonia's Top Doctors"></a>
-        </div>
+        </div> -->
     </div>
 </div>
 {% endif %}

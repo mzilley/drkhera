@@ -6116,7 +6116,7 @@ input[type="submit"] {
 
 .nav__item a {
     font-family: Abhaya Libre, serif;
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .nav__item:hover {
@@ -6225,13 +6225,22 @@ li {
     font-size: 14px ;
 }
 
-.hero-container, .hero-image img {
+/* .hero-container, .hero-image img {
     height: 100%;
+} */
+
+.hero-image #bg-hero {
+    clip-path: polygon(100% 0, 0% 100%, 0 0);
+    z-index: 0;
 }
 
-.hero-image img {
-    border-top-left-radius: 45px;
-    border-top-right-radius: 45px;
+.hero-image #focal {
+    z-index: 1;
+    width: 50%;
+    bottom: 15%;
+    left: 30%;
+    height: 65%;
+    min-width: 375px;
 }
 
 .creds img {
@@ -6250,7 +6259,7 @@ li {
 
 .b-rad {
     border-radius: 35px;
-}
+}f
 
 .b-rad-20 {
     border-radius: 20px;
@@ -6408,7 +6417,7 @@ li {
 }
 
 @media (min-width: 768px) {
-    .hero-container, .hero-image img {
+    .hero-container, #bg-hero {
         height: calc(100vh - 115px);
     }
     #condition ul.submenu li:first-child, #condition ul.submenu li:nth-child(2)  {
