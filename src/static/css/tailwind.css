@@ -6135,9 +6135,8 @@ input[type="submit"] {
 .nav__sub-list{
   display: none;
   position: absolute;
-  width: 100%;
-  left: 5px;
   background-color: white;
+  z-index: 10;
 }
 
 .nav__sub-item{
@@ -6167,6 +6166,9 @@ input[type="submit"] {
     left: 0;
     width: 100%;
     margin-bottom: 20px;
+  }
+  .nav__items a {
+      padding: 0 3px;
   }
 }
 
@@ -6429,7 +6431,9 @@ li {
         max-width: 450px;
         height: 600px;
     }
-    
+    .nav__sub-item{
+        width: 200px;
+      }
 }
 
 @media (max-width: 1024px) {
@@ -6508,6 +6512,7 @@ li {
 .resource-container > div {
     transition: 0.3s ease-in-out all;
     position: relative;
+    flex: 1 1 31%;
 }
 
 .resource-container >div:hover {
