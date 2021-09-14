@@ -6116,7 +6116,7 @@ input[type="submit"] {
 
 .nav__item a {
     font-family: Abhaya Libre, serif;
-    font-size: 20px;
+    font-size: 17.5px;
 }
 
 .nav__item:hover {
@@ -6142,8 +6142,9 @@ input[type="submit"] {
 
 .nav__sub-item{
   position: relative;
-  padding: 5px 3px;
+  padding: 5px;
   color: white;
+  font-size: 14px;
 }
 
 .nav__sub-item:hover {
@@ -6234,13 +6235,35 @@ li {
     z-index: 0;
 }
 
+.hero-image:after {
+    background-color:var(--highlight);
+    clip-path: polygon(100% 0, 0% 100%, 0 0);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+}
+
+.hero-content:after {
+    background-color:var(--primary);
+    clip-path: polygon(100% 57.5%, 60% 100%, 100% 100%);
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    z-index: 0;
+}
+
 .hero-image #focal {
     z-index: 1;
-    width: 50%;
+    width: 60%;
     bottom: 15%;
     left: 30%;
     height: 65%;
-    min-width: 375px;
 }
 
 .creds img {
