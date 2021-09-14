@@ -2,59 +2,6 @@
 layout: _default
 ---
 
-
-<!-- <div class="h-screen bg-primary white p-10 find-a-resource flex flex-col justify-start">
-    <div>
-        <h1 class="f1 text-center leading-10">Patient Resources</h1>
-        <h2 class="text-center leading-10 mb-7">{{heading}}</h1>
-        <h2 class="text-center leading-10 mb-7">{{subtitle}}</h1>
-    </div>
-
-    <div id="condition">
-        <ul id="menu" class="b-rad primary bg-white">
-            <li>
-              <input id="check01" type="checkbox" name="menu"/>
-              <label for="check01" class="p-5" id="condition-select">Select</label>
-              <ul class="submenu">
-                {% if bph %}
-                    <li><a href="#bph">BPH</a></li>
-                {% endif %}
-                {% if delayedEjaculation %}
-                    <li><a href="#delayed-ejaculation">Delayed Ejaculation</a></li>
-                {% endif %}
-                {% if erectileDysfunction %}
-                    <li><a href="#erectile-dysfunction">Erectile Dysfunction</a></li>
-                {% endif %}
-                {% if femaleSexualDysfunction %}
-                    <li><a href="#female-sexual-dysfunction">Female Sexual Dysfunction</a></li>
-                {% endif %}
-                {% if lowTestosterone %}
-                    <li><a href="#low-testosterone">Low Testosterone</a></li>
-                {% endif %}
-                {% if maleInfertility %}
-                    <li><a href="#male-infertility">Male Infertility</a></li>
-                {% endif %}
-                {% if maleStressIncontinence %}
-                    <li><a href="#male-stress-incontinence">Male Stress Incontinence</a></li>
-                {% endif %}
-                {% if peyroniesDisease %}
-                    <li><a href="#peyronies-disease">Peyronie's Disease</a></li>
-                {% endif %}
-                {% if prematureEjaculation %}
-                    <li><a href="#premature-ejaculation">Premature Ejaculation</a></li>
-                {% endif %}
-                {% if testisPain %}
-                    <li><a href="#testis-pain">Testis Pain</a></li>
-                {% endif %}
-                {% if vasectomy %}
-                    <li><a href="#vasectomy">Vasectomy</a></li>
-                {% endif %}
-              </ul>
-            </li>
-          </ul>
-    </div>  
-</div> -->
-
 <div class="container mx-auto my-0 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:p-8">
     <h1 class="f1 text-center leading-10 py-10">Patient Resources</h1>
 </div>
@@ -78,14 +25,10 @@ layout: _default
 
                             {% if item.videoLink %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.videoLink }}">{{ item.videoTitle }}</a></h3>
-                            {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.videoTitle }}</h3>
                             {% endif %}
 
                             {% if item.videoFile %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.videoFile }}">{{ item.videoTitle }}</a></h3>
-                            {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.videoTitle }}</h3>
                             {% endif %} 
                             <p>{{ item.videoDesc }}</p>
                         </div>
@@ -111,16 +54,13 @@ layout: _default
                             {% if item.mediaCategory %}
                                 <span class="inline-block shadow b-rad px-2 py-1 bg-primary white title-font font-bold text-xs mb1">{{item.mediaCategory}}</span>
                             {% endif %}
+
                             {% if item.mediaLink %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.mediaLink }}">{{ item.mediaTitle }}</a></h3>
-                            {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.mediaTitle }}</h3>
                             {% endif %}
 
                             {% if item.mediaFile %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.mediaFile }}">{{ item.mediaTitle }}</a></h3>
-                            {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.mediaTitle }}</h3>
                             {% endif %} 
                             <p>{{ item.mediaDesc }}</p>
                         </div>
@@ -146,16 +86,13 @@ layout: _default
                             {% if item.articleCategory %}
                                 <span class="inline-block shadow b-rad px-2 py-1 bg-primary white title-font font-bold text-xs mb1">{{item.articleCategory}}</span>
                             {% endif %}
+
                             {% if item.articleLink %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.articleLink }}">{{ item.articleTitle }}</a></h3>
-                            {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.articleTitle }}</h3>
                             {% endif %}
 
                             {% if item.articleFile %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.articleFile }}">{{ item.articleTitle }}</a></h3>
-                            {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.articleTitle }}</h3>
                             {% endif %} 
                             <p>{{ item.articleDesc }}</p>
                         </div>
@@ -181,16 +118,13 @@ layout: _default
                             {% if item.trialCategory %}
                                 <span class="inline-block shadow b-rad px-2 py-1 bg-primary white title-font font-bold text-xs mb1">{{item.trialCategory}}</span>
                             {% endif %}
+
                             {% if item.trialLink %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.trialLink }}">{{ item.trialTitle }}</a></h3>
-                            {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.trialTitle }}</h3>
                             {% endif %}
 
                             {% if item.trialFile %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.trialFile }}">{{ item.trialTitle }}</a></h3>
-                            {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.trialTitle }}</h3>
                             {% endif %} 
                             <p>{{ item.trialDesc }}</p>
                         </div>
@@ -219,14 +153,10 @@ layout: _default
 
                             {% if item.questionLink %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.questionLink }}">{{ item.questionTitle }}</a></h3>
-                            {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.questionTitle }}</h3>
                             {% endif %} 
 
                             {% if item.questionFile %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.questionFile }}">{{ item.questionTitle }}</a></h3>
-                            {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.questionTitle }}</h3>
                             {% endif %} 
                             <p>{{ item.questionDesc }}</p>
                         </div>
@@ -261,7 +191,6 @@ layout: _default
                         </div>
                     {% endfor %}
                 </div>
- 
             {% endif %}
         </div>
     </section>
