@@ -33,7 +33,10 @@ items:
     url: /patient-resources
   - text: Get in Touch
     url: /contact
-  - text: Reviews
-    url: "
-      https://us04web.zoom.us/j/75936467751?pwd=QTJxQlk0eUNJZWorTkRYcHBMT0Vjdz0\
-      9"
+  - text: Dr. Khera Reviews
+    url: https://www.google.com/search?q=dr+mohit+khera&sxsrf=AOaemvL8f79U8-wPBugjla1tvJMHqDymKQ%3A1631045391245&ei=D8c3YeurDoeP9PwPhIi84AY&oq=dr+mohit+khera&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyCwguEMcBEK8BEJECMgUIABCABDIGCAAQFhAeMgYIABAWEB46BwgAEEcQsAM6EAguEMcBEK8BELADEEMQkwI6BwgAELADEEM6DQguEMcBEK8BELADEEM6BQgAEJECOgsILhCABBDHARCvAToICC4QgAQQsQM6CwgAEIAEELEDEIMBOgoIABCABBCHAhAUSgQIQRgAUPUQWLkgYM4haAJwAngBgAG2B4gB4RiSAQkwLjguMS42LTKYAQCgAQHIAQrAAQE&sclient=gws-wiz&ved=0ahUKEwir76DJ1e3yAhWHB50JHQQED2wQ4dUDCA4&uact=5#lrd=0x8640c071be3e5a3d:0xbaf2d9caafaa5d29,3
+    childs:
+      - text: Leave a Review
+        url: https://www.google.com/search?q=dr+mohit+khera&sxsrf=AOaemvL8f79U8-wPBugjla1tvJMHqDymKQ%3A1631045391245&ei=D8c3YeurDoeP9PwPhIi84AY&oq=dr+mohit+khera&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyCwguEMcBEK8BEJECMgUIABCABDIGCAAQFhAeMgYIABAWEB46BwgAEEcQsAM6EAguEMcBEK8BELADEEMQkwI6BwgAELADEEM6DQguEMcBEK8BELADEEM6BQgAEJECOgsILhCABBDHARCvAToICC4QgAQQsQM6CwgAEIAEELEDEIMBOgoIABCABBCHAhAUSgQIQRgAUPUQWLkgYM4haAJwAngBgAG2B4gB4RiSAQkwLjguMS42LTKYAQCgAQHIAQrAAQE&sclient=gws-wiz&ved=0ahUKEwir76DJ1e3yAhWHB50JHQQED2wQ4dUDCA4&uact=5#lrd=0x8640c071be3e5a3d:0xbaf2d9caafaa5d29,3
+      - text: Read More Reviews
+        url: https://health.usnews.com/doctors/mohit-khera-636892
