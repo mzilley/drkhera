@@ -6116,7 +6116,7 @@ input[type="submit"] {
 
 .nav__item a {
     font-family: Abhaya Libre, serif;
-    font-size: 16px;
+    font-size: 17.5px;
 }
 
 .nav__item:hover {
@@ -6142,8 +6142,9 @@ input[type="submit"] {
 
 .nav__sub-item{
   position: relative;
-  padding: 5px 3px;
+  padding: 5px;
   color: white;
+  font-size: 14px;
 }
 
 .nav__sub-item:hover {
@@ -6225,13 +6226,44 @@ li {
     font-size: 14px ;
 }
 
-.hero-container, .hero-image img {
+/* .hero-container, .hero-image img {
     height: 100%;
+} */
+
+.hero-image #bg-hero {
+    clip-path: polygon(100% 0, 0% 100%, 0 0);
+    z-index: 0;
 }
 
-.hero-image img {
-    border-top-left-radius: 45px;
-    border-top-right-radius: 45px;
+.hero-image:after {
+    background-color:var(--highlight);
+    clip-path: polygon(100% 0, 0% 100%, 0 0);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+}
+
+.hero-content:after {
+    background-color:var(--primary);
+    clip-path: polygon(100% 57.5%, 60% 100%, 100% 100%);
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    content: "";
+    position: absolute;
+    z-index: 0;
+}
+
+.hero-image #focal {
+    z-index: 1;
+    width: 60%;
+    bottom: 15%;
+    left: 30%;
+    height: 65%;
 }
 
 .creds img {
@@ -6250,7 +6282,7 @@ li {
 
 .b-rad {
     border-radius: 35px;
-}
+}f
 
 .b-rad-20 {
     border-radius: 20px;
@@ -6408,7 +6440,7 @@ li {
 }
 
 @media (min-width: 768px) {
-    .hero-container, .hero-image img {
+    .hero-container, #bg-hero {
         height: calc(100vh - 115px);
     }
     #condition ul.submenu li:first-child, #condition ul.submenu li:nth-child(2)  {
