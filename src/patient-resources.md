@@ -1,23 +1,23 @@
 ---
 media:
-  - mediaTitle: "Men's Health Journal: 11 Health Benefits of Sex"
-    mediaLink: https://www.mensjournal.com/health-fitness/the-health-benefits-of-sex-20140220/relationships/
   - mediaTitle: "Urology Times: Testosterone and COVID"
     mediaLink: https://www.urologytimes.com/view/literature-review-summarizes-evidence-on-testosterone-and-covid-19
     mediaDesc: ""
     mediaImage: ""
-  - mediaTitle: "US News Health: A Patient's Guide to Erectile Dysfunction"
-    mediaLink: https://health.usnews.com/conditions/sexual-disorder-dysfunction/erectile-dysfunction
-  - mediaTitle: "Baylor Blog: Let's Talk About Sex"
-    mediaLink: https://blogs.bcm.edu/2018/03/06/lets-talk-sex-sexual-dysfunction-doesnt-ruin-relationship/
   - mediaTitle: "Endocrine Today: New Oral Testosterone "
     mediaLink: https://www.healio.com/news/endocrinology/20190401/new-testosterone-therapies-offer-options-for-men-with-hypogonadism
-  - mediaTitle: "Business Wire: 4 Step Guide to Greater Intimacy (New Book Release)"
-    mediaLink: https://www.businesswire.com/news/home/20150622005054/en/Baylor-Urologist-Mohit-Khera-M.D.-and-Psychotherapist-Mary-Jo-Rapini-Unveil-a-Couple%E2%80%99s-4-Step-Guide-to-Greater-Intimacy-and-Better-Sex
-  - mediaTitle: Prostate and Bladder Cancer and Sexual Side Effects
-    mediaLink: https://www.curetoday.com/view/there-is-help-for-patients-dealing-with-sexual-side-effects-after-prostate-bladder-cancer-treatment
   - mediaTitle: "NBC Boston: Erectile Dysfunction and COVID"
     mediaLink: https://www.nbcboston.com/lx/early-research-shows-a-possible-link-between-covid-19-and-erectile-dysfunction-got-your-attention/2251899/
+  - mediaTitle: "US News Health: A Patient's Guide to Erectile Dysfunction"
+    mediaLink: https://health.usnews.com/conditions/sexual-disorder-dysfunction/erectile-dysfunction
+  - mediaTitle: "Business Wire: 4 Step Guide to Greater Intimacy (New Book Release)"
+    mediaLink: https://www.businesswire.com/news/home/20150622005054/en/Baylor-Urologist-Mohit-Khera-M.D.-and-Psychotherapist-Mary-Jo-Rapini-Unveil-a-Couple%E2%80%99s-4-Step-Guide-to-Greater-Intimacy-and-Better-Sex
+  - mediaTitle: "Baylor Blog: Let's Talk About Sex"
+    mediaLink: https://blogs.bcm.edu/2018/03/06/lets-talk-sex-sexual-dysfunction-doesnt-ruin-relationship/
+  - mediaTitle: "Men's Health Journal: 11 Health Benefits of Sex"
+    mediaLink: https://www.mensjournal.com/health-fitness/the-health-benefits-of-sex-20140220/relationships/
+  - mediaTitle: Prostate and Bladder Cancer and Sexual Side Effects
+    mediaLink: https://www.curetoday.com/view/there-is-help-for-patients-dealing-with-sexual-side-effects-after-prostate-bladder-cancer-treatment
   - mediaTitle: "Health 24: Post Orgasmic Illness Syndrome"
     mediaLink: https://www.news24.com/health24/sex/great-sex/orgasm-8-of-the-strangest-side-effects-that-can-happen-after-one-20180707-3
 articlesHeading: Dr. Khera's Selected Research Articles
