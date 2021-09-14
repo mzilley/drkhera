@@ -6116,6 +6116,7 @@ input[type="submit"] {
 
 .nav__item a {
     font-family: Abhaya Libre, serif;
+    font-size: 16px;
 }
 
 .nav__item:hover {
