@@ -6,7 +6,7 @@ metadata:
   description: Symptoms of BPH include straining when urinating, getting up at
     night to urinate, urinating frequently and/or urgently, pain on urination or
     having the sensation not being able to empty the bladder.
-image: /static/img/bph5.jpg
+image: /static/img/stress-incontinence.jpg
 sidebar:
   heading: ""
 ---
