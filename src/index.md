@@ -30,6 +30,7 @@ resources:
     link6: https://www.youtube.com/watch?v=uyDaW5tGVMg
     title6: Dr. Mohit Khera - Premature Ejaculation Causes and Treatments 2015
     category6: Premature Ejaculation
+  patientResourcesHeader: Dr. Khera Educational Videos
 layout: home
 keywords: test, keyword, yay
 metadata:
@@ -41,6 +42,7 @@ topsection:
   image: /static/img/hero.jpg
   alt: Egg!
   heading: Dr. Mohit Khera
+  bioImage: /static/img/khera-pic-2021.jpg
 conditions:
   maleStressIncontinence:
     heading11: Male Stress Incontinence
@@ -229,6 +231,7 @@ work:
     image3: /static/img/newapproachtotestosteronetreatment.png
     title3: Baylor College of Medicine Takes New Approach to Testosterone Treatment
     link3: https://www.click2houston.com/news/2016/05/28/baylor-college-of-medicine-takes-new-approach-to-testosterone-treatment/
+  publicationsHeader: Publications, Media, Interviews, and More
 partners:
   image1: ""
   image2: ""
