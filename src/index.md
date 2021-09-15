@@ -138,6 +138,12 @@ conditions:
       prostatectomy is irreversible.
     buttonText2: Learn more about treatment
     image: /static/img/erectile-dysfunction.jpg
+social:
+  healthUpdateLink: Weekly Men's Health Update 6
+  healthUpdateLinkText: https://www.instagram.com/reel/CTlV2jpAzgD/
+  facebookLink: https://www.facebook.com/drmohitkhera
+  twitterLink: https://twitter.com/DrMohitKhera
+  instagramLink: https://www.instagram.com/drmohitkhera/
 about:
   image: /static/img/khera-pic-2021.jpg
   heading: Dr. Mohit Khera
