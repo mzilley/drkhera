@@ -352,10 +352,10 @@ layout: _default
     <section id="more-info" class="primary">
         <div class="py-16">
             <h4 class="text-center text-2xl">{{social.socialHeader}}</h4>
-            <div class="container px-5 py-8 mx-auto">
             {% if social.healthUpdateLink %}
-                <a href="{{social.healthUpdateLink}}" class="underline hover:no-underline">{{social.healthUpdateLinkText}}</a>
+                <a href="{{social.healthUpdateLink}}" class="text-center underline hover:no-underline">{{social.healthUpdateLinkText}}</a>
             {% endif %}
+            <div class="container px-5 py-8 mx-auto">
               <div class="flex flex-col lg:flex-row justify-center -m-4">
                 <span class="inline-flex sm:mt-0 mt-2 justify-center">
                     <a href="{{social.facebookLink}}" title="Facebook">
