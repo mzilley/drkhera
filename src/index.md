@@ -139,8 +139,8 @@ conditions:
     buttonText2: Learn more about treatment
     image: /static/img/erectile-dysfunction.jpg
 social:
-  healthUpdateLink: Weekly Men's Health Update 6
-  healthUpdateLinkText: https://www.instagram.com/reel/CTlV2jpAzgD/
+  healthUpdateLink: https://www.instagram.com/reel/CTlV2jpAzgD/
+  healthUpdateLinkText: Men's Weekly Health Update 6
   facebookLink: https://www.facebook.com/drmohitkhera
   twitterLink: https://twitter.com/DrMohitKhera
   instagramLink: https://www.instagram.com/drmohitkhera/
