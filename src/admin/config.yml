@@ -191,11 +191,11 @@ collections:
               ]},
               ]}
           - {label: "Social Media", name: social, widget: object, collapsed: true, fields: [
-              { label: "Weekly Mens Health Update Link", name: healthUpdateLink, widget: link, required: false },
+              { label: "Weekly Mens Health Update Link", name: healthUpdateLink, widget: "string", required: false },
               { label: "Weekly Mens Health Update Text", name: healthUpdateLinkText, widget: "string", required: false },
-              { label: "Facebook Link", name: facebookLink, widget: link, required: false },
-              { label: "Twitter Link", name: twitterLink, widget: link, required: false },
-              { label: "Instagram Link", name: instagramLink, widget: link, required: false }]}
+              { label: "Facebook Link", name: facebookLink, widget: "string", required: false },
+              { label: "Twitter Link", name: twitterLink, widget: "string", required: false },
+              { label: "Instagram Link", name: instagramLink, widget: "string", required: false }]}
           - {label: "About", name: about, widget: object, collapsed: true, fields: [
               { label: Image, name: image, widget: "image" },
               { label: Heading, name: heading, widget: "string"},
