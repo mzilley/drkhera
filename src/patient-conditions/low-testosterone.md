@@ -5,7 +5,7 @@ metadata:
   title: Low Testosterone
   description: Low testosterone, also known as hypogonadism, affects approximately
     40% of men between the ages of 40 and 70 years of age.
-image: /static/img/testosterone-4.jpg
+image: /static/img/testosterone-final.jpg
 sidebar:
   heading: ""
   subtitle: ""
