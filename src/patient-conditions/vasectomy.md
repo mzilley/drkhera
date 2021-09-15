@@ -5,7 +5,7 @@ metadata:
   description: Every year over 500,000 men choose to have a vasectomy, a minor
     procedure that blocks the sperm from entering the ejaculate
   title: Vasectomy
-image: /static/img/vasectomy3.jpg
+image: /static/img/vasectomy4.jpg
 ---
 Every year over 500,000 men choose to have a vasectomy.  A vasectomy is minor office procedure that blocks the sperm from entering the ejaculate.  A vasectomy can be reversed but the sooner you reverse the vasectomy, the better the outcomes.  Below are some important points to be aware of when considering a vasectomy.
 
