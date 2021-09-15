@@ -191,6 +191,7 @@ collections:
               ]},
               ]}
           - {label: "Social Media", name: social, widget: object, collapsed: true, fields: [
+              { label: "Header", name: socialHeader, widget: "string", required: false },
               { label: "Weekly Mens Health Update Link", name: healthUpdateLink, widget: "string", required: false },
               { label: "Weekly Mens Health Update Text", name: healthUpdateLinkText, widget: "string", required: false },
               { label: "Facebook Link", name: facebookLink, widget: "string", required: false },
