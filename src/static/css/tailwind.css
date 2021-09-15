@@ -6237,7 +6237,7 @@ li {
     z-index: 0;
 }
 
-.hero-image:after {
+/* .hero-image:after {
     background-color:var(--highlight);
     clip-path: polygon(100% 0, 0% 100%, 0 0);
     top: 0;
@@ -6246,7 +6246,7 @@ li {
     height: 100%;
     content: "";
     position: absolute;
-}
+} */
 
 .hero-content:after {
     background-color:var(--primary);

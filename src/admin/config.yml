@@ -81,7 +81,8 @@ collections:
               { label: Heading, name: heading, widget: "string" },
               { label: Subtitle, name: subtitle, widget: "string"},
               { label: Image, name: image, widget: "image"},
-              { label: Image ALT, name: alt, widget: "string"}]}
+              { label: Image ALT, name: alt, widget: "string"},
+              { label: Bio Image, name: bioImage, widget: "image"}]}
           - {label: "Patient Conditions", name: conditions, widget: object, collapsed: true, fields: [
               { label: Low Tesosterone, name: lowTestosterone, widget: "object", fields: [
                 { label: Heading, name: heading1, widget: "string"},
@@ -151,41 +152,42 @@ collections:
               ]},
             ]}
           - {label: "Patient Resources", name: resources, widget: object, collapsed: true, fields: [
+              { label: Patient Resources Header, name: patientResourcesHeader, widget: string},
               { label: Patient Resources 1, name: resource1, widget: "object", fields: [
                 { label: Category, name: category1, widget: "select", options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"], required: false},
                 { label: Title, name: title1, widget: "string"},
                 { label: Link, name: link1, widget: "string"},
-                { label: Description, name: desc1, widget: "text"},
+                { label: Description, name: desc1, widget: "text", required: false},
               ]},
               { label: Patient Resources 2, name: resource2, widget: "object", collapsed: true, fields: [
                 { label: Category, name: category2, widget: "select", options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"], required: false},
                 { label: Title, name: title2, widget: "string"},
                 { label: Link, name: link2, widget: "string"},
-                { label: Description, name: desc2, widget: "text"}
+                { label: Description, name: desc2, widget: "text", required: false}
               ]},
               { label: Patient Resources 3, name: resource3, widget: "object", collapsed: true, fields: [
                 { label: Category, name: category3, widget: "select", options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"], required: false},
                 { label: Title, name: title3, widget: "string"},
                 { label: Link, name: link3, widget: "string"},
-                { label: Description, name: desc3, widget: "text"}
+                { label: Description, name: desc3, widget: "text", required: false}
               ]},
               { label: Patient Resources 4, name: resource4, widget: "object", fields: [
                 { label: Category, name: category4, widget: "select", options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"], required: false},
                 { label: Title, name: title4, widget: "string"},
                 { label: Link, name: link4, widget: "string"},
-                { label: Description, name: desc4, widget: "text"}
+                { label: Description, name: desc4, widget: "text", required: false}
               ]},
               { label: Patient Resources 5, name: resource5, widget: "object", collapsed: true, fields: [
                 { label: Category, name: category5, widget: "select", options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"], required: false},
                 { label: Title, name: title5, widget: "string"},
                 { label: Link, name: link5, widget: "string"},
-                { label: Description, name: desc5, widget: "text"}
+                { label: Description, name: desc5, widget: "text", required: false}
               ]},
               { label: Patient Resources 6, name: resource6, widget: "object", collapsed: true, fields: [
                 { label: Category, name: category6, widget: "select", options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"], required: false},
                 { label: Title, name: title6, widget: "string"},
                 { label: Link, name: link6, widget: "string"},
-                { label: Description, name: desc6, widget: "text"}
+                { label: Description, name: desc6, widget: "text", required: false}
               ]},
               ]}
           - {label: "About", name: about, widget: object, collapsed: true, fields: [
@@ -194,6 +196,7 @@ collections:
               { label: Subtitle, name: subheading, widget: "string", required: false},
               { label: About, name: about, widget: "text"}]}
           - {label: "Patient Reviews", name: testimonials, widget: object, collapsed: true, fields: [
+              { label: Heading, name: reviewsHeader, widget: string, required: false },
               { label: Testimonial, name: testimonial1, widget: "object", fields: [
                 { label: Testimonial, name: testimonialContent1, widget: "text"},
                 { label: Name, name: name1, widget: "string", required: false}
@@ -208,6 +211,7 @@ collections:
               ]},
               ]}
           - {label: "Featured Publications, Media, Interviews, and More", name: work, widget: object, collapsed: true, fields: [
+              { label: Header, name: publicationsHeader, widget: string },
               { label: Featured 1, name: featured1, widget: "object", fields: [
                 { label: Image, name: image1, widget: "image"},
                 { label: Title, name: title1, widget: "string"},
@@ -286,6 +290,13 @@ collections:
               { name: image2, widget: "image", required: false },
               { name: image3, widget: "image", required: false },
               { name: image4, widget: "image", required: false }]}
+          #Social
+          - {label: "Social Media", name: social, widget: object, collapsed: true, fields: [
+              { label: "Weekly Mens Health Update Link", name: healthUpdateLink, widget: "link", required: false },
+              { label: "Weekly Mens Health Update Text", name: healthUpdateLinkText, widget: "string", required: false },
+              { label: "Facebook Link", name: facebookLink, widget: "link", required: false },
+              { label: "Twitter Link", name: twitterLink, widget: "link", required: false },
+              { label: "Instagram Link", name: instagramLink, widget: "link", required: false }]}
       #Patient Resources
       - label: "Patient Resources"
         name: "resources"
