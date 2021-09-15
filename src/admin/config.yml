@@ -190,6 +190,12 @@ collections:
                 { label: Description, name: desc6, widget: "text", required: false}
               ]},
               ]}
+          - {label: "Social Media", name: social, widget: object, collapsed: true, fields: [
+              { label: "Weekly Mens Health Update Link", name: healthUpdateLink, widget: link, required: false },
+              { label: "Weekly Mens Health Update Text", name: healthUpdateLinkText, widget: "string", required: false },
+              { label: "Facebook Link", name: facebookLink, widget: link, required: false },
+              { label: "Twitter Link", name: twitterLink, widget: link, required: false },
+              { label: "Instagram Link", name: instagramLink, widget: link, required: false }]}
           - {label: "About", name: about, widget: object, collapsed: true, fields: [
               { label: Image, name: image, widget: "image" },
               { label: Heading, name: heading, widget: "string"},
@@ -290,13 +296,6 @@ collections:
               { name: image2, widget: "image", required: false },
               { name: image3, widget: "image", required: false },
               { name: image4, widget: "image", required: false }]}
-          #Social
-          - {label: "Social Media", name: social, widget: object, collapsed: true, fields: [
-              { label: "Weekly Mens Health Update Link", name: healthUpdateLink, widget: "link", required: false },
-              { label: "Weekly Mens Health Update Text", name: healthUpdateLinkText, widget: "string", required: false },
-              { label: "Facebook Link", name: facebookLink, widget: "link", required: false },
-              { label: "Twitter Link", name: twitterLink, widget: "link", required: false },
-              { label: "Instagram Link", name: instagramLink, widget: "link", required: false }]}
       #Patient Resources
       - label: "Patient Resources"
         name: "resources"
