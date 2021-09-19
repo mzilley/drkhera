@@ -1,3 +1,4 @@
+
 backend:
   # Use netlify identity as backend
   name: git-gateway
@@ -196,7 +197,8 @@ collections:
               { label: "Weekly Mens Health Update Text", name: healthUpdateLinkText, widget: "string", required: false },
               { label: "Facebook Link", name: facebookLink, widget: "string", required: false },
               { label: "Twitter Link", name: twitterLink, widget: "string", required: false },
-              { label: "Instagram Link", name: instagramLink, widget: "string", required: false }]}
+              { label: "Instagram Link", name: instagramLink, widget: "string", required: false },
+              { label: "LinkedIn Link", name: linkedinLink, widget: "string", required: false }]}
           - {label: "About", name: about, widget: object, collapsed: true, fields: [
               { label: Image, name: image, widget: "image" },
               { label: Heading, name: heading, widget: "string"},
@@ -511,6 +513,42 @@ collections:
                 required: false 
               - label: Category
                 name: questionCategory
+                widget: "select"
+                required: false
+                options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"]
+          - label: "Post-Op Instructions Heading"
+            name: instructionHeading
+            widget: string
+          - label: "Post-Op Instructions"
+            label_singular: "instructions"
+            name: instructions
+            summary: "{{instructionTitle}}"
+            widget: list
+            allow_add: true
+            collapsed: true
+            add_to_top: true
+            fields:
+              - label: Title
+                name: instructionTitle
+                widget: "string"
+              - label: Link
+                name: instructionLink
+                widget: "string"
+                required: false
+              - label: File
+                name: instructionFile
+                widget: "file"
+                required: false
+              - label: Description
+                name: instructionDesc
+                widget: "text"
+                required: false
+              - label: Thumbnail
+                name: instructionImage
+                widget: "image"
+                required: false 
+              - label: Category
+                name: instructionCategory
                 widget: "select"
                 required: false
                 options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"]
