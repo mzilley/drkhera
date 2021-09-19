@@ -80,8 +80,7 @@ conditions:
     image: /static/img/testosterone.jpg
   femaleSexualDysfunction:
     heading8: Female Sexual Dysfunction
-    conditionDesc8: Female Sexual Dysfunction, or FSD, affects 43% (approximately 40
-      million) of American women.
+    conditionDesc8: Female Sexual Dysfunction, or FSD, affects 43% of American women.
     buttonText8: Learn More
     image: /static/img/female-sexual-dysfunction.jpg
   peyroniesDisease:
