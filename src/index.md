@@ -230,12 +230,12 @@ testimonials:
 work:
   featured1:
     image1: /static/img/worried-man-with-wife-.jpg
-    title1: Post Finasteride Syndrome
+    title1: Post Finasteride Syndrome Article
     link1: ""
     file1: /static/img/post-finasteride-syndrome.pdf
   featured2:
     image2: /static/img/erectile-dysfunction.jpg
-    title2: Testosterone's Role in COVID-19
+    title2: Testosterone's Role in COVID-19 Article
     link2: ""
     file2: /static/img/covid-and-testosterone.pdf
   featured3:
@@ -244,13 +244,13 @@ work:
     link3: https://www.click2houston.com/news/2016/05/28/baylor-college-of-medicine-takes-new-approach-to-testosterone-treatment/
   publicationsHeader: Publications, Media, Interviews, and More
   featured4:
-    title4: "Urology Times: COVID and Testosterone"
+    title4: "Urology Times: COVID and Testosterone Interview"
     link4: https://www.urologytimes.com/view/literature-review-summarizes-evidence-on-testosterone-and-covid-19
   featured5:
-    title5: "Endocrine Today: New Oral Testosterone"
+    title5: "Endocrine Today: New Oral Testosterone Interview"
     link5: https://www.healio.com/news/endocrinology/20190401/new-testosterone-therapies-offer-options-for-men-with-hypogonadism
   featured6:
-    title6: "NBC Boston: Erectile Dysfunction and COVID"
+    title6: "NBC Boston: Erectile Dysfunction and COVID Interview"
     link6: https://www.nbcboston.com/lx/early-research-shows-a-possible-link-between-covid-19-and-erectile-dysfunction-got-your-attention/2251899/
 partners:
   image1: ""
