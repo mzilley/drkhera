@@ -229,6 +229,7 @@ testimonials:
       prostate treatment years ago. So glad I was referred to Dr. Khera and I
       refer friends, coworkers and their spouses.
     name3: ""
+  reviewsHeader: Testimonials
 work:
   featured1:
     image1: /static/img/worried-man-with-wife-.jpg
