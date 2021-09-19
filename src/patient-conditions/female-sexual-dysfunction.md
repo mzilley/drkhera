@@ -14,6 +14,8 @@ Female Sexual Dysfunction, or FSD, affects 43% (approximately 40 million) of Ame
 3. Orgasmic disorders
 4. Pain disorders
 
+
+
 ## Libido Disorders
 
 There are many factors that can decrease a women’s desire for sex, such as her overall health, fatigue, self-image, stress, and the quality of her relationship.   All of these factors must be considered when evaluating a women for FSD. 
@@ -30,7 +32,11 @@ Arousal disorders affect up to 31% of women with FSD.  When a woman is sexually
 
 Female orgasmic disorder can be defined as delay in or absence of attaining an orgasm following sufficient sexual stimulation and arousal, which causes personal distress. 
 
- Almost 20% of women are unable to obtain an orgasm.  Many women experience “situational orgasms” in which they can only obtain an orgasm in certain settings. 
+
+
+Almost 20% of women are unable to obtain an orgasm.  Many women experience “situational orgasms” in which they can only obtain an orgasm in certain settings. 
+
+
 
 ## Pain Disorders
 
@@ -59,5 +65,7 @@ If indicated, some women will require a referral to another specialist, such as 
 ### Treating the Couple
 
 Dr. Khera believes that sexual dysfunction is a couple’s disease and the couple should be treated concurrently.  There is much data supporting this belief.   Among men with ED, 43% of their female partners will have FSD.  Conversely, among women with FSD, 29% of their male partners will have ED.  
+
+
 
 There have been numerous studies demonstrating that by simply treating one partner, you are indirectly treating the other partner.   For example, studies have shown that by treating men with Levitra, sexual function significantly improves in their female partners.  This improvement is without any intervention to the women except for treating their male partners.   Other studies have shown that female urinary incontinence increases the risk of a male partner having erectile dysfunction by 3 fold.   Further studies have demonstrated that by treating a women’s urinary incontinence, a male partner has a significant improvement in erectile function.   Sexual dysfunction is clearly a couple’s disease and both partners should be evaluated and treated in order to maximize therapy.
