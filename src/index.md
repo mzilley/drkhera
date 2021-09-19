@@ -70,7 +70,7 @@ conditions:
       the ejaculate. A vasectomy can be reversed but the sooner you reverse the
       vasectomy, the better the outcomes.
     buttonText6: Procedure Options
-    image: /static/img/vasectomy.jpg
+    image: /static/img/vasectomy4.jpg
   lowTestosterone:
     heading1: Low Testosterone
     conditionDesc1: >
@@ -129,7 +129,7 @@ conditions:
       and/or urgently, pain on urination or having the sensation not being able
       to empty the bladder.
     buttonText10: Learn more about BPH
-    image: /static/img/bph-2.jpg
+    image: /static/img/stress-incontinence.jpg
   erectileDysfunction:
     heading2: Erectile Dysfunction
     conditionDesc2: The concept of erectile preservation is to increase blood flow
