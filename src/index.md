@@ -240,7 +240,8 @@ work:
     file2: /static/img/covid-and-testosterone.pdf
   featured3:
     image3: /static/img/newapproachtotestosteronetreatment.png
-    title3: Baylor College of Medicine Takes New Approach to Testosterone Treatment
+    title3: "Baylor College of Medicine Takes New Approach to Testosterone
+      Treatment: TV Interview"
     link3: https://www.click2houston.com/news/2016/05/28/baylor-college-of-medicine-takes-new-approach-to-testosterone-treatment/
   publicationsHeader: Publications, Media, Interviews, and More
   featured4:
