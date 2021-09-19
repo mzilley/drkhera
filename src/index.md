@@ -59,8 +59,8 @@ conditions:
     heading5: Premature Ejaculation
     conditionDesc5: Premature ejaculation (PE) is a male sexual dysfunction
       characterized by ejaculation which almost always occurs within
-      approximately one minute of vaginal penetration and this results in
-      distress for the male.
+      approximately one to two minutes of vaginal penetration and this results
+      in distress for the male.
     buttonText5: Treating Premature Ejaculation
     image: /static/img/premature-ejaculation.jpg
   vasectomy:
