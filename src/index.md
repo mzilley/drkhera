@@ -109,19 +109,9 @@ conditions:
   delayedEjaculation:
     heading9: Delayed Ejaculation
     conditionDesc9: >
-      Delayed ejaculation can be lifelong or acquired. Lifelong delayed
-      ejaculation is defined as lifelong, consistent, bothersome inability to
-      achieve ejaculation, or excessive latency of ejaculation, despite adequate
-      sexual stimulation and the desire to ejaculate. (Expert Opinion) Acquired
-      delayed ejaculation is defined as an acquired, consistent, bothersome
-      inability to achieve ejaculation, or an increased latency of ejaculation,
-      despite adequate sexual stimulation and the desire to ejaculate. (Expert
-      Opinion) The prevalence of delayed ejaculation is unclear, but studies
-      show that it may affect up to 40% of men, and worsens with age. Another
-      common cause of DE is the use or abrupt cessation of selective serotonin
-      reuptake inhibitors (SSRIs). It is thought that 5 to 15% of men using
-      SSRI’s will have sexual dysfunction, and it can be as early as after the
-      first dose. 
+      Delayed ejaculation can be lifelong or acquired. The prevalence of delayed
+      ejaculation is unclear, but studies show that it may affect up to 40% of
+      men, and worsens with age.  
     buttonText9: Learn More
     image: /static/img/delayed-ejaculation.jpg
   maleInfertility:
