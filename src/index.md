@@ -2,33 +2,34 @@
 path: home
 resources:
   resource1:
-    title1: Treatment Options for Low Testosterone in Men
-    link1: https://www.youtube.com/watch?v=zJUk1zJW0sg
-    desc1: Some text to give the user more information about the resource
+    title1: Diagnosis and Treatment for BPH (Enlarged Prostate)
+    link1: https://www.youtube.com/watch?v=RegSMM4PG30
+    desc1: ""
     category1: BPH
   resource2:
     desc2: Some text to give the user more information about the resource
-    title2: "What you need to know about Penile Prosthesis: The Penile Implant"
-    link2: https://www.youtube.com/watch?v=uJOzPNCsp0M
+    title2: Testosterone Treatment Options
+    link2: https://www.youtube.com/watch?v=zJUk1zJW0sg
+    category2: Low Testosterone
   resource4:
-    desc4: Some text to give the user more information about the resource
-    link4: https://www.youtube.com/watch?v=5u3x_rQ1ZNc
-    title4: Live a Normal Life with Peyronie's Disease
-    category4: Peyronie's Disease
+    desc4: ""
+    link4: https://www.youtube.com/watch?v=Lo58su42EZ8
+    title4: Diagnosis and Treatment of Erectile Dysfunction
+    category4: Erectile Dysfunction
   resource3:
-    desc3: Some text to give the user more information about the resource
-    link3: https://www.youtube.com/watch?v=Lo58su42EZ8
-    title3: With Erectile Dysfunction, There are Many Options for Treatment
+    desc3: ""
+    link3: https://www.youtube.com/watch?v=uJOzPNCsp0M
+    title3: Penile Prosthesis
     category3: Erectile Dysfunction
   resource5:
-    desc5: Some text to give the user more information about the resource
-    link5: https://www.youtube.com/watch?v=RegSMM4PG30
-    title5: Living with an Enlarged Prostate, or Benign Prostatic Hyperplasia (BPH)
-    category5: BPH
+    desc5: ""
+    link5: https://www.youtube.com/watch?v=5u3x_rQ1ZNc
+    title5: Diagnosis and Management of Peyronie's Disease
+    category5: Peyronie's Disease
   resource6:
-    desc6: Some text to give the user more information about the resource
+    desc6: ""
     link6: https://www.youtube.com/watch?v=uyDaW5tGVMg
-    title6: Dr. Mohit Khera - Premature Ejaculation Causes and Treatments 2015
+    title6: "Premature Ejaculation Causes and Treatments "
     category6: Premature Ejaculation
   patientResourcesHeader: Dr. Khera Educational Videos
 layout: home
