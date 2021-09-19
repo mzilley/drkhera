@@ -134,11 +134,15 @@ conditions:
     image: /static/img/stress-incontinence.jpg
   erectileDysfunction:
     heading2: Erectile Dysfunction
-    conditionDesc2: The concept of erectile preservation is to increase blood flow
-      and oxygen to the penile tissue and thus prevent scarring and permanent
-      damage to the penis. It is important to take this proactive approach
-      because many times the scarring that occurs in the penis after a radical
-      prostatectomy is irreversible.
+    conditionDesc2: The most common sexual problem in U.S. men is erectile
+      difficulties (43%).  Erectile dysfunction (ED) affects a growing number of
+      men in the United States and abroad, with significant impacts on sexual
+      function and overall quality of life.  The risk factors for ED are
+      numerous, and include a strong link to cardiovascular disease, such that
+      men with ED should be screened for cardiovascular disease.  The evaluation
+      of men presenting with ED includes a comprehensive history and physical
+      exam to aid in the identification of comorbidities, as well as laboratory
+      testing to evaluate hormone and lipid levels, and sugar metabolism.
     buttonText2: Learn more about treatment
     image: /static/img/erectile-dysfunction.jpg
 social:
