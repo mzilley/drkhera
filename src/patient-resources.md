@@ -60,16 +60,16 @@ trials:
     trialLink: https://clinicaltrials.gov/ct2/show/NCT04002661?term=addyi+and+khera&draw=2&rank=1
 questionHeading: Questionnaires
 questionnaires:
-  - questionTitle: SHIM
+  - questionTitle: Sexual Health Inventory for Men (SHIM)
     questionFile: /static/img/shim.pdf
-  - questionTitle: IPSS
+  - questionTitle: International Prostate Symptom Score (IPSS)
     questionFile: /static/img/ipss.pdf
-  - questionTitle: ADAM
+  - questionTitle: " Androgen Deficiency in the Aging Male (ADAM) "
     questionFile: /static/img/adam.pdf
-  - questionTitle: FSFI
+  - questionTitle: "Female Sexual Function Index (FSFI) "
     questionFile: /static/img/fsfi.pdf
   - questionFile: /static/img/iief.pdf
-    questionTitle: IIEF
+    questionTitle: " International Index of Erectile Function (IIEF)"
 peyroniesDisease: []
 testisPain: []
 delayedEjaculation: []
