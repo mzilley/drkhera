@@ -7,7 +7,7 @@ resources:
     desc1: ""
     category1: BPH
   resource2:
-    desc2: Some text to give the user more information about the resource
+    desc2: ""
     title2: Testosterone Treatment Options
     link2: https://www.youtube.com/watch?v=zJUk1zJW0sg
     category2: Low Testosterone
