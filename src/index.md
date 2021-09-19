@@ -150,6 +150,7 @@ social:
   twitterLink: https://twitter.com/DrMohitKhera
   instagramLink: https://www.instagram.com/drmohitkhera/
   socialHeader: Social Media
+  linkedinLink: https://www.linkedin.com/in/drmohitkhera/
 about:
   image: /static/img/khera-pic-2021.jpg
   heading: Dr. Mohit Khera
