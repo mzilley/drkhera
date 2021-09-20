@@ -6252,7 +6252,7 @@ li {
 
 .hero-content:after {
     background-color:var(--primary);
-    clip-path: polygon(100% 1%, 0% 100%, 100% 100%);
+    clip-path: polygon(100% 57%, 57% 100%, 100% 100%);
     bottom: 0;
     right: 0;
     width: 100%;
