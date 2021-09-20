@@ -530,7 +530,8 @@ collections:
             fields:
               - label: Title
                 name: instructionTitle
-                widget: "string"
+                widget: "string",
+                required: false
               - label: Link
                 name: instructionLink
                 widget: "string"
