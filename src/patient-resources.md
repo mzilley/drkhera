@@ -35,10 +35,8 @@ questionnaires:
     questionFile: /static/img/fsfi.pdf
   - questionFile: /static/img/iief.pdf
     questionTitle: " International Index of Erectile Function (IIEF)"
-instructionHeading: test
-instructions:
-  - instructionFile: /static/img/Houstonia-Logo.jpg
-    instructionTitle: test
+instructionHeading: ""
+instructions: []
 maleStressIncontinence: []
 layout: patient-resources
 prematureEjaculation: []
