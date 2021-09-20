@@ -6364,7 +6364,7 @@ li {
 
 .subContent p {
     min-width: 100%;
-    margin-bottom: 0;
+    margin-bottom: 18px;
 }
 
 .subContent li {
