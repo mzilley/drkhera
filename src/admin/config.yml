@@ -518,6 +518,7 @@ collections:
           - label: "Post-Op Instructions Heading"
             name: instructionHeading
             widget: string
+            required: false
           - label: "Post-Op Instructions"
             label_singular: "instructions"
             name: instructions
