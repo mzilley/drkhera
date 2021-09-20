@@ -1,4 +1,5 @@
 ---
+videosHeading: Dr. Khera Videos
 media:
   - mediaTitle: "Urology Times: Testosterone and COVID"
     mediaLink: https://www.urologytimes.com/view/literature-review-summarizes-evidence-on-testosterone-and-covid-19
@@ -21,44 +22,8 @@ media:
   - mediaTitle: "Health 24: Post Orgasmic Illness Syndrome"
     mediaLink: https://www.news24.com/health24/sex/great-sex/orgasm-8-of-the-strangest-side-effects-that-can-happen-after-one-20180707-3
 articlesHeading: Dr. Khera's Selected Research Articles
-trialsHeading: "Dr. Khera's Current Clinical Trials "
-maleStressIncontinence: []
-layout: patient-resources
-videosHeading: Dr. Khera Videos
 websitesHeading: Helpful Websites
-prematureEjaculation: []
-vasectomy: []
-mediaHeading: Dr. Khera in the Media
-articles:
-  - articleTitle: Testosterone therapy and prostate cancer
-    articleLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5182214/pdf/tau-05-06-909.pdf
-  - articleTitle: "Peyronie's Disease: AUA Guideline"
-    articleLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5027990/pdf/nihms815690.pdf
-  - articleTitle: Testosterone's Role in COVID
-    articleLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7972673/pdf/main.pdf
-    articleDesc: ""
-  - articleTitle: Testosterone therapy improves erectile function and libido in
-      hypogonadal men
-    articleLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5649360/pdf/nihms910261.pdf
-  - articleTitle: Effect of Body Weight on Sexual Function in Men and Women
-    articleLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6771291/pdf/nihms-1519179.pdf
-  - articleTitle: Post Finasteride Syndrome
-    articleLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7354335/pdf/tau-09-03-1201.pdf
-trials:
-  - trialTitle: Hypoactive Sexual Desire Disorder in Males (HSDD)
-    trialDesc: >-
-      The purpose of this study is to determine if the study drug will increase
-      sexual desire in men with HSDD. Half of the participants will take ADDYI
-      while the other half will receive a placebo (a look-alike pill with no
-      medicine).
-
-
-      This pilot randomized placebo controlled study will include 60 men (30 treatment and 30 placebo). ARM 1 will take flibanserin 100mg orally every night and ARM 2 will take a placebo orally every night.
-
-
-      There will be four study visits and the study duration is approximately 4 months. Participants will have physicals at each visit. Blood draws for tests will be done at 3 visits and up to 4 questionnaires will completed at each visit. Study drug will randomized.
-    trialLink: https://clinicaltrials.gov/ct2/show/NCT04002661?term=addyi+and+khera&draw=2&rank=1
-questionHeading: Questionnaires
+trialsHeading: "Dr. Khera's Current Clinical Trials "
 questionnaires:
   - questionTitle: Sexual Health Inventory for Men (SHIM)
     questionFile: /static/img/shim.pdf
@@ -70,6 +35,14 @@ questionnaires:
     questionFile: /static/img/fsfi.pdf
   - questionFile: /static/img/iief.pdf
     questionTitle: " International Index of Erectile Function (IIEF)"
+instructionHeading: test
+instructions:
+  - instructionFile: /static/img/Houstonia-Logo.jpg
+    instructionTitle: test
+maleStressIncontinence: []
+layout: patient-resources
+prematureEjaculation: []
+vasectomy: []
 peyroniesDisease: []
 testisPain: []
 delayedEjaculation: []
@@ -110,5 +83,36 @@ websites:
   - websiteTitle: Cure PD  (Peyronie's Disease)
     websiteLink: https://peyronies.org/
 bph: []
+mediaHeading: Dr. Khera in the Media
+articles:
+  - articleTitle: Testosterone therapy and prostate cancer
+    articleLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5182214/pdf/tau-05-06-909.pdf
+  - articleTitle: "Peyronie's Disease: AUA Guideline"
+    articleLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5027990/pdf/nihms815690.pdf
+  - articleTitle: Testosterone's Role in COVID
+    articleLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7972673/pdf/main.pdf
+    articleDesc: ""
+  - articleTitle: Testosterone therapy improves erectile function and libido in
+      hypogonadal men
+    articleLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5649360/pdf/nihms910261.pdf
+  - articleTitle: Effect of Body Weight on Sexual Function in Men and Women
+    articleLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6771291/pdf/nihms-1519179.pdf
+  - articleTitle: Post Finasteride Syndrome
+    articleLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7354335/pdf/tau-09-03-1201.pdf
+trials:
+  - trialTitle: Hypoactive Sexual Desire Disorder in Males (HSDD)
+    trialDesc: >-
+      The purpose of this study is to determine if the study drug will increase
+      sexual desire in men with HSDD. Half of the participants will take ADDYI
+      while the other half will receive a placebo (a look-alike pill with no
+      medicine).
+
+
+      This pilot randomized placebo controlled study will include 60 men (30 treatment and 30 placebo). ARM 1 will take flibanserin 100mg orally every night and ARM 2 will take a placebo orally every night.
+
+
+      There will be four study visits and the study duration is approximately 4 months. Participants will have physicals at each visit. Blood draws for tests will be done at 3 visits and up to 4 questionnaires will completed at each visit. Study drug will randomized.
+    trialLink: https://clinicaltrials.gov/ct2/show/NCT04002661?term=addyi+and+khera&draw=2&rank=1
+questionHeading: Questionnaires
 ed: []
 ---
