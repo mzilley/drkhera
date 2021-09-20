@@ -195,7 +195,6 @@ collections:
               { label: "Header", name: socialHeader, widget: "string", required: false },
               { label: "Weekly Mens Health Update Link", name: healthUpdateLink, widget: "string", required: false },
               { label: "Weekly Mens Health Update Text", name: healthUpdateLinkText, widget: "string", required: false },
-              { label: "Facebook Link", name: facebookLink, widget: "string", required: false },
               { label: "Twitter Link", name: twitterLink, widget: "string", required: false },
               { label: "Instagram Link", name: instagramLink, widget: "string", required: false },
               { label: "LinkedIn Link", name: linkedinLink, widget: "string", required: false }]}
