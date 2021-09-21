@@ -59,6 +59,7 @@ conditions:
       stress incontinence.
     buttonText11: Procedure Options
     image: /static/img/stress-incontinence.jpg
+    alt: Water drop landing in water
   prematureEjaculation:
     heading5: Premature Ejaculation
     conditionDesc5: Premature ejaculation (PE) is a male sexual dysfunction
@@ -67,6 +68,7 @@ conditions:
       in distress for the male.
     buttonText5: Treating Premature Ejaculation
     image: /static/img/premature-ejaculation.jpg
+    alt: Man with his head resting on his hand
   vasectomy:
     heading6: Vasectomy
     conditionDesc6: Every year over 500,000 men choose to have a vasectomy. A
@@ -75,6 +77,7 @@ conditions:
       vasectomy, the better the outcomes.
     buttonText6: Procedure Options
     image: /static/img/vasectomy4.jpg
+    alt: Man leaning against wall
   lowTestosterone:
     heading1: Low Testosterone
     conditionDesc1: >
@@ -82,11 +85,13 @@ conditions:
       men between the ages of 40 and 70 years of age.
     buttonText1: Treatment Options
     image: /static/img/testosterone.jpg
+    alt: Urologist holding syringe
   femaleSexualDysfunction:
     heading8: Female Sexual Dysfunction
     conditionDesc8: Female Sexual Dysfunction, or FSD, affects 43% of American women.
     buttonText8: Learn More
     image: /static/img/female-sexual-dysfunction.jpg
+    alt: Woman in pool holding her hands over her head
   peyroniesDisease:
     heading4: Peyronie's Disease
     conditionDesc4: >
@@ -101,6 +106,7 @@ conditions:
       erections, and an inability to engage in sexual intercourse.
     buttonText4: Living with peyronie's disease
     image: /static/img/peyronies-disease.jpg
+    alt: Couple cuddling on bed
   testisPain:
     heading3: Testis Pain
     conditionDesc3: There are numerous causes of testis pain including infection,
@@ -109,6 +115,7 @@ conditions:
       of the spermatic cord procedure can be helpful.
     buttonText3: Learn more about treatment
     image: /static/img/testis-pain.jpg
+    alt: Man running his hands through hair in distress
   delayedEjaculation:
     heading9: Delayed Ejaculation
     conditionDesc9: >
@@ -117,6 +124,7 @@ conditions:
       men, and worsens with age.  
     buttonText9: Learn More
     image: /static/img/delayed-ejaculation.jpg
+    alt: Couple with arms crossed sitting next to each other
   maleInfertility:
     heading7: Male Infertility
     conditionDesc7: Male infertility is a fairly common problem. While approximately
@@ -125,6 +133,7 @@ conditions:
       conceive solely because of an impaired male factor.
     buttonText7: Learn More
     image: /static/img/male-infertility.jpg
+    alt: Family holding up a sign
   bph:
     heading10: BPH (Enlarged Prostate}
     conditionDesc10: Benign prostatic hyperplasia (BPH) is also known as enlargement
@@ -135,6 +144,7 @@ conditions:
       to empty the bladder.
     buttonText10: Learn more about BPH
     image: /static/img/stress-incontinence.jpg
+    alt: Water drop landing in water
   erectileDysfunction:
     heading2: Erectile Dysfunction
     conditionDesc2: Erectile dysfunction (ED) affects a growing number of men in the
@@ -147,6 +157,7 @@ conditions:
       to evaluate hormone and lipid levels, and sugar metabolism.
     buttonText2: Learn more about treatment
     image: /static/img/erectile-dysfunction.jpg
+    alt: Distressed couple
 social:
   healthUpdateLink: https://www.instagram.com/reel/CTlV2jpAzgD/
   healthUpdateLinkText: Men's Weekly Health Update 6
