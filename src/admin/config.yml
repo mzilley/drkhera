@@ -61,8 +61,6 @@ collections:
           - {label: "Main", name: topsection, widget: object, collapsed: true, fields: [
               { label: Heading, name: heading, widget: "string" },
               { label: Subtitle, name: subtitle, widget: "string"},
-              { label: Image, name: image, widget: "image"},
-              { label: Image ALT, name: alt, widget: "string"},
               { label: Bio Image, name: bioImage, widget: "image"}]}
           - {label: "Patient Conditions", name: conditions, widget: object, collapsed: true, fields: [
               { label: Low Tesosterone, name: lowTestosterone, widget: "object", fields: [
