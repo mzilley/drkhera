@@ -33,7 +33,6 @@ resources:
     category6: Premature Ejaculation
   patientResourcesHeader: Dr. Khera Educational Videos
 layout: home
-keywords: test, keyword, yay
 metadata:
   title: Home
   description: Dr. Mohit Khera is an urologist in Houston, Texas and is affiliated
