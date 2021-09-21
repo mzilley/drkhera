@@ -43,26 +43,6 @@ collections:
           - { label: "SEO", name: SEO, widget: object, fields: [
               { label: Site Name, name: site_name, summary: "It is displayed in Meta Page Title", widget: "string" },
               { label: Separator, name: separator, summary: "Separator between Page name and Site Name in Meta Page Title", widget: "string"}]}
-  # Blog
-  - label: "Blog"
-    name: "blog"
-    folder: "src/posts"
-    create: true
-    editor:
-      preview: false
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: Keywords - comma separated, summary: "Comma separated", name: keywords, widget: string, required: false}
-      - { label: "Author", name: "author", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - widget: select
-        label: "tags"
-        name: "tags"
-        multiple: true
-        create: true
-        options: ["Tags", "created", "from", "config.yml"]
   # Pages
   - label: "Pages"
     name: "pages"
@@ -550,6 +530,120 @@ collections:
                 required: false 
               - label: Category
                 name: instructionCategory
+                widget: "select"
+                required: false
+                options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"]
+          - label: "Other 1"
+            name: other1Heading
+            widget: string
+            required: false
+          - label: "Other"
+            label_singular: "other"
+            name: other1
+            summary: "{{other1Title}}"
+            widget: list
+            allow_add: true
+            collapsed: true
+            add_to_top: true
+            fields:
+              - label: Title
+                name: other1Title
+                widget: "string",
+                required: false
+              - label: Link
+                name: other1Link
+                widget: "string"
+                required: false
+              - label: File
+                name: other1File
+                widget: "file"
+                required: false
+              - label: Description
+                name: other1Desc
+                widget: "text"
+                required: false
+              - label: Thumbnail
+                name: other1Image
+                widget: "image"
+                required: false 
+              - label: Category
+                name: other1Category
+                widget: "select"
+                required: false
+                options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"]
+          - label: "Other 2"
+            name: other2Heading
+            widget: string
+            required: false
+          - label: "Other"
+            label_singular: "other"
+            name: other2
+            summary: "{{other2Title}}"
+            widget: list
+            allow_add: true
+            collapsed: true
+            add_to_top: true
+            fields:
+              - label: Title
+                name: other2Title
+                widget: "string",
+                required: false
+              - label: Link
+                name: other2Link
+                widget: "string"
+                required: false
+              - label: File
+                name: other2File
+                widget: "file"
+                required: false
+              - label: Description
+                name: other2Desc
+                widget: "text"
+                required: false
+              - label: Thumbnail
+                name: other2Image
+                widget: "image"
+                required: false 
+              - label: Category
+                name: other2Category
+                widget: "select"
+                required: false
+                options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"]
+          - label: "Other 3"
+            name: other3Heading
+            widget: string
+            required: false
+          - label: "Other"
+            label_singular: "other"
+            name: other3
+            summary: "{{other3Title}}"
+            widget: list
+            allow_add: true
+            collapsed: true
+            add_to_top: true
+            fields:
+              - label: Title
+                name: other3Title
+                widget: "string",
+                required: false
+              - label: Link
+                name: other3Link
+                widget: "string"
+                required: false
+              - label: File
+                name: other3File
+                widget: "file"
+                required: false
+              - label: Description
+                name: other3Desc
+                widget: "text"
+                required: false
+              - label: Thumbnail
+                name: other3Image
+                widget: "image"
+                required: false 
+              - label: Category
+                name: other3Category
                 widget: "select"
                 required: false
                 options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"]
