@@ -6380,6 +6380,13 @@ li {
     #logo {
         max-width: 215px;;
     }
+    .hero-image #focal {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .hero-content:after {
+        display: none;
+    }
     .subHero-content {
         border-radius: 0;
         bottom: 0;;
