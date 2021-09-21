@@ -6518,6 +6518,7 @@ li {
     transition: 0.3s ease-in-out all;
     position: relative;
     flex: 1 1 31%;
+    z-index: 0;
 }
 
 .resource-container >div:hover {

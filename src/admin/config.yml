@@ -132,7 +132,7 @@ collections:
                 { label: Image, name: image, widget: "image"},
               ]},
             ]}
-          - {label: "Patient Resources", name: resources, widget: object, collapsed: true, fields: [
+          - {label: "Patient Resources", summary: "{{patientResourcesHeader}}", name: resources, widget: object, collapsed: true, fields: [
               { label: Patient Resources Header, name: patientResourcesHeader, widget: string},
               { label: Patient Resources 1, name: resource1, widget: "object", fields: [
                 { label: Category, name: category1, widget: "select", options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"], required: false},
@@ -183,7 +183,7 @@ collections:
               { label: Heading, name: heading, widget: "string"},
               { label: Subtitle, name: subheading, widget: "string", required: false},
               { label: About, name: about, widget: "text"}]}
-          - {label: "Patient Reviews", name: testimonials, widget: object, collapsed: true, fields: [
+          - {label: "Patient Reviews", summary: "{{reviewsHeader}}", name: testimonials, widget: object, collapsed: true, fields: [
               { label: Heading, name: reviewsHeader, widget: string, required: false },
               { label: Testimonial, name: testimonial1, widget: "object", fields: [
                 { label: Testimonial, name: testimonialContent1, widget: "text"},
@@ -198,7 +198,7 @@ collections:
                 { label: Name, name: name3, widget: "string", required: false}
               ]},
               ]}
-          - {label: "Featured Publications, Media, Interviews, and More", name: work, widget: object, collapsed: true, fields: [
+          - {label: "Featured Publications, Media, Interviews, and More", summary: "{{publicationsHeader}}", name: work, widget: object, collapsed: true, fields: [
               { label: Header, name: publicationsHeader, widget: string },
               { label: Featured 1, name: featured1, widget: "object", fields: [
                 { label: Image, name: image1, widget: "image"},
@@ -323,7 +323,7 @@ collections:
             name: mediaHeading
             widget: string
           - label: "Media"
-            label_singular: "media"
+            label_singular: "media items"
             name: media
             summary: "{{mediaTitle}}"
             widget: list
@@ -510,7 +510,7 @@ collections:
             fields:
               - label: Title
                 name: instructionTitle
-                widget: "string",
+                widget: "string"
                 required: false
               - label: Link
                 name: instructionLink
@@ -548,7 +548,7 @@ collections:
             fields:
               - label: Title
                 name: other1Title
-                widget: "string",
+                widget: "string"
                 required: false
               - label: Link
                 name: other1Link
@@ -586,7 +586,7 @@ collections:
             fields:
               - label: Title
                 name: other2Title
-                widget: "string",
+                widget: "string"
                 required: false
               - label: Link
                 name: other2Link
@@ -624,7 +624,7 @@ collections:
             fields:
               - label: Title
                 name: other3Title
-                widget: "string",
+                widget: "string"
                 required: false
               - label: Link
                 name: other3Link
@@ -647,6 +647,8 @@ collections:
                 widget: "select"
                 required: false
                 options: ["BPH", "Delayed Ejaculation", "Erectile Dysfunction", "Female Sexual Dysfunction", "Low Testosterone", "Male Infertility", "Male Stress Incontinence", "Peyronie's Disease", "Premature Ejaculation", "Testis Pain", "Vasectomy"]
+
+          
 
       # Low Tesosterone
       - label: "Low Tesosterone"

@@ -2,8 +2,39 @@
 layout: _default
 ---
 
-<div class="container mx-auto my-0 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:p-8">
+<div class="container mx-auto my-0 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 md:p-8 text-center mb-10">
     <h1 class="f1 text-center leading-10 py-10">Patient Resources</h1>
+    <span class="db sm:inline-block shadow b-rad p-3 bg-primary white title-font font-bold text-xs mb-2 sm:mx-1 mx-5">
+        <a href="#videos">{{videosHeading}}</a>
+    </span>
+    <span class="db sm:inline-block shadow b-rad p-3 bg-primary white title-font font-bold text-xs mb-2 sm:mx-1 mx-5">
+        <a href="#media">{{mediaHeading}}</a>
+    </span>
+    <span class="db sm:inline-block shadow b-rad p-3 bg-primary white title-font font-bold text-xs mb-2 sm:mx-1 mx-5">
+        <a href="#articles">{{articlesHeading}}</a>
+    </span>
+    <span class="db sm:inline-block shadow b-rad p-3 bg-primary white title-font font-bold text-xs mb-2 sm:mx-1 mx-5">
+        <a href="#clinical-trials">{{trialsHeading}}</a>
+    </span>
+    <span class="db sm:inline-block shadow b-rad p-3 bg-primary white title-font font-bold text-xs mb-2 sm:mx-1 mx-5">
+        <a href="#questionnaires">{{questionHeading}}</a>
+    </span>
+    <span class="db sm:inline-block shadow b-rad p-3 bg-primary white title-font font-bold text-xs mb-2 sm:mx-1 mx-5">
+        <a href="#helpful-websites">{{websitesHeading}}</a>
+    </span>
+    <span class="db sm:inline-block shadow b-rad p-3 bg-primary white title-font font-bold text-xs mb-2 sm:mx-1 mx-5">
+        <a href="#instructions">{{websitesHeading}}</a>
+    </span>
+    {% if instructionHeading %}
+        <span class="db sm:inline-block shadow b-rad p-3 bg-primary white title-font font-bold text-xs mb-2 sm:mx-1 mx-5">
+            <a href="#helpful-websites">{{instructionHeading}}</a>
+        </span>
+    {% endif %}
+    {% if other1Heading %}
+        <span class="db sm:inline-block shadow b-rad p-3 bg-primary white title-font font-bold text-xs mb-2 sm:mx-1 mx-5">
+            <a href="#other">Other</a>
+        </span>
+    {% endif %}
 </div>
 
 <div class="px-4 pb-12 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:p-8">
