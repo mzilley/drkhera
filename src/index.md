@@ -36,7 +36,11 @@ layout: home
 keywords: test, keyword, yay
 metadata:
   title: Home
-  description: This is a page
+  description: Dr. Mohit Khera is an urologist in Houston, Texas and is affiliated
+    with multiple hospitals in the area, including Houston Methodist Hospital
+    and Baylor St. Luke's Medical Center. He received his medical degree from
+    University of Texas Health Science Center - San Antonio and has been in
+    practice between 11-20 years.
 topsection:
   title: Netlify CMS Starter
   subtitle: Men's Health Urology
