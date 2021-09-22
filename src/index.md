@@ -1,52 +1,10 @@
 ---
 path: home
-resources:
-  resource1:
-    title1: Diagnosis and Treatment for BPH (Enlarged Prostate)
-    link1: https://www.youtube.com/watch?v=RegSMM4PG30
-    desc1: ""
-    category1: BPH
-  resource2:
-    desc2: ""
-    title2: Testosterone Treatment Options
-    link2: https://www.youtube.com/watch?v=zJUk1zJW0sg
-    category2: Low Testosterone
-  resource4:
-    desc4: ""
-    link4: https://www.youtube.com/watch?v=Lo58su42EZ8
-    title4: Diagnosis and Treatment of Erectile Dysfunction
-    category4: Erectile Dysfunction
-  resource3:
-    desc3: ""
-    link3: https://www.youtube.com/watch?v=uJOzPNCsp0M
-    title3: Penile Prosthesis
-    category3: Erectile Dysfunction
-  resource5:
-    desc5: ""
-    link5: https://www.youtube.com/watch?v=5u3x_rQ1ZNc
-    title5: Diagnosis and Management of Peyronie's Disease
-    category5: Peyronie's Disease
-  resource6:
-    desc6: ""
-    link6: https://www.youtube.com/watch?v=uyDaW5tGVMg
-    title6: "Premature Ejaculation Causes and Treatments "
-    category6: Premature Ejaculation
-  patientResourcesHeader: Dr. Khera Educational Videos
-layout: home
 metadata:
   title: Home
-  description: Dr. Mohit Khera is an urologist in Houston, Texas and is affiliated
+  description: Dr. Mohit Khera is a urologist in Houston, Texas and is affiliated
     with multiple hospitals in the area, including Houston Methodist Hospital
-    and Baylor St. Luke's Medical Center. He received his medical degree from
-    University of Texas Health Science Center - San Antonio and has been in
-    practice between 11-20 years.
-topsection:
-  title: Netlify CMS Starter
-  subtitle: Men's Health Urology
-  image: /static/img/hero.jpg
-  alt: Egg!
-  heading: Dr. Mohit Khera
-  bioImage: /static/img/khera-pic-2021.jpg
+    and Baylor St. Luke's Medical Center
 conditions:
   maleStressIncontinence:
     heading11: Male Stress Incontinence
@@ -157,6 +115,46 @@ conditions:
     buttonText2: Learn more about treatment
     image: /static/img/erectile-dysfunction.jpg
     alt: Distressed couple
+resources:
+  resource1:
+    title1: Diagnosis and Treatment for BPH (Enlarged Prostate)
+    link1: https://www.youtube.com/watch?v=RegSMM4PG30
+    desc1: ""
+    category1: BPH
+  resource2:
+    desc2: ""
+    title2: Testosterone Treatment Options
+    link2: https://www.youtube.com/watch?v=zJUk1zJW0sg
+    category2: Low Testosterone
+  resource4:
+    desc4: ""
+    link4: https://www.youtube.com/watch?v=Lo58su42EZ8
+    title4: Diagnosis and Treatment of Erectile Dysfunction
+    category4: Erectile Dysfunction
+  resource3:
+    desc3: ""
+    link3: https://www.youtube.com/watch?v=uJOzPNCsp0M
+    title3: Penile Prosthesis
+    category3: Erectile Dysfunction
+  resource5:
+    desc5: ""
+    link5: https://www.youtube.com/watch?v=5u3x_rQ1ZNc
+    title5: Diagnosis and Management of Peyronie's Disease
+    category5: Peyronie's Disease
+  resource6:
+    desc6: ""
+    link6: https://www.youtube.com/watch?v=uyDaW5tGVMg
+    title6: "Premature Ejaculation Causes and Treatments "
+    category6: Premature Ejaculation
+  patientResourcesHeader: Dr. Khera Educational Videos
+layout: home
+topsection:
+  title: Netlify CMS Starter
+  subtitle: Men's Health Urology
+  image: /static/img/hero.jpg
+  alt: Egg!
+  heading: Dr. Mohit Khera
+  bioImage: /static/img/khera-pic-2021.jpg
 social:
   healthUpdateLink: https://www.instagram.com/reel/CTlV2jpAzgD/
   healthUpdateLinkText: Men's Weekly Health Update 6
@@ -280,3 +278,4 @@ partners:
   image3: ""
   image4: ""
 title: Home
+---
