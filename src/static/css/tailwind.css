@@ -6240,7 +6240,6 @@ li {
 }
 
 .hero-image:after {
-    background-color: #97D5BF;
     background-color:var(--highlight);
     clip-path: polygon(100% 0, 0% 100%, 0 0);
     top: 0;
@@ -6255,7 +6254,6 @@ li {
 }
 
 .hero-content:after {
-    background-color: #273258;
     background-color:var(--primary);
     clip-path: polygon(100% 57%, 57% 100%, 100% 100%);
     bottom: 0;
