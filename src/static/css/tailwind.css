@@ -6058,7 +6058,6 @@ svg {
 .bg-fix-primary :first-child {
  box-shadow:.5rem 0 0 #273258,0 0 -var(--spacing-small) #273258;
  box-shadow:var(--spacing-small) 0 0 var(--primary),-var(--spacing-small) 0 0 var(--primary);
- color: #273258;
  color: var(--primary);
 }
 input[type="submit"] {
@@ -6638,4 +6637,16 @@ li {
     -webkit-appearance: none;
     -moz-appearance:    none;
     appearance:         none;
+  }
+
+  #top-bar svg {
+      fill: white;
+  }
+
+  .text-white {
+      color: white;
+  }
+
+  #about p {
+      color: white;
   }
