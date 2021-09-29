@@ -5454,6 +5454,7 @@ body {
  -webkit-font-smoothing:antialiased;
  -moz-osx-font-smoothing:grayscale;
  background-color:#f0f4f4;
+ color: #273258;
  color: var(--primary);
 }
 p {
@@ -6057,6 +6058,7 @@ svg {
 .bg-fix-primary :first-child {
  box-shadow:.5rem 0 0 #273258,0 0 -var(--spacing-small) #273258;
  box-shadow:var(--spacing-small) 0 0 var(--primary),-var(--spacing-small) 0 0 var(--primary);
+ color: #273258;
  color: var(--primary);
 }
 input[type="submit"] {
@@ -6107,6 +6109,7 @@ input[type="submit"] {
 }
 
 .nav__item {
+    color: #273258;
     color: var(--primary);
     font-family: Abhaya Libre, serif;
     font-size: 18px;
@@ -6217,7 +6220,7 @@ li {
     background: #273258;
     color: #fff;
     color: var(--white)!important;
-    border: 2px solid #273258
+    border: 2px solid #273258;
     border: 2px solid var(--primary);
 }
 
@@ -6620,6 +6623,7 @@ li {
   #condition ul.submenu li {
     margin: 10px 20px 0 20px;
     width: 46%;
+    color: #273258;
     color: var(--primary);
     word-break: break-word;
   }
