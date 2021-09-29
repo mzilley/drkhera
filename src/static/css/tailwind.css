@@ -5825,11 +5825,11 @@ textarea:focus {
  z-index:unset
 }
 ::-moz-selection {
- background-color:#fed5c6;
+ background-color:#97D5BF;
  background-color:var(--highlight)
 }
 ::selection {
- background-color:#fed5c6;
+ background-color:#97D5BF;
  background-color:var(--highlight)
 }
 .divider-grey {
@@ -5915,7 +5915,7 @@ svg {
  transition:var(--hover-transition)
 }
 .cms a:hover {
- background-color:#fed5c6;
+ background-color:#97D5BF;
  background-color:var(--highlight);
  color:#2b2523;
  color:var(--black)
@@ -5986,7 +5986,7 @@ svg {
  color:var(--primary)
 }
 .highlight {
- color:#fed5c6;
+ color:#97D5BF;
  color:var(--highlight)
 }
 .white {
@@ -6018,10 +6018,11 @@ svg {
  color:var(--black)
 }
 .bg-primary {
+ background-color: #273258;
  background-color:var(--primary)
 }
 .bg-highlight {
- background-color:#fed5c6;
+ background-color:#97D5BF;
  background-color:var(--highlight)
 }
 .bg-white {
@@ -6205,19 +6206,25 @@ li {
 
 .btn-primary {
     background: var(--highlight);
+    background: #97D5BF;
     color: var(--primary);
+    color: #273258;
     border: 2px solid var(--highlight);
 }
 
 .btn-secondary {
     background: var(--primary);
+    background: #273258;
+    color: #fff;
     color: var(--white)!important;
+    border: 2px solid #273258
     border: 2px solid var(--primary);
 }
 
 .btn-white {
     background: #fff;
-    color: var(--priamry)!important;
+    color: #273258;
+    color: var(--primary)!important;
     border: 2px solid #fff!important;
 }
 
@@ -6230,6 +6237,7 @@ li {
 }
 
 .hero-image:after {
+    background-color: #97D5BF;
     background-color:var(--highlight);
     clip-path: polygon(100% 0, 0% 100%, 0 0);
     top: 0;
@@ -6244,6 +6252,7 @@ li {
 }
 
 .hero-content:after {
+    background-color: #273258;
     background-color:var(--primary);
     clip-path: polygon(100% 57%, 57% 100%, 100% 100%);
     bottom: 0;
