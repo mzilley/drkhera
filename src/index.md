@@ -5,6 +5,7 @@ metadata:
   description: Dr. Mohit Khera is a urologist in Houston, Texas and is affiliated
     with multiple hospitals in the area, including Houston Methodist Hospital
     and Baylor St. Luke's Medical Center
+  keywords: dr mohit khera, houston urologist
 conditions:
   maleStressIncontinence:
     heading11: Male Stress Incontinence
