@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ settings.SEO.site_name }}{{ settings.SEO.separator }}{{ title }}</title>
     <link rel="shortcut icon" type="image/jpg" href="{{ settings.favicon }}"/>
-    {% if description %}
-        <meta name="description" content="{{description}}"/>
+    {% if metadata.description %}
+        <meta name="description" content="{{metadata.description}}"/>
     {% endif %}
-    {% if keywords %}
-        <meta name="keywords" content="{{keywords}}">
+    {% if metadata.keywords %}
+        <meta name="keywords" content="{{metadata.keywords}}">
     {% endif %}
-    {% if author %}
-        <meta name="author" content="{{author}}">
+    {% if metadata.author %}
+        <meta name="author" content="{{metadata.author}}">
     {% endif %}
 
     <!-- Facebook Meta Tags -->
