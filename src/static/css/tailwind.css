@@ -6639,10 +6639,6 @@ li {
     appearance:         none;
   }
 
-  #top-bar svg {
-      fill: white;
-  }
-
   .text-white {
       color: white;
   }
