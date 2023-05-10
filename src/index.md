@@ -206,7 +206,7 @@ about:
     Andrology Research, the Medical Director of the Baylor Executive Health Program and the
 
 
-    Medical Director of the Scott Department of Urology. He also serves as President-Elect of
+    Medical Director of the Scott Department of Urology. He also serves as President of
 
 
     the Sexual Medicine Society of North America.
