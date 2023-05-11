@@ -53,6 +53,8 @@ layout: _default
 
                             {% if item.videoLink %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.videoLink }}">{{ item.videoTitle }}</a></h3>
+                            {% else %}
+                                <h3 class="title-font text-lg">{{ item.videoTitle }}</h3>
                             {% endif %}
 
                             {% if item.videoFile %}
@@ -85,6 +87,8 @@ layout: _default
 
                             {% if item.mediaLink %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.mediaLink }}">{{ item.mediaTitle }}</a></h3>
+                            {% else %}
+                                <h3 class="title-font text-lg">{{ item.mediaTitle }}</h3>
                             {% endif %}
 
                             {% if item.mediaFile %}
@@ -117,6 +121,8 @@ layout: _default
 
                             {% if item.articleLink %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.articleLink }}">{{ item.articleTitle }}</a></h3>
+                            {% else %}
+                                <h3 class="title-font text-lg">{{ item.articleTitle }}</h3>
                             {% endif %}
 
                             {% if item.articleFile %}
@@ -183,7 +189,9 @@ layout: _default
 
                             {% if item.questionLink %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.questionLink }}">{{ item.questionTitle }}</a></h3>
-                            {% endif %} 
+                             {% else %}
+                                <h3 class="title-font text-lg">{{ item.questionTitle }}</a></h3>
+                            {% endif %}
 
                             {% if item.questionFile %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.questionFile }}">{{ item.questionTitle }}</a></h3>
@@ -212,10 +220,11 @@ layout: _default
                             {% if item.websiteCategory %}
                                 <span class="inline-block shadow b-rad px-2 py-1 bg-primary white title-font font-bold text-xs mb1">{{item.websiteCategory}}</span>
                             {% endif %}
+                            
                             {% if item.websiteLink %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.websiteLink }}">{{ item.websiteTitle }}</a></h3>
                             {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.websiteTitle }}</h3>
+                                <h3 class="title-font text-lg">{{ item.websiteTitle }}</h3>
                             {% endif %} 
                             <p>{{ item.websiteDesc }}</p>
                         </div>
@@ -243,7 +252,7 @@ layout: _default
                             {% if item.instructionLink %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.instructionLink }}">{{ item.instructionTitle }}</a></h3>
                             {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.instructionTitle }}</h3>
+                                <h3 class="title-font text-lg">{{ item.instructionTitle }}</h3>
                             {% endif %} 
                             <p>{{ item.instructionDesc }}</p>
                         </div>
@@ -271,7 +280,7 @@ layout: _default
                             {% if item.other1Link %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.other1Link }}">{{ item.other1Title }}</a></h3>
                             {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.other1Title }}</h3>
+                                <h3 class="title-font text-lg">{{ item.other1Title }}</h3>
                             {% endif %} 
                             <p>{{ item.other1Desc }}</p>
                         </div>
@@ -299,7 +308,7 @@ layout: _default
                             {% if item.other2Link %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.other2Link }}">{{ item.other2Title }}</a></h3>
                             {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.other2Title }}</h3>
+                                <h3 class="title-font text-lg">{{ item.other2Title }}</h3>
                             {% endif %} 
                             <p>{{ item.other2Desc }}</p>
                         </div>
@@ -327,7 +336,7 @@ layout: _default
                             {% if item.other3Link %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.other3Link }}">{{ item.other3Title }}</a></h3>
                             {% else %} 
-                                <h3 class="title-font text-lg pt-3">{{ item.other3Title }}</h3>
+                                <h3 class="title-font text-lg">{{ item.other3Title }}</h3>
                             {% endif %} 
                             <p>{{ item.other3Desc }}</p>
                         </div>
@@ -337,3 +346,4 @@ layout: _default
         </div>
     </section>
 </div>
+
