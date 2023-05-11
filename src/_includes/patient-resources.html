@@ -52,13 +52,13 @@ layout: _default
                             {% endif %} 
 
                             {% if item.videoLink %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.videoLink }}">{{ item.videoTitle }}</a></h3>
+                                <h3><a class="title-font text-lg underline hover:no-underline" target="_blank" href="{{ item.videoLink }}">{{ item.videoTitle }}</a></h3>
                             {% else %}
                                 <h3 class="title-font text-lg">{{ item.videoTitle }}</h3>
                             {% endif %}
 
                             {% if item.videoFile %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.videoFile }}">{{ item.videoTitle }}</a></h3>
+                                <h3><a class="title-font text-lg underline hover:no-underline" target="_blank" href="{{ item.videoFile }}">{{ item.videoTitle }}</a></h3>
                             {% endif %} 
                             <p>{{ item.videoDesc }}</p>
                         </div>
@@ -86,13 +86,13 @@ layout: _default
                             {% endif %}
 
                             {% if item.mediaLink %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.mediaLink }}">{{ item.mediaTitle }}</a></h3>
+                                <h3><a class="title-font text-lg underline hover:no-underline" target="_blank" href="{{ item.mediaLink }}">{{ item.mediaTitle }}</a></h3>
                             {% else %}
                                 <h3 class="title-font text-lg">{{ item.mediaTitle }}</h3>
                             {% endif %}
 
                             {% if item.mediaFile %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.mediaFile }}">{{ item.mediaTitle }}</a></h3>
+                                <h3><a class="title-font text-lg underline hover:no-underline" target="_blank" href="{{ item.mediaFile }}">{{ item.mediaTitle }}</a></h3>
                             {% endif %} 
                             <p>{{ item.mediaDesc }}</p>
                         </div>
@@ -120,13 +120,13 @@ layout: _default
                             {% endif %}
 
                             {% if item.articleLink %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.articleLink }}">{{ item.articleTitle }}</a></h3>
+                                <h3><a class="title-font text-lg underline hover:no-underline" target="_blank" href="{{ item.articleLink }}">{{ item.articleTitle }}</a></h3>
                             {% else %}
                                 <h3 class="title-font text-lg">{{ item.articleTitle }}</h3>
                             {% endif %}
 
                             {% if item.articleFile %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.articleFile }}">{{ item.articleTitle }}</a></h3>
+                                <h3><a class="title-font text-lg underline hover:no-underline" target="_blank" href="{{ item.articleFile }}">{{ item.articleTitle }}</a></h3>
                             {% endif %} 
                             <p>{{ item.articleDesc }}</p>
                         </div>
@@ -154,13 +154,13 @@ layout: _default
                             {% endif %}
 
                             {% if item.trialLink %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.trialLink }}">{{ item.trialTitle }}</a></h3>
+                                <h3><a class="title-font text-lg underline hover:no-underline" target="_blank" href="{{ item.trialLink }}">{{ item.trialTitle }}</a></h3>
                             {% else %}
                                 <h3 class="title-font text-lg">{{ item.trialTitle }}</h3>
                             {% endif %}
 
                             {% if item.trialFile %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.trialFile }}">{{ item.trialTitle }}</a></h3>
+                                <h3><a class="title-font text-lg underline hover:no-underline" target="_blank" href="{{ item.trialFile }}">{{ item.trialTitle }}</a></h3>
                             {% endif %} 
                             <p>{{ item.trialDesc }}</p>
                         </div>
@@ -188,13 +188,13 @@ layout: _default
                             {% endif %}
 
                             {% if item.questionLink %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.questionLink }}">{{ item.questionTitle }}</a></h3>
+                                <h3><a class="title-font text-lg underline hover:no-underline" target="_blank" href="{{ item.questionLink }}">{{ item.questionTitle }}</a></h3>
                              {% else %}
                                 <h3 class="title-font text-lg">{{ item.questionTitle }}</a></h3>
                             {% endif %}
 
                             {% if item.questionFile %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.questionFile }}">{{ item.questionTitle }}</a></h3>
+                                <h3><a class="title-font text-lg underline hover:no-underline" target="_blank" href="{{ item.questionFile }}">{{ item.questionTitle }}</a></h3>
                             {% endif %} 
                             <p>{{ item.questionDesc }}</p>
                         </div>
@@ -222,7 +222,7 @@ layout: _default
                             {% endif %}
                             
                             {% if item.websiteLink %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.websiteLink }}">{{ item.websiteTitle }}</a></h3>
+                                <h3><a class="title-font text-lg underline hover:no-underline" target="_blank" href="{{ item.websiteLink }}">{{ item.websiteTitle }}</a></h3>
                             {% else %} 
                                 <h3 class="title-font text-lg">{{ item.websiteTitle }}</h3>
                             {% endif %} 
@@ -250,7 +250,7 @@ layout: _default
                             <span class="inline-block shadow b-rad px-2 py-1 bg-primary white title-font font-bold text-xs mb1">{{item.instructionCategory}}</span>
                         {% endif %}
                         {% if item.instructionLink %}
-                            <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.instructionLink }}">{{ item.instructionTitle }}</a></h3>
+                            <h3><a class="title-font text-lg underline hover:no-underline" target="_blank" href="{{ item.instructionLink }}">{{ item.instructionTitle }}</a></h3>
                         {% else %} 
                             <h3 class="title-font text-lg">{{ item.instructionTitle }}</h3>
                         {% endif %} 
@@ -278,7 +278,7 @@ layout: _default
                             <span class="inline-block shadow b-rad px-2 py-1 bg-primary white title-font font-bold text-xs mb1">{{item.other1Category}}</span>
                         {% endif %}
                         {% if item.other1Link %}
-                            <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.other1Link }}">{{ item.other1Title }}</a></h3>
+                            <h3><a class="title-font text-lg underline hover:no-underline" target="_blank" href="{{ item.other1Link }}">{{ item.other1Title }}</a></h3>
                         {% else %} 
                             <h3 class="title-font text-lg">{{ item.other1Title }}</h3>
                         {% endif %} 
@@ -307,7 +307,7 @@ layout: _default
                             <span class="inline-block shadow b-rad px-2 py-1 bg-primary white title-font font-bold text-xs mb1">{{item.other2Category}}</span>
                         {% endif %}
                         {% if item.other2Link %}
-                            <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.other2Link }}">{{ item.other2Title }}</a></h3>
+                            <h3><a class="title-font text-lg underline hover:no-underline" target="_blank" href="{{ item.other2Link }}">{{ item.other2Title }}</a></h3>
                         {% else %} 
                             <h3 class="title-font text-lg">{{ item.other2Title }}</h3>
                         {% endif %} 
@@ -335,7 +335,7 @@ layout: _default
                                 <span class="inline-block shadow b-rad px-2 py-1 bg-primary white title-font font-bold text-xs mb1">{{item.other3Category}}</span>
                             {% endif %}
                             {% if item.other3Link %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.other3Link }}">{{ item.other3Title }}</a></h3>
+                                <h3><a class="title-font text-lg underline hover:no-underline" target="_blank" href="{{ item.other3Link }}">{{ item.other3Title }}</a></h3>
                             {% else %} 
                                 <h3 class="title-font text-lg">{{ item.other3Title }}</h3>
                             {% endif %} 
