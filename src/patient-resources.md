@@ -101,6 +101,7 @@ articles:
     articleLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7354335/pdf/tau-09-03-1201.pdf
 trials:
   - trialTitle: Hypoactive Sexual Desire Disorder in Males (HSDD)
+  - trialTitle: Hypoactive Sexual Desire Disorder in Males (HSDD)
     trialDesc: >-
       The purpose of this study is to determine if the study drug will increase
       sexual desire in men with HSDD. Half of the participants will take ADDYI
