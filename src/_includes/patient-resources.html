@@ -262,66 +262,67 @@ layout: _default
         </div>
     </section>
 
+    {% if other1 %}
     <section id="other" class="patient-resources pt-10" class="bg-highlight primary">
         <div class="container mx-auto">
-            {% if other1 %}
 
-                <p class="h2 font-bold text-xl mb-3 pl-5">{{other1Heading}}</p>
+            <p class="h2 font-bold text-xl mb-3 pl-5">{{other1Heading}}</p>
 
-                <div class="resource-container flex flex-wrap">
-                    {% for item in other1 %}
-                        <div class="p-5 m-3 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
-                            {% if item.other1Image %}
-                                <img src="{{ item.other1Image }}" alt="{{ item.other1Title }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
-                            {% endif %}
-                            {% if item.other1Category %}
-                                <span class="inline-block shadow b-rad px-2 py-1 bg-primary white title-font font-bold text-xs mb1">{{item.other1Category}}</span>
-                            {% endif %}
-                            {% if item.other1Link %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.other1Link }}">{{ item.other1Title }}</a></h3>
-                            {% else %} 
-                                <h3 class="title-font text-lg">{{ item.other1Title }}</h3>
-                            {% endif %} 
-                            <p>{{ item.other1Desc }}</p>
-                        </div>
-                    {% endfor %}
-                </div>
-            {% endif %}
+            <div class="resource-container flex flex-wrap">
+                {% for item in other1 %}
+                    <div class="p-5 m-3 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
+                        {% if item.other1Image %}
+                            <img src="{{ item.other1Image }}" alt="{{ item.other1Title }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
+                        {% endif %}
+                        {% if item.other1Category %}
+                            <span class="inline-block shadow b-rad px-2 py-1 bg-primary white title-font font-bold text-xs mb1">{{item.other1Category}}</span>
+                        {% endif %}
+                        {% if item.other1Link %}
+                            <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.other1Link }}">{{ item.other1Title }}</a></h3>
+                        {% else %} 
+                            <h3 class="title-font text-lg">{{ item.other1Title }}</h3>
+                        {% endif %} 
+                        <p>{{ item.other1Desc }}</p>
+                    </div>
+                {% endfor %}
+            </div>
         </div>
     </section>
+    {% endif %}
 
+
+    {% if other2 %}
     <section id="{{other2Heading}}" class="patient-resources pt-10" class="bg-highlight primary">
         <div class="container mx-auto">
-            {% if other2 %}
 
-                <p class="h2 font-bold text-xl mb-3 pl-5">{{other2Heading}}</p>
+            <p class="h2 font-bold text-xl mb-3 pl-5">{{other2Heading}}</p>
 
-                <div class="resource-container flex flex-wrap">
-                    {% for item in other2 %}
-                        <div class="p-5 m-3 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
-                            {% if item.other2Image %}
-                                <img src="{{ item.other2Image }}" alt="{{ item.other2Title }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
-                            {% endif %}
-                            {% if item.other2Category %}
-                                <span class="inline-block shadow b-rad px-2 py-1 bg-primary white title-font font-bold text-xs mb1">{{item.other2Category}}</span>
-                            {% endif %}
-                            {% if item.other2Link %}
-                                <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.other2Link }}">{{ item.other2Title }}</a></h3>
-                            {% else %} 
-                                <h3 class="title-font text-lg">{{ item.other2Title }}</h3>
-                            {% endif %} 
-                            <p>{{ item.other2Desc }}</p>
-                        </div>
-                    {% endfor %}
-                </div>
-            {% endif %}
+            <div class="resource-container flex flex-wrap">
+                {% for item in other2 %}
+                    <div class="p-5 m-3 flex flex-col justify-start flex-1 z-10 items-start b-rad shadow">
+                        {% if item.other2Image %}
+                            <img src="{{ item.other2Image }}" alt="{{ item.other2Title }}" class="b-rad-20 mb-5 object-cover max-h-64 w-100">
+                        {% endif %}
+                        {% if item.other2Category %}
+                            <span class="inline-block shadow b-rad px-2 py-1 bg-primary white title-font font-bold text-xs mb1">{{item.other2Category}}</span>
+                        {% endif %}
+                        {% if item.other2Link %}
+                            <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.other2Link }}">{{ item.other2Title }}</a></h3>
+                        {% else %} 
+                            <h3 class="title-font text-lg">{{ item.other2Title }}</h3>
+                        {% endif %} 
+                        <p>{{ item.other2Desc }}</p>
+                    </div>
+                {% endfor %}
+            </div>
         </div>
     </section>
+    {% endif %}
 
-    <section id="{{other3Heading}}" class="patient-resources pt-10" class="bg-highlight primary">
-        <div class="container mx-auto">
-            {% if other3 %}
 
+    {% if other3 %}
+        <section id="{{other3Heading}}" class="patient-resources pt-10" class="bg-highlight primary">
+            <div class="container mx-auto">
                 <p class="h2 font-bold text-xl mb-3 pl-5">{{other3Heading}}</p>
 
                 <div class="resource-container flex flex-wrap">
@@ -342,8 +343,9 @@ layout: _default
                         </div>
                     {% endfor %}
                 </div>
-            {% endif %}
-        </div>
-    </section>
+            </div>
+        </section>
+    {% endif %}
+
 </div>
 
