@@ -80,8 +80,6 @@ websites:
     websiteLink: https://ssmr.org/
   - websiteTitle: Cure PD  (Peyronie's Disease)
     websiteLink: https://peyronies.org/
-  - websiteTitle: Dr. Khera
-    websiteLink: https://www.drmohitkhera.com/
 bph: []
 mediaHeading: Dr. Khera in the Media
 articles:
