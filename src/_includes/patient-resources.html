@@ -149,6 +149,8 @@ layout: _default
 
                             {% if item.trialLink %}
                                 <h3><a class="title-font text-lg underline hover:no-underline" href="{{ item.trialLink }}">{{ item.trialTitle }}</a></h3>
+                            {% else %}
+                                <h3 class="title-font text-lg">{{ item.trialTitle }}</h3>
                             {% endif %}
 
                             {% if item.trialFile %}
