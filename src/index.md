@@ -269,9 +269,9 @@ work:
     link5: https://www.healio.com/news/endocrinology/20190401/new-testosterone-therapies-offer-options-for-men-with-hypogonadism
     image5: /static/img/pills-testosterone.jpg
   featured6:
-    title6: ""
-    link6: ""
-    image6: ""
+    title6: Dr. Mohit Khera discusses inflatable penile prostheses
+    link6: https://www.urologytimes.com/view/study-reveals-20-year-data-on-inflatable-penile-prostheses
+    image6: /static/img/khera.png
   featured7:
     link7: https://www.iheart.com/podcast/139-the-michael-berry-show-27764850/episode/dr-mohit-khera-on-mens-health-107336803/
     title7: Dr. Mohit Khera on Men's Health - AM Show
@@ -282,9 +282,9 @@ work:
     link8: https://www.youtube.com/watch?v=6BPSYuS2mcI
     image8: /static/img/worried-man-1.jpg
   featured9:
-    link9: https://www.urologytimes.com/view/study-reveals-20-year-data-on-inflatable-penile-prostheses
-    title9: Dr. Mohit Khera discusses inflatable penile prostheses
-    image9: /static/img/khera.png
+    link9: ""
+    title9: ""
+    image9: ""
   publicationsHeader: Publications, Media, Interviews, and More
 partners:
   image1: ""
