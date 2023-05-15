@@ -260,7 +260,6 @@ work:
     title3: "Baylor College of Medicine Takes New Approach to Testosterone
       Treatment: TV Interview"
     link3: https://www.click2houston.com/news/2016/05/28/baylor-college-of-medicine-takes-new-approach-to-testosterone-treatment/
-  publicationsHeader: Publications, Media, Interviews, and More
   featured4:
     title4: "Urology Times: COVID and Testosterone Interview"
     link4: https://www.urologytimes.com/view/literature-review-summarizes-evidence-on-testosterone-and-covid-19
@@ -268,11 +267,26 @@ work:
   featured5:
     title5: "Endocrine Today: New Oral Testosterone Interview"
     link5: https://www.healio.com/news/endocrinology/20190401/new-testosterone-therapies-offer-options-for-men-with-hypogonadism
-    image5: /static/img/oral-testosterone.jpg
+    image5: /static/img/pills-testosterone.jpg
   featured6:
     title6: "NBC Boston: Erectile Dysfunction and COVID Interview"
     link6: https://www.nbcboston.com/lx/early-research-shows-a-possible-link-between-covid-19-and-erectile-dysfunction-got-your-attention/2251899/
     image6: /static/img/covid-ed.jpg
+  featured7:
+    link7: https://www.iheart.com/podcast/139-the-michael-berry-show-27764850/episode/dr-mohit-khera-on-mens-health-107336803/
+    title7: Dr. Mohit Khera on Men's Health - AM Show
+    image7: /static/img/khera-pic-2021.jpg
+  featured8:
+    title8: Dr. Mohit Khera and Dr. Amy Pearlman discuss Innovations in Testosterone
+      Therapy
+    link8: https://www.youtube.com/watch?v=6BPSYuS2mcI
+    image8: /static/img/worried-man-1.jpg
+  featured9:
+    link9: https://www.urologytimes.com/view/study-reveals-20-year-data-on-inflatable-penile-prostheses
+    title9: Dr. Mohit Khera discusses 20-year data on inflatable penile prostheses
+      for Erectile Dysfunction
+    image9: null
+  publicationsHeader: Publications, Media, Interviews, and More
 partners:
   image1: ""
   image2: ""
