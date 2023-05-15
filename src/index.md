@@ -283,9 +283,8 @@ work:
     image8: /static/img/worried-man-1.jpg
   featured9:
     link9: https://www.urologytimes.com/view/study-reveals-20-year-data-on-inflatable-penile-prostheses
-    title9: Dr. Mohit Khera discusses 20-year data on inflatable penile prostheses
-      for Erectile Dysfunction
-    image9: null
+    title9: Dr. Mohit Khera discusses inflatable penile prostheses
+    image9: /static/img/khera.png
   publicationsHeader: Publications, Media, Interviews, and More
 partners:
   image1: ""
