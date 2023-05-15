@@ -269,9 +269,9 @@ work:
     link5: https://www.healio.com/news/endocrinology/20190401/new-testosterone-therapies-offer-options-for-men-with-hypogonadism
     image5: /static/img/pills-testosterone.jpg
   featured6:
-    title6: "NBC Boston: Erectile Dysfunction and COVID Interview"
-    link6: https://www.nbcboston.com/lx/early-research-shows-a-possible-link-between-covid-19-and-erectile-dysfunction-got-your-attention/2251899/
-    image6: /static/img/covid-ed.jpg
+    title6: ""
+    link6: ""
+    image6: ""
   featured7:
     link7: https://www.iheart.com/podcast/139-the-michael-berry-show-27764850/episode/dr-mohit-khera-on-mens-health-107336803/
     title7: Dr. Mohit Khera on Men's Health - AM Show
