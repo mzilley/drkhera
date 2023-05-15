@@ -98,6 +98,13 @@ articles:
   - articleTitle: Post Finasteride Syndrome
     articleLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7354335/pdf/tau-09-03-1201.pdf
 trials:
+  - trialTitle: Transcutaneous Electrical Nerve Stimulations (TENS) for treatment of
+      Erectile Dysfunction, Incontinence or Premature Ejaculation.
+    trialDesc: "The purpose of this study is to investigate improvements in erectile
+      function, urinary issues, or premature ejaculation using a TENS unit in
+      men who suffer from any of these conditions. The TENS unit  has been shown
+      to improve blood flow and this study will specifically look at
+      improvements in blood flow in the penis. "
   - trialTitle: Hypoactive Sexual Desire Disorder in Males (HSDD)
     trialDesc: >-
       The purpose of this study is to determine if the study drug will increase
