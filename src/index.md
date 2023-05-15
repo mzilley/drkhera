@@ -264,15 +264,15 @@ work:
   featured4:
     title4: "Urology Times: COVID and Testosterone Interview"
     link4: https://www.urologytimes.com/view/literature-review-summarizes-evidence-on-testosterone-and-covid-19
-    image4: /static/img/khera-pic-2021.jpg
+    image4: /static/img/testosterone-covid.jpg
   featured5:
     title5: "Endocrine Today: New Oral Testosterone Interview"
     link5: https://www.healio.com/news/endocrinology/20190401/new-testosterone-therapies-offer-options-for-men-with-hypogonadism
-    image5: /static/img/khera-pic-2021.jpg
+    image5: /static/img/oral-testosterone.jpg
   featured6:
     title6: "NBC Boston: Erectile Dysfunction and COVID Interview"
     link6: https://www.nbcboston.com/lx/early-research-shows-a-possible-link-between-covid-19-and-erectile-dysfunction-got-your-attention/2251899/
-    image6: /static/img/khera-pic-2021.jpg
+    image6: /static/img/covid-ed.jpg
 partners:
   image1: ""
   image2: ""
