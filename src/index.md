@@ -247,8 +247,7 @@ testimonials:
 work:
   featured1:
     image1: /static/img/bph5.jpg
-    title1: The Testosterone Replacement therapy for Assessment of long-term
-      Vascular Events and efficacy ResponSE in hypogonadal men (TRAVERSE)
+    title1: TRAVERSE Trial
     link1: ""
     file1: ""
   featured2:
