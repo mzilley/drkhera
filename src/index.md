@@ -246,7 +246,7 @@ testimonials:
   reviewsHeader: Testimonials
 work:
   featured1:
-    image1: /static/img/bph5.jpg
+    image1: /static/img/covid-ed.jpg
     title1: TRAVERSE Trial
     link1: ""
     file1: ""
