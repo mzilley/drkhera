@@ -246,10 +246,11 @@ testimonials:
   reviewsHeader: Testimonials
 work:
   featured1:
-    image1: /static/img/worried-man-with-wife-.jpg
-    title1: Post Finasteride Syndrome Article
+    image1: /static/img/bph5.jpg
+    title1: The Testosterone Replacement therapy for Assessment of long-term
+      Vascular Events and efficacy ResponSE in hypogonadal men (TRAVERSE)
     link1: ""
-    file1: /static/img/post-finasteride-syndrome.pdf
+    file1: ""
   featured2:
     image2: /static/img/erectile-dysfunction.jpg
     title2: Testosterone's Role in COVID-19 Article
