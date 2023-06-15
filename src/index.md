@@ -249,7 +249,7 @@ work:
     image1: /static/img/bph5.jpg
     title1: TRAVERSE Trial
     link1: ""
-    file1: ""
+    file1: /static/img/traverse-trial-methodology.pdf
   featured2:
     image2: /static/img/erectile-dysfunction.jpg
     title2: Testosterone's Role in COVID-19 Article
