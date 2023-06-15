@@ -98,6 +98,40 @@ articles:
   - articleTitle: Post Finasteride Syndrome
     articleLink: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7354335/pdf/tau-09-03-1201.pdf
 trials:
+  - trialTitle: The Testosterone Replacement therapy for Assessment of long-term
+      Vascular Events and efficacy ResponSE in hypogonadal men (TRAVERSE)
+    trialDesc: >-
+      For decades it was believed that low testosterone may increase
+      cardiovascular risk and that testosterone supplementation may exert
+      potential beneficial effects on the cardiovascular system. However, from
+      2010 to 2014 there were 4 studies suggesting that testosterone
+      supplementation may increase cardiovascular risk. The FDA evaluated these
+      studies and concluded that “the studies...have significant limitations
+      that weaken their evidentiary value for confirming a causal relationship
+      between testosterone and adverse cardiovascular outcomes.” However, in
+      2015, the FDA issued a label change to all testosterone products and
+      stated “long term clinical safety trials have not been conducted to assess
+      the cardiovascular outcomes of testosterone replacement therapy in men. To
+      date, epidemiologic studies and randomized controlled trials have been
+      inconclusive for determining the risk of major adverse cardiovascular
+      events (MACE), such as non-fatal myocardial infarction, non-fatal stroke,
+      and cardiovascular death, with the use of testosterone compared to
+      non-use. Some studies, but not all, have reported an increased risk of
+      MACE in association with the use of testosterone replacement therapy in
+      men.” The Testosterone Replacement therapy for Assessment of long-term
+      Vascular Events and efficacy ResponSE in hypogonadal men (TRAVERSE) study
+      was designed in response to the FDA guidance in 2015 to determine the
+      effects of testosterone treatment on the incidence of major adverse CV
+      events (MACE) in middle-aged and older men with hypogonadism with or at
+      high risk for CV disease.
+
+
+      The TRAVERSE study is a randomized, double-blind, placebo-controlled, parallel group, non-inferiority, multicenter study. It is the largest and longest randomized placebo-controlled study ever conducted on hypogonadal men. Eligible participants are men, 45 to 80 years, with serum testosterone concentration<300 ng/dL and hypogonadal symptoms, who have evidence pre-existing CV disease or increased risk of CV disease. Approximately 6,000 subjects will be randomized to either 1.62% transdermal testosterone gel or a matching placebo gel daily for an anticipated duration of up to 5 years.
+
+
+      The primary outcome of the study is time from randomization to first occurrence of any component of the MACE composite of nonfatal myocardial infarction, nonfatal stroke, or death due to CV causes. Secondary outcomes include cardiovascular safety assessing the incidence of MACE or cardiac revascularization procedures/ cardiac percutaneous coronary intervention (PCI) and coronary artery bypass graft (CABG). Another secondary outcome is measuring prostate safety by assessing the incidence of high-grade prostate cancer, defined as a pathologically confirmed prostate cancer with Gleason score 4 + 3 or higher. Other secondary outcomes include assessing testosterone supplementation’s effect on depression, anemia, diabetes, bone fractures and sexual function.
+    trialFile: /static/img/traverse-trial-methodology.pdf
+    trialCategory: Low Testosterone
   - trialTitle: Transcutaneous Electrical Nerve Stimulations (TENS) for treatment of
       Erectile Dysfunction, Incontinence or Premature Ejaculation.
     trialDesc: "The purpose of this study is to investigate improvements in erectile
