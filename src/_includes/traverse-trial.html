@@ -1,50 +1,70 @@
 ---
 layout: _default
 ---
-<section id="about" class="bg-primary mt-16 lg:mt-0">
-    <div class="container mx-auto flex px-5 lg:py-0 lg:flex-row flex-col items-center">
-        <div class="lg:w-5/12 mb-10 md:mb-0 about-img-container">
-            <img class="object-cover object-center rounded relative sm:bottom-16 lg:bottom-0 b-rad" alt="Dr. Mohit Khera" src="{{ about.image }}">
-        </div>
-        <div class="lg:w-7/12 lg:pl-16 pt-0 pb-16 lg:py-16 flex flex-col md:items-start md:text-left text-white items-center text-center">
-            <h1 class="title-font sm:text-4xl text-3xl font-medium">{{ about.heading }}</h1>
-            <h2 class="title-font text-2xl font-bold">{{ about.subheading }}</h2>
 
-
-            {{content | safe }}
+<div class="subHero-container md:flex flex-col mx-auto justify-center items-center">
+    <div class="subHero-image w-full h-80 bg-cover" style="background-image: url('{{ image }}')"></div>
+    <div class="subHero-content relative shadow b-rad z-1 py-5 bottom-20 bg-white text-center">
+        <div class="mw7 center ph3">
+            <div class="db">
+                <div class="mw7 relative bg-fix-primary mb3">
+                <h1 class="f3 f2-l b di lh-title mb2 mw6">
+                    {{title}}
+                </h1>
+                </div>
+                <div class="mw7 relative bg-fix-primary">
+                <p>
+                    {% if buttonText %}
+                        <a href="{buttonLink}}" class="btn btn-primary shadow mt-1" title="{{buttonText}}">{{buttonText}}</a>
+                    {% else %}
+                        <a href="https://www.bcm.edu/people-search/mohit-khera-24469" id="schedule" target="_blank" class="btn btn-primary shadow mt-1">Schedule Appointment</a>
+                    {% endif %}
+                </p>
+                </div>
+            </div>
         </div>
     </div>
-</section>
-<div class="container px-5 py-16">
-    <div class="lg:flex items-center">
-        <div class="lg:w-1/2">
-            <div class="contact-container pb-16 lg:py-5 lg:pr-10">
-                <h3 class="text-2xl font-bold">Contact</h3>
-                <form name="contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" netlify>
-                    <input type="hidden" name="contact" value="contact">
-                    <div class="form-group">
-                        <label>Your Name:</label>  
-                        <input type="text" name="name" required/> 
-                    </div>
-                    <div class="form-group">
-                        <label>Your Email:</label>
-                        <input type="email" name="email" required/>
-                    </div>
-                    <div class="form-group">
-                        <label>Message:</label>
-                        <textarea name="message" rows="6" required></textarea>
-                    </div>
-                    <div class="form-group">
-                    <button type="submit" class="btn btn-primary b-rad shadow mt-5">Send</button>
-                    </div>
-                </form>
-            </div>
+
+    <div class="subContent flex flex-col-reverse md:flex-row pb-16 container">
+        <div class="md:w-3/12 mb-10">
+            <aside>
+                <h2 class="title-font">Schedule an Appointment</h2>
+                <a href="tel:7137984001" class="btn btn-primary shadow my-2 text-sm w-100">(713) 798 4001</a>
+                <p class="text-center py-1">- or -</p>
+                <a href="https://www.bcm.edu/people-search/mohit-khera-24469" id="schedule" target="_blank" class="btn btn-secondary shadow text-sm my-2 w-100">Schedule Online</a>
+                {% if sidebar %}
+                    {% if sidebar.heading %}
+                        <h3 class="title-font">{{sidebar.heading}}</h3>
+                    {% endif %}
+                    {% if sidebar.subtitle %}
+                        <p>{{sidebar.subtitle}}</p>
+                    {% endif %}
+                    {% if sidebar.sidebarContent %}
+                        <div>
+                            {{sidebar.sidebarContent}}
+                        </div>
+                    {% endif %}
+                    {% if sidebar.sidebarLink1 %}
+                        <a href="{{sidebar.sidebarLink1}}" class="underline hover:no-underline">{{sidebar.sidebarLinkText1}}</a>
+                    {% endif %}
+                    {% if sidebar.sidebarLink2 %}
+                        <a href="{{sidebar.sidebarLink2}}" class="underline hover:no-underline">{{sidebar.sidebarLinkText2}}</a>
+                    {% endif %}
+                    {% if sidebar.sidebarLink3 %}
+                        <a href="{{sidebar.sidebarLink3}}" class="underline hover:no-underline">{{sidebar.sidebarLinkText3}}</a>
+                    {% endif %}
+                    {% if sidebar.sidebarLink4 %}
+                        <a href="{{sidebar.sidebarLink4}}" class="underline hover:no-underline">{{sidebar.sidebarLinkText4}}</a>
+                    {% endif %}
+                    {% if sidebar.sidebarLink5 %}
+                        <a href="{{sidebar.sidebarLink5}}" class="underline hover:no-underline">{{sidebar.sidebarLinkText5}}</a>
+                    {% endif %}
+                {% endif %}
+            </aside>
         </div>
-        <div class="lg:w-1/2">
-            <div class="google-maps-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3465.7211235741975!2d-95.39641134933476!3d29.69886398192106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c071be3e5a3d%3A0xbaf2d9caafaa5d29!2sDr.%20Mohit%20Khera%2C%20MD!5e0!3m2!1sen!2sus!4v1631129643082!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
+        
+        <div class="md:w-9/12">
+            {{ content | safe}}
         </div>
     </div>
 </div>
-  
