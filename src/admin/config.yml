@@ -993,7 +993,7 @@ collections:
               { label: Sidebar Link 3, name: "sidebarLinkText3", widget: string, required: false},
               { label: Sidebar Link 4, name: "sidebarLinkText4", widget: string, required: false},
               { label: Sidebar Link 5, name: "sidebarLinkText5", widget: string, required: false}]}
-          - {label: "Body", name: body, widget: markdown}
+          - {label: "Body", name: body, widget: markdown, required: false}
 
       - label: "About"
         name: "about"
