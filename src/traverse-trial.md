@@ -3,7 +3,7 @@ metadata:
   title: Traverse Trials
   description: Traverse Trials
 image: /static/img/traverse-trial_720.jpg
-title: Traverse Trials
+title: TRAVERSE Trial
 ---
 ## A Comprehensive Review of the TRAVERSE Trial: Unveiling the Cardiovascular Effects of Testosterone Replacement
 
