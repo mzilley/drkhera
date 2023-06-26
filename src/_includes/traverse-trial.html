@@ -1,0 +1,70 @@
+---
+layout: _default
+---
+
+<div class="subHero-container md:flex flex-col mx-auto justify-center items-center">
+    <div class="subHero-image w-full h-80 bg-cover" style="background-image: url('{{ image }}')"></div>
+    <div class="subHero-content relative shadow b-rad z-1 py-5 bottom-20 bg-white text-center">
+        <div class="mw7 center ph3">
+            <div class="db">
+                <div class="mw7 relative bg-fix-primary mb3">
+                <h1 class="f3 f2-l b di lh-title mb2 mw6">
+                    {{title}}
+                </h1>
+                </div>
+                <div class="mw7 relative bg-fix-primary">
+                <p>
+                    {% if buttonText %}
+                        <a href="{buttonLink}}" class="btn btn-primary shadow mt-1" title="{{buttonText}}">{{buttonText}}</a>
+                    {% else %}
+                        <a href="https://www.bcm.edu/people-search/mohit-khera-24469" id="schedule" target="_blank" class="btn btn-primary shadow mt-1">Schedule Appointment</a>
+                    {% endif %}
+                </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="subContent flex flex-col-reverse md:flex-row pb-16 container">
+        <div class="md:w-3/12 mb-10">
+            <aside>
+                <h2 class="title-font">Schedule an Appointment</h2>
+                <a href="tel:7137984001" class="btn btn-primary shadow my-2 text-sm w-100">(713) 798 4001</a>
+                <p class="text-center py-1">- or -</p>
+                <a href="https://www.bcm.edu/people-search/mohit-khera-24469" id="schedule" target="_blank" class="btn btn-secondary shadow text-sm my-2 w-100">Schedule Online</a>
+                {% if sidebar %}
+                    {% if sidebar.heading %}
+                        <h3 class="title-font">{{sidebar.heading}}</h3>
+                    {% endif %}
+                    {% if sidebar.subtitle %}
+                        <p>{{sidebar.subtitle}}</p>
+                    {% endif %}
+                    {% if sidebar.sidebarContent %}
+                        <div>
+                            {{sidebar.sidebarContent}}
+                        </div>
+                    {% endif %}
+                    {% if sidebar.sidebarLink1 %}
+                        <a href="{{sidebar.sidebarLink1}}" class="underline hover:no-underline">{{sidebar.sidebarLinkText1}}</a>
+                    {% endif %}
+                    {% if sidebar.sidebarLink2 %}
+                        <a href="{{sidebar.sidebarLink2}}" class="underline hover:no-underline">{{sidebar.sidebarLinkText2}}</a>
+                    {% endif %}
+                    {% if sidebar.sidebarLink3 %}
+                        <a href="{{sidebar.sidebarLink3}}" class="underline hover:no-underline">{{sidebar.sidebarLinkText3}}</a>
+                    {% endif %}
+                    {% if sidebar.sidebarLink4 %}
+                        <a href="{{sidebar.sidebarLink4}}" class="underline hover:no-underline">{{sidebar.sidebarLinkText4}}</a>
+                    {% endif %}
+                    {% if sidebar.sidebarLink5 %}
+                        <a href="{{sidebar.sidebarLink5}}" class="underline hover:no-underline">{{sidebar.sidebarLinkText5}}</a>
+                    {% endif %}
+                {% endif %}
+            </aside>
+        </div>
+        
+        <div class="md:w-9/12">
+            {{ content | safe}}
+        </div>
+    </div>
+</div>

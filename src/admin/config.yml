@@ -967,6 +967,34 @@ collections:
               { label: Keywords - comma separated, summary: "Comma separated", name: keywords, widget: string, required: false}]}
           - { image: Image, name: image, widget: "image"}
           - { label: Body, name: 'body', widget: "markdown", required: false }
+
+      - label: "Traverse Trial"
+        name: "traverse-trial"
+        file: "src/traverse-trial.md"
+        fields:
+          - {label: "Page Metadata", name: metadata, widget: object, collapsed: true, fields: [
+              { label: Title, name: title, widget: string },
+              { label: Description, name: description, widget: string }]}
+          - {label: "Image", name: image, widget: image}
+          - {label: "Title", name: title, widget: string}
+          - {label: "Button Text", name: buttonText, widget: string, required: false }
+          - {label: "Button Link", name: buttonLink, widget: string, required: false }
+          - {label: "Sidebar", name: sidebar, widget: object, collapsed: true, fields: [
+              { label: Heading, name: heading, widget: string, required: false },
+              { label: Subtitle, name: subtitle, widget: string, required: false },
+              { label: Sidebar Content, name: "sidebarContent", widget: text, required: false},
+              { label: Sidebar Link 1, name: "sidebarLink1", widget: string, required: false},
+              { label: Sidebar Link 2, name: "sidebarLink2", widget: string, required: false},
+              { label: Sidebar Link 3, name: "sidebarLink3", widget: string, required: false},
+              { label: Sidebar Link 4, name: "sidebarLink4", widget: string, required: false},
+              { label: Sidebar Link 5, name: "sidebarLink5", widget: string, required: false},
+              { label: Sidebar Link 1, name: "sidebarLinkText1", widget: string, required: false},
+              { label: Sidebar Link 2, name: "sidebarLinkText2", widget: string, required: false},
+              { label: Sidebar Link 3, name: "sidebarLinkText3", widget: string, required: false},
+              { label: Sidebar Link 4, name: "sidebarLinkText4", widget: string, required: false},
+              { label: Sidebar Link 5, name: "sidebarLinkText5", widget: string, required: false}]}
+          - {label: "Body", name: body, widget: markdown}
+
       - label: "About"
         name: "about"
         file: "src/about.md"
